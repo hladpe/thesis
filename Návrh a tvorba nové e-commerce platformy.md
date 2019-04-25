@@ -754,7 +754,7 @@ TODO: <a href="https://www.souki.cz/jak-reseni-eshopu-si-vybrat">https://www.sou
 <h2 id="výběr-technologií">Výběr technologií</h2>
 <p>V této sekci blíže přiblížím vybrané technologie, které tvoří základ připravovaného e-commerce řešení.</p>
 <h3 id="technologická-platforma">Technologická platforma</h3>
-<p>Na základě osobních zkušeností jsem se rozhodl realizovat celý projekt za použití programovacích jazyků PHP a JavaScript. PHP pro využití ve skriptování na straně serveru, JavaScript pro skriptování na straně klienta - pro zvýšení uživatelského požitku z využívání aplikace, například za použití technologie AJAX.</p>
+<p>Na základě osobních zkušeností jsem se rozhodl realizovat celý projekt za použití programovacích jazyků PHP a JavaScript. PHP pro využití ve skriptování na straně serveru, JavaScript pro skriptování na straně klienta - pro zvýšení uživatelského požitku z využívání aplikace, například za použití technologie AJAX. Celý projekt jsem pojmenoval Jarvis.</p>
 <h3 id="laravel-homestead-1">Laravel Homestead</h3>
 <p>Jako vývojové prostředí byl použit Laravel Homestead (virtualizované systémové prostředí za použití nástroje Vagrant), které poskytuje předinstalované prostředí se všemi základními balíčky potřebnými pro vývoj. To umožňuje poměrně rychlý způsob, jak začít vyvíjet aplikaci bez nutnosti zdlouhavé konfigurace. Navíc toto řešení disponuje tou výhodou, že v případě vícečlenného týmu vývojářů budou všichni vývojáři disponovat stejným vývojovým prostředím.</p>
 <h3 id="composer-1">Composer</h3>
@@ -776,20 +776,20 @@ TODO: <a href="https://www.souki.cz/jak-reseni-eshopu-si-vybrat">https://www.sou
 <h3 id="části-systému">Části systému</h3>
 <p>Celý systém je rozdělen na samostatné logické celky, které jsou reprezentovány jako samostatně instalovatelné balíčky a jsou verzované v samostatných repositářích. Tyto balíčky jsou:</p>
 <ul>
-<li>App</li>
-<li>Core,</li>
-<li>CMS,</li>
-<li>Shop,</li>
+<li>Jarvis App</li>
+<li>Jarvis Core,</li>
+<li>Jarvis CMS,</li>
+<li>Jarvis Shop,</li>
 </ul>
 <p><img src="https://hanabrand.cz/temp/dp/balicky-systemu.png" alt="Rozdělení systému na balíčky - jednotlivé repositáře, zdroj gitlab.com"></p>
 <p>Systém je tedy tvořen samostatnými balíčky, které se instalují pomocí nástroje Composer. Zdrojové kódy těchto balíčků se po instalaci nacházejí v adresáři ,vendor/" a z pohledu aplikace by nemělo docházet k úpravám jejich kódu (úpravy se s aktualizací balíčků zahodí).</p>
-<p><strong>App</strong><br>
+<p><strong>Jarvis App</strong><br>
 Základním balíčkem aplikace, balíček je typu “projekt”, vytváří základní adresářovou strukturu aplikace a je závislý na balíčku “core”. Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).</p>
-<p><strong>Core</strong><br>
+<p><strong>Jarvis Core</strong><br>
 Jádro aplikace, balíček je typu “knihovna”. Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.</p>
-<p><strong>CMS</strong>*<br>
+<p><strong>Jarvis CMS</strong>*<br>
 Balíček typu “knihovna”, poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku “Core”. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.</p>
-<p><strong>Shop</strong><br>
+<p><strong>Jarvis Shop</strong><br>
 Balíček typu “knihovna”, poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku “Core” a “CMS”. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.</p>
 <h3 id="moduly">Moduly</h3>
 <p>Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:</p>
