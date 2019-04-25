@@ -6,12 +6,19 @@
  */
 function findThesis()
 {
-    $path = realpath(__DIR__ . '/../');
-    foreach (glob($path . '/*.md') as $file) {
+    foreach (glob(baseDir() . '/*.md') as $file) {
         return $file;
     }
 
     throw new Exception('No result! o.O');
+}
+
+/**
+ * @return string
+ */
+function baseDir(): string
+{
+    return realpath(__DIR__ . '/../');
 }
 
 /**
@@ -20,7 +27,33 @@ function findThesis()
 function exportHeaders(string $path)
 {
     $content = file_get_contents($path);
+    preg_match_all("/^#(.*)$/m", $content,$matches);
+    $headers = $matches[0];
 
-    echo $content;
-    die();
+    $output = '<!DOCTYPE html><html><head><title>Thesis structure</title><style>* {margin: 0;} span {opacity: 0.1;}</style></head><body>' . PHP_EOL;
+    foreach ($headers as $header)
+    {
+        switch (true) {
+            case (strpos($header, '#####') !== false):
+                $header = str_replace('#####', '<span>&xmap;&xmap;&xmap;&xmap;&xmap;</span>', $header) . '<br>';
+                break;
+            case (strpos($header, '####') !== false):
+                $header = str_replace('####', '<span>&xmap;&xmap;&xmap;&xmap;</span>', $header) . '<br>';
+                break;
+            case (strpos($header, '###') !== false):
+                $header = str_replace('###', '<span>&xmap;&xmap;&xmap;</span>', $header) . '<br>';
+                break;
+            case (strpos($header, '##') !== false):
+                $header = str_replace('##', '<span>&xmap;&xmap;</span>', $header) . '<br>';
+                break;
+            default:
+                $header = str_replace('#', '<span>&xmap;</span><strong>', $header) . '</strong><br>';
+                break;
+        }
+        $output .= $header . PHP_EOL;
+    }
+    $output .= '</body></html>';
+
+    file_put_contents(baseDir() . '/outputs/headers.html', $output);
+    echo 'DONE';
 }
