@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 git fetch
-git pull master
+git pull origin master
