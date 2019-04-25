@@ -30,7 +30,7 @@ function exportHeaders(string $path)
     preg_match_all("/^#(.*)$/m", $content,$matches);
     $headers = $matches[0];
 
-    $output = '<!DOCTYPE html><html><head><title>Thesis structure</title><style>* {margin: 0;} span {opacity: 0.1;}</style></head><body>' . PHP_EOL;
+    $output = '<!DOCTYPE html><html lang="en"><head><title>Thesis structure</title><style>* {margin: 0;} span {opacity: 0.1;}</style></head><body>' . PHP_EOL;
     foreach ($headers as $header)
     {
         switch (true) {
