@@ -30,7 +30,7 @@ Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společn�
 <p>Díky rozšíření internetu do firem, je možné telefonovat přes internet. Postupně tak vznikly 3 základní možnosti telefonování s využitím internetu - telefonování z počítače na počítač, z počítače na telefon a telefonování přes internet prostřednictvím mobilního telefonu. Hlavní výhodou telefonování přes internet je snížení nákladů na volání.<br>
 Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.</p>
 <h4 id="sociální-služby">Sociální služby</h4>
-<p><em>,Sociální síť je internetová služba, která registrovaným uživatelům umožňuje komunikovat mezi sebou. Komunikace může být veřejná nebo soukromá, je zpravidla založena na sdílení textových příspěvků, fotografií a videa."</em><br>
+<p><em>„Sociální síť je internetová služba, která registrovaným uživatelům umožňuje komunikovat mezi sebou. Komunikace může být veřejná nebo soukromá, je zpravidla založena na sdílení textových příspěvků, fotografií a videa.“</em><br>
 <a href="https://www.zive.cz/socialni-site/sc-223/default.aspx">https://www.zive.cz/socialni-site/sc-223/default.aspx</a></p>
 <h3 id="webový-prohlížeč">Webový prohlížeč</h3>
 <p>Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další.</p>
@@ -50,7 +50,7 @@ Definice statické webové stránky. <a href="http://Myartse.com">Myartse.com</a
 <h2 id="seo">SEO</h2>
 <p>TODO: SEO</p>
 <h2 id="e-business">E-business</h2>
-<p><em>,Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely."</em><br>
+<p><em>„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely.“</em><br>
 TODO: SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.</p>
 <p>TODO: části elektronického podnikání</p>
 <h3 id="e-commerce">E-commerce</h3>
@@ -64,9 +64,9 @@ TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Soc
 <p>Základem je katalog výrobků, který je obvykle řazený do kategorií. V těchto kategoriích se pak nacházejí jednotlivé produkty, které jsou nabízeny zákazníkovi k zakoupení. Ze  zákona musí být na e-shopu také další informace, jako jsou například kontaktní údaje, obchodní podmínky apod. Poté, co si uživatel vybere svůj produkt, dochází k nákupnímu procesu. Prvním krokem je přidání produktu do tzv. košíku (elektronická podoba klasického nákupního košíku), zde se shromažďují vybrané produkty. Poté uživatel vyplní doručovací a fakturační údaje (v některých případech lze využít uživatelský účet a uživatelovy údaje jsou doplněny automaticky). Propracovanější e-shopy dolují i například odložit nákup na později nebo zaplatit rovnou pomocí platební karty.<br>
 <a href="http://www.adaptic.cz/znalosti/slovnicek/e-shop/">http://www.adaptic.cz/znalosti/slovnicek/e-shop/</a></p>
 <h3 id="modely-e-commerce">Modely e-commerce</h3>
-<p><em>,Existují čtyři základní modely elektronického obchodování, které využívají prostředí internetu a možnosti moderních informačních a komunikačních technologií. Modely jsou definovány pomocí směru marketingové komunikace - od koho vychází a komu je určena."</em><br>
+<p><em>„Existují čtyři základní modely elektronického obchodování, které využívají prostředí internetu a možnosti moderních informačních a komunikačních technologií. Modely jsou definovány pomocí směru marketingové komunikace - od koho vychází a komu je určena.“</em><br>
 <a href="https://managementmania.com/cs/e-commerce">https://managementmania.com/cs/e-commerce</a></p>
-<p><em>,Patří sem i většina činností spadajících pod elektronický marketing, např. online reklama, email marketing, nejrůznější affiliate programy a všechny aktivity na podporu internetového obchodování. V širším pojetí mohou do pojmu e-commerce patřit i jakékoliv webové stránky, které nabízí konkrétní produkty či služby a umožňují i jejich objednávku například emailem."</em><br>
+<p><em>„Patří sem i většina činností spadajících pod elektronický marketing, např. online reklama, email marketing, nejrůznější affiliate programy a všechny aktivity na podporu internetového obchodování. V širším pojetí mohou do pojmu e-commerce patřit i jakékoliv webové stránky, které nabízí konkrétní produkty či služby a umožňují i jejich objednávku například emailem.“</em><br>
 <a href="https://managementmania.com/cs/e-commerce">https://managementmania.com/cs/e-commerce</a></p>
 <h4 id="b2b-business-to-business">B2B (Business to Business)</h4>
 <p>B2B označuje obchodní vztah mezi dvěma podniky. Tento obchodní vztah se odehrává zpravidla prostřednictvím internetu. Typické pro řešení tohoto obchodního vztahu je elektronická výměna dat, například fakturace, řízení skladů, online bankovnictví, online katalogy, online aukce a propojování podnikových informačních systémů.</p>
@@ -89,18 +89,18 @@ TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Soc
 <p>C2C je druh elektronického obchodování, ve kterím probíhá obchodní vztah mezi dvěma spotřebiteli a to většinou prostřednictvím třetí strany. Iniciativa přitom vychází od jednoho spotřebitele směrem k jinému spotřebiteli. Příkladem takovýchto obchodních vztahů jsou například online burzy, aukce a výměny zboží.<br>
 <a href="https://managementmania.com/cs/customer-to-customer">https://managementmania.com/cs/customer-to-customer</a></p>
 <h3 id="vývoj-e-commerce">Vývoj e-commerce</h3>
-<p><em>,Nakupování online je globální a rapidně rostoucí fenomén. Na světě žije téměř 7,5 mld. lidí, z toho 3,5 mld. lidí používá internet a přes 1,5 miliardy lidí nakupuje online."</em><br>
+<p><em>„Nakupování online je globální a rapidně rostoucí fenomén. Na světě žije téměř 7,5 mld. lidí, z toho 3,5 mld. lidí používá internet a přes 1,5 miliardy lidí nakupuje online.“</em><br>
 <a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
 <p>Nakupování zboží a služeb přes internet se stává samozřejmostí. Svědčí o tom neustále rostoucí počet nákupů online a díky tomu i stále se zvyšující tržby online obchodů. Vedle klasických e-shopů se rozvíjí i další internetové služby související s internetovým prodejem, jako jsou například zásilkovny (uloženky), kde je možné si objednané zboží vyzvednout. Dále se rozvíjí i rozvážkové služby, například rozvoz jídel nebo potravin. Spolu s internetovým prodejem se rozvíjí i srovnávače cen, agregátory nabídek zboží nebo služeb a další.</p>
 <p><a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
 <p>Pro e-commerce hraje velkou roli sezónnost prodeje s velkým významem vánoc - obvykle e-shopy utrží za poslední 4 měsíce přibližně stejně, jako za předchozích 8 měsíců. V poslední jsou ale sezónní rozdíly vyrovnávány nákupy zboží denní potřeby. Nejslabšími měsíci v tržbách e-shopů jsou většinou letní měsíce.</p>
 <p><a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
-<p><em>,Podle serveru eMarketer se maloobchodní globální online tržby přiblížily v roce 2016 úrovni 1,9 bilionu dolarů a do roku 2020 by se měly zdvojnásobit na 4 bil. dolarů. I tak se e-commerce tržby budou podílet na celkových maloobchodních tržbách jen 14,6 %. Největším světovým online trhem je Čína, jejíž podíl poroste i do budoucna. Následuje online trh v USA."</em></p>
+<p><em>„Podle serveru eMarketer se maloobchodní globální online tržby přiblížily v roce 2016 úrovni 1,9 bilionu dolarů a do roku 2020 by se měly zdvojnásobit na 4 bil. dolarů. I tak se e-commerce tržby budou podílet na celkových maloobchodních tržbách jen 14,6 %. Největším světovým online trhem je Čína, jejíž podíl poroste i do budoucna. Následuje online trh v USA.“</em></p>
 <p><a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
 <h3 id="e-commerce-v-české-republice">E-commerce v České republice</h3>
 <p>Dlouhodobě roste počet Čechů s přístupem k internetu. V roce 2016 se počet uživatelů internetu v České republice oproti roku 2010 zvýšil zhruba o 15% a díky tomu se Česká republika počtem uživatelů internetu přiblížila průměru v Evropské unii.</p>
 <p><a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
-<p><em>,Mezi ekonomicky aktivními, vysokoškolsky vzdělanými a mladými do 30 let užívají dnes internet už téměř všichni."</em></p>
+<p><em>„Mezi ekonomicky aktivními, vysokoškolsky vzdělanými a mladými do 30 let užívají dnes internet už téměř všichni.“</em></p>
 <p><a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
 <p>V roce 2016 mělo 76,1% domácností v České republice přístup k internetu. Také roste obliba v nakupování přes internet. V roce 2007 podle průzkumu ČSÚ za poslední rok nakoupilo přes internet 15% obyvatel starších 16 let. V roce 2010 jich nakoupilo již 25% a v roce 2017 již 43%.</p>
 <p><a href="http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online">http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online</a></p>
@@ -136,7 +136,7 @@ TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Soc
 <p><a href="https://www.shoptet.cz/tvorba-e-shopu-na-miru/">https://www.shoptet.cz/tvorba-e-shopu-na-miru/</a></p>
 <p>E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shopu. Většinou se tak spíše vyplatí u velkých společností, kteří mají dostatek peněz na takovouto investici.</p>
 <p><a href="https://www.shoptet.cz/tvorba-e-shopu-na-miru/">https://www.shoptet.cz/tvorba-e-shopu-na-miru/</a></p>
-<p><em>,E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má."</em><br>
+<p><em>„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má.“</em><br>
 <a href="https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/">https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/</a></p>
 <h4 id="pronájem-e-shopu">Pronájem e-shopu</h4>
 <p>Pronájmu e-shopu se také říká krabicové řešení e-shopu. Lze s ním začít podnikat téměř okamžitě, pronajímají se za danou měsíční částku. Krabicově řešené e-shopy jsou již hotové a funkční. Stačí je jen nastavit a naplnit produkty. Mezi hlavní výhody patří minimální starosti s e-shopem, bezpečnost, spolehlivost a dopředu stanovená cena pronájmu. Nevýhodami tohoto řešení je menší možnost úprav a fakt, že e-shop nepatří nájemníkovi. Je tedy vhodnou formou k vytvoření e-shopu spíše začínajícím podnikatelům.</p>
@@ -161,7 +161,7 @@ TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Soc
 <a href="https://www.mioweb.cz/slovnicek/online-marketing/">https://www.mioweb.cz/slovnicek/online-marketing/</a></li>
 </ul>
 <h2 id="e-commerce-z-pohledu-zákazníků">E-commerce z pohledu zákazníků</h2>
-<p><em>,Internet je jako obchodní místo unikátní hned v několika směrech: např. koncentrace obchodů na jednom místě. Všechny jsou okamžitě dosažitelné, nekoupím-li v prvním, mohu bez námahy pokračovat v objevování další nabídky, jako kdybych jel na druhý konec města nebo dokonce světa. Existuje možnost rychlého porovnání sortimentu a cen. Rychlý přehled konkurence v oboru, jen na základě zadání třeba jednoho klíčového slova."</em><br>
+<p><em>„Internet je jako obchodní místo unikátní hned v několika směrech: např. koncentrace obchodů na jednom místě. Všechny jsou okamžitě dosažitelné, nekoupím-li v prvním, mohu bez námahy pokračovat v objevování další nabídky, jako kdybych jel na druhý konec města nebo dokonce světa. Existuje možnost rychlého porovnání sortimentu a cen. Rychlý přehled konkurence v oboru, jen na základě zadání třeba jednoho klíčového slova.“</em><br>
 <a href="https://www.interval.cz/clanky/e-shop-z-pohledu-zakaznika/">https://www.interval.cz/clanky/e-shop-z-pohledu-zakaznika/</a></p>
 <h3 id="výhody-a-omezení">Výhody a omezení</h3>
 <p>Základní výhody e-commerce pro zákazníky:</p>
@@ -195,7 +195,7 @@ TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Soc
 <li>přidání možnosti snadného kontaktu.<br>
 <a href="https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/">https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/</a></li>
 </ul>
-<p><em>,Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás"</em><br>
+<p><em>„Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás“</em><br>
 <a href="https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/">https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/</a></p>
 <h2 id="hypertext-markup-language-–-html">Hypertext Markup Language – HTML</h2>
 <p>HTML je značkovací jazyk pro hypertext. Je jedním z jazyků, které umožňují vytvářet dokumenty, které je pak možné publikovat na internetu. Je definován množinou značek a jejich atributů. Mezi značky se uzavírají části textu a tím se určuje význam obsaženého textu. Jednotlivé značky se uzavírají mezi úhlové závorky „&lt;“ a „&gt;“. Součástí elementu mohou být v obsahu další vnořené elementy. Pomocí atributů se elementu doplňují informace, které definují vlastnosti elementu (15).</p>
@@ -277,7 +277,7 @@ Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak je
 <h3 id="relační-databáze">Relační databáze</h3>
 <p>Relační databáze jsou v současnosti nejpoužívanějším typem databází.<br>
 <a href="https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi">https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi</a></p>
-<p><em>,Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky."</em></p>
+<p><em>„Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky.“</em></p>
 <p><a href="https://it-slovnik.cz/pojem/relacni-databaze/">https://it-slovnik.cz/pojem/relacni-databaze/</a></p>
 <p>Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky.<br>
 <a href="https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi">https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi</a></p>
@@ -302,7 +302,7 @@ Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak je
 <a href="https://getcomposer.org/doc/00-intro.md">https://getcomposer.org/doc/00-intro.md</a></p>
 <p>Je nejdůležitějším nástrojem pro PHP vývojáře.<br>
 <a href="https://phpfashion.com/composer-jak-na-ruzne-varianty-instalace">https://phpfashion.com/composer-jak-na-ruzne-varianty-instalace</a></p>
-<p><em>,Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit."</em><br>
+<p><em>„Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit.“</em><br>
 <a href="https://www.itnetwork.cz/php/ostatni/composer">https://www.itnetwork.cz/php/ostatni/composer</a></p>
 <p>Předpoklady pro použití:</p>
 <ul>
@@ -321,7 +321,7 @@ Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak je
 <a href="https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md">https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md</a></p>
 <h2 id="nette-framework">Nette Framework</h2>
 <p><img src="https://files.nette.org/git/www/nette-logo-blue.png" alt="Logo Nette Framework, zdroj: https://nette.org/cs/logo"><br>
-<em>,Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost."</em><br>
+<em>„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost.“</em><br>
 <a href="https://nette.org/cs/">https://nette.org/cs/</a></p>
 <p>Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá spistředit se na kreativní stránku vývoje.<br>
 <a href="https://doc.nette.org/cs/2.4/getting-started">https://doc.nette.org/cs/2.4/getting-started</a></p>
@@ -338,7 +338,7 @@ Doctrine 2 je objektově-relační mapovač (ORM) pro PHP 7.1+, který zajišťu
 Ukládání dat do relační databáze je tedy zcela řešeno pomocí Doctrine.<br>
 <a href="https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html">https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html</a></p>
 <h3 id="entity">Entity</h3>
-<p><em>,Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. Každá entita reprezentuje nějaký objekt reálného světa, takzvaný doménový objekt. Jednu entitu tak budu mít definovanou pro článek, jinou pro kategorii, další pro uživatele."</em><br>
+<p><em>„Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. Každá entita reprezentuje nějaký objekt reálného světa, takzvaný doménový objekt. Jednu entitu tak budu mít definovanou pro článek, jinou pro kategorii, další pro uživatele.“</em><br>
 <a href="https://www.zdrojak.cz/clanky/doctrine-2-zakladni-definice-entit/">https://www.zdrojak.cz/clanky/doctrine-2-zakladni-definice-entit/</a></p>
 <p>Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha požadavků pomocí jedinečného identifikátoru nebo primárního klíče. Tyto třídy nepotřebují rozšířit žádnou abstraktní základní třídu nebo rozhraní. Třída entity nesmí být konečná nebo nesmí obsahovat konečné metody.<br>
 <a href="https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html">https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html</a></p>
@@ -361,7 +361,7 @@ Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a
 RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost.<br>
 <a href="https://www.rabbitmq.com/">https://www.rabbitmq.com/</a></p>
 <h2 id="virtualizace">Virtualizace</h2>
-<p><em>“Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače.”</em><br>
+<p><em>"Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače.“</em><br>
 <a href="https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/">https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/</a></p>
 <h3 id="vagrant">Vagrant</h3>
 <p>Vagrant je nástroj pro vytváření a správu prostředí virtuálních počítačů. Poskytuje snadno konfigurovatelné, reprodukovatelné a přenosné pracovní prostředí postavené na špičkové technologii a řízené jediným konzistentním pracovním postupem, který pomáhá maximalizovat produktivitu jednotlivce i celého vývojového týmu.<br>
@@ -392,7 +392,7 @@ RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha o
 <h1 id="analýza-současné-situace">Analýza současné situace</h1>
 <p>V této části práce se budu věnovat popisu základních informací o podniku a popisu aktuálního stavu, ve kterém se podnikový e-shop nachází.</p>
 <h2 id="základní-informace-o-podniku">Základní informace o podniku</h2>
-<p><em>,Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká."</em><br>
+<p><em>„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká.“</em><br>
 todo: <a href="https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res">https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res</a></p>
 
 <table>
