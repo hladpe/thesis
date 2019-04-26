@@ -9,187 +9,125 @@
 Internet je celosvětová síť (desítky tisíc jednotlivých sítí – možná i mnohem více) propojující všechny kontinenty, státy a města tak, že jakýkoliv počítač může kdykoliv komunikovat s jakýmkoliv jiným počítačem, ať je kdekoliv na planetě.
 Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společný zájem – chtějí být propojeni.
 
-Co je Internet a jak funguje? _Datacentrum WEDOS_ [online]. Hluboká nad Vltavou, 2010 [cit. 2016-04-01]. Dostupné z: http://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html
+[cit]Co je Internet a jak funguje? _Datacentrum WEDOS_ [online]. Hluboká nad Vltavou, 2010 [cit. 2016-04-01]. Dostupné z: http://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html[/cit]
 
 
 ### Vznik internetu 
-První předchůdce internetu (Arpanet), vznikl v roce 1969. Vytvořila ho instituce Advanced Research Project Agency (ARPA). Jeho vznik zaštiťovalo Ministerstvo obrany USA. Tato síť byla z počátku použita pouze pro vědecké účely, následně z ní vznikly dvě samostatné sítě - Arpanet a Milnet (armádní síť). V roce 1981 vnikla síť Bitnet, která propojovala americké vysoké a střední školy. Avšak v těchto sítích vznikl problém komunikace na různých platformách. Proto po intenzivních výzkumech vznikl protokol TCP/IP, který je používám dodnes. Samotný vznik internetu v podobě, jak ho známe dnes, je datován od roku 1993, kdy Tom Berners Lee vymyslel nový způsob výměny informací, ten je známý pod zkratkou WWW (World Wide Web).
-https://home.zcu.cz/~tisarova/
+První předchůdce internetu (Arpanet), vznikl v roce 1969. Vytvořila ho instituce Advanced Research Project Agency (ARPA). Jeho vznik zaštiťovalo Ministerstvo obrany USA. Tato síť byla z počátku použita pouze pro vědecké účely, následně z ní vznikly dvě samostatné sítě - Arpanet a Milnet (armádní síť). V roce 1981 vnikla síť Bitnet, která propojovala americké vysoké a střední školy. Avšak v těchto sítích vznikl problém komunikace na různých platformách. Proto po intenzivních výzkumech vznikl protokol TCP/IP, který je používám dodnes. Samotný vznik internetu v podobě, jak ho známe dnes, je datován od roku 1993, kdy Tom Berners Lee vymyslel nový způsob výměny informací, ten je známý pod zkratkou WWW (World Wide Web) [cit]https://home.zcu.cz/~tisarova/[/cit].
 
-Internet se v České republice začal rozšiřovat až na přelomu let 1995 a 1996, kdy na trh vstoupili komerční poskytovatelé internetového připojení. I přes to, že v těchto letech byla Česká republika připojena k internetu již 3 roky, ke komerčnímu používání internetu došlo až po pádu společnosti Eurotel, jejíž monopol se vztahoval mimo jiné i na veřejné služby přenosu dat.
-https://home.zcu.cz/~tisarova/
+Internet se v České republice začal rozšiřovat až na přelomu let 1995 a 1996, kdy na trh vstoupili komerční poskytovatelé internetového připojení. I přes to, že v těchto letech byla Česká republika připojena k internetu již 3 roky, ke komerčnímu používání internetu došlo až po pádu společnosti Eurotel, jejíž monopol se vztahoval mimo jiné i na veřejné služby přenosu dat [cit]https://home.zcu.cz/~tisarova/[/cit].
 
 
 ### Služby na internetu
-Služeb na internetu lze využit celá řada. Zde jsou vysvětleny některé služby, které jsou hojně využívané pro komerční využití.
-
-Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.
+Služeb na internetu lze využit celá řada. Zde jsou vysvětleny některé služby, které jsou hojně využívané pro komerční využití [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
 #### World Wide Web (WWW)
-Označení pro vzájemně provázený multimediální obsah poskytovaný pomocí protokolu HTTP. Uživatelé obsah konzumují pomocí webových prohlížečů.
-https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html
+Označení pro vzájemně provázený multimediální obsah poskytovaný pomocí protokolu HTTP. Uživatelé obsah konzumují pomocí webových prohlížečů [cit]
+https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
 
 #### E-mail
-Zasílání textových zpráv mezi jednotlivými uživateli internetu je k dispozici již od raných dob internetu. Dnes je zajišťován pomocí protokolu SMTP, který byl vyvinut v 70. letech.
-https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html
+Zasílání textových zpráv mezi jednotlivými uživateli internetu je k dispozici již od raných dob internetu. Dnes je zajišťován pomocí protokolu SMTP, který byl vyvinut v 70. letech [cit]https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
 
-Díky své rychlosti, nízkým nákladům, pohodlí a snadnému archivování je dnes pro firmy základním komunikačním nástrojem. Lze mimo jiné možné například využít k potvrzení přijaté objednávky z internetového obchodu. 
-
-Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.
+Díky své rychlosti, nízkým nákladům, pohodlí a snadnému archivování je dnes pro firmy základním komunikačním nástrojem. Lze mimo jiné možné například využít k potvrzení přijaté objednávky z internetového obchodu [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
 #### Instant masseging (IM)
-Instant messaging je technologie, která formou aplikace umožňuje uživatelům sledovat, kteří uživatelé jsou připojeni k síti a dle potřeby s těmito uživateli komunikovat, například zasláním zprávy (chatovat) nebo posílat soubory. Umožňuje tedy komunikovat přes síť mezi uživateli v reálném čase.
-http://wiki.knihovna.cz/index.php/Instant_messaging
+Instant messaging je technologie, která formou aplikace umožňuje uživatelům sledovat, kteří uživatelé jsou připojeni k síti a dle potřeby s těmito uživateli komunikovat, například zasláním zprávy (chatovat) nebo posílat soubory. Umožňuje tedy komunikovat přes síť mezi uživateli v reálném čase [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
 
-Některé aplikace dovolují uživatelům i použití webových kamer a mikrofonů a díky tomu je služba ještě více populární. Pro některé uživatele je tato technologie přijatelnější, než okamžitá komunikace, protože ji vnímají méně dotěrnější, než například komunikace před telefon.
-
-http://wiki.knihovna.cz/index.php/Instant_messaging
+Některé aplikace dovolují uživatelům i použití webových kamer a mikrofonů a díky tomu je služba ještě více populární. Pro některé uživatele je tato technologie přijatelnější, než okamžitá komunikace, protože ji vnímají méně dotěrnější, než například komunikace před telefon [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
 
 #### Telefonování přes internet
-Díky rozšíření internetu do firem, je možné telefonovat přes internet. Postupně tak vznikly 3 základní možnosti telefonování s využitím internetu - telefonování z počítače na počítač, z počítače na telefon a telefonování přes internet prostřednictvím mobilního telefonu. Hlavní výhodou telefonování přes internet je snížení nákladů na volání.
-Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.
+Díky rozšíření internetu do firem, je možné telefonovat přes internet. Postupně tak vznikly 3 základní možnosti telefonování s využitím internetu - telefonování z počítače na počítač, z počítače na telefon a telefonování přes internet prostřednictvím mobilního telefonu. Hlavní výhodou telefonování přes internet je snížení nákladů na volání [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
 #### Sociální služby
-_„Sociální síť je internetová služba, která registrovaným uživatelům umožňuje komunikovat mezi sebou. Komunikace může být veřejná nebo soukromá, je zpravidla založena na sdílení textových příspěvků, fotografií a videa.“_
-https://www.zive.cz/socialni-site/sc-223/default.aspx
+_„Sociální síť je internetová služba, která registrovaným uživatelům umožňuje komunikovat mezi sebou. Komunikace může být veřejná nebo soukromá, je zpravidla založena na sdílení textových příspěvků, fotografií a videa“_ [cit]https://www.zive.cz/socialni-site/sc-223/default.aspx[/cit].
 
 
 ### Webový prohlížeč
-Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další.
-
-HEROUT, Tomáš. Co je to internetový prohlížeč. Help Mark [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec
+Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další [cit]HEROUT, Tomáš. Co je to internetový prohlížeč. Help Mark [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec.[/cit].
 
 ### Webová stránka
-Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem.
-Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova
+Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem [cit]Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova.[/cit].
 
 
-Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované.
-Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/
+Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované.[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 
-Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language).
-Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/
+Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language)[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 
-Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP.
-
-Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/
+Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 ### Hypertext
-„_Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ (14).
-
-Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext
-
+„_Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext.[/cit].
 
 ## SEO
 TODO: SEO
 
 ## E-business
-_„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely.“_
-TODO: SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.
+_„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely“_[cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].
 
-![Části elektronického podnikání, zdroj: vlastní zpracování dle TODO: SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
+![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
 
 ### E-commerce
-E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání).
-http://www.adaptic.cz/znalosti/slovnicek/e-commerce/
+E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání)[cit]http://www.adaptic.cz/znalosti/slovnicek/e-commerce/[/cit].
 
-Pro e-commerce jsou důležité digitální obchodní transakce mezi organizacemi a mezi jednotlivci. Digitální transakce zahrnují všechny transakce zprostředkované prostřednictvím digitálních technologií. Z velké části to jsou transakce, ke kterým dochází přes internet. Obchodní transakce zahrnují výměnu hodnoty (např. peněz) přes organizační nebo individuální hranice za produkty a služby. Výměna hodnoty je důležitá pro pochopení hranic elektronického obchodu - bez výměny hodnoty nedochází k žádnému obchodu.
-TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Society. 12th ed. New Jersey: Pearson, 2016. 912 p. ISBN 978-0-133-93895-1.
+Pro e-commerce jsou důležité digitální obchodní transakce mezi organizacemi a mezi jednotlivci. Digitální transakce zahrnují všechny transakce zprostředkované prostřednictvím digitálních technologií. Z velké části to jsou transakce, ke kterým dochází přes internet. Obchodní transakce zahrnují výměnu hodnoty (např. peněz) přes organizační nebo individuální hranice za produkty a služby. Výměna hodnoty je důležitá pro pochopení hranic elektronického obchodu - bez výměny hodnoty nedochází k žádnému obchodu [cit]LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Society. 12th ed. New Jersey: Pearson, 2016. 912 p. ISBN 978-0-133-93895-1.[/cit].
 
 ### E-shop
-E-shop je elektronický internetový obchod v podobě speciální webové aplikace, která slouží ke zprostředkování obchodních transakcí prostřednictvím internetu.
-http://www.adaptic.cz/znalosti/slovnicek/e-shop/
+E-shop je elektronický internetový obchod v podobě speciální webové aplikace, která slouží ke zprostředkování obchodních transakcí prostřednictvím internetu [cit]http://www.adaptic.cz/znalosti/slovnicek/e-shop/[/cit].
 
-Základem je katalog výrobků, který je obvykle řazený do kategorií. V těchto kategoriích se pak nacházejí jednotlivé produkty, které jsou nabízeny zákazníkovi k zakoupení. Ze  zákona musí být na e-shopu také další informace, jako jsou například kontaktní údaje, obchodní podmínky apod. Poté, co si uživatel vybere svůj produkt, dochází k nákupnímu procesu. Prvním krokem je přidání produktu do tzv. košíku (elektronická podoba klasického nákupního košíku), zde se shromažďují vybrané produkty. Poté uživatel vyplní doručovací a fakturační údaje (v některých případech lze využít uživatelský účet a uživatelovy údaje jsou doplněny automaticky). Propracovanější e-shopy dolují i například odložit nákup na později nebo zaplatit rovnou pomocí platební karty.
-http://www.adaptic.cz/znalosti/slovnicek/e-shop/
+Základem je katalog výrobků, který je obvykle řazený do kategorií. V těchto kategoriích se pak nacházejí jednotlivé produkty, které jsou nabízeny zákazníkovi k zakoupení. Ze  zákona musí být na e-shopu také další informace, jako jsou například kontaktní údaje, obchodní podmínky apod. Poté, co si uživatel vybere svůj produkt, dochází k nákupnímu procesu. Prvním krokem je přidání produktu do tzv. košíku (elektronická podoba klasického nákupního košíku), zde se shromažďují vybrané produkty. Poté uživatel vyplní doručovací a fakturační údaje (v některých případech lze využít uživatelský účet a uživatelovy údaje jsou doplněny automaticky). Propracovanější e-shopy dolují i například odložit nákup na později nebo zaplatit rovnou pomocí platební karty [cit]http://www.adaptic.cz/znalosti/slovnicek/e-shop/[/cit].
 
 ### Modely e-commerce
-_„Existují čtyři základní modely elektronického obchodování, které využívají prostředí internetu a možnosti moderních informačních a komunikačních technologií. Modely jsou definovány pomocí směru marketingové komunikace - od koho vychází a komu je určena.“_
-https://managementmania.com/cs/e-commerce
+_„Existují čtyři základní modely elektronického obchodování, které využívají prostředí internetu a možnosti moderních informačních a komunikačních technologií. Modely jsou definovány pomocí směru marketingové komunikace - od koho vychází a komu je určena“_[cit]https://managementmania.com/cs/e-commerce[/cit].
 
-_„Patří sem i většina činností spadajících pod elektronický marketing, např. online reklama, email marketing, nejrůznější affiliate programy a všechny aktivity na podporu internetového obchodování. V širším pojetí mohou do pojmu e-commerce patřit i jakékoliv webové stránky, které nabízí konkrétní produkty či služby a umožňují i jejich objednávku například emailem.“_
-https://managementmania.com/cs/e-commerce
+_„Patří sem i většina činností spadajících pod elektronický marketing, např. online reklama, email marketing, nejrůznější affiliate programy a všechny aktivity na podporu internetového obchodování. V širším pojetí mohou do pojmu e-commerce patřit i jakékoliv webové stránky, které nabízí konkrétní produkty či služby a umožňují i jejich objednávku například emailem“_ [cit]https://managementmania.com/cs/e-commerce[/cit].
 
 #### B2B (Business to Business)
-B2B označuje obchodní vztah mezi dvěma podniky. Tento obchodní vztah se odehrává zpravidla prostřednictvím internetu. Typické pro řešení tohoto obchodního vztahu je elektronická výměna dat, například fakturace, řízení skladů, online bankovnictví, online katalogy, online aukce a propojování podnikových informačních systémů.
+B2B označuje obchodní vztah mezi dvěma podniky. Tento obchodní vztah se odehrává zpravidla prostřednictvím internetu. Typické pro řešení tohoto obchodního vztahu je elektronická výměna dat, například fakturace, řízení skladů, online bankovnictví, online katalogy, online aukce a propojování podnikových informačních systémů [cit]https://managementmania.com/cs/business-to-business[/cit].
 
-https://managementmania.com/cs/business-to-business
+Týká se firem, které chtějí nakupovat (například materiál nebo zboží) z důvodu zisku. Poptávka je ovlivněna množstvím zakázek, které má jeden z partnerů [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
 
-Týká se firem, které chtějí nakupovat (například materiál nebo zboží) z důvodu zisku. Poptávka je ovlivněna množstvím zakázek, které má jeden z partnerů.
-
-https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e
-
-Tento obchodní vztah nemá přímý vliv na konečného spotřebitele. Nejdůležitějším úkonem v B2B marketingu patří budování důvěry. 
-
-https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950
+Tento obchodní vztah nemá přímý vliv na konečného spotřebitele. Nejdůležitějším úkonem v B2B marketingu patří budování důvěry [cit]https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950[/cit].
 
 #### B2C (Business to Customer)
-B2B je označení pro model elektronického podnikání, který se zaměřuje na koncové klienty. Protikladem je B2B business. Iniciativa k obchodu vychází směrem od podniku a cílovou skupinou jsou zákazníci (spotřebitelé). Obchodní vztah se odehrává prostřednictvím internetu. Internetové stránky zprostředkovatelů jsou zákazníkům snadno dostupné a mohou nabízet zákazníkům informace a jednoduchý způsob nákupu. Internet umožňuje zákazníkům porovnávat nabídky různých prodejců. 
-https://managementmania.com/cs/business-to-customer
+B2B je označení pro model elektronického podnikání, který se zaměřuje na koncové klienty. Protikladem je B2B business. Iniciativa k obchodu vychází směrem od podniku a cílovou skupinou jsou zákazníci (spotřebitelé). Obchodní vztah se odehrává prostřednictvím internetu. Internetové stránky zprostředkovatelů jsou zákazníkům snadno dostupné a mohou nabízet zákazníkům informace a jednoduchý způsob nákupu. Internet umožňuje zákazníkům porovnávat nabídky různých prodejců [cit]https://managementmania.com/cs/business-to-customer[/cit].
 
 
-Samotná kategorie je rozdělena do tří kategorií. Do první kategorie spadá informování potenciálního zákazníka o produktech. Druhou kategorií je získávání zpětné vazby skrz různé formuláře. Třetí a největší kategorií je uzavření celého obchodu s možností objednání a zaplacení zboží.
+Samotná kategorie je rozdělena do tří kategorií. Do první kategorie spadá informování potenciálního zákazníka o produktech. Druhou kategorií je získávání zpětné vazby skrz různé formuláře. Třetí a největší kategorií je uzavření celého obchodu s možností objednání a zaplacení zboží
+[cit]https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950[/cit].
 
-https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950
-
-B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná se o přímý prodej a podpora zákazníkovi. 
-
-https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e
+B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná se o přímý prodej a podpora zákazníkovi [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
 
 
 #### C2B (Customer to Business)
-C2B je model elektronického podnikání, kdy iniciativa pochází od zákazníků (spotřebitelů) směrem k firmám. Zákazníci kontaktují firmy a vznášejí dotazy, podněty a náměty, například pro inovaci výrobků nebo služeb firmy. Takový model lze podpořit například zřízením diskuzního fóra nebo účet na sociálních sítích.
-https://managementmania.com/cs/customer-to-business
+C2B je model elektronického podnikání, kdy iniciativa pochází od zákazníků (spotřebitelů) směrem k firmám. Zákazníci kontaktují firmy a vznášejí dotazy, podněty a náměty, například pro inovaci výrobků nebo služeb firmy. Takový model lze podpořit například zřízením diskuzního fóra nebo účet na sociálních sítích [cit]https://managementmania.com/cs/customer-to-business[/cit].
 
 #### C2C (Customer to Customer)
-C2C je druh elektronického obchodování, ve kterím probíhá obchodní vztah mezi dvěma spotřebiteli a to většinou prostřednictvím třetí strany. Iniciativa přitom vychází od jednoho spotřebitele směrem k jinému spotřebiteli. Příkladem takovýchto obchodních vztahů jsou například online burzy, aukce a výměny zboží. 
-https://managementmania.com/cs/customer-to-customer
+C2C je druh elektronického obchodování, ve kterím probíhá obchodní vztah mezi dvěma spotřebiteli a to většinou prostřednictvím třetí strany. Iniciativa přitom vychází od jednoho spotřebitele směrem k jinému spotřebiteli. Příkladem takovýchto obchodních vztahů jsou například online burzy, aukce a výměny zboží [cit]https://managementmania.com/cs/customer-to-customer[/cit].
 
 ### Vývoj e-commerce
-_„Nakupování online je globální a rapidně rostoucí fenomén. Na světě žije téměř 7,5 mld. lidí, z toho 3,5 mld. lidí používá internet a přes 1,5 miliardy lidí nakupuje online.“_
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
+_„Nakupování online je globální a rapidně rostoucí fenomén. Na světě žije téměř 7,5 mld. lidí, z toho 3,5 mld. lidí používá internet a přes 1,5 miliardy lidí nakupuje online“_[cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-Nakupování zboží a služeb přes internet se stává samozřejmostí. Svědčí o tom neustále rostoucí počet nákupů online a díky tomu i stále se zvyšující tržby online obchodů. Vedle klasických e-shopů se rozvíjí i další internetové služby související s internetovým prodejem, jako jsou například zásilkovny (uloženky), kde je možné si objednané zboží vyzvednout. Dále se rozvíjí i rozvážkové služby, například rozvoz jídel nebo potravin. Spolu s internetovým prodejem se rozvíjí i srovnávače cen, agregátory nabídek zboží nebo služeb a další.
+Nakupování zboží a služeb přes internet se stává samozřejmostí. Svědčí o tom neustále rostoucí počet nákupů online a díky tomu i stále se zvyšující tržby online obchodů. Vedle klasických e-shopů se rozvíjí i další internetové služby související s internetovým prodejem, jako jsou například zásilkovny (uloženky), kde je možné si objednané zboží vyzvednout. Dále se rozvíjí i rozvážkové služby, například rozvoz jídel nebo potravin. Spolu s internetovým prodejem se rozvíjí i srovnávače cen, agregátory nabídek zboží nebo služeb a další [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
+Pro e-commerce hraje velkou roli sezónnost prodeje s velkým významem vánoc - obvykle e-shopy utrží za poslední 4 měsíce přibližně stejně, jako za předchozích 8 měsíců. V poslední jsou ale sezónní rozdíly vyrovnávány nákupy zboží denní potřeby. Nejslabšími měsíci v tržbách e-shopů jsou většinou letní měsíce [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-
-Pro e-commerce hraje velkou roli sezónnost prodeje s velkým významem vánoc - obvykle e-shopy utrží za poslední 4 měsíce přibližně stejně, jako za předchozích 8 měsíců. V poslední jsou ale sezónní rozdíly vyrovnávány nákupy zboží denní potřeby. Nejslabšími měsíci v tržbách e-shopů jsou většinou letní měsíce.
-
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
-
-
-_„Podle serveru eMarketer se maloobchodní globální online tržby přiblížily v roce 2016 úrovni 1,9 bilionu dolarů a do roku 2020 by se měly zdvojnásobit na 4 bil. dolarů. I tak se e-commerce tržby budou podílet na celkových maloobchodních tržbách jen 14,6 %. Největším světovým online trhem je Čína, jejíž podíl poroste i do budoucna. Následuje online trh v USA.“_
-
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
+_„Podle serveru eMarketer se maloobchodní globální online tržby přiblížily v roce 2016 úrovni 1,9 bilionu dolarů a do roku 2020 by se měly zdvojnásobit na 4 bil. dolarů. I tak se e-commerce tržby budou podílet na celkových maloobchodních tržbách jen 14,6 %. Největším světovým online trhem je Čína, jejíž podíl poroste i do budoucna. Následuje online trh v USA“_ [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 ### E-commerce v České republice
-Dlouhodobě roste počet Čechů s přístupem k internetu. V roce 2016 se počet uživatelů internetu v České republice oproti roku 2010 zvýšil zhruba o 15% a díky tomu se Česká republika počtem uživatelů internetu přiblížila průměru v Evropské unii. 
+Dlouhodobě roste počet Čechů s přístupem k internetu. V roce 2016 se počet uživatelů internetu v České republice oproti roku 2010 zvýšil zhruba o 15% a díky tomu se Česká republika počtem uživatelů internetu přiblížila průměru v Evropské unii [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
+_„Mezi ekonomicky aktivními, vysokoškolsky vzdělanými a mladými do 30 let užívají dnes internet už téměř všichni“_ [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-_„Mezi ekonomicky aktivními, vysokoškolsky vzdělanými a mladými do 30 let užívají dnes internet už téměř všichni.“_
-
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
-
-V roce 2016 mělo 76,1% domácností v České republice přístup k internetu. Také roste obliba v nakupování přes internet. V roce 2007 podle průzkumu ČSÚ za poslední rok nakoupilo přes internet 15% obyvatel starších 16 let. V roce 2010 jich nakoupilo již 25% a v roce 2017 již 43%. 
-
-http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online
+V roce 2016 mělo 76,1% domácností v České republice přístup k internetu. Také roste obliba v nakupování přes internet. V roce 2007 podle průzkumu ČSÚ za poslední rok nakoupilo přes internet 15% obyvatel starších 16 let. V roce 2010 jich nakoupilo již 25% a v roce 2017 již 43% [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 ## E-commerce z pohledu obchodníků
-Hlavní výhodou pro provozovatele e-shopů je široká působnost a v podstatě neomezená otevírací doma. E-shop může s přehledem prodávat po celé zemi (a v mnoha případech i za hranicemi). Internetový obchod tedy nemusí být limitován žádným konkrétním místem. Široká působnost se pak pozitivně odráží v marketingu, kdy umožňuje širší širší zásah při nižších nákladech na propagaci. Na internetu lze snadno měřit efektivitu reklamy a konfigurovat ji v závislosti na těchto výsledcích a potřebách zákazníka.
+Hlavní výhodou pro provozovatele e-shopů je široká působnost a v podstatě neomezená otevírací doma. E-shop může s přehledem prodávat po celé zemi (a v mnoha případech i za hranicemi). Internetový obchod tedy nemusí být limitován žádným konkrétním místem. Široká působnost se pak pozitivně odráží v marketingu, kdy umožňuje širší širší zásah při nižších nákladech na propagaci. Na internetu lze snadno měřit efektivitu reklamy a konfigurovat ji v závislosti na těchto výsledcích a potřebách zákazníka [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
 
-https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/
+Na e-shop lze uvést o produktu mnoho informací a nabídnout i komponenty a substituty konkrétního produktu. Zároveň mají v porovnání s kamennými prodejnami i nižší náklady na provoz. Ale i zde platí, že čím více se bude byznys rozšiřovat, tím se budou i náklady na provoz přibližovat k nákladům za provoz kamenné prodejny [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
 
-Na e-shop lze uvést o produktu mnoho informací a nabídnout i komponenty a substituty konkrétního produktu. Zároveň mají v porovnání s kamennými prodejnami i nižší náklady na provoz. Ale i zde platí, že čím více se bude byznys rozšiřovat, tím se budou i náklady na provoz přibližovat k nákladům za provoz kamenné prodejny.
-
-https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/
-
-Jako určitou nevýhodu lze na internetu označit ceny produktů. Díky cenovým srovnávačům může zákazník jednoduše vidět cenové rozdíly s konkurencí. Pokud by chtěl srovnávat ceny zboží v kamenných prodejnách, stálo by to zákazníka mnohem více úsilí a času, proto si lze v kamenných prodejnách dovolit vyšší cenu produktu oproti konkurenci.
-
-https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/
+Jako určitou nevýhodu lze na internetu označit ceny produktů. Díky cenovým srovnávačům může zákazník jednoduše vidět cenové rozdíly s konkurencí. Pokud by chtěl srovnávat ceny zboží v kamenných prodejnách, stálo by to zákazníka mnohem více úsilí a času, proto si lze v kamenných prodejnách dovolit vyšší cenu produktu oproti konkurenci [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
 
 ### Založení a provoz e-shopu
 Základní kroky, které jsou potřeba podniknout k založení a úspěšnému provozování e-shopu, kterými by se měli podnikatelé zakládající e-shop zabývat:
@@ -200,60 +138,43 @@ Základní kroky, které jsou potřeba podniknout k založení a úspěšnému p
 - výběr vhodných dodavatelů (výrobků i spotřebního materiálu),
 - zajištění vhodné formy distribuce,
 - promyslet koncept e-shopu (struktura, funkce, bezpečnost, dostupnost),
-- vytvoření vzhledu a účelného obsahu (copyright, SEO, obchodní podmínky)
-
-Sedlák, M., Mikulášková, P. (2012). Jak vytvořit úspěšný a výdělečný internetový obchod. 1. vyd. Brno: Computer Press.
+- vytvoření vzhledu a účelného obsahu (copyright, SEO, obchodní podmínky) [cit]Sedlák, M., Mikulášková, P. (2012). Jak vytvořit úspěšný a výdělečný internetový obchod. 1. vyd. Brno: Computer Press.[/cit].
 
 #### Open-source
-Největším lákadlem řešení open-cource je jeho cena, protože toto řešení je zdarma. Zdarma jsou základní moduly, které vystačí na běžné potřeby e-shopu. Zdarma mohou být i další rozšíření a pluginy. Další výhodou je otevřený kód, který lze libovolně modifikovat a rozvíjet dle vlastních požadavků. Open-source e-commerce řešení tedy využijí ti, kteří chtějí levný, jednoduchý e-shop a nebudou požadovat víc, než jsou jeho základní funkce. Dále toto řešení využijí ti, kteří chtějí použít otestované řešení jako solidní základ pro vlastní platformu, kterou budou dále chtít sami rozvíjet.
-https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530
+Největším lákadlem řešení open-cource je jeho cena, protože toto řešení je zdarma. Zdarma jsou základní moduly, které vystačí na běžné potřeby e-shopu. Zdarma mohou být i další rozšíření a pluginy. Další výhodou je otevřený kód, který lze libovolně modifikovat a rozvíjet dle vlastních požadavků. Open-source e-commerce řešení tedy využijí ti, kteří chtějí levný, jednoduchý e-shop a nebudou požadovat víc, než jsou jeho základní funkce. Dále toto řešení využijí ti, kteří chtějí použít otestované řešení jako solidní základ pro vlastní platformu, kterou budou dále chtít sami rozvíjet [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
-Open-source ale neznamená e-shop zdarma nebo nulové náklady. I správa svobodného softwaru bude potřebovat zkušeného vývojáře, který se dokáže orientovat v cizím kódu, zná architekturu aplikace a aby požadovanou úpravu provedl dobře a nezanesl do aplikace další chyby.
+Open-source ale neznamená e-shop zdarma nebo nulové náklady. I správa svobodného softwaru bude potřebovat zkušeného vývojáře, který se dokáže orientovat v cizím kódu, zná architekturu aplikace a aby požadovanou úpravu provedl dobře a nezanesl do aplikace další chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit]
 
-https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530
-
-Bohužel se svobodný software v sobě ukrývá i své nevýhody - kolísající kvalita kódu a dostupnost podpory. Díky tomu, že lze do kódu libovolně zasahovat, žádné open-source řešení nezaručí, že bude fungovat bez chyb a nečekaných pádů. Veřejně přístupný kód také přitahuje pozornost útočníků, kteří vyhledávají bezpečnostní chyby. 
-https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530
+Bohužel se svobodný software v sobě ukrývá i své nevýhody - kolísající kvalita kódu a dostupnost podpory. Díky tomu, že lze do kódu libovolně zasahovat, žádné open-source řešení nezaručí, že bude fungovat bez chyb a nečekaných pádů. Veřejně přístupný kód také přitahuje pozornost útočníků, kteří vyhledávají bezpečnostní chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
 #### E-shop na míru
-E-shop na míru má tu výhodu, že přesně odpovídá požadavkům zadavatele. Na počátku může zadavatel přesně specifikovat, jakou funkcionalitu požaduje. Tím se například liší od krabicového řešení, protože vznikne systém, který přesně splňuje potřeby zadavatele.
+E-shop na míru má tu výhodu, že přesně odpovídá požadavkům zadavatele. Na počátku může zadavatel přesně specifikovat, jakou funkcionalitu požaduje. Tím se například liší od krabicového řešení, protože vznikne systém, který přesně splňuje potřeby zadavatele [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
 
-https://www.shoptet.cz/tvorba-e-shopu-na-miru/
+E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shopu. Většinou se tak spíše vyplatí u velkých společností, kteří mají dostatek peněz na takovouto investici [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
 
-E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shopu. Většinou se tak spíše vyplatí u velkých společností, kteří mají dostatek peněz na takovouto investici.
-
-https://www.shoptet.cz/tvorba-e-shopu-na-miru/
-
-_„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má.“_
-https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/
+_„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má“_ [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit]
 
 #### Pronájem e-shopu
-Pronájmu e-shopu se také říká krabicové řešení e-shopu. Lze s ním začít podnikat téměř okamžitě, pronajímají se za danou měsíční částku. Krabicově řešené e-shopy jsou již hotové a funkční. Stačí je jen nastavit a naplnit produkty. Mezi hlavní výhody patří minimální starosti s e-shopem, bezpečnost, spolehlivost a dopředu stanovená cena pronájmu. Nevýhodami tohoto řešení je menší možnost úprav a fakt, že e-shop nepatří nájemníkovi. Je tedy vhodnou formou k vytvoření e-shopu spíše začínajícím podnikatelům.
-
-https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/
+Pronájmu e-shopu se také říká krabicové řešení e-shopu. Lze s ním začít podnikat téměř okamžitě, pronajímají se za danou měsíční částku. Krabicově řešené e-shopy jsou již hotové a funkční. Stačí je jen nastavit a naplnit produkty. Mezi hlavní výhody patří minimální starosti s e-shopem, bezpečnost, spolehlivost a dopředu stanovená cena pronájmu. Nevýhodami tohoto řešení je menší možnost úprav a fakt, že e-shop nepatří nájemníkovi. Je tedy vhodnou formou k vytvoření e-shopu spíše začínajícím podnikatelům [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit].
 
 ### Online marketing
-Online marketing je označení pro propagaci produktů nebo služeb na internetu.
-https://www.mioweb.cz/slovnicek/online-marketing/
+Online marketing je označení pro propagaci produktů nebo služeb na internetu [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
 Rozdělení online marketingu:
-- Inbound marketing – dlouhodobé formování a podpora vztahu s potenciálními zákazníky, například pomocí různého obsahu pomáhá, vzdělává nebo baví (populární obsahový marketing),
-- Outbound marketing - zaměřuje se naopak na efektivní propagaci produktu neb služby.
-https://www.mioweb.cz/slovnicek/online-marketing/
+- inbound marketing – dlouhodobé formování a podpora vztahu s potenciálními zákazníky, například pomocí různého obsahu pomáhá, vzdělává nebo baví (populární obsahový marketing),
+- outbound marketing - zaměřuje se naopak na efektivní propagaci produktu neb služby [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
 Hlavní nástroje online marketingu:
-- Internetové stránky - jádro prezentace na internetu,
-- Sociální sítě - oslovávání potěnciálních zákazníků přes udržované a aktualizované stránky s poutavými příspěvky nebo reklamou,
-- E-mail marketing - dlouhodobě úspěšná metoda založená na prohlubování vztahu mezi odesílatelem a příjemcem (potenciálním zákazníkem) například formou newsletterů,
+- internetové stránky - jádro prezentace na internetu,
+- sociální sítě - oslovování potenciálních zákazníků přes udržované a aktualizované stránky s poutavými příspěvky nebo reklamou,
+- e-mail marketing - dlouhodobě úspěšná metoda založená na prohlubování vztahu mezi odesílatelem a příjemcem (potenciálním zákazníkem) například formou newsletterů,
 - PPC kampaně - (výkonnostní marketing) umístění textových sdělení nebo bannerů v obsahové nebo vyhledávací síti, čímž si inzerent získává pozornost uživatelů,
-- Affiliate marketing - získávání nových zákazníků od partnerů pomocí provozního systému,
-- SEO - optimalizace pro vyhledávače, optimalizace faktorů ovlivňujících zviditelnění webu ve výsledcích vyhledávání.
-https://www.mioweb.cz/slovnicek/online-marketing/
+- affiliate marketing - získávání nových zákazníků od partnerů pomocí provozního systému,
+- SEO - optimalizace pro vyhledávače, optimalizace faktorů ovlivňujících zviditelnění webu ve výsledcích vyhledávání [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
 
 ## E-commerce z pohledu zákazníků
-_„Internet je jako obchodní místo unikátní hned v několika směrech: např. koncentrace obchodů na jednom místě. Všechny jsou okamžitě dosažitelné, nekoupím-li v prvním, mohu bez námahy pokračovat v objevování další nabídky, jako kdybych jel na druhý konec města nebo dokonce světa. Existuje možnost rychlého porovnání sortimentu a cen. Rychlý přehled konkurence v oboru, jen na základě zadání třeba jednoho klíčového slova.“_
-https://www.interval.cz/clanky/e-shop-z-pohledu-zakaznika/
+_„Internet je jako obchodní místo unikátní hned v několika směrech: např. koncentrace obchodů na jednom místě. Všechny jsou okamžitě dosažitelné, nekoupím-li v prvním, mohu bez námahy pokračovat v objevování další nabídky, jako kdybych jel na druhý konec města nebo dokonce světa. Existuje možnost rychlého porovnání sortimentu a cen. Rychlý přehled konkurence v oboru, jen na základě zadání třeba jednoho klíčového slova“_ [cit]https://www.interval.cz/clanky/e-shop-z-pohledu-zakaznika/[/cit].
 
 ### Výhody a omezení
 Základní výhody e-commerce pro zákazníky:
@@ -262,39 +183,33 @@ Základní výhody e-commerce pro zákazníky:
 - větší pohodlí a úspora času - snadná dostupnost k nákupu, možnost nakupovat kdykoli a odkudkoli,
 - snadné získání detailních informací o produktů a službách,
 - možnost rychlého dodání,
-- slevy a výhody pro zákazníky,
-
-Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera
+- slevy a výhody pro zákazníky [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
 
 Základní nevýhody e-commerce pro zákazníky:
 - zákazníci si nemohou zboží osahat a ozkoušet,
 - nabízené zboží není skladem,
 - někteří zákazníci se bojí problémů s reklamací nebo vrácením zboží,
 - obava ze zneužití kreditní karty,
-- zákazník potřebuje poradit s výběrem zboží a nemá se na koho obrátit.
-
-https://www.danielnytra.cz/eshop-testovano-na-lidech/
-
+- zákazník potřebuje poradit s výběrem zboží a nemá se na koho obrátit [cit]https://www.danielnytra.cz/eshop-testovano-na-lidech/[/cit].
 
 ### Důvěryhodnost e-shopu
-Během pouhých prvních pár vteřin návštěvník internetových stránek zhodnotí, zda je pro něj e-shop důvěryhodný a zajímavý.  Navíc je pro zákazníky velice důležité, komu poskytnou osobní údaje a informace o platební kartě. Z toho důvodu je potřeba, aby webové stránky působily důvěryhodně.
-https://blog.eshop-rychle.cz/duveryhodnost-bezpecnost-eshopu-https/
+Během pouhých prvních pár vteřin návštěvník internetových stránek zhodnotí, zda je pro něj e-shop důvěryhodný a zajímavý.  Navíc je pro zákazníky velice důležité, komu poskytnou osobní údaje a informace o platební kartě. Z toho důvodu je potřeba, aby webové stránky působily důvěryhodně [cit]https://blog.eshop-rychle.cz/duveryhodnost-bezpecnost-eshopu-https/[/cit].
 
 Doporučované základní úpravy pro obecné zvýšení důvěryhodnosti e-shopu:
 - propracovaný design webu, aktualizovaný jednoduchý přehledný a nepříliš agresivní vzhled,
 - vizuální kontakt s člověkem nebo maskotem,
 - aktuálnost e-shopu,
 - zakomponování bezpečnostního symbolu,
-- přidání možnosti snadného kontaktu.
-https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/
+- přidání možnosti snadného kontaktu [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit]
 
-_„Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás“_
-https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/
+_„Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás“_ [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit].
 
 ## Hypertext Markup Language – HTML
-HTML je značkovací jazyk pro hypertext. Je jedním z jazyků, které umožňují vytvářet dokumenty, které je pak možné publikovat na internetu. Je definován množinou značek a jejich atributů. Mezi značky se uzavírají části textu a tím se určuje význam obsaženého textu. Jednotlivé značky se uzavírají mezi úhlové závorky „<“ a „>“. Součástí elementu mohou být v obsahu další vnořené elementy. Pomocí atributů se elementu doplňují informace, které definují vlastnosti elementu (15).
+HTML je značkovací jazyk pro hypertext. Je jedním z jazyků, které umožňují vytvářet dokumenty, které je pak možné publikovat na internetu. Je definován množinou značek a jejich atributů. Mezi značky se uzavírají části textu a tím se určuje význam obsaženého textu. Jednotlivé značky se uzavírají mezi úhlové závorky „<“ a „>“. Součástí elementu mohou být v obsahu další vnořené elementy. Pomocí atributů se elementu doplňují informace, které definují vlastnosti elementu [cit]Slovník - HTML. STARGEN [online]. Praha, 2009 [cit. 2016-04-01]. Dostupné z:
+http://www.stargen.cz/slovnik/HTML/[/cit].
 
-Značky neboli „tagy“ mohou být párové a nepárové. Párové značky se uzavírají koncovou značkou, která je shodná s počáteční, akorát se před názvem vpisuje znak lomítka „/“ (15).
+Značky neboli „tagy“ mohou být párové a nepárové. Párové značky se uzavírají koncovou značkou, která je shodná s počáteční, akorát se před názvem vpisuje znak lomítka „/“ [cit]Slovník - HTML. STARGEN [online]. Praha, 2009 [cit. 2016-04-01]. Dostupné z:
+http://www.stargen.cz/slovnik/HTML/[/cit].
 
 ## CSS
 CSS (Cascading Style Sheets - kaskádové styly) je zápis, který určuje vzhled (barvy, dekorační obrázky, rozmístění prvků) HTML dokumentu.
