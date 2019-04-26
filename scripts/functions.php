@@ -21,6 +21,13 @@ function baseDir(): string
     return realpath(__DIR__ . '/../');
 }
 
+function loadClasses()
+{
+    foreach (glob(baseDir() . '/convertor/*.php') as $file) {
+        require_once $file;
+    }
+}
+
 /**
  * @param string $path
  */
