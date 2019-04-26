@@ -52,7 +52,7 @@ Definice statické webové stránky. <a href="http://Myartse.com">Myartse.com</a
 <h2 id="e-business">E-business</h2>
 <p><em>„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely.“</em><br>
 TODO: SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.</p>
-<p>TODO: části elektronického podnikání</p>
+<p><img src="https://hanabrand.cz/temp/dp/e-commerce-skupiny.png" alt="Části elektronického podnikání, zdroj: vlastní zpracování dle TODO: SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2."></p>
 <h3 id="e-commerce">E-commerce</h3>
 <p>E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání).<br>
 <a href="http://www.adaptic.cz/znalosti/slovnicek/e-commerce/">http://www.adaptic.cz/znalosti/slovnicek/e-commerce/</a></p>
@@ -281,6 +281,9 @@ Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak je
 <p><a href="https://it-slovnik.cz/pojem/relacni-databaze/">https://it-slovnik.cz/pojem/relacni-databaze/</a></p>
 <p>Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky.<br>
 <a href="https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi">https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi</a></p>
+<h4 id="mysql">MySQL</h4>
+<p>MySQL je populární relační databázový systém, který je dostupný na většině dnešních webhostingů. Ačkoli funguje s mnoha různými programovacími jazyky, je často používán s PHP.<br>
+TODO: TARR, A. PHP and MySQL: 24-Hour Trainer. 1st ed. Indianapolis: John Wiley &amp; Sons, 2012. 504 p. ISBN 978-1-118-06688-1.</p>
 <h2 id="správa-verzí">Správa verzí</h2>
 <p>Správa verzí je systém, který zaznamenává změny souborů v průběhu času a uživatel má možnost obnovit jejich konkrétní verzi. Lze provádět na téměř jakémkoli typu souboru. Umožňuje vrátit jednotlivé soubory do předchozího stavu, porovnávat změny, kdo je autorem jaké verze a mnoho dalšího. Lze tedy snadno získat ztracené soubory nebo vrátit nežádané úpravy.<br>
 <a href="https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD">https://git-scm.com/book/cs/v1/Úvod-Správa-verzí</a></p>
