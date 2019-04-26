@@ -288,7 +288,7 @@ _„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Ře
 
 Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
-![Znázornění architektury MVC, zdroj: https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
+![Znázornění architektury MVC, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit]](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
 
 ### Model
 Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
@@ -366,7 +366,7 @@ Funkce Composeru:
 Satis je open source generátor statického Composer repositáře. Je to ultralehké řešení, které umožňuje hostování metadata privátních balíčků (repositářů) [cit]https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md[/cit].
 
 ## Nette Framework
-![Logo Nette Framework, zdroj: https://nette.org/cs/logo](https://files.nette.org/git/www/nette-logo-blue.png)
+![Logo Nette Framework, zdroj: [cit]https://nette.org/cs/logo[/cit]](https://files.nette.org/git/www/nette-logo-blue.png)
 _„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost“_ [cit]https://nette.org/cs/[/cit].
 
 Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá spistředit se na kreativní stránku vývoje [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
@@ -377,7 +377,7 @@ Nette Framework používají významné společnosti jako třeba T-Systems, GE M
 Nittro je JavaScriptový framework na straně klienta, speciálně vytvořený pro Nette aplikace. Vytváří kompletní AJAXem řízené stránky. Stará se o základní funkcionality, jako jsou aktualizace sekcí na stránce, aktualizace historie prohlížeče, zobrazování animací během načítání obsahu, validace formuláře na klientské straně, AJAX upload, zobrazování systémových zpráv a další. Lze do Nette aplikace snadno aplikovat a neobsahuje žádné závislosti na další JavaScriptové knihovny [cit]https://github.com/nittro/nittro[/cit].
 
 ## Doctrine 2
-![Logo Doctrine, zdroj: https://www.biostatistika.cz/index.php?pg=produkty--clade-is](https://www.biostatistika.cz/res/image/technology-mix/doctrine_logo.png)
+![Logo Doctrine, zdroj: [cit]https://www.biostatistika.cz/index.php?pg=produkty--clade-is[/cit]](https://www.biostatistika.cz/res/image/technology-mix/doctrine_logo.png)
 Doctrine 2 je objektově-relační mapovač (ORM) pro PHP 7.1+, který zajišťuje transparentní ukládání pro objekty PHP. V jádře využívá model datového mapovače, jehož cílem je úplné oddělení domény (obchodní logiky) od logiky ukládání dat do relační databáze [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 Výhodou Doctrine pro programátora je schopnost soustředit se na objektově orientovanou obchodní logiku a starat se o ukládání dat do relační databáze pouze jako sekundární problém. Ukládání dat do relační databáze je tedy zcela řešeno pomocí Doctrine [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
@@ -389,7 +389,7 @@ _„Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. K
 Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha požadavků pomocí jedinečného identifikátoru nebo primárního klíče. Tyto třídy nepotřebují rozšířit žádnou abstraktní základní třídu nebo rozhraní. Třída entity nesmí být konečná nebo nesmí obsahovat konečné metody [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 ## Elasticsearch
-![Logo ElasticsWearch, zdroj: https://www.elastic.co/brand](https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt05047fdbe3b9c333/5c11ec1f3312ce2e785d9c30/logo-elastic-elasticsearch-lt.svg)
+![Logo ElasticsWearch, zdroj: [cit]https://www.elastic.co/brand[/cit]](https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt05047fdbe3b9c333/5c11ec1f3312ce2e785d9c30/logo-elastic-elasticsearch-lt.svg)
 Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 Pár vzorových případů pro využití Elasticsearch:
@@ -454,9 +454,9 @@ _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostensk
 ## Značka HanaBrand
 V rámci podnikatelské činnosti podniku vznikla v roce 2015 značka HanaBrand. Pod touto značkou jsou označovány všechny výrobky podniku.
 
-![Logo HanaBrand používané převážně na výrobcích](https://hanabrand.cz/temp/dp/fb_logo_transp_big_black_transp_halfly.png)
+![Logo HanaBrand používané převážně na výrobcích, zdroj: živnostníkovy interní materiály](https://hanabrand.cz/temp/dp/fb_logo_transp_big_black_transp_halfly.png)
 
-![Zjednodušená varianta loga HanaBrand](https://hanabrand.cz/temp/dp/logo-miniaturni.png)
+![Zjednodušená varianta loga HanaBrand, zdroj živnostníkovy interní materiály](https://hanabrand.cz/temp/dp/logo-miniaturni.png)
 
 ## Nabízené produkty a služby
 Společnost pod značkou HanaBrand nabízí produkty vlastní výroby, které jsou vyrobeny z certifikovaných materiálů českého původu. Mezi tyto produkty patří například:
@@ -468,7 +468,7 @@ Společnost pod značkou HanaBrand nabízí produkty vlastní výroby, které js
 - chňapky,
 - pánské kuchyňské zástěry.
 
-![Poměr obratu v jednotlivých kategoriích na e-shopu v roce 2018, zdroj: interní podnikové dokumenty](https://hanabrand.cz/temp/dp/pomer-obratu-kategorii.png)
+![Poměr obratu v jednotlivých kategoriích na e-shopu v roce 2018, zdroj: interní živnostníkovy dokumenty](https://hanabrand.cz/temp/dp/pomer-obratu-kategorii.png)
 Mimo produkty také podnik nabízí službu zakázkového šití.
 	
 ## Obchodní vztahy
