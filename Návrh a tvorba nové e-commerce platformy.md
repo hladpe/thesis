@@ -52,6 +52,8 @@ Definice statické webové stránky. <a href="http://Myartse.com">Myartse.com</a
 <h2 id="e-commerce">E-commerce</h2>
 <p>E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání).<br>
 <a href="http://www.adaptic.cz/znalosti/slovnicek/e-commerce/">http://www.adaptic.cz/znalosti/slovnicek/e-commerce/</a></p>
+<p>Pro e-commerce jsou důležité digitální obchodní transakce mezi organizacemi a mezi jednotlivci. Digitální transakce zahrnují všechny transakce zprostředkované prostřednictvím digitálních technologií. Z velké části to jsou transakce, ke kterým dochází přes internet. Obchodní transakce zahrnují výměnu hodnoty (např. peněz) přes organizační nebo individuální hranice za produkty a služby. Výměna hodnoty je důležitá pro pochopení hranic elektronického obchodu - bez výměny hodnoty nedochází k žádnému obchodu.<br>
+TODO: LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Society. 12th ed. New Jersey: Pearson, 2016. 912 p. ISBN 978-0-133-93895-1.</p>
 <h3 id="e-shop">E-shop</h3>
 <p>E-shop je elektronický internetový obchod v podobě speciální webové aplikace, která slouží ke zprostředkování obchodních transakcí prostřednictvím internetu.<br>
 <a href="http://www.adaptic.cz/znalosti/slovnicek/e-shop/">http://www.adaptic.cz/znalosti/slovnicek/e-shop/</a></p>
@@ -204,6 +206,10 @@ Definice statické webové stránky. <a href="http://Myartse.com">Myartse.com</a
 <a href="https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/">https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/</a></p>
 <h2 id="hypertext-preprocesor-–-php">Hypertext Preprocesor – PHP</h2>
 <p>„<em>PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor</em>_”_ (17).</p>
+<p>Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9% webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách.<br>
+TODO: HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.</p>
+<p>Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty.<br>
+TODO: HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.</p>
 <p>Oficiální stránky PHP se nacházení na <a href="http://www.php.net">www.php.net</a> (20).</p>
 <h3 id="interpretace-jazyka">Interpretace jazyka</h3>
 <p>PHP je imperativní (procedurální) interpretovaný multiparadigmatický programovací jazyk (19).<br>
