@@ -49,7 +49,11 @@ Definice statické webové stránky. <a href="http://Myartse.com">Myartse.com</a
 <p>Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: <a href="http://it-slovnik.cz/pojem/hypertext">http://it-slovnik.cz/pojem/hypertext</a></p>
 <h2 id="seo">SEO</h2>
 <p>TODO: SEO</p>
-<h2 id="e-commerce">E-commerce</h2>
+<h2 id="e-business">E-business</h2>
+<p><em>,Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely."</em><br>
+TODO: SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.</p>
+<p>TODO: části elektronického podnikání</p>
+<h3 id="e-commerce">E-commerce</h3>
 <p>E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání).<br>
 <a href="http://www.adaptic.cz/znalosti/slovnicek/e-commerce/">http://www.adaptic.cz/znalosti/slovnicek/e-commerce/</a></p>
 <p>Pro e-commerce jsou důležité digitální obchodní transakce mezi organizacemi a mezi jednotlivci. Digitální transakce zahrnují všechny transakce zprostředkované prostřednictvím digitálních technologií. Z velké části to jsou transakce, ke kterým dochází přes internet. Obchodní transakce zahrnují výměnu hodnoty (např. peněz) přes organizační nebo individuální hranice za produkty a služby. Výměna hodnoty je důležitá pro pochopení hranic elektronického obchodu - bez výměny hodnoty nedochází k žádnému obchodu.<br>
