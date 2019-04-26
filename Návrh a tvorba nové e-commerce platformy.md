@@ -650,48 +650,39 @@ Dané požadavky společnosti lze splnit pomocí různých dostupných řešení
 - vlastní řešení,
 -  open-source řešení,
 -  řešení na míru,
--  pronájem.
-TODO: https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+-  pronájem [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 ### Vlastní řešení 
-Výhodou vlastního řešení je ta, že všechny funkce systému budou pod kontrolou. Když bude potřeba něco změnit, nemusí se na nikoho čekat nebo někomu platit, prostě lze danou funkci do systému doplnit. Dané řešení navíc bude vyřešené na míru konkrétním potřebám dané společnosti.
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+Výhodou vlastního řešení je ta, že všechny funkce systému budou pod kontrolou. Když bude potřeba něco změnit, nemusí se na nikoho čekat nebo někomu platit, prostě lze danou funkci do systému doplnit. Dané řešení navíc bude vyřešené na míru konkrétním potřebám dané společnosti [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
-Nevýhodou toho řešení je ale vysokým nákladem v podobě velkého počtu stráveného časem při vývoji. Pokud je vývojář daného řešení zároveň majitelem obchodu, doporučuje se spíše investovat strávený čas do samotného rozvoje podnikání, než tvorbou platformy. Pro vývoj vlastní platformy je také vhodné mít již zkušenosti s vývojem e-commerce řešení.
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+Nevýhodou toho řešení je ale vysokým nákladem v podobě velkého počtu stráveného časem při vývoji. Pokud je vývojář daného řešení zároveň majitelem obchodu, doporučuje se spíše investovat strávený čas do samotného rozvoje podnikání, než tvorbou platformy. Pro vývoj vlastní platformy je také vhodné mít již zkušenosti s vývojem e-commerce řešení [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 **Výhody**
 - nulové finanční náklady,
 - řešení přesně podle potřeb,
-- žádná vazba na poskytovatele,
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+- žádná vazba na poskytovatele [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 **Nevýhody**
 - velké časové náklady,
 - nutnost know-how,
-- uvázání se k vývoji,
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+- uvázání se k vývoji [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 ### Open-source řešení
-Poměrně často se lze na internetu setkat s open-source e-shopovými řešeními. Jejich zdrojové soubory jsou volně ke stažení a systém lze po instalaci na hostingu zprovoznit. Spuštění systému je tedy poměrně velice rychlé. Většinou pro tato řešení zároveň existují různé doplňky od jiných vývojářů (například platba kartou), je tedy možné systém s jejich pomocí customizovat a dále rozšiřovat.
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+Poměrně často se lze na internetu setkat s open-source e-shopovými řešeními. Jejich zdrojové soubory jsou volně ke stažení a systém lze po instalaci na hostingu zprovoznit. Spuštění systému je tedy poměrně velice rychlé. Většinou pro tato řešení zároveň existují různé doplňky od jiných vývojářů (například platba kartou), je tedy možné systém s jejich pomocí customizovat a dále rozšiřovat [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
-Problémem tohoto řešení je, že systém musí být univerzálním řešením pro tisíce obchodníků, tudíž v zásadě nebude systém v základním nastavení vyhovovat individuálním potřebám podniku a bude nutné ho tedy naprosto vždy upravit a doplnit chybějící funkce. Bohužel zároveň většina open-source řešení tohoto typu má velmi špatnou kvalitu zdrojového kódu a mnohdy je i zázrakem, že dané řešení nějakým způsobem vůbec funguje. Některá řešení jsou navíc neuvěřitelně náročná na výkon serveru. Takováto řešení navíc často nedokážou naplnit očekávání dle českých specifik (například práci s dvojí hladinou DPH nebo vystavení faktury dle našich zvyklostí).
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+Problémem tohoto řešení je, že systém musí být univerzálním řešením pro tisíce obchodníků, tudíž v zásadě nebude systém v základním nastavení vyhovovat individuálním potřebám podniku a bude nutné ho tedy naprosto vždy upravit a doplnit chybějící funkce. Bohužel zároveň většina open-source řešení tohoto typu má velmi špatnou kvalitu zdrojového kódu a mnohdy je i zázrakem, že dané řešení nějakým způsobem vůbec funguje. Některá řešení jsou navíc neuvěřitelně náročná na výkon serveru. Takováto řešení navíc často nedokážou naplnit očekávání dle českých specifik (například práci s dvojí hladinou DPH nebo vystavení faktury dle našich zvyklostí) [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 **Výhody**
 - zdarma
 - okamžitě k použití
-- někdy velké komunity pro vývoj dalších funkcí
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+- někdy velké komunity pro vývoj dalších funkcí [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 **Nevýhody**
 - často dost špatná kvalita kódu
 - náročnost na hosting
 - tuctový vzhled obchodu
 - často nevhodné pro české podmínky
-- zbytečné funkce
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+- zbytečné funkce [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 Mezi tato řešení patří například:
 - WooCommerce,
@@ -700,30 +691,24 @@ Mezi tato řešení patří například:
 - Magento Open Source,
 - OpenCart,
 - PrestaShop,
-- a další.
-https://ecommerce-platforms.com/articles/open-source-ecommerce-platforms
+- a další [cit]https://ecommerce-platforms.com/articles/open-source-ecommerce-platforms[/cit].
 
 ### Řešení na míru
 Řešení na míru vznikne tak, že externí společnost vytvoří e-shopové řešení od základů přesně podle požadavků a představ zadavatele. Většinou se vyplatí až pro velké obchody, které mají speciální požadavky a do budoucna je potřeba počítat s náklady na servis.
 
 **Výhody**
 - odladěné funkce
-- vytvoření přesně podle požadavků
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+- vytvoření přesně podle požadavků [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 **Nevýhody**
-- velmi vysoká cena
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+- velmi vysoká cena [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 ### Pronájem
-Princip pronajímaného řešení je ten, že dodavatel poskytuje řešení e-shopu obchodníkovi a ten mu za jeho využívání platí měsíční paušál. 
-https://www.souki.cz/jak-reseni-eshopu-si-vybrat
+Princip pronajímaného řešení je ten, že dodavatel poskytuje řešení e-shopu obchodníkovi a ten mu za jeho využívání platí měsíční paušál [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
-Mezi výhody tohoto řešení patří cena. Ta se dnes pohybuje v rozmezí stovek korun za měsíční pronájem řešení se základní funkcionalitou. I u tohoto řešení platí, že čím náročnější potřeby a požadavky na řešení, tím vyšší cena za pronájem. Mezi výhody dále patří rychlost spuštění obchodu a pokud poskytovatel tyto služby nabízí, tak i zákaznická podpora a průběžný vývoj.
-https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/
+Mezi výhody tohoto řešení patří cena. Ta se dnes pohybuje v rozmezí stovek korun za měsíční pronájem řešení se základní funkcionalitou. I u tohoto řešení platí, že čím náročnější potřeby a požadavky na řešení, tím vyšší cena za pronájem. Mezi výhody dále patří rychlost spuštění obchodu a pokud poskytovatel tyto služby nabízí, tak i zákaznická podpora a průběžný vývoj [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
 
-Nevýhodami tohoto řešení jsou limity platformy a platí tedy, že mnohdy se obchodník musí přizpůsobovat e-shopu a ne e-shop obchodníkovi. Při dokupování nadstandardních modulů a úpravách na míru navíc roste i cena řešení (jeho hlavní výhoda). Další nevýhodou je menší možnost úprav a jistá šablonovanost e-shopu. Díky tomu tohto řešení není vhodné pro střední a velké e-shopy, které vyžadují spíše robustnější e-shopový systém.
-https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/
+Nevýhodami tohoto řešení jsou limity platformy a platí tedy, že mnohdy se obchodník musí přizpůsobovat e-shopu a ne e-shop obchodníkovi. Při dokupování nadstandardních modulů a úpravách na míru navíc roste i cena řešení (jeho hlavní výhoda). Další nevýhodou je menší možnost úprav a jistá šablonovanost e-shopu. Díky tomu tohto řešení není vhodné pro střední a velké e-shopy, které vyžadují spíše robustnější e-shopový systém [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
 
 ### Výsledek průzkumu
 Společnost má za sebou již od roku 2015 zkušenosti s různými e-shopovými řešeními a v kombinaci s vyhotoveným průzkumem dostupných řešení lze vyvodit závěr, že bude pro tuto konkrétní společnost bude vhodné realizovat řešení na míru, přesně dle požadavků společnosti.
@@ -1034,6 +1019,15 @@ Komponentový model systému je rozšířen o logiku vyhledání šablony pro ko
 // TODO
 
 ### Statická analýza kódu
+// TODO
+
+#### Jarvis App
+// TODO
+
+#### Jarvis Core
+// TODO
+
+#### Jarvis Shop
 // TODO
 
 ### Plánovaný rozvoj
