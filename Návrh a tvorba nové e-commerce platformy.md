@@ -212,245 +212,207 @@ Značky neboli „tagy“ mohou být párové a nepárové. Párové značky se 
 http://www.stargen.cz/slovnik/HTML/[/cit].
 
 ## CSS
-CSS (Cascading Style Sheets - kaskádové styly) je zápis, který určuje vzhled (barvy, dekorační obrázky, rozmístění prvků) HTML dokumentu.
-http://www.pestujemeweb.cz/obsah/css/co-je-css.php
+CSS (Cascading Style Sheets - kaskádové styly) je zápis, který určuje vzhled (barvy, dekorační obrázky, rozmístění prvků) HTML dokumentu [cit]http://www.pestujemeweb.cz/obsah/css/co-je-css.php[/cit].
 
 ### CSS Preprocesor
-CSS nenabízí možnost jak strukturovat styly uvnitř souboru. Vždy musí být uveden jeden nebo více CSS selektorů, po kterých musí následovat blok s výčtem vlastností, které se mají pro dané selektory aplikovat. Díky tomu mohou vznikat dlouhé řetězce selektorů. CSS také nenabízí možnost využití proměnných, například pro aplikaci hodnot, které se ve stylech opakují. CSS preprocesory tyto a další nedostatky obyčejného CSS eliminují a poskytují mnohem více funkcí, než klasické CSS. Ve výsledku je pak zápis přeložen do klasického CSS tak, aby mohlo být využitelné pro nastylování HTML dokumentu.
-https://www.itnetwork.cz/html-css/webdesign/less-css-preprocesor
+CSS nenabízí možnost jak strukturovat styly uvnitř souboru. Vždy musí být uveden jeden nebo více CSS selektorů, po kterých musí následovat blok s výčtem vlastností, které se mají pro dané selektory aplikovat. Díky tomu mohou vznikat dlouhé řetězce selektorů. CSS také nenabízí možnost využití proměnných, například pro aplikaci hodnot, které se ve stylech opakují. CSS preprocesory tyto a další nedostatky obyčejného CSS eliminují a poskytují mnohem více funkcí, než klasické CSS. Ve výsledku je pak zápis přeložen do klasického CSS tak, aby mohlo být využitelné pro nastylování HTML dokumentu [cit]https://www.itnetwork.cz/html-css/webdesign/less-css-preprocesor[/cit].
 
-Mezi CSS preprocesory patří například LESS nebo Sass.
-https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/
+Mezi CSS preprocesory patří například LESS nebo Sass [cit]https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/[/cit].
 
 ## Hypertext Preprocesor – PHP
-„_PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor__”_ (17).
+„_PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]PHP /základy/. Tvorba-webu.cz [online]. 2005 [cit. 2016-04-01]. Dostupné z:
+http://www.tvorba-webu.cz/php/[/cit].
 
-Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9% webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách.
-TODO: HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.
+Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9% webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
-Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty.
-TODO: HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.
+Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
-Oficiální stránky PHP se nacházení na www.php.net (20).
+Oficiální stránky PHP se nacházení na www.php.net [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné
+z: http://k-prog.wz.cz/progjaz/[/cit].
 
 ### Interpretace jazyka
 PHP je imperativní (procedurální) interpretovaný multiparadigmatický programovací jazyk (19).
 Imperativní programovací jazyk je jazyk, který k řešení úlohy tedy využívá algoritmu (postup, jak se má daná úloha vyřešit) (19).
 
-Interpretovaný programovací jazyk je jazyk, který je do strojového kódu překládán až za běhu programu (tím se liší od kompilovaných, kde se před spuštěním musí zdrojový kód překompilovat pomocí kompilátoru do strojového kódu a až potom spuštěn). Zdrojový kód se za běhu překládá pomocí interpretu a ten příkazy při překladu zároveň provádí (po částech) (20).
-Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak jedno programovací paradigma (19).
+Interpretovaný programovací jazyk je jazyk, který je do strojového kódu překládán až za běhu programu (tím se liší od kompilovaných, kde se před spuštěním musí zdrojový kód překompilovat pomocí kompilátoru do strojového kódu a až potom spuštěn). Zdrojový kód se za běhu překládá pomocí interpretu a ten příkazy při překladu zároveň provádí (po částech) [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné
+z: http://k-prog.wz.cz/progjaz/[/cit].
+Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak jedno programovací paradigma [cit]VORÁČEK, Jan. Skriptovací jazyky pro tvorbu webových aplikací. Pardubice, Dostupné také z: http://blog.voracek.net/wp-content/uploads/2013/09/JanVoracek_SkriptovaciJazykyProTvorbuWebovychAplikaci.pdf. Diplomová práce. Univerzita Pardubice. Vedoucí práce Ing. Michael Bažant, Ph.D.[/cit].
 
-Programovacím paradigmem si lze představit základní programovací styl, ve kterém je program naprogramován. Rozdíl je v pojmech a abstrakcích, které tvoří prvky programu (objekty, funkce, proměnné, omezení atd.). Programovací paradigma rozlišujeme na: aspektově orientované, deklarativní (funkcionální, logické), generické, imperativní, paralelní a strukturované (objektově orientované, rekurzivní) (21).
+Programovacím paradigmem si lze představit základní programovací styl, ve kterém je program naprogramován. Rozdíl je v pojmech a abstrakcích, které tvoří prvky programu (objekty, funkce, proměnné, omezení atd.). Programovací paradigma rozlišujeme na: aspektově orientované, deklarativní (funkcionální, logické), generické, imperativní, paralelní a strukturované (objektově orientované, rekurzivní) [cit]Programovací MEDIACENTRUM paradigma. GROUP, Naprogramuj 2013 [cit. mi.cz [online]. 2016-04-01]. Brno-sever: Dostupné z: http://naprogramujmi.cz/programovaci-paradigma/[/cit].
 
 ### Možnosti jazyka
-PHP má spoustu možností pro práci, dokáže pracovat s databázemi, s velkým množstvím internetových protokolů (např. IMAP, POP3, SMTP atd.), dokáže vytvářet (editovat) soubory a obsahuje spoustu funkcí na zpracování řetězců. PHP je zdarma a volně šiřitelné (20).
+PHP má spoustu možností pro práci, dokáže pracovat s databázemi, s velkým množstvím internetových protokolů (např. IMAP, POP3, SMTP atd.), dokáže vytvářet (editovat) soubory a obsahuje spoustu funkcí na zpracování řetězců. PHP je zdarma a volně šiřitelné [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné
+z: http://k-prog.wz.cz/progjaz/[/cit].
 
 ## JavaScript
-JavaScript je multiplatformní a objektově orientovaný, odlehčený skriptovací jazyk, který se spouští na hostovaném zařízení (např. webový prohlížeč). Může se vázat na objekty hostovaného prostředí a může tak poskytovat prostředky pro jejich ovládání (22).
+JavaScript je multiplatformní a objektově orientovaný, odlehčený skriptovací jazyk, který se spouští na hostovaném zařízení (např. webový prohlížeč). Může se vázat na objekty hostovaného prostředí a může tak poskytovat prostředky pro jejich ovládání [cit]Introduction – JavaScript. MDN [online]. 2015 [cit. 2016-12-12]. Dostupné z: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction[/cit].
 
-Neobsahuje statické typování proměnných, ani silnou typovou kontrolu jako v některých jiných programovacích jazycích (22).
+Neobsahuje statické typování proměnných, ani silnou typovou kontrolu jako v některých jiných programovacích jazycích [cit]Introduction – JavaScript. MDN [online]. 2015 [cit. 2016-12-12]. Dostupné z: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction[/cit].
 
-Umožňuje manipulovat s prvky webové stránky pro její oživení. Je tedy základem dynamického webu (23).
+Umožňuje manipulovat s prvky webové stránky pro její oživení. Je tedy základem dynamického webu [cit]JavaScript. Tvorba-webu.cz [online]. 2006 [cit. 2016-12-11]. Dostupné z: http://www.tvorba-webu.cz/javascript/[/cit].
 
 ### Asynchronous JavaScript and XML – AJAX
-AJAX (česky „asynchronní JavaScript a XML“) je populární způsob pro tvorbu vysoce interaktivních aplikací. Základní princip je aktualizovat pouze části stránky bez nutnosti načítání a vykreslování celé stránky (26).
+AJAX (česky „asynchronní JavaScript a XML“) je populární způsob pro tvorbu vysoce interaktivních aplikací. Základní princip je aktualizovat pouze části stránky bez nutnosti načítání a vykreslování celé stránky [cit]KOSEK, Jiří. PHP a XML. Vyd. 1. Praha: Grada, 2009. ISBN 978-80-247-1116-4.[/cit].
 
-_„AJAX však dovoluje poslat pomocí JavaScriptu separátní HTTP požadavek a data, která nám server vrátí, pak můžeme v JavaScriptu libovolně dále zpracovávat – např. je pomocí DOM zaintegrovat do právě zobrazované stránky. Lze tak interaktivně aktualizovat pouze část stránky”_ (26).
+_„AJAX však dovoluje poslat pomocí JavaScriptu separátní HTTP požadavek a data, která nám server vrátí, pak můžeme v JavaScriptu libovolně dále zpracovávat – např. je pomocí DOM zaintegrovat do právě zobrazované stránky. Lze tak interaktivně aktualizovat pouze část stránky”_ [cit]KOSEK, Jiří. PHP a XML. Vyd. 1. Praha: Grada, 2009. ISBN 978-80-247-1116-4.[/cit].
 
 
 ## Objektové programování
-_„Objektově orientované programování (dále jen OOP) nevzniklo náhodou, ale je důsledkem vývoje, který k němu směřoval. Jedná se o moderní metodiku vývoje softwaru, kterou podporuje většina programovacích jazyků. Častou chybou je, že se lidé domnívají, že OOP se využívá pouze při psaní určitého druhu programů a jinak je na škodu. Opak je pravdou – OOP je filosofie, je to nový pohled na funkci programu a komunikaci mezi jeho jednotlivými částmi. Mělo by se používat vždy, ať už děláme malou utilitku nebo složitý databázový systém. OOP není jen technika nebo nějaká doporučená struktura programu, je to hlavně nový způsob myšlení, nový náhled na problémy a nová éra ve vývoji softwaru”_ (27).
+_„Objektově orientované programování (dále jen OOP) nevzniklo náhodou, ale je důsledkem vývoje, který k němu směřoval. Jedná se o moderní metodiku vývoje softwaru, kterou podporuje většina programovacích jazyků. Častou chybou je, že se lidé domnívají, že OOP se využívá pouze při psaní určitého druhu programů a jinak je na škodu. Opak je pravdou – OOP je filosofie, je to nový pohled na funkci programu a komunikaci mezi jeho jednotlivými částmi. Mělo by se používat vždy, ať už děláme malou utilitku nebo složitý databázový systém. OOP není jen technika nebo nějaká doporučená struktura programu, je to hlavně nový způsob myšlení, nový náhled na problémy a nová éra ve vývoji softwaru”_ [cit]ČAPKA, David. 1. díl - Úvod do objektově orientovaného programování v PHP. Itnetwork.cz [online]. 2013 [cit. Dostupné 2016-04-01]. z: http://www.itnetwork.cz/php/oop/php-tutorial-uvod-do-objektove-orientovaneho- programovani[/cit].
 
-Objektem je myšlen soubor dat a funkcí, čímž je patrný velký rozdíl objektového a strukturovaného programování, kdy strukturované od sebe přísně odděluje data a funkce (28).
+Objektem je myšlen soubor dat a funkcí, čímž je patrný velký rozdíl objektového a strukturovaného programování, kdy strukturované od sebe přísně odděluje data a funkce [cit]KOFLER, Michael a ÖGGL, Bernd, PHP 5 a MySQL 5: Průvodce webového programátora. Vyd. 1. Brno: Computer Press, 2007. ISBN 978-80-251-1813-9[/cit].
 
 ### Objekt
-Je základní jednotkou, která dokáže udržovat svůj stav a integrovat s okolím zasíláním a přijímáním zpráv (29).
+Je základní jednotkou, která dokáže udržovat svůj stav a integrovat s okolím zasíláním a přijímáním zpráv [cit]KULHAN, Jakub. OOP v PHP. Programujte.com [online]. 2009 [cit. 2016-04-01]. Dostupné z: http://programujte.com/clanek/2009113001-oop-v-php/[/cit].
 
 ### Atributy
-Atributy jsou vlastnosti neboli data (proměnné), která objekt v sobě uchovává. Někdy se o nich hovoří jako o vnitřních stavech objektu  (30).
+Atributy jsou vlastnosti neboli data (proměnné), která objekt v sobě uchovává. Někdy se o nich hovoří jako o vnitřních stavech objektu [cit]ČÁPKA, David. 2. díl - První objektová aplikace v PHP. Itnetwork.cz [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/php/oop/php-tutorial- prvni-objektova-aplikace[/cit].
 
 ### Metody
-Metody jsou schopnosti, které je objekt schopen vykonávat. Mohou mít parametry a mohou vracet hodnotu stejně jako funkce. Metoda se od funkce liší tím, že metoda patří objektu, zatímco funkce nepatří žádnému objektu (to je také problém neobjektového programování) (30).
+Metody jsou schopnosti, které je objekt schopen vykonávat. Mohou mít parametry a mohou vracet hodnotu stejně jako funkce. Metoda se od funkce liší tím, že metoda patří objektu, zatímco funkce nepatří žádnému objektu (to je také problém neobjektového programování) [cit]ČÁPKA, David. 2. díl - První objektová aplikace v PHP. Itnetwork.cz [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/php/oop/php-tutorial- prvni-objektova-aplikace[/cit].
 
 ### Třída
-Aby bylo možné vytvořit objekt, je nutné nejdříve vytvořit třídu. Třída je vzor, podle kterého se objekty vytvářejí, definuje vlastnosti a schopnosti. Objekt, který se vytvoří podle třídy, se nazývá instance. Instance mají stejné rozhraní jako třída, podle kterého se vytvoří, ale navzájem se liší svými atributy (30).
+Aby bylo možné vytvořit objekt, je nutné nejdříve vytvořit třídu. Třída je vzor, podle kterého se objekty vytvářejí, definuje vlastnosti a schopnosti. Objekt, který se vytvoří podle třídy, se nazývá instance. Instance mají stejné rozhraní jako třída, podle kterého se vytvoří, ale navzájem se liší svými atributy [cit]ČÁPKA, David. 2. díl - První objektová aplikace v PHP. Itnetwork.cz [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/php/oop/php-tutorial- prvni-objektova-aplikace[/cit].
 
 ## Framework
-Jedním z hlavních společných cílů při programování by měl být šetřit si práci. Toho dosahujeme použitím správných návrhů funkcí, metod a tříd, které lze uplatnit na více místech. Tohoto cíle lze také dosáhnout použitím existujících osvědčených a optimalizovaných knihoven a nástrojů (31).
+Jedním z hlavních společných cílů při programování by měl být šetřit si práci. Toho dosahujeme použitím správných návrhů funkcí, metod a tříd, které lze uplatnit na více místech. Tohoto cíle lze také dosáhnout použitím existujících osvědčených a optimalizovaných knihoven a nástrojů [cit]VRÁNA, Jakub. 1001 tipů a triků pro PHP. Vyd. 1. Brno: Computer Press, 2010. ISBN 978-80-251-2940-1.[/cit].
 
-Framework je ucelený soubor tematicky zaměřených knihoven, které ulehčují práci při programování aplikací. To zajišťuje psaní méně kódu, kód je přehlednější a rychlejší vývoj aplikace. Většina frameworků pracuje s architekturou MVC, která rozděluje aplikaci na nezávislé vrstvy (32).
+Framework je ucelený soubor tematicky zaměřených knihoven, které ulehčují práci při programování aplikací. To zajišťuje psaní méně kódu, kód je přehlednější a rychlejší vývoj aplikace. Většina frameworků pracuje s architekturou MVC, která rozděluje aplikaci na nezávislé vrstvy [cit]LÁNG, Peter. Co je to framework? Webárna [online]. 2007 [cit. 2016-04-01]. Dostupné z: http://langi.cz/webarna/co-je-to-framework[/cit].
 
-_„Z praktických zkušeností vám mohu s klidem říci, že pokud programujete v čistém PHP, tak je asi 50 % vašeho kódu nepotřebný balast. S použitím kvalitních knihoven napíšete aplikaci za polovinu času a s polovičním počtem řádků. Aplikace bude snadno udržovatelná a její tvorba vás bude bavit. Nebudete stále vynalézat kolo a řešit ty samé rutinní záležitosti (jako např. jak ověřit, zda je uživatel administrátor), budete se naopak věnovat vymýšlení zajímavých funkcí té dané aplikace a o tom programování přeci je“_ (33).
+_„Z praktických zkušeností vám mohu s klidem říci, že pokud programujete v čistém PHP, tak je asi 50 % vašeho kódu nepotřebný balast. S použitím kvalitních knihoven napíšete aplikaci za polovinu času a s polovičním počtem řádků. Aplikace bude snadno udržovatelná a její tvorba vás bude bavit. Nebudete stále vynalézat kolo a řešit ty samé rutinní záležitosti (jako např. jak ověřit, zda je uživatel administrátor), budete se naopak věnovat vymýšlení zajímavých funkcí té dané aplikace a o tom programování přeci je“_ [cit]ČÁPKA, David. 1. díl - Úvod do Nette frameworku pro PHP. Itnetwork.cz [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/php/nette/zaklady/uvod-do-php-frameworku-nette/[/cit].
 
 ## MVC architektura
-MVC architektura neboli architektura Model-View-Controller, je architektura budování aplikace, která oddělí aplikaci na 3 logické části (15).
+MVC architektura neboli architektura Model-View-Controller, je architektura budování aplikace, která oddělí aplikaci na 3 logické části [cit]Slovník - HTML. STARGEN [online]. Praha, 2009 [cit. 2016-04-01]. Dostupné z: http://www.stargen.cz/slovnik/HTML/[/cit].
 
-_„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Řeší tedy problém tzv. "špagetového kódu", kdy máme v jednom souboru (třídě) logické operace a zároveň renderování výstupu. Soubor tedy obsahuje databázové dotazy, logiku (např. PHP operace) a různě poházené HTML tagy. Vše je zamotané do sebe jako špagety. Kód se samozřejmě špatně udržuje, natož rozšiřuje“_ (34).
+_„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Řeší tedy problém tzv. "špagetového kódu", kdy máme v jednom souboru (třídě) logické operace a zároveň renderování výstupu. Soubor tedy obsahuje databázové dotazy, logiku (např. PHP operace) a různě poházené HTML tagy. Vše je zamotané do sebe jako špagety. Kód se samozřejmě špatně udržuje, natož rozšiřuje“_ [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
-Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) (34).
+Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
 ![Znázornění architektury MVC, zdroj: https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
 
 ### Model
-Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována (34).
+Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### View
-Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovaly opakování stejného kusu kódu v několika šablonách (34).
+Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovaly opakování stejného kusu kódu v několika šablonách [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### Controller
-Controller, lze přeložit jako ,,řadič".
-https://doc.nette.org/cs/2.4/presenters
+Controller, lze přeložit jako ,,řadič" [cit]https://doc.nette.org/cs/2.4/presenters[/cit].
 
-Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty (34).
+Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
 
 ## MVP architektura
-MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou ,,komunikaci" mezi pohledem a modelem pouze Presenter.
-https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/
+MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou ,,komunikaci" mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
 
-![Znázornění architektury MVP, zdroj: https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVP-Pattern.png)
+![Znázornění architektury MVP, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit]](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVP-Pattern.png)
 
 
 ## Databáze
-_„Databáze neboli datová základna (Data Base) je místo, kam se ukládají určitým způsobem organizované a strukturované údaje. Přístup k údajům uložených v databázi obstarává databázový systém, kterému se říká SŘBD – Systém Řízení Báze Dat (anglický termín DBMS – Database Management System). Běžně se označením databáze myslí jak uložená data, tak i software“_ (35).
+_„Databáze neboli datová základna (Data Base) je místo, kam se ukládají určitým způsobem organizované a strukturované údaje. Přístup k údajům uložených v databázi obstarává databázový systém, kterému se říká SŘBD – Systém Řízení Báze Dat (anglický termín DBMS – Database Management System). Běžně se označením databáze myslí jak uložená data, tak i software“_ [cit]Databáze. Misha [online]. 2011 [cit. 2016-12-12]. Dostupné z: http://www.databaze.chytrak.cz/[/cit].
 
-Slovem databáze běžně označujeme každý uspořádaný soubor dat (28).
+Slovem databáze běžně označujeme každý uspořádaný soubor dat [cit]KOFLER, Michael a ÖGGL, Bernd, PHP 5 a MySQL 5: Průvodce webového programátora. Vyd. 1. Brno: Computer Press, 2007. ISBN 978-80-251-1813-9[/cit].
 
-Databáze slouží primárně jako nástroj pro snadnější a efektivnější extrakci informací. Díky uspořádání se z dat stává přehledný systém informací, ze kterého se dají snadno čerpat informace a znalosti (36).
+Databáze slouží primárně jako nástroj pro snadnější a efektivnější extrakci informací. Díky uspořádání se z dat stává přehledný systém informací, ze kterého se dají snadno čerpat informace a znalosti [cit]HORÁK, M. Návrh informačního systému. Brno: Vysoké učení technické v Brně, Fakulta podnikatelská, 2015. 75 s. Vedoucí diplomové práce Ing. Petr Dydowicz, Ph.D.[/cit].
 
 Typy databází lze rozlišovat dle struktur. Mezi základní typy se řadí:
 - ploché,
 - hierarchické a síťové,
 - relační
-- objektové.
-https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi
+- objektové [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit].
 
 ### Relační databáze
-Relační databáze jsou v současnosti nejpoužívanějším typem databází.
-https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi
+Relační databáze jsou v současnosti nejpoužívanějším typem databází [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit].
 
-_„Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky.“_
+_„Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky“_ [cit]https://it-slovnik.cz/pojem/relacni-databaze/[/cit].
 
-https://it-slovnik.cz/pojem/relacni-databaze/
-
-Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky.
-https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi
+Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit]
 
 #### MySQL
-MySQL je populární relační databázový systém, který je dostupný na většině dnešních webhostingů. Ačkoli funguje s mnoha různými programovacími jazyky, je často používán s PHP.
-TODO: TARR, A. PHP and MySQL: 24-Hour Trainer. 1st ed. Indianapolis: John Wiley & Sons, 2012. 504 p. ISBN 978-1-118-06688-1.
+MySQL je populární relační databázový systém, který je dostupný na většině dnešních webhostingů. Ačkoli funguje s mnoha různými programovacími jazyky, je často používán s PHP [cit]TARR, A. PHP and MySQL: 24-Hour Trainer. 1st ed. Indianapolis: John Wiley & Sons, 2012. 504 p. ISBN 978-1-118-06688-1.[/cit].
 
 ## Správa verzí
-Správa verzí je systém, který zaznamenává změny souborů v průběhu času a uživatel má možnost obnovit jejich konkrétní verzi. Lze provádět na téměř jakémkoli typu souboru. Umožňuje vrátit jednotlivé soubory do předchozího stavu, porovnávat změny, kdo je autorem jaké verze a mnoho dalšího. Lze tedy snadno získat ztracené soubory nebo vrátit nežádané úpravy. 
-https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD
+Správa verzí je systém, který zaznamenává změny souborů v průběhu času a uživatel má možnost obnovit jejich konkrétní verzi. Lze provádět na téměř jakémkoli typu souboru. Umožňuje vrátit jednotlivé soubory do předchozího stavu, porovnávat změny, kdo je autorem jaké verze a mnoho dalšího. Lze tedy snadno získat ztracené soubory nebo vrátit nežádané úpravy [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
 ### Lokální systémy správy verzí
-Lokální systém správy verzí disponují jednoduchou lokální databází, ve které se uchovávají všechny změny souborů s nastavenou správou verzí. Jedním z oblíbených nástrojů tohoto typu byl systém "rcs". Tento nástroj pracuje tak, že uchovává ve speciálním formátu seznam změn mezi jednotlivými verzemi. Systém později může na základě porovnávání těchto změn vrátit jakýkoliv soubor do podoby, ve kterém byl v jakékoliv verzi. Toto řešení obsahuje to riziko, že pokud dojde k trvalé ztrátě databáze lokální správy verzí, dojde ke ztrátě celé historie projektu.
-https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD
+Lokální systém správy verzí disponují jednoduchou lokální databází, ve které se uchovávají všechny změny souborů s nastavenou správou verzí. Jedním z oblíbených nástrojů tohoto typu byl systém "rcs". Tento nástroj pracuje tak, že uchovává ve speciálním formátu seznam změn mezi jednotlivými verzemi. Systém později může na základě porovnávání těchto změn vrátit jakýkoliv soubor do podoby, ve kterém byl v jakékoliv verzi. Toto řešení obsahuje to riziko, že pokud dojde k trvalé ztrátě databáze lokální správy verzí, dojde ke ztrátě celé historie projektu [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
 ### Centralizované systémy správy verzí
-Centralizované systémy správy verzí mají oproti lokálním systémům tu výhodu, že řeší problematiku spolupráce s dalšími pracovníky v týmu. Mezi tyto systémy patří například CVS, Subversion nebo Perforce. Tyto systémy obsahují mimo lokální část i serverovou, která uchovává všechny verzované soubory. Z tohoto centrálního úložiště si potom soubory stahují jednotliví klienti.
-https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD
+Centralizované systémy správy verzí mají oproti lokálním systémům tu výhodu, že řeší problematiku spolupráce s dalšími pracovníky v týmu. Mezi tyto systémy patří například CVS, Subversion nebo Perforce. Tyto systémy obsahují mimo lokální část i serverovou, která uchovává všechny verzované soubory. Z tohoto centrálního úložiště si potom soubory stahují jednotliví klienti [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
-Oproti lokálním systémům mají mnoho výhod, například, že do určité míry vědí všichni účastníci projektu co kdo na projektu realizuje a administrátoři mají přesnou kontrolu nad jednotlivými právy. Díky tomu je i podstatně jednodušší spravovat centralizované systémy, než pracovat s lokálními databázemi na jednotlivých klientech.
-https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD
+Oproti lokálním systémům mají mnoho výhod, například, že do určité míry vědí všichni účastníci projektu co kdo na projektu realizuje a administrátoři mají přesnou kontrolu nad jednotlivými právy. Díky tomu je i podstatně jednodušší spravovat centralizované systémy, než pracovat s lokálními databázemi na jednotlivých klientech [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
-Bohužel tento koncept má závažné nedostatky. Mezi největší nedostatek tohoto systému je ten fakt, že pokud vypadne centrální server, nelze během výpadku buď pracovat vůbec nebo přinejmenším není možné ukládat změny ve verzích souborů. Pokud pak dojde ke zničení úložiště, na němž je uložena databáze centralizovaného systému správy verzí a toto úložiště není předem zálohované, dojde ke ztrátě všech dat (celé historie projektu) - podobně jako u lokálního systému správy verzí.
-https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD
+Bohužel tento koncept má závažné nedostatky. Mezi největší nedostatek tohoto systému je ten fakt, že pokud vypadne centrální server, nelze během výpadku buď pracovat vůbec nebo přinejmenším není možné ukládat změny ve verzích souborů. Pokud pak dojde ke zničení úložiště, na němž je uložena databáze centralizovaného systému správy verzí a toto úložiště není předem zálohované, dojde ke ztrátě všech dat (celé historie projektu) - podobně jako u lokálního systému správy verzí [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
 ### Distribuované systémy správy verzí
-V případě distribuovaných systémů správy verzí uživatelé ze serveru nestahují pouze nejnovější verzi souborů (snímek), ale uchovávají kompletní kopii celého repositáře. Pokud tedy dojde ke kolapsu serveru (i trvalému bez záloh), lze jej znovu obnovit zkopírováním repositáře od jakéhokoliv uživatele. Každá lokální kopie je pak plnohodnotnou zálohou všech dat. Mnoho systémů tohoto typu navíc dokáže pracovat i s několika vzdálenými repositáři, lze tedy v rámci jednoho projektu spolupracovat s několika skupinami lidí najednou. Mezi tyto systémy patří například Git, Mercurial, Bazaar nebo Darcs.
-https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD
+V případě distribuovaných systémů správy verzí uživatelé ze serveru nestahují pouze nejnovější verzi souborů (snímek), ale uchovávají kompletní kopii celého repositáře. Pokud tedy dojde ke kolapsu serveru (i trvalému bez záloh), lze jej znovu obnovit zkopírováním repositáře od jakéhokoliv uživatele. Každá lokální kopie je pak plnohodnotnou zálohou všech dat. Mnoho systémů tohoto typu navíc dokáže pracovat i s několika vzdálenými repositáři, lze tedy v rámci jednoho projektu spolupracovat s několika skupinami lidí najednou. Mezi tyto systémy patří například Git, Mercurial, Bazaar nebo Darcs [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
 ## Composer
-Composer je nástroj pro správu závislostí v PHP. Umožňuje deklarovat knihovny, na kterých váš projekt závisí, a bude je spravovat (instalovat / aktualizovat).
-https://getcomposer.org/doc/00-intro.md
+Composer je nástroj pro správu závislostí v PHP. Umožňuje deklarovat knihovny, na kterých váš projekt závisí, a bude je spravovat (instalovat / aktualizovat) [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
-Je nejdůležitějším nástrojem pro PHP vývojáře.
-https://phpfashion.com/composer-jak-na-ruzne-varianty-instalace
+Je nejdůležitějším nástrojem pro PHP vývojáře [cit]https://phpfashion.com/composer-jak-na-ruzne-varianty-instalace[/cit].
 
-_„Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit.“_
-https://www.itnetwork.cz/php/ostatni/composer
+_„Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit“_ [cit]https://www.itnetwork.cz/php/ostatni/composer[/cit].
 
  Předpoklady pro použití:
- - projekt závisí na jiných knihovnách
- - tyto knihovny závisí na dalších knihovnách
- - https://getcomposer.org/doc/00-intro.md
+ - projekt závisí na jiných knihovnách,
+ - tyto knihovny závisí na dalších knihovnách [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
 Funkce Composeru:
-- umožňuje deklarovat knihovny, na které je projekt vázán
-- zjistí, které verze balíčků mohou a musí být nainstalovány a nainstaluje je (což znamená, že je stáhne do projektu)
-- https://getcomposer.org/doc/00-intro.md
+- umožňuje deklarovat knihovny, na které je projekt vázán,
+- zjistí, které verze balíčků mohou a musí být nainstalovány a nainstaluje je (což znamená, že je stáhne do projektu) [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
 ### Satis
-Satis je open source generátor statického Composer repositáře. Je to ultralehké řešení, které umožňuje hostování metadata privátních balíčků (repositářů).
-https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md
+Satis je open source generátor statického Composer repositáře. Je to ultralehké řešení, které umožňuje hostování metadata privátních balíčků (repositářů) [cit]https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md[/cit].
 
 ## Nette Framework
 ![Logo Nette Framework, zdroj: https://nette.org/cs/logo](https://files.nette.org/git/www/nette-logo-blue.png)
-_„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost.“_
-https://nette.org/cs/
+_„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost“_ [cit]https://nette.org/cs/[/cit].
 
-Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá spistředit se na kreativní stránku vývoje.
-https://doc.nette.org/cs/2.4/getting-started
+Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá spistředit se na kreativní stránku vývoje [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
 
-Nette Framework používají významné společnosti jako třeba T-Systems, GE Money, Mladá fronta, DHL, Logio, ESET, Actum, Slevomat, Socialbakers, SUPRAPHON a další.
-
-https://doc.nette.org/cs/2.4/getting-started
+Nette Framework používají významné společnosti jako třeba T-Systems, GE Money, Mladá fronta, DHL, Logio, ESET, Actum, Slevomat, Socialbakers, SUPRAPHON a další [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
 
 ## Nittro
-Nittro je JavaScriptový framework na straně klienta, speciálně vytvořený pro Nette aplikace. Vytváří kompletní AJAXem řízené stránky. Stará se o základní funkcionality, jako jsou aktualizace sekcí na stránce, aktualizace historie prohlížeče, zobrazování animací během načítání obsahu, validace formuláře na klientské straně, AJAX upload, zobrazování systémových zpráv a další. Lze do Nette aplikace snadno aplikovat a neobsahuje žádné závislosti na další JavaScriptové knihovny.
-https://github.com/nittro/nittro
+Nittro je JavaScriptový framework na straně klienta, speciálně vytvořený pro Nette aplikace. Vytváří kompletní AJAXem řízené stránky. Stará se o základní funkcionality, jako jsou aktualizace sekcí na stránce, aktualizace historie prohlížeče, zobrazování animací během načítání obsahu, validace formuláře na klientské straně, AJAX upload, zobrazování systémových zpráv a další. Lze do Nette aplikace snadno aplikovat a neobsahuje žádné závislosti na další JavaScriptové knihovny [cit]https://github.com/nittro/nittro[/cit].
 
 ## Doctrine 2
 ![Logo Doctrine, zdroj: https://www.biostatistika.cz/index.php?pg=produkty--clade-is](https://www.biostatistika.cz/res/image/technology-mix/doctrine_logo.png)
-Doctrine 2 je objektově-relační mapovač (ORM) pro PHP 7.1+, který zajišťuje transparentní ukládání pro objekty PHP. V jádře využívá model datového mapovače, jehož cílem je úplné oddělení domény (obchodní logiky) od logiky ukládání dat do relační databáze.
-https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html
+Doctrine 2 je objektově-relační mapovač (ORM) pro PHP 7.1+, který zajišťuje transparentní ukládání pro objekty PHP. V jádře využívá model datového mapovače, jehož cílem je úplné oddělení domény (obchodní logiky) od logiky ukládání dat do relační databáze [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
-Výhodou Doctrine pro programátora je schopnost soustředit se na objektově orientovanou obchodní logiku a starat se o ukládání dat do relační databáze pouze jako sekundární problém. 
-Ukládání dat do relační databáze je tedy zcela řešeno pomocí Doctrine.
-https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html
+Výhodou Doctrine pro programátora je schopnost soustředit se na objektově orientovanou obchodní logiku a starat se o ukládání dat do relační databáze pouze jako sekundární problém. Ukládání dat do relační databáze je tedy zcela řešeno pomocí Doctrine [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 ### Entity
 
-_„Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. Každá entita reprezentuje nějaký objekt reálného světa, takzvaný doménový objekt. Jednu entitu tak budu mít definovanou pro článek, jinou pro kategorii, další pro uživatele.“_
-https://www.zdrojak.cz/clanky/doctrine-2-zakladni-definice-entit/
+_„Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. Každá entita reprezentuje nějaký objekt reálného světa, takzvaný doménový objekt. Jednu entitu tak budu mít definovanou pro článek, jinou pro kategorii, další pro uživatele“_ [cit]https://www.zdrojak.cz/clanky/doctrine-2-zakladni-definice-entit/[/cit].
 
-Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha požadavků pomocí jedinečného identifikátoru nebo primárního klíče. Tyto třídy nepotřebují rozšířit žádnou abstraktní základní třídu nebo rozhraní. Třída entity nesmí být konečná nebo nesmí obsahovat konečné metody.
-https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html
+Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha požadavků pomocí jedinečného identifikátoru nebo primárního klíče. Tyto třídy nepotřebují rozšířit žádnou abstraktní základní třídu nebo rozhraní. Třída entity nesmí být konečná nebo nesmí obsahovat konečné metody [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 ## Elasticsearch
 ![Logo ElasticsWearch, zdroj: https://www.elastic.co/brand](https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt05047fdbe3b9c333/5c11ec1f3312ce2e785d9c30/logo-elastic-elasticsearch-lt.svg)
-Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky.
-https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 Pár vzorových případů pro využití Elasticsearch:
 - díky uložení celého katalogu do Elasticsearch lze produkty vyhledávat a automaticky doplňovat vyhledávání v e-shopu,
 - shromažďování a následná analýza a vyhodnocování protokolů (hledání trendů, statistik,agregační funkce, vyhledávání anomálií),
-- řešení analytických a Business-inteligence potřeb a je kladen důraz na ryhlou analýzu a vizualizaci dat mezi miliony nebo miliardy záznamů.
-https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+- řešení analytických a Business-inteligence potřeb a je kladen důraz na ryhlou analýzu a vizualizaci dat mezi miliony nebo miliardy záznamů [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 ## Message broker
-MessageBroker je prostřední počítačový programový modul, který převádí zprávu z formálního protokolu zasílání odesílatele do formálního protokolu zasílání zpráv přijímače. Zprostředkovatelé zpráv jsou prvky v telekomunikačních nebo počítačových sítích, kde softwarové aplikace komunikují výměnou formálně definovaných zpráv.
-https://www.gartner.com/it-glossary/ib-integration-broker
+MessageBroker je prostřední počítačový programový modul, který převádí zprávu z formálního protokolu zasílání odesílatele do formálního protokolu zasílání zpráv přijímače. Zprostředkovatelé zpráv jsou prvky v telekomunikačních nebo počítačových sítích, kde softwarové aplikace komunikují výměnou formálně definovaných zpráv [cit]https://www.gartner.com/it-glossary/ib-integration-broker[/cit].
 
 
 ### RabbitMQ
-![Logo RabbitMQ, zdroj: https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
-RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost.
-https://www.rabbitmq.com/
+![Logo RabbitMQ, zdroj: [cit]https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c[/cit]](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
+RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
 
 ## Virtualizace
-_"Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače.“_
-[https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/](https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/)
+_"Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače“_ [cit]https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/[/cit].
 
 ### Vagrant
-Vagrant je nástroj pro vytváření a správu prostředí virtuálních počítačů. Poskytuje snadno konfigurovatelné, reprodukovatelné a přenosné pracovní prostředí postavené na špičkové technologii a řízené jediným konzistentním pracovním postupem, který pomáhá maximalizovat produktivitu jednotlivce i celého vývojového týmu.
-[https://www.vagrantup.com/intro/](https://www.vagrantup.com/intro/)
+Vagrant je nástroj pro vytváření a správu prostředí virtuálních počítačů. Poskytuje snadno konfigurovatelné, reprodukovatelné a přenosné pracovní prostředí postavené na špičkové technologii a řízené jediným konzistentním pracovním postupem, který pomáhá maximalizovat produktivitu jednotlivce i celého vývojového týmu [cit]https://www.vagrantup.com/intro/[/cit].
 
 ### Laravel Homestead
-Laravel Homestead je oficiální, předem zabalený Vagrant box, který poskytuje skvělé vývojové prostředí bez nutnosti instalace PHP, webového serveru a jakéhokoliv jiného serverového softwaru na lokálním počítači.
-[https://laravel.com/docs/5.8/homestead](https://laravel.com/docs/5.8/homestead)
+Laravel Homestead je oficiální, předem zabalený Vagrant box, který poskytuje skvělé vývojové prostředí bez nutnosti instalace PHP, webového serveru a jakéhokoliv jiného serverového softwaru na lokálním počítači [cit]https://laravel.com/docs/5.8/homestead[/cit].
 
 Aktuálně Laravel Homestead ve verzi 5.8 obsahuje například software:
 - Ubuntu 18.04,
@@ -462,23 +424,19 @@ Aktuálně Laravel Homestead ve verzi 5.8 obsahuje například software:
 - Node (Yarn, Bower, Grunt, a Gulp),
 - Redis,
 - Elasticsearch,
-- a další.
-[https://laravel.com/docs/5.8/homestead](https://laravel.com/docs/5.8/homestead)
+- a další [cit]https://laravel.com/docs/5.8/homestead[/cit].
 
 ## Analýza statického kódu
-Analýza statického kódu (známá také jako analýza zdrojového kódu) se obvykle provádí jako součást kontroly kódu (také označovaného jako testování bílého boxu). Analýza statického kódu se běžně vztahuje k nástrojům pro analýzy, které se pokoušejí rozpoznat možné chyby v rámci testování „statického“ (nespuštěného) zdrojového kódu pomocí technik, jako je například analýza barev a analýza toku dat.
-[https://www.owasp.org/index.php/Static_Code_Analysis](https://www.owasp.org/index.php/Static_Code_Analysis)
+Analýza statického kódu (známá také jako analýza zdrojového kódu) se obvykle provádí jako součást kontroly kódu (také označovaného jako testování bílého boxu). Analýza statického kódu se běžně vztahuje k nástrojům pro analýzy, které se pokoušejí rozpoznat možné chyby v rámci testování „statického“ (nespuštěného) zdrojového kódu pomocí technik, jako je například analýza barev a analýza toku dat [cit]https://www.owasp.org/index.php/Static_Code_Analysis[/cit].
 
 ### Cyklomatická složitost
-Cyklomatická složitost je metrika kvality softwaru. Nejjednodušší definice popisuje cyklomatickou složitost jako počet rozhodnutí ve zdrojovém kódu. Čím vyšší je počet, tím složitější je kód. Cyklomatická složitost je důležitá, protože určuje limitní komplexnost kódu a určuje počet požadovaných testovacích případů. 
-[https://www.perforce.com/blog/qac/what-cyclomatic-complexity](https://www.perforce.com/blog/qac/what-cyclomatic-complexity)
+Cyklomatická složitost je metrika kvality softwaru. Nejjednodušší definice popisuje cyklomatickou složitost jako počet rozhodnutí ve zdrojovém kódu. Čím vyšší je počet, tím složitější je kód. Cyklomatická složitost je důležitá, protože určuje limitní komplexnost kódu a určuje počet požadovaných testovacích případů [cit]https://www.perforce.com/blog/qac/what-cyclomatic-complexity[/cit].
 
 # Analýza současné situace
 V této části práce se budu věnovat popisu základních informací o podniku a popisu aktuálního stavu, ve kterém se podnikový e-shop nachází.
 
 ## Základní informace o podniku
-_„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká.“_
-todo: https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res
+_„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká“_ [cit]https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res[/cit].
 
 |||
 |--|--|
@@ -536,7 +494,7 @@ Pro provoz současného e-shopového řešení jsou potřeba následující tech
 - mysqli,
 - gd,
 - json,
-- MariaDB 10.0.21,
+- MariaDB 10.0.21.
 
 ### Entity v aplikaci
 Seznam existujících entit v aplikaci:
@@ -555,17 +513,17 @@ Seznam existujících entit v aplikaci:
 - user (uživatel).
 
 ### Administrované entity v aplikaci
-![Přihlášení do administračního rozhraní e-shopu](https://hanabrand.cz/temp/dp/prihlaseni-administrace.png)
+![Přihlášení do administračního rozhraní e-shopu, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prihlaseni-administrace.png)
 Seznam entit, které jsou administrovatelné v administrační části e-shopu:
 - discount (sleva) - pouze vytvoření,
 - order (objednávka),
 - product (produkt).
 
-![Přehled výpisu produktů v administraci](https://www.hanabrand.cz/temp/dp/prehled-administrace-produktu.png)
+![Přehled výpisu produktů v administraci, zdroj: současné e-shopové řešení](https://www.hanabrand.cz/temp/dp/prehled-administrace-produktu.png)
 
 Zbylé entity jsou administrovatelné pouze skrz konfiguraci databáze aplikace. To značně ztěžuje administraci celé aplikace, protože jakákoliv úprava, která se netýká objednávky nebo produktu vyžaduje zásah programátora.
 
-![Administrace produktu](https://hanabrand.cz/temp/dp/administrace-produktu2.png)
+![Administrace produktu, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/administrace-produktu2.png)
 
 V administraci produktů lze konfigurovat vlastnosti, které definují obsah produktu. Lze nastavit:
 - název,
@@ -596,7 +554,7 @@ V administraci produktů lze konfigurovat vlastnosti, které definují obsah pro
 - metadescription,
 - název ve feedech (pokud se liší od základního názvu).
 
-![Přehled objednávek v administraci](https://hanabrand.cz/temp/dp/prehled-objednavek.png)
+![Přehled objednávek v administraci, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prehled-objednavek.png)
 Zato nastavení objednávky je o poznání prostější. Objednávce lze v administračním rozhraní nastavit pouze stav. Na výběr jsou možnosti:
 - nová,
 - zpracovává se,
@@ -605,9 +563,9 @@ Zato nastavení objednávky je o poznání prostější. Objednávce lze v admin
 - dokončeno,
 - stornováno.
 Přičemž při změně objednávky na stavy "zaplaceno", "odesláno" a "dokončeno" odešle systém zákazníkovi e-mail zákazníkovi s informacemi o současném stavu jeho objednávky.
-![Detail objednávky](https://hanabrand.cz/temp/dp/prehled-objednavky.png)
+![Detail objednávky, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prehled-objednavky.png)
 Formulář pro vytvoření nového slevového kupónu je také velice prostý.  Slevové kupóny nelze z pohledu administračního rozhraní systému nijak pokročile spravovat, lze je pouze vytvořit.
-![Formulář pro přidání nového slevového kupónu](https://hanabrand.cz/temp/dp/slevovy-kupon.png)
+![Formulář pro přidání nového slevového kupónu, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/slevovy-kupon.png)
 Po definování slevy (pevné částky nebo nebo procentuální sazby z celkové ceny objednávky), minimální celkové částky objednávky pro umožnění aplikace slevy a maximální platnosti kupónu systém vygeneruje náhodný jedinečný slevový kód kupónu a uloží kupón do databáze. 
 
 ### Implementované funkcionality
@@ -631,7 +589,7 @@ Seznam implementovaných funkcionalit, kterými aktuální řešení disponuje:
 
 ## Statická analýza kódu
 Protože mám přístup k zdrojovým souborům současně provozovaného řešení, mohu provést statickou analýzu kódu za pomocí nástroje PhpMetrics.
-![Výsledek statické analýzy kódu současného řešení, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/staticka-analyza-hanabrand.png)
+![Výsledek statické analýzy kódu současného řešení, zdroj: výsledek testu PhpMetrics](https://hanabrand.cz/temp/dp/staticka-analyza-hanabrand.png)
 
 Z výsledků analýzy lze vyčíst například základní informace, tedy, že zdrojový kód obsahuje:
 - 68 tříd,
