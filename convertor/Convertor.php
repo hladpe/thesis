@@ -3,43 +3,102 @@
 class Convertor
 {
     /**
-     * @param string $source
-     * @param string $target
-     * @param string $imagesDir
+     * @var Configuration
+     */
+    private $configuration;
+
+    /**
+     * @var string
+     */
+    private $outputFilePath;
+
+    /**
+     * @var string
+     */
+    private $outputImagesPath;
+
+    /**
+     * @var array
+     */
+    private $output = [];
+
+    /**
+     * @var array
+     */
+    private $images = [];
+
+    /**
+     * @var array
+     */
+    private $todos = [];
+
+    /**
+     * @var bool
+     */
+    private $isItemizing = false;
+
+    /**
+     * @param Configuration $configuration
      * @throws Exception
      */
-    public function convert(string $source, string $target, string $imagesDir)
+    public function __construct(Configuration $configuration)
     {
-        $document = new Document($source);
-        $iterator = $document->getIterator();
+        $this->configuration = $configuration;
+        $this->outputFilePath = $this->getOutputFilePath();
+        $this->outputImagesPath = $this->getOutputImagesPath();
 
-        $output = [
-            '\documentclass{article}',
+        $this->output[] = '\documentclass{' . $configuration->getDocumentClass() . '}';
+
+        /*
+        $this->output = [
+            '\documentclass{' . $configuration->getDocumentClass() . '}',
             '\usepackage[utf8]{inputenc}',
 
-            '\title{Diplomova prace}',
-            '\author{Petr Hladik}',
-            '\date{April 2019}',
-
-            '\usepackage{natbib}',
-            '\usepackage{graphicx}',
-
-            '\begin{document}',
+            '\title{' . $configuration->getTitle() . '}',
+            '\author{' . $configuration->getAuthor() . '}',
+            '\date{' . $configuration->getDate() . '}',
         ];
-        $images = [];
-        $todos = [];
-        $isItemizing = false;
+        */
+
+        foreach ($configuration->getPackagesUtf8() as $package) {
+            $this->output[] = '\usepackage[utf8]{' . $package . '}';
+        }
+
+        $this->output[] = '\title{' . $configuration->getTitle() . '}';
+        $this->output[] = '\author{' . $configuration->getAuthor() . '}';
+        $this->output[] = '\date{' . $configuration->getDate() . '}';
+
+        foreach ($configuration->getPackages() as $package) {
+            $this->output[] = '\usepackage{' . $package . '}';
+        }
+
+        $this->output[] = '\bibliographystyle{' . $configuration->getBibliographyStyle() .'}';
+        $this->output[] = '\bibliography{' . $configuration->getBibliography() . '}';
+
+//         $this->output[] = '\begin{document}';
+    }
+
+    /**
+     * @throws Exception
+     */
+    public function convert()
+    {
+        $this->output[] = '\begin{document}';
+
+        $document = new Document($this->configuration->getInputFile());
+        $iterator = $document->getIterator();
+
         while( $iterator->valid() )
         {
             /** @var Row $row */
             $row = $iterator->current();
 
             if ($row->hasTODO()) {
-                $todos[] = $iterator->key();
+                $this->todos[] = $iterator->key();
             }
 
             if ($row->isImage()) {
-                $images[] = $row->convertImage($imagesDir);
+                $this->images[] = $row->convertImage($this->outputImagesPath);
             }
 
             $row->convertDashes();
@@ -52,51 +111,115 @@ class Convertor
 
             // <ul>
             if ($row->isUnorderedListItem()) {
-                if (! $isItemizing) {
-                    $isItemizing = true;
-                    $output[] = '\begin{itemize}';
+                if (! $this->isItemizing) {
+                    $this->isItemizing = true;
+                    $this->output[] = '\begin{itemize}';
                 }
                 $row->convertUnorderedListItem();
-            } elseif ($isItemizing) {
-                $isItemizing = false;
-                $output[] = '\end{itemize}';
+            } elseif ($this->isItemizing) {
+                $this->isItemizing = false;
+                $this->output[] = '\end{itemize}';
             }
 
-            $output[] = $row->getContent();
+            $this->output[] = $row->getContent();
             $iterator->next();
+
+            $this->progressBar($iterator->key(), $iterator->count());
         }
 
-        $output[] = '\bibliographystyle{plain}';
-        $output[] = '\bibliography{references}';
-        $output[] = '\end{document}';
+        // $this->output[] = '\bibliographystyle{plain}';
+        // $this->output[] = '\bibliography{references}';
+        $this->output[] = '\end{document}';
 
-        file_put_contents($target, implode(PHP_EOL, $output));
-        $this->printStats($target, $images, $todos);
+        file_put_contents($this->outputFilePath, implode(PHP_EOL, $this->output));
+        $this->printStats();
         exit;
     }
 
     /**
-     * @param string $target
-     * @param array $images
-     * @param array $todos
+     * @return string
+     * @throws Exception
      */
-    private function printStats(string $target, array $images, array $todos)
+    private function getOutputFilePath(): string
     {
-        print 'CONVERTED TO `' . $target . '`' . PHP_EOL;
+        $name = $this->webalize($this->configuration->getAuthor() . '-' . $this->configuration->getTitle()) . '.tex';
+        return $this->getOutputDir() . DIRECTORY_SEPARATOR . $name;
+    }
+
+    /**
+     * @return string
+     * @throws Exception
+     */
+    private function getOutputImagesPath(): string
+    {
+        $dir = $this->getOutputDir() . DIRECTORY_SEPARATOR . 'images' . DIRECTORY_SEPARATOR;
+
+        if (! file_exists($dir)) {
+            mkdir($dir);
+        }
+
+        return $dir;
+    }
+
+    /**
+     * @return string
+     * @throws Exception
+     */
+    private function getOutputDir(): string
+    {
+        $dir = realpath($this->configuration->getOutputDirectory());
+        if (! $dir) {
+            throw new Exception('Output directory `' . $this->configuration->getOutputDirectory() . '` does not exist!');
+        }
+
+        if (! is_dir($this->configuration->getOutputDirectory())) {
+            throw new Exception('Output directory `' . $this->configuration->getOutputDirectory() . '` is not a directory.');
+        }
+
+        return $dir;
+    }
+
+    /**
+     * @param string $string
+     * @return string
+     */
+    private function webalize(string $string)
+    {
+        $string = preg_replace('~[^\\pL0-9_]+~u', '-', $string);
+        $string = trim($string, "-");
+        $string = iconv("utf-8", "us-ascii//TRANSLIT", $string);
+        $string = strtolower($string);
+        $string = preg_replace('~[^-a-z0-9_]+~', '', $string);
+        return (string) $string;
+    }
+
+    function progressBar($done, $total) {
+        $perc = floor(($done / $total) * 100);
+        $left = 100 - $perc;
+        $write = sprintf("\033[0G\033[2K[%'={$perc}s>%-{$left}s] - $perc%% - $done/$total", "", "");
+        fwrite(STDERR, $write);
+    }
+
+    /**
+     * Prints convertion stats
+     */
+    private function printStats()
+    {
+        print 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
         print PHP_EOL;
 
-        print 'Images count > ' . count($images) . '`' . PHP_EOL;
-        if (! empty($images)) {
-            foreach ($images as $img) {
+        print 'Images count > ' . count($this->images) . '`' . PHP_EOL;
+        if (! empty($this->images)) {
+            foreach ($this->images as $img) {
                 print $img . PHP_EOL;
             }
         }
 
         print PHP_EOL;
 
-        print 'TODOs count > ' . count($todos) . '`' . PHP_EOL;
-        if (! empty($todos)) {
-            foreach ($todos as $line) {
+        print 'TODOs count > ' . count($this->todos) . '`' . PHP_EOL;
+        if (! empty($this->todos)) {
+            foreach ($this->todos as $line) {
                 print 'TODO at line #' . ++$line . PHP_EOL;
             }
         }

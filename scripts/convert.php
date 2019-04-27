@@ -3,8 +3,10 @@
 require 'functions.php';
 loadClasses();
 
-(new Convertor())->convert(
+$configuration = new Configuration(
     findThesis(),
-    baseDir() . '/outputs/thesis.tex',
-    baseDir() . '/outputs/images/'
+    baseDir() . '/outputs/',
+    'Diplomová práce',
+    'Petr Hladík'
 );
+(new Convertor($configuration))->convert();
