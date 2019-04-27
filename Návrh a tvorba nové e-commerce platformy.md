@@ -116,11 +116,11 @@ Pro e-commerce hraje velkou roli sezónnost prodeje s velkým významem vánoc -
 _„Podle serveru eMarketer se maloobchodní globální online tržby přiblížily v roce 2016 úrovni 1,9 bilionu dolarů a do roku 2020 by se měly zdvojnásobit na 4 bil. dolarů. I tak se e-commerce tržby budou podílet na celkových maloobchodních tržbách jen 14,6 %. Největším světovým online trhem je Čína, jejíž podíl poroste i do budoucna. Následuje online trh v USA“_ [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 ### E-commerce v České republice
-Dlouhodobě roste počet Čechů s přístupem k internetu. V roce 2016 se počet uživatelů internetu v České republice oproti roku 2010 zvýšil zhruba o 15% a díky tomu se Česká republika počtem uživatelů internetu přiblížila průměru v Evropské unii [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
+Dlouhodobě roste počet Čechů s přístupem k internetu. V roce 2016 se počet uživatelů internetu v České republice oproti roku 2010 zvýšil zhruba o 15 % a díky tomu se Česká republika počtem uživatelů internetu přiblížila průměru v Evropské unii [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 _„Mezi ekonomicky aktivními, vysokoškolsky vzdělanými a mladými do 30 let užívají dnes internet už téměř všichni“_ [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-V roce 2016 mělo 76,1% domácností v České republice přístup k internetu. Také roste obliba v nakupování přes internet. V roce 2007 podle průzkumu ČSÚ za poslední rok nakoupilo přes internet 15% obyvatel starších 16 let. V roce 2010 jich nakoupilo již 25% a v roce 2017 již 43% [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
+V roce 2016 mělo 76,1 % domácností v České republice přístup k internetu. Také roste obliba v nakupování přes internet. V roce 2007 podle průzkumu ČSÚ za poslední rok nakoupilo přes internet 15 % obyvatel starších 16 let. V roce 2010 jich nakoupilo již 25 % a v roce 2017 již 43 % [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 ## E-commerce z pohledu obchodníků
 Hlavní výhodou pro provozovatele e-shopů je široká působnost a v podstatě neomezená otevírací doma. E-shop může s přehledem prodávat po celé zemi (a v mnoha případech i za hranicemi). Internetový obchod tedy nemusí být limitován žádným konkrétním místem. Široká působnost se pak pozitivně odráží v marketingu, kdy umožňuje širší širší zásah při nižších nákladech na propagaci. Na internetu lze snadno měřit efektivitu reklamy a konfigurovat ji v závislosti na těchto výsledcích a potřebách zákazníka [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
@@ -223,7 +223,7 @@ Mezi CSS preprocesory patří například LESS nebo Sass [cit]https://www.zdroja
 _„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]PHP /základy/. Tvorba-webu.cz [online]. 2005 [cit. 2016-04-01]. Dostupné z:
 http://www.tvorba-webu.cz/php/[/cit].
 
-Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9% webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
+Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9 % webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
 Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
@@ -599,7 +599,7 @@ Z výsledků analýzy lze vyčíst například základní informace, tedy, že z
 - index průměrné cyklometrické složitosti je 25,15.
 
 ## Zhodnocení současného stavu
-Na základě konzultace s paní Hanou Hladíkovou, provozovatelkou současného e-shopového řešení, lze konstatovat, že zhruba 60% příjmů společnosti tvoří objednávky vytvořené přes současné e-shopové řešení. Společnost je tedy z větší části závislá na internetovém prodeji.
+Na základě konzultace s paní Hanou Hladíkovou, provozovatelkou současného e-shopového řešení, lze konstatovat, že zhruba 60 % příjmů společnosti tvoří objednávky vytvořené přes současné e-shopové řešení. Společnost je tedy z větší části závislá na internetovém prodeji.
 
 Současné řešení vzniklo jako jednoduchá aplikace na zelené louce bez využití žádného aplikačního frameworku v roce 2016. Od té doby se řešení prakticky nevyvíjelo, funkcionality nevylepšovaly a kód se neaktualizoval, čemuž také nasvědčuje fakt, že nebyla aktualizována verze PHP, na kterém je systém provozován.
 
