@@ -161,4 +161,9 @@ class Row
 
         return $citations;
     }
+
+    public function escapePercent(): void
+    {
+        $this->content = str_replace('%', '\%', $this->content);
+    }
 }

@@ -88,6 +88,7 @@ class Convertor
                 $this->images[] = $row->convertImage($this->outputImagesPath);
             }
 
+            $row->escapePercent();
             $row->convertDashes();
             $row->convertH4();
             $row->convertH3();
