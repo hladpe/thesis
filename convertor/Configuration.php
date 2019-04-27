@@ -33,16 +33,6 @@ class Configuration
     private $date = '';
 
     /**
-     * @var array
-     */
-    private $packages = ['natbib', 'graphicx'];
-
-    /**
-     * @var array
-     */
-    private $packagesUtf8 = ['inputenc'];
-
-    /**
      * @var string
      */
     private $bibliographyStyle = 'plain';
@@ -129,62 +119,6 @@ class Configuration
     public function getDate()
     {
         return $this->date;
-    }
-
-    /**
-     * @return array
-     */
-    public function getPackages(): array
-    {
-        return $this->packages;
-    }
-
-    /**
-     * @param array $packages
-     * @return Configuration
-     */
-    public function setPackages(array $packages): Configuration
-    {
-        $this->packages = $packages;
-        return $this;
-    }
-
-    /**
-     * @param string $package
-     * @return Configuration
-     */
-    public function addPackage(string $package): Configuration
-    {
-        $this->packages = $package;
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getPackagesUtf8(): array
-    {
-        return $this->packagesUtf8;
-    }
-
-    /**
-     * @param array $packagesUtf8
-     * @return Configuration
-     */
-    public function setPackagesUtf8(array $packagesUtf8): Configuration
-    {
-        $this->packagesUtf8 = $packagesUtf8;
-        return $this;
-    }
-
-    /**
-     * @param string $packageUtf8
-     * @return Configuration
-     */
-    public function addPackageUtf8(string $packageUtf8): Configuration
-    {
-        $this->packagesUtf8[] = $packageUtf8;
-        return $this;
     }
 
     /**

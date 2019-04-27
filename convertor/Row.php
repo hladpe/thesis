@@ -78,6 +78,17 @@ class Row
         }
     }
 
+    public function convertQuotes(): void
+    {
+        preg_match_all('/\„(.*?)\“/', $this->content, $matches);
+
+        if (! empty($matches[1])) {
+            foreach ($matches[1] as $match) {
+                $this->content = str_replace('„' . $match . '“', '\uv{' . $match . '}', $this->content);
+            }
+        }
+    }
+
     /**
      * @return bool
      */
@@ -107,6 +118,7 @@ class Row
         preg_match('/\!\[(.*?)\]\((.*?)\)/', $this->content, $matches);
         $title = $matches[1];
         $image = $matches[2];
+        $image = preg_replace('/\?.*/', '', $image);
         $hash = md5($image);
         $path = $imagesDir . DIRECTORY_SEPARATOR . md5($image) . '.' . pathinfo($image, PATHINFO_EXTENSION);
         file_exists($imagesDir) or mkdir($imagesDir);
@@ -116,10 +128,10 @@ class Row
         }
 
         file_put_contents($path, file_get_contents($image));
-        $this->content = '\begin{image}[h]' . PHP_EOL
+        $this->content = '\begin{figure}[h]' . PHP_EOL
                         . '\includegraphics{' . $hash . '}' . PHP_EOL
                         . '\caption{' . $title . '}' . PHP_EOL
-                        . '\end{image}';
+                        . '\end{figure}';
 
         return $hash;
     }

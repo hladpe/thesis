@@ -54,17 +54,15 @@ class Convertor
 
         $this->output[] = '\documentclass{' . $configuration->getDocumentClass() . '}';
 
-        foreach ($configuration->getPackagesUtf8() as $package) {
-            $this->output[] = '\usepackage[utf8]{' . $package . '}';
-        }
-
         $this->output[] = '\title{' . $configuration->getTitle() . '}';
         $this->output[] = '\author{' . $configuration->getAuthor() . '}';
         $this->output[] = '\date{' . $configuration->getDate() . '}';
 
-        foreach ($configuration->getPackages() as $package) {
-            $this->output[] = '\usepackage{' . $package . '}';
-        }
+        $this->output[] = '\usepackage{natbib}';
+        $this->output[] = '\usepackage{graphicx}';
+        $this->output[] = '\usepackage[utf8]{inputenc}';
+        $this->output[] = '\usepackage[czech]{babel}';
+        $this->output[] = '\graphicspath{ {./images/} }';
     }
 
     /**
@@ -97,6 +95,7 @@ class Convertor
             $row->convertH1();
             $row->convertStrong();
             $row->convertItalic();
+            $row->convertQuotes();
 
             $this->citations = array_merge($this->citations, $row->convertCitations());
 
