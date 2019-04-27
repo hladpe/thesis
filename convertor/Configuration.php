@@ -13,6 +13,16 @@ class Configuration
     private $outputDirectory = '';
 
     /**
+     * @var string
+     */
+    private $title = '';
+
+    /**
+     * @var string
+     */
+    private $author = '';
+
+    /**
      * @var array
      */
     private $citations = [];
@@ -20,13 +30,19 @@ class Configuration
     /**
      * @param string $inputFile
      * @param string $outputDirectory
+     * @param string $title
+     * @param string $author
      */
     public function __construct(
         string $inputFile,
-        string $outputDirectory
+        string $outputDirectory,
+        string $title,
+        string $author
     ) {
         $this->inputFile = $inputFile;
         $this->outputDirectory = $outputDirectory;
+        $this->title = $title;
+        $this->author = $author;
     }
 
     /**
@@ -46,13 +62,28 @@ class Configuration
     }
 
     /**
+     * @return string
+     */
+    public function getTitle(): string
+    {
+        return $this->title;
+    }
+
+    /**
+     * @return string
+     */
+    public function getAuthor(): string
+    {
+        return $this->author;
+    }
+
+    /**
      * @return array
      */
     public function getCitations(): array
     {
         return $this->citations;
     }
-
 
     /**
      * @param string $hash

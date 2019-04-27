@@ -52,7 +52,7 @@ class Row
     public function convertH4(): void
     {
         if (strpos($this->content, '#### ') === 0) {
-            $this->content = trim(str_replace('#### ', '\subsubsection{\textbf{', $this->content)) . '}} \newline';
+            $this->content = trim(str_replace('#### ', '\subsubsection{\textbf{', $this->content)) . '}}';
         }
     }
 
