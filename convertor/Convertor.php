@@ -33,6 +33,11 @@ class Convertor
     private $todos = [];
 
     /**
+     * @var array
+     */
+    private $citations = [];
+
+    /**
      * @var bool
      */
     private $isItemizing = false;
@@ -49,17 +54,6 @@ class Convertor
 
         $this->output[] = '\documentclass{' . $configuration->getDocumentClass() . '}';
 
-        /*
-        $this->output = [
-            '\documentclass{' . $configuration->getDocumentClass() . '}',
-            '\usepackage[utf8]{inputenc}',
-
-            '\title{' . $configuration->getTitle() . '}',
-            '\author{' . $configuration->getAuthor() . '}',
-            '\date{' . $configuration->getDate() . '}',
-        ];
-        */
-
         foreach ($configuration->getPackagesUtf8() as $package) {
             $this->output[] = '\usepackage[utf8]{' . $package . '}';
         }
@@ -71,11 +65,6 @@ class Convertor
         foreach ($configuration->getPackages() as $package) {
             $this->output[] = '\usepackage{' . $package . '}';
         }
-
-        $this->output[] = '\bibliographystyle{' . $configuration->getBibliographyStyle() .'}';
-        $this->output[] = '\bibliography{' . $configuration->getBibliography() . '}';
-
-//         $this->output[] = '\begin{document}';
     }
 
     /**
@@ -109,6 +98,8 @@ class Convertor
             $row->convertStrong();
             $row->convertItalic();
 
+            $this->citations = array_merge($this->citations, $row->convertCitations());
+
             // <ul>
             if ($row->isUnorderedListItem()) {
                 if (! $this->isItemizing) {
@@ -127,8 +118,9 @@ class Convertor
             $this->progressBar($iterator->key(), $iterator->count());
         }
 
-        // $this->output[] = '\bibliographystyle{plain}';
-        // $this->output[] = '\bibliography{references}';
+        $this->output[] = '\bibliographystyle{' . $this->configuration->getBibliographyStyle() .'}';
+        $this->output[] = '\bibliography{' . $this->configuration->getBibliography() . '}';
+
         $this->output[] = '\end{document}';
 
         file_put_contents($this->outputFilePath, implode(PHP_EOL, $this->output));
@@ -205,10 +197,10 @@ class Convertor
      */
     private function printStats()
     {
-        print 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
+        print PHP_EOL . PHP_EOL . 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
         print PHP_EOL;
 
-        print 'Images count > ' . count($this->images) . '`' . PHP_EOL;
+        print 'Images count = ' . count($this->images) . '`' . PHP_EOL;
         if (! empty($this->images)) {
             foreach ($this->images as $img) {
                 print $img . PHP_EOL;
@@ -217,7 +209,16 @@ class Convertor
 
         print PHP_EOL;
 
-        print 'TODOs count > ' . count($this->todos) . '`' . PHP_EOL;
+        print 'Citations count = ' . count($this->citations) . '`' . PHP_EOL;
+        if (! empty($this->citations)) {
+            foreach ($this->citations as $hash => $citation) {
+                print '[' . $hash . '] ' . $citation . PHP_EOL;
+            }
+        }
+
+        print PHP_EOL;
+
+        print 'TODOs count = ' . count($this->todos) . '`' . PHP_EOL;
         if (! empty($this->todos)) {
             foreach ($this->todos as $line) {
                 print 'TODO at line #' . ++$line . PHP_EOL;

@@ -128,4 +128,25 @@ class Row
     {
         $this->content = str_replace(' - ', ' – ', $this->content);
     }
+
+    /**
+     * @return array
+     */
+    public function convertCitations(): array
+    {
+        preg_match_all('/\[cit\](.*?)\[\/cit\]/', $this->content, $matches);
+        if (empty($matches[1])) {
+            return [];
+        }
+
+        $citations = [];
+        foreach ($matches[1] as $match) {
+            $hash = md5(trim($match));
+            $citations[$hash] = trim($match);
+
+            $this->content = str_replace('[cit]' . $match . '[/cit]', '\cite{' . $hash . '}', $this->content);
+        }
+
+        return $citations;
+    }
 }
