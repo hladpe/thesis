@@ -38,6 +38,11 @@ class Convertor
     private $citations = [];
 
     /**
+     * @var array
+     */
+    private $unresolvedCitations = [];
+
+    /**
      * @var bool
      */
     private $isItemizing = false;
@@ -70,6 +75,7 @@ class Convertor
         $this->output[] = '\usepackage{tabu}';
         $this->output[] = '\usepackage{float}';
         $this->output[] = '\graphicspath{ {./images/} }';
+        $this->output[] = '\addbibresource{' . $this->getOutputBibPath() . '}';
     }
 
     /**
@@ -86,6 +92,8 @@ class Convertor
         {
             /** @var Row $row */
             $row = $iterator->current();
+
+            $this->citations = array_merge($this->citations, $row->convertCitations());
 
             if ($row->hasTODO()) {
                 $this->todos[] = $iterator->key();
@@ -104,8 +112,6 @@ class Convertor
             $row->convertStrong();
             $row->convertItalic();
             $row->convertQuotes();
-
-            $this->citations = array_merge($this->citations, $row->convertCitations());
 
             // <ul>
             if ($row->isUnorderedListItem()) {
@@ -150,17 +156,89 @@ class Convertor
 
         file_put_contents($this->outputFilePath, implode(PHP_EOL, $this->output));
 
+        print PHP_EOL . PHP_EOL . 'CONVERTED.';
         $this->resolveCitations();
         $this->printStats();
         exit;
     }
 
+    /**
+     * @throws Exception
+     */
     private function resolveCitations()
     {
-        foreach ($this->citations as $citation) {
+        print PHP_EOL . 'RESOLING CITATIONS';
 
+        $jsonBibPath = $this->getOutputBibJsonPath();
+        if (file_exists($jsonBibPath)) {
+            $citations = (array) json_decode(file_get_contents($jsonBibPath));
+        } else {
+            $citations = [];
         }
 
+        $count = count($this->citations);
+        $i = 1;
+
+        foreach ($this->citations as $hash => $citation) {
+
+            if (array_key_exists($hash, $citations)) {
+                continue;
+            }
+
+            try {
+                $citations[$hash] = $this->resolveCitation($hash, $citation);
+            } catch (Exception $e) {
+                $this->unresolvedCitations[] = $e->getMessage();
+            }
+
+            $this->progressBar($i, $count);
+            ++$i;
+        }
+
+        file_put_contents($jsonBibPath, json_encode($citations));
+        file_put_contents($this->getOutputBibPath(), implode(PHP_EOL . PHP_EOL, $citations));
+    }
+
+    /**
+     * @param string $hash
+     * @param string $citation
+     * @return string
+     * @throws Exception
+     */
+    private function resolveCitation(string $hash, string $citation)
+    {
+        if (array_key_exists($hash, $this->configuration->getCitations())) {
+            return $this->configuration->getCitations()[$hash];
+        }
+
+        preg_match('#\bhttps?://[^,\s()<>]+(?:\([\w\d]+\)|([^,[:punct:]\s]|/))#', $citation, $matches);
+
+        if (empty($matches)) {
+            throw new Exception('Cant get citation `' . $hash . '`, `' . $citation . '`');
+        }
+
+        $url = $matches[0];
+
+        $page = @file_get_contents($url);
+        preg_match('/\<title\>(.*?)\<\/title\>/si', $page, $matches);
+
+        if (empty($matches)) {
+            throw new Exception('Cant get citation `' . $hash . '`, `' . $citation . '`');
+        }
+
+        $title = trim($matches[1]);
+        $title = @iconv(mb_detect_encoding($title, mb_detect_order(), true), "UTF-8", $title);
+        $title = str_replace(PHP_EOL, '', $title);
+        $title = str_replace(" \t", ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+
+       return '@online{' . $hash . ',' . PHP_EOL
+        . '    title     = "' . $title . '",' . PHP_EOL
+        . '    url       = "' . $url . '",' . PHP_EOL
+        . '}' . PHP_EOL;
     }
 
     /**
@@ -170,6 +248,26 @@ class Convertor
     private function getOutputFilePath(): string
     {
         $name = $this->webalize($this->configuration->getAuthor() . '-' . $this->configuration->getTitle()) . '.tex';
+        return $this->getOutputDir() . DIRECTORY_SEPARATOR . $name;
+    }
+
+    /**
+     * @return string
+     * @throws Exception
+     */
+    private function getOutputBibPath(): string
+    {
+        $name = $this->webalize($this->configuration->getAuthor() . '-' . $this->configuration->getTitle()) . '.bib';
+        return $this->getOutputDir() . DIRECTORY_SEPARATOR . $name;
+    }
+
+    /**
+     * @return string
+     * @throws Exception
+     */
+    private function getOutputBibJsonPath(): string
+    {
+        $name = $this->webalize($this->configuration->getAuthor() . '-' . $this->configuration->getTitle()) . '.json';
         return $this->getOutputDir() . DIRECTORY_SEPARATOR . $name;
     }
 
@@ -235,30 +333,24 @@ class Convertor
         print PHP_EOL . PHP_EOL . 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
         print PHP_EOL;
 
-        print 'Images count = ' . count($this->images) . PHP_EOL;
-        if (! empty($this->images)) {
-            foreach ($this->images as $img) {
-                print $img . PHP_EOL;
-            }
-        }
-
-        print PHP_EOL;
-
-        print 'Citations count = ' . count($this->citations) . PHP_EOL;
-        if (! empty($this->citations)) {
-            foreach ($this->citations as $hash => $citation) {
-                print '[' . $hash . '] ' . $citation . PHP_EOL;
-            }
-        }
-
-        print PHP_EOL;
-
         print 'TODOs count = ' . count($this->todos) . PHP_EOL;
         if (! empty($this->todos)) {
             foreach ($this->todos as $line) {
                 print 'TODO at line #' . ++$line . PHP_EOL;
             }
         }
+
+        print PHP_EOL;
+
+        print 'UNRESOLVED CITATIONS count = ' . count($this->unresolvedCitations) . PHP_EOL;
+        if (! empty($this->unresolvedCitations)) {
+            foreach ($this->unresolvedCitations as $citation) {
+                print $citation . PHP_EOL;
+            }
+        }
+
+
+
 
         print PHP_EOL;
     }

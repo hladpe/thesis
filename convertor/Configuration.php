@@ -43,6 +43,11 @@ class Configuration
     private $bibliography = 'references';
 
     /**
+     * @var array
+     */
+    private $citations = [];
+
+    /**
      * @param string $inputFile
      * @param string $outputDirectory
      * @param string $title
@@ -154,6 +159,36 @@ class Configuration
     public function setBibliography(string $bibliography): Configuration
     {
         $this->bibliography = $bibliography;
+        return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getCitations(): array
+    {
+        return $this->citations;
+    }
+
+
+    /**
+     * @param string $hash
+     * @param string $citations
+     * @return Configuration
+     */
+    public function addCitation(string $hash, string $citations): Configuration
+    {
+        $this->citations[$hash] = $citations;
+        return $this;
+    }
+
+    /**
+     * @param array $citations
+     * @return Configuration
+     */
+    public function setCitations(array $citations): Configuration
+    {
+        $this->citations = $citations;
         return $this;
     }
 }
