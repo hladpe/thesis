@@ -7,9 +7,7 @@
 
 ## Internet
 Internet je celosvětová síť (desítky tisíc jednotlivých sítí – možná i mnohem více) propojující všechny kontinenty, státy a města tak, že jakýkoliv počítač může kdykoliv komunikovat s jakýmkoliv jiným počítačem, ať je kdekoliv na planetě.
-Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společný zájem – chtějí být propojeni.
-
-[cit]Co je Internet a jak funguje? _Datacentrum WEDOS_ [online]. Hluboká nad Vltavou, 2010 [cit. 2016-04-01]. Dostupné z: http://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html[/cit]
+Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společný zájem – chtějí být propojeni [cit]Co je Internet a jak funguje? _Datacentrum WEDOS_ [online]. Hluboká nad Vltavou, 2010 [cit. 2016-04-01]. Dostupné z: http://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html[/cit].
 
 
 ### Vznik internetu 
@@ -22,8 +20,7 @@ Internet se v České republice začal rozšiřovat až na přelomu let 1995 a 1
 Služeb na internetu lze využit celá řada. Zde jsou vysvětleny některé služby, které jsou hojně využívané pro komerční využití [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
 #### World Wide Web (WWW)
-Označení pro vzájemně provázený multimediální obsah poskytovaný pomocí protokolu HTTP. Uživatelé obsah konzumují pomocí webových prohlížečů [cit]
-https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
+Označení pro vzájemně provázený multimediální obsah poskytovaný pomocí protokolu HTTP. Uživatelé obsah konzumují pomocí webových prohlížečů [cit]https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
 
 #### E-mail
 Zasílání textových zpráv mezi jednotlivými uživateli internetu je k dispozici již od raných dob internetu. Dnes je zajišťován pomocí protokolu SMTP, který byl vyvinut v 70. letech [cit]https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
