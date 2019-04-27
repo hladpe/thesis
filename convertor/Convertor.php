@@ -74,6 +74,7 @@ class Convertor
         $this->output[] = '\usepackage[czech]{babel}';
         $this->output[] = '\usepackage{tabu}';
         $this->output[] = '\usepackage{float}';
+        $this->output[] = '\usepackage[backend=biber,style=alphabetic]{biblatex}';
         $this->output[] = '\graphicspath{ {./images/} }';
         $this->output[] = '\addbibresource{' . $this->getOutputBibFileName() . '}';
     }
@@ -238,6 +239,7 @@ class Convertor
        return '@online{' . $hash . ',' . PHP_EOL
         . '    title     = "' . $title . '",' . PHP_EOL
         . '    url       = "' . $url . '",' . PHP_EOL
+        . '    note      = "[Online; citováno ' . date('d.m.Y') . ']"' . PHP_EOL
         . '}' . PHP_EOL;
     }
 
@@ -285,7 +287,7 @@ class Convertor
      */
     private function getOutputImagesPath(): string
     {
-        $dir = $this->getOutputDir() . DIRECTORY_SEPARATOR . 'images' . DIRECTORY_SEPARATOR;
+        $dir = $this->getOutputDir() . DIRECTORY_SEPARATOR . 'obrazky-figures' . DIRECTORY_SEPARATOR;
 
         if (! file_exists($dir)) {
             mkdir($dir);
@@ -356,9 +358,6 @@ class Convertor
                 print $citation . PHP_EOL;
             }
         }
-
-
-
 
         print PHP_EOL;
     }
