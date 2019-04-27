@@ -123,11 +123,6 @@ class Convertor
             if ($row->isTableRow()) {
                 if (! $this->isTabling) {
                     $this->isTabling = true;
-                    $header = trim(str_repeat('X[l] ', $row->getTableRowColsCount()));
-                    //$this->output[] = '\begin{center}';
-                    // $this->output[] = '\begin{tabular}{|' . $header . '|}';
-                    // $header = [];
-                    // $arra
                     $this->output[] = '\begin{tabu} to 0.75\textwidth { | ' . implode(' | ', array_fill(0, $row->getTableRowColsCount(), 'X[l]')). ' | }';
                 }
                 if ($row->isEmptyTableRow()) {
@@ -139,9 +134,7 @@ class Convertor
             } elseif ($this->isTabling) {
                 $this->isTabling = false;
                 $this->output[] = '\hline';
-                // $this->output[] = '\end{tabular}';
                 $this->output[] = '\end{tabu}';
-                //$this->output[] = '\end{center}';
             }
 
             $this->output[] = $row->getContent();
@@ -156,8 +149,18 @@ class Convertor
         $this->output[] = '\end{document}';
 
         file_put_contents($this->outputFilePath, implode(PHP_EOL, $this->output));
+
+        $this->resolveCitations();
         $this->printStats();
         exit;
+    }
+
+    private function resolveCitations()
+    {
+        foreach ($this->citations as $citation) {
+
+        }
+
     }
 
     /**
