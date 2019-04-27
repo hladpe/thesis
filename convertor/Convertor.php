@@ -75,7 +75,7 @@ class Convertor
         $this->output[] = '\usepackage{tabu}';
         $this->output[] = '\usepackage{float}';
         $this->output[] = '\graphicspath{ {./images/} }';
-        $this->output[] = '\addbibresource{' . $this->getOutputBibPath() . '}';
+        $this->output[] = '\addbibresource{' . $this->getOutputBibFileName() . '}';
     }
 
     /**
@@ -257,8 +257,16 @@ class Convertor
      */
     private function getOutputBibPath(): string
     {
-        $name = $this->webalize($this->configuration->getAuthor() . '-' . $this->configuration->getTitle()) . '.bib';
-        return $this->getOutputDir() . DIRECTORY_SEPARATOR . $name;
+        return $this->getOutputDir() . DIRECTORY_SEPARATOR . $this->getOutputBibFileName();
+    }
+
+    /**
+     * @return string
+     * @throws Exception
+     */
+    private function getOutputBibFileName(): string
+    {
+        return $this->webalize($this->configuration->getAuthor() . '-' . $this->configuration->getTitle()) . '.bib';
     }
 
     /**
