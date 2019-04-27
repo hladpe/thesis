@@ -43,10 +43,10 @@ _„Sociální síť je internetová služba, která registrovaným uživatelům
 
 
 ### Webový prohlížeč
-Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další [cit]HEROUT, Tomáš. Co je to internetový prohlížeč. Help Mark [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec.[/cit].
+Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další [cit]HEROUT, Tomáš. Co je to internetový prohlížeč. Help Mark [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec[/cit].
 
 ### Webová stránka
-Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem [cit]Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova.[/cit].
+Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem [cit]Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova[/cit].
 
 
 Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované.[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
@@ -58,7 +58,7 @@ Statická webová stránka je stránka, kde je veškerý obsah pevně kódován 
 Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 ### Hypertext
-_„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext.[/cit].
+_„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext[/cit].
 
 ## SEO
 TODO: SEO
@@ -765,13 +765,13 @@ Systém je tedy tvořen samostatnými balíčky, které se instalují pomocí n�
 Základním balíčkem aplikace, balíček je typu "projekt", vytváří základní adresářovou strukturu aplikace a je závislý na balíčku "core". Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).
 ![Composer.json projektu Jarvis App, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/composer-app.png)
 
-**Jarvis Core**
+#### Jarvis Core
 Jádro aplikace, balíček je typu "knihovna". Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
 
-**Jarvis CMS***
+#### Jarvis CMS
 Balíček typu "knihovna", poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku "Core". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
 
-**Jarvis Shop**
+#### Jarvis Shop
 Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku "Core" a "CMS". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
 
 ### Moduly
@@ -782,13 +782,13 @@ Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzá
 
 ![4 Moduly systému, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/3-moduly.png?1)
 
-**Admin**
+#### Admin
 Modul Admin poskytuje administrační rozhraní celého systému. Na základě ACL přihlášenému uživateli správu administrovatelných entit, které se v celém systému nacházejí.
 
-**Front**
+#### Front
 Modul Front poskytuje rozhraní, které je výsledkem konfigurace systému v administračním rozhraní. Právě tento modul je zodpovědný mimo jiné například za prezentování zobrazení produktové kategorie návštěvníkům e-shopu, vložení produktu do košíku, vytvoření a dokončení objednávky, zobrazení detailu článku, atd.
 
-**Robot**
+#### Robot
 Tento modul poskytuje služby pouze systému samotnému. Například se v tomto modulu nachází logika pro poskytování funkcionality ke zpracování obrázků. 
 
 ### Adresářová struktura
@@ -813,7 +813,7 @@ Modelová vrstva aplikace obsahuje samotné entity, repositáře a kontejnery. T
 ### Entity
 V aplikaci se využívá objektově relační mapování a tudíž je nutné každou relaci v databázi definovat jako entitu v podobě objektu. Entita (objekt) je pak nosičem stejných informací, jako je záznam v databázi.
 
-**Seznam entit, které obsahuje balíček Core:**
+#### Seznam entit, které obsahuje balíček Core:
 - Address - adresa,
 - Country - země,
 - Image - obrázek,
@@ -828,12 +828,12 @@ V aplikaci se využívá objektově relační mapování a tudíž je nutné ka�
 - UserRole - uživatelská role,
 - UserRoleResource - oprávnění uživatelské role.
 
-**Seznam entit, které obsahuje balíček CMS:**
+#### Seznam entit, které obsahuje balíček CMS:
 - Article - článek,
 - ArticleCategory - kategorie článků,
 - ArticleImage - obrázek článku.
 
-**Seznam entit, které obsahuje balíček Shop:**
+#### Seznam entit, které obsahuje balíček Shop:
 - Currency - měna,
 - Coupon - slevový kupón,
 - Manufacturer - výrobce,
