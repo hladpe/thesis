@@ -58,7 +58,7 @@ Statická webová stránka je stránka, kde je veškerý obsah pevně kódován 
 Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 ### Hypertext
-„_Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext.[/cit].
+_„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext.[/cit].
 
 ## SEO
 TODO: SEO
@@ -220,7 +220,7 @@ CSS nenabízí možnost jak strukturovat styly uvnitř souboru. Vždy musí být
 Mezi CSS preprocesory patří například LESS nebo Sass [cit]https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/[/cit].
 
 ## Hypertext Preprocesor – PHP
-„_PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]PHP /základy/. Tvorba-webu.cz [online]. 2005 [cit. 2016-04-01]. Dostupné z:
+_„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]PHP /základy/. Tvorba-webu.cz [online]. 2005 [cit. 2016-04-01]. Dostupné z:
 http://www.tvorba-webu.cz/php/[/cit].
 
 Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9% webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
