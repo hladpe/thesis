@@ -1,6 +1,6 @@
 <?php
 
-require 'functions.php';
+require 'scripts/functions.php';
 loadClasses();
 
 $configuration = new Configuration(
