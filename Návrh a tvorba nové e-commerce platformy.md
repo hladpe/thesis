@@ -180,7 +180,7 @@ Základní výhody e-commerce pro zákazníky:
 - větší pohodlí a úspora času - snadná dostupnost k nákupu, možnost nakupovat kdykoli a odkudkoli,
 - snadné získání detailních informací o produktů a službách,
 - možnost rychlého dodání,
-- slevy a výhody pro zákazníky [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
+- slevy a výhody pro zákazníky TODO: zlý zdroj... do píči [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
 
 Základní nevýhody e-commerce pro zákazníky:
 - zákazníci si nemohou zboží osahat a ozkoušet,
