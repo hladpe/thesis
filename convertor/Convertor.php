@@ -61,22 +61,6 @@ class Convertor
         $this->configuration = $configuration;
         $this->outputFilePath = $this->getOutputFilePath();
         $this->outputImagesPath = $this->getOutputImagesPath();
-
-        $this->output[] = '\documentclass{' . $configuration->getDocumentClass() . '}';
-
-        $this->output[] = '\title{' . $configuration->getTitle() . '}';
-        $this->output[] = '\author{' . $configuration->getAuthor() . '}';
-        $this->output[] = '\date{' . $configuration->getDate() . '}';
-
-        $this->output[] = '\usepackage{natbib}';
-        $this->output[] = '\usepackage{graphicx}';
-        $this->output[] = '\usepackage[utf8]{inputenc}';
-        $this->output[] = '\usepackage[czech]{babel}';
-        $this->output[] = '\usepackage{tabu}';
-        $this->output[] = '\usepackage{float}';
-        $this->output[] = '\usepackage[backend=biber,style=alphabetic]{biblatex}';
-        $this->output[] = '\graphicspath{ {./images/} }';
-        $this->output[] = '\addbibresource{' . $this->getOutputBibFileName() . '}';
     }
 
     /**
@@ -84,8 +68,6 @@ class Convertor
      */
     public function convert()
     {
-        $this->output[] = '\begin{document}';
-
         $document = new Document($this->configuration->getInputFile());
         $iterator = $document->getIterator();
 
@@ -149,11 +131,6 @@ class Convertor
 
             $this->progressBar($iterator->key(), $iterator->count());
         }
-
-        $this->output[] = '\bibliographystyle{' . $this->configuration->getBibliographyStyle() .'}';
-        $this->output[] = '\bibliography{' . $this->configuration->getBibliography() . '}';
-
-        $this->output[] = '\end{document}';
 
         file_put_contents($this->outputFilePath, implode(PHP_EOL, $this->output));
 

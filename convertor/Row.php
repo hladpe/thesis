@@ -31,28 +31,28 @@ class Row
     public function convertH1(): void
     {
         if (strpos($this->content, '# ') === 0) {
-            $this->content = trim(str_replace('# ', '\section{', $this->content)) . '}';
+            $this->content = trim(str_replace('# ', '\chapter{', $this->content)) . '}';
         }
     }
 
     public function convertH2(): void
     {
         if (strpos($this->content, '## ') === 0) {
-            $this->content = trim(str_replace('## ', '\subsection{', $this->content)) . '}';
+            $this->content = trim(str_replace('## ', '\section{', $this->content)) . '}';
         }
     }
 
     public function convertH3(): void
     {
         if (strpos($this->content, '### ') === 0) {
-            $this->content = trim(str_replace('### ', '\subsubsection{', $this->content)) . '}';
+            $this->content = trim(str_replace('### ', '\subsection{', $this->content)) . '}';
         }
     }
 
     public function convertH4(): void
     {
         if (strpos($this->content, '#### ') === 0) {
-            $this->content = trim(str_replace('#### ', '\textbf{', $this->content)) . '} \\\\';
+            $this->content = trim(str_replace('#### ', '\subsubsection{\textbf{', $this->content)) . '}} \newline';
         }
     }
 

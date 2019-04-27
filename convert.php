@@ -3,12 +3,7 @@
 require 'scripts/functions.php';
 loadClasses();
 
-$configuration = new Configuration(
-    findThesis(),
-    baseDir() . '/outputs/',
-    'Diplomová práce',
-    'Petr Hladík'
-);
+$configuration = new Configuration(findThesis(), baseDir() . '/outputs/');
 
 
 $configuration->addCitation('c0bf19caab884610945703b42983ab27', '@online{c0bf19caab884610945703b42983ab27,
