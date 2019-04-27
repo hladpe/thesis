@@ -43,6 +43,11 @@ class Convertor
     private $isItemizing = false;
 
     /**
+     * @var bool
+     */
+    private $isTabling = false;
+
+    /**
      * @param Configuration $configuration
      * @throws Exception
      */
@@ -62,6 +67,8 @@ class Convertor
         $this->output[] = '\usepackage{graphicx}';
         $this->output[] = '\usepackage[utf8]{inputenc}';
         $this->output[] = '\usepackage[czech]{babel}';
+        $this->output[] = '\usepackage{tabu}';
+        $this->output[] = '\usepackage{float}';
         $this->output[] = '\graphicspath{ {./images/} }';
     }
 
@@ -110,6 +117,31 @@ class Convertor
             } elseif ($this->isItemizing) {
                 $this->isItemizing = false;
                 $this->output[] = '\end{itemize}';
+            }
+
+            // <table>
+            if ($row->isTableRow()) {
+                if (! $this->isTabling) {
+                    $this->isTabling = true;
+                    $header = trim(str_repeat('X[l] ', $row->getTableRowColsCount()));
+                    //$this->output[] = '\begin{center}';
+                    // $this->output[] = '\begin{tabular}{|' . $header . '|}';
+                    // $header = [];
+                    // $arra
+                    $this->output[] = '\begin{tabu} to 0.75\textwidth { | ' . implode(' | ', array_fill(0, $row->getTableRowColsCount(), 'X[l]')). ' | }';
+                }
+                if ($row->isEmptyTableRow()) {
+                    $iterator->next();
+                    continue;
+                }
+                $row->convertTableRow();
+                $this->output[] = '\hline';
+            } elseif ($this->isTabling) {
+                $this->isTabling = false;
+                $this->output[] = '\hline';
+                // $this->output[] = '\end{tabular}';
+                $this->output[] = '\end{tabu}';
+                //$this->output[] = '\end{center}';
             }
 
             $this->output[] = $row->getContent();
@@ -200,7 +232,7 @@ class Convertor
         print PHP_EOL . PHP_EOL . 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
         print PHP_EOL;
 
-        print 'Images count = ' . count($this->images) . '`' . PHP_EOL;
+        print 'Images count = ' . count($this->images) . PHP_EOL;
         if (! empty($this->images)) {
             foreach ($this->images as $img) {
                 print $img . PHP_EOL;
@@ -209,7 +241,7 @@ class Convertor
 
         print PHP_EOL;
 
-        print 'Citations count = ' . count($this->citations) . '`' . PHP_EOL;
+        print 'Citations count = ' . count($this->citations) . PHP_EOL;
         if (! empty($this->citations)) {
             foreach ($this->citations as $hash => $citation) {
                 print '[' . $hash . '] ' . $citation . PHP_EOL;
@@ -218,7 +250,7 @@ class Convertor
 
         print PHP_EOL;
 
-        print 'TODOs count = ' . count($this->todos) . '`' . PHP_EOL;
+        print 'TODOs count = ' . count($this->todos) . PHP_EOL;
         if (! empty($this->todos)) {
             foreach ($this->todos as $line) {
                 print 'TODO at line #' . ++$line . PHP_EOL;

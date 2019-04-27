@@ -52,7 +52,7 @@ class Row
     public function convertH4(): void
     {
         if (strpos($this->content, '#### ') === 0) {
-            $this->content = trim(str_replace('#### ', '\textbf{', $this->content)) . '}';
+            $this->content = trim(str_replace('#### ', '\textbf{', $this->content)) . '} \\\\';
         }
     }
 
@@ -128,9 +128,11 @@ class Row
         }
 
         file_put_contents($path, file_get_contents($image));
-        $this->content = '\begin{figure}[h]' . PHP_EOL
-                        . '\includegraphics{' . $hash . '}' . PHP_EOL
+        $this->content = '\begin{figure}[H]' . PHP_EOL
+                        . '\begin{center}' . PHP_EOL
+                        . '\includegraphics[width=0.75\textwidth]{' . $hash . '}' . PHP_EOL
                         . '\caption{' . $title . '}' . PHP_EOL
+                        . '\end{center}'
                         . '\end{figure}';
 
         return $hash;
@@ -165,5 +167,34 @@ class Row
     public function escapePercent(): void
     {
         $this->content = str_replace('%', '\%', $this->content);
+    }
+
+    /**
+     * @return bool
+     */
+    public function isTableRow(): bool
+    {
+        return strpos($this->content, '|') === 0;
+    }
+
+    /**
+     * @return int
+     */
+    public function getTableRowColsCount(): int
+    {
+        return substr_count($this->content, '|') - 1;
+    }
+
+    public function isEmptyTableRow(): bool
+    {
+        return trim(str_replace(['|', '-'], '', $this->content)) === '';
+    }
+
+    public function convertTableRow(): void
+    {
+        $this->content = trim($this->content, '|');
+        $this->content = str_replace('|', ' & ', $this->content);
+        $this->content = str_replace('  ', ' ', $this->content);
+        $this->content .= ' \\\\';
     }
 }
