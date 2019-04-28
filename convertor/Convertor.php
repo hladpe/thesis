@@ -160,17 +160,21 @@ class Convertor
             $citations = [];
         }
 
-        $count = count($this->citations);
         $i = 1;
+        $usedCitations = [];
+        $count = count($this->citations);
 
         foreach ($this->citations as $hash => $citation) {
 
             if (array_key_exists($hash, $citations)) {
+                $usedCitations[] = $citations[$hash];
                 continue;
             }
 
             try {
-                $citations[$hash] = $this->resolveCitation($hash, $citation);
+                $resolved = $this->resolveCitation($hash, $citation);
+                $citations[$hash] = $resolved;
+                $usedCitations[] = $resolved;
             } catch (Exception $e) {
                 $this->unresolvedCitations[] = $e->getMessage();
             }
@@ -180,7 +184,7 @@ class Convertor
         }
 
         file_put_contents($jsonBibPath, json_encode($citations));
-        file_put_contents($this->getOutputBibPath(), implode(PHP_EOL . PHP_EOL, $citations));
+        file_put_contents($this->getOutputBibPath(), implode(PHP_EOL . PHP_EOL, $usedCitations));
     }
 
     /**
