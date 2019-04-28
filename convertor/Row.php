@@ -110,10 +110,11 @@ class Row
 
     /**
      * @param string $imagesDir
+     * @param string $imagesDirName
      * @return string
      * @throws Exception
      */
-    public function convertImage(string $imagesDir): string
+    public function convertImage(string $imagesDir, string $imagesDirName = ''): string
     {
         preg_match('/\!\[(.*?)\]\((.*?)\)/', $this->content, $matches);
         $title = $matches[1];
@@ -133,7 +134,7 @@ class Row
 
         $this->content = '\begin{figure}[H]' . PHP_EOL
                         . '\begin{center}' . PHP_EOL
-                        . '\includegraphics[width=0.75\textwidth]{' . $hash . '}' . PHP_EOL
+                        . '\includegraphics[width=0.75\textwidth]{' . ($imagesDirName ? $imagesDirName . '/' : '') . $hash . '}' . PHP_EOL
                         . '\caption{' . $title . '}' . PHP_EOL
                         . '\end{center}'
                         . '\end{figure}';

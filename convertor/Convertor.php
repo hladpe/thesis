@@ -18,6 +18,11 @@ class Convertor
     private $outputImagesPath;
 
     /**
+     * @var string
+     */
+    private $outputImagesDirName;
+
+    /**
      * @var array
      */
     private $output = [];
@@ -61,6 +66,7 @@ class Convertor
         $this->configuration = $configuration;
         $this->outputFilePath = $this->getOutputFilePath();
         $this->outputImagesPath = $this->getOutputImagesPath();
+        $this->outputImagesDirName = $this->getOutputImagesDirName();
     }
 
     /**
@@ -83,7 +89,7 @@ class Convertor
             }
 
             if ($row->isImage()) {
-                $this->images[] = $row->convertImage($this->outputImagesPath);
+                $this->images[] = $row->convertImage($this->outputImagesPath, $this->outputImagesDirName);
             }
 
             $row->escapePercent();
@@ -197,23 +203,12 @@ class Convertor
 
         $url = $matches[0];
 
-
-
-
-
-
-        // create curl resource
         $ch = curl_init();
-
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, true);
-
-// $output contains the output string
         $output = curl_exec($ch);
-
         $pattern = '/[<]title[>]([^<]*)[<][\/]title[>]/i';
-
         preg_match($pattern, $output, $matches);
 
         if (empty($matches)) {
@@ -223,7 +218,6 @@ class Convertor
         $httpcode = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
         curl_close($ch);
-
 
         $title = trim(strip_tags($matches[0]));
         $title = str_replace(PHP_EOL, ' ', $title);
@@ -304,13 +298,18 @@ class Convertor
      */
     private function getOutputImagesPath(): string
     {
-        $dir = $this->getOutputDir() . DIRECTORY_SEPARATOR . 'obrazky-figures' . DIRECTORY_SEPARATOR;
+        $dir = $this->getOutputDir() . DIRECTORY_SEPARATOR . $this->getOutputImagesDirName() . DIRECTORY_SEPARATOR;
 
         if (! file_exists($dir)) {
             mkdir($dir);
         }
 
         return $dir;
+    }
+
+    private function getOutputImagesDirName(): string
+    {
+        return 'obrazky-figures';
     }
 
     /**
