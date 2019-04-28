@@ -127,7 +127,10 @@ class Row
             throw new Exception('Images path is not directory.');
         }
 
-        file_put_contents($path, file_get_contents($image));
+        if (! file_exists($path)) {
+            file_put_contents($path, file_get_contents($image));
+        }
+
         $this->content = '\begin{figure}[H]' . PHP_EOL
                         . '\begin{center}' . PHP_EOL
                         . '\includegraphics[width=0.75\textwidth]{' . $hash . '}' . PHP_EOL
