@@ -197,27 +197,67 @@ class Convertor
 
         $url = $matches[0];
 
-        $page = @file_get_contents($url);
-        preg_match('/\<title\>(.*?)\<\/title\>/si', $page, $matches);
+
+
+
+
+
+        // create curl resource
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+
+// $output contains the output string
+        $output = curl_exec($ch);
+
+        $pattern = '/[<]title[>]([^<]*)[<][\/]title[>]/i';
+
+        preg_match($pattern, $output, $matches);
 
         if (empty($matches)) {
             throw new Exception('Cant get citation `' . $hash . '`, `' . $citation . '`');
         }
 
-        $title = trim($matches[1]);
-        $title = @iconv(mb_detect_encoding($title, mb_detect_order(), true), "UTF-8", $title);
-        $title = str_replace(PHP_EOL, '', $title);
-        $title = str_replace(" \t", ' ', $title);
-        $title = str_replace('  ', ' ', $title);
-        $title = str_replace('  ', ' ', $title);
-        $title = str_replace('  ', ' ', $title);
-        $title = str_replace('  ', ' ', $title);
+        $httpcode = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-       return '@online{' . $hash . ',' . PHP_EOL
-        . '    title     = "' . $title . '",' . PHP_EOL
-        . '    url       = "' . $url . '",' . PHP_EOL
-        . '    note      = "[Online; citováno ' . date('d.m.Y') . ']"' . PHP_EOL
-        . '}' . PHP_EOL;
+        curl_close($ch);
+
+
+        $title = trim(strip_tags($matches[0]));
+        $title = str_replace(PHP_EOL, ' ', $title);
+        $title = str_replace("\t", ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+        $title = str_replace('  ', ' ', $title);
+        $title = html_entity_decode($title);
+        $title = htmlspecialchars_decode($title);
+        $title = trim($title);
+        $title = ucfirst($title);
+
+        if ($httpcode !== 200) {
+            throw new Exception('Cant get citation `' . $hash . '`, `' . $citation . '` (reason: HTTPS result code: ' . $httpcode . ')');
+        }
+
+        if (! $title) {
+            throw new Exception('Cant get citation `' . $hash . '`, `' . $citation . '`');
+        }
+
+        $data = file_get_contents('http://archive.org/wayback/available?url=' . $url . '&timestamp=19900101');
+        $data = json_decode($data, true);
+
+        if (! empty($data['archived_snapshots']['closest']['timestamp'])) {
+            $year = substr($data['archived_snapshots']['closest']['timestamp'], 0, 4) . ' ';
+        } else {
+            $year = '';
+        }
+
+        return '@online{' . $hash . ',' . PHP_EOL
+            . '    title     = "' . $title . '",' . PHP_EOL
+            . '    url       = "' . $url . '",' . PHP_EOL
+            . '    note      = "[Online]. ' . $year . '[cit. ' . date('d.m.Y') . ']"' . PHP_EOL
+            . '}' . PHP_EOL;
     }
 
     /**
