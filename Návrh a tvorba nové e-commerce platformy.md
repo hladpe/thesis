@@ -383,7 +383,7 @@ _„Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. K
 Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha požadavků pomocí jedinečného identifikátoru nebo primárního klíče. Tyto třídy nepotřebují rozšířit žádnou abstraktní základní třídu nebo rozhraní. Třída entity nesmí být konečná nebo nesmí obsahovat konečné metody [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 ## Elasticsearch
-![Logo ElasticsWearch, zdroj: [cit]https://www.elastic.co/brand[/cit]](https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt05047fdbe3b9c333/5c11ec1f3312ce2e785d9c30/logo-elastic-elasticsearch-lt.svg)
+![Logo Elasticsearch, zdroj: [cit]https://www.elastic.co/brand[/cit]](https://hanabrand.cz/temp/dp/logo-elastic-search.png)
 Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 Pár vzorových případů pro využití Elasticsearch:
@@ -905,7 +905,7 @@ Popisky polí se vytváření pomocí překladače, popisek každého pole tedy 
 Kvůli tomu, že například pro výpis a filtrování produktů v kategoriích pro účely modulu Front je využíváno fulltextového vyhledávání pomocí Elasticsearch, je nutné entity (například produkty) do Elasticsearch exportovat.
 
 Toho se docíleno tím, že na akci uložení entity do databáze pomocí manažera entit (který se stará o ukládání a načítání entit z databáze) je navázána akce, kdy se spouští logika exportéru.
-Jeho úkolem je detekovat, zda je povoleno danou entitu exportovat, která data se v entitě změnila, zda tyto změny jsou z pohledu exportu do ElasticSearch pro další použití podstatná a případně zaregistrovat do fronty (RabbitMQ) pro zpracování exportu.
+Jeho úkolem je detekovat, zda je povoleno danou entitu exportovat, která data se v entitě změnila, zda tyto změny jsou z pohledu exportu do Elasticsearch pro další použití podstatná a případně zaregistrovat do fronty (RabbitMQ) pro zpracování exportu.
 
 ![Export entity do Elasticsearch, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/Export-entit-do-Elasticsearch.png?2)
 
