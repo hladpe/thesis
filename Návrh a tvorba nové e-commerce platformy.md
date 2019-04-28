@@ -224,22 +224,19 @@ Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webov�
 
 Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
-Oficiální stránky PHP se nacházení na www.php.net [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné
-z: http://k-prog.wz.cz/progjaz/[/cit].
+Oficiální stránky PHP se nacházení na www.php.net [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://k-prog.wz.cz/progjaz/[/cit].
 
 ### Interpretace jazyka
 PHP je imperativní (procedurální) interpretovaný multiparadigmatický programovací jazyk (19).
 Imperativní programovací jazyk je jazyk, který k řešení úlohy tedy využívá algoritmu (postup, jak se má daná úloha vyřešit) (19).
 
-Interpretovaný programovací jazyk je jazyk, který je do strojového kódu překládán až za běhu programu (tím se liší od kompilovaných, kde se před spuštěním musí zdrojový kód překompilovat pomocí kompilátoru do strojového kódu a až potom spuštěn). Zdrojový kód se za běhu překládá pomocí interpretu a ten příkazy při překladu zároveň provádí (po částech) [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné
-z: http://k-prog.wz.cz/progjaz/[/cit].
+Interpretovaný programovací jazyk je jazyk, který je do strojového kódu překládán až za běhu programu (tím se liší od kompilovaných, kde se před spuštěním musí zdrojový kód překompilovat pomocí kompilátoru do strojového kódu a až potom spuštěn). Zdrojový kód se za běhu překládá pomocí interpretu a ten příkazy při překladu zároveň provádí (po částech) [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://k-prog.wz.cz/progjaz/[/cit].
 Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak jedno programovací paradigma [cit]VORÁČEK, Jan. Skriptovací jazyky pro tvorbu webových aplikací. Pardubice, Dostupné také z: http://blog.voracek.net/wp-content/uploads/2013/09/JanVoracek_SkriptovaciJazykyProTvorbuWebovychAplikaci.pdf. Diplomová práce. Univerzita Pardubice. Vedoucí práce Ing. Michael Bažant, Ph.D.[/cit].
 
 Programovacím paradigmem si lze představit základní programovací styl, ve kterém je program naprogramován. Rozdíl je v pojmech a abstrakcích, které tvoří prvky programu (objekty, funkce, proměnné, omezení atd.). Programovací paradigma rozlišujeme na: aspektově orientované, deklarativní (funkcionální, logické), generické, imperativní, paralelní a strukturované (objektově orientované, rekurzivní) [cit]Programovací MEDIACENTRUM paradigma. GROUP, Naprogramuj 2013 [cit. mi.cz [online]. 2016-04-01]. Brno-sever: Dostupné z: http://naprogramujmi.cz/programovaci-paradigma/[/cit].
 
 ### Možnosti jazyka
-PHP má spoustu možností pro práci, dokáže pracovat s databázemi, s velkým množstvím internetových protokolů (např. IMAP, POP3, SMTP atd.), dokáže vytvářet (editovat) soubory a obsahuje spoustu funkcí na zpracování řetězců. PHP je zdarma a volně šiřitelné [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné
-z: http://k-prog.wz.cz/progjaz/[/cit].
+PHP má spoustu možností pro práci, dokáže pracovat s databázemi, s velkým množstvím internetových protokolů (např. IMAP, POP3, SMTP atd.), dokáže vytvářet (editovat) soubory a obsahuje spoustu funkcí na zpracování řetězců. PHP je zdarma a volně šiřitelné [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://k-prog.wz.cz/progjaz/[/cit].
 
 ## JavaScript
 JavaScript je multiplatformní a objektově orientovaný, odlehčený skriptovací jazyk, který se spouští na hostovaném zařízení (např. webový prohlížeč). Může se vázat na objekty hostovaného prostředí a může tak poskytovat prostředky pro jejich ovládání [cit]Introduction – JavaScript. MDN [online]. 2015 [cit. 2016-12-12]. Dostupné z: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction[/cit].
@@ -773,9 +770,9 @@ Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíče
 
 ### Moduly
 Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:
-- Admin
-- Front
-- Robot
+- Admin,
+- Front,
+- Robot.
 
 ![4 Moduly systému, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/3-moduly.png?1)
 
