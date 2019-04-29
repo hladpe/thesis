@@ -143,4 +143,15 @@ $configuration->addCitation('486db7c727d276f1e0f6de840ebae889', '@book{486db7c72
 }
 ');
 
+$configuration->addCitation('aa362e5bbed98297e0d31ac1b2db', '@book{aa362e5bbed98297e0d31ac1b2db,
+    title = {Elektronické obchodování},
+    edition = {1. vyd.},
+    language = {cze},
+    address = {Pardubice: Institut Jana Pernera},
+    author = {Švadlenka, Libor a Madleňák, Radovan},
+    isbn = {978-80-86530-40-6},
+    year = {2007},
+}
+');
+
 (new Convertor($configuration))->convert();
