@@ -1,4 +1,5 @@
 
+
 # Úvod
 
 # Cíl a metodika práce
@@ -9,12 +10,10 @@
 Internet je celosvětová síť (desítky tisíc jednotlivých sítí – možná i mnohem více) propojující všechny kontinenty, státy a města tak, že jakýkoliv počítač může kdykoliv komunikovat s jakýmkoliv jiným počítačem, ať je kdekoliv na planetě.
 Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společný zájem – chtějí být propojeni [cit]https://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html[/cit].
 
-
 ### Vznik internetu 
 První předchůdce internetu (Arpanet), vznikl v roce 1969. Vytvořila ho instituce Advanced Research Project Agency (ARPA). Jeho vznik zaštiťovalo Ministerstvo obrany USA. Tato síť byla z počátku použita pouze pro vědecké účely, následně z ní vznikly dvě samostatné sítě - Arpanet a Milnet (armádní síť). V roce 1981 vnikla síť Bitnet, která propojovala americké vysoké a střední školy. Avšak v těchto sítích vznikl problém komunikace na různých platformách. Proto po intenzivních výzkumech vznikl protokol TCP/IP, který je používám dodnes. Samotný vznik internetu v podobě, jak ho známe dnes, je datován od roku 1993, kdy Tom Berners Lee vymyslel nový způsob výměny informací, ten je známý pod zkratkou WWW (World Wide Web) [cit]https://home.zcu.cz/~tisarova/[/cit].
 
 Internet se v České republice začal rozšiřovat až na přelomu let 1995 a 1996, kdy na trh vstoupili komerční poskytovatelé internetového připojení. I přes to, že v těchto letech byla Česká republika připojena k internetu již 3 roky, ke komerčnímu používání internetu došlo až po pádu společnosti Eurotel, jejíž monopol se vztahoval mimo jiné i na veřejné služby přenosu dat [cit]https://home.zcu.cz/~tisarova/[/cit].
-
 
 ### Služby na internetu
 Služeb na internetu lze využit celá řada. Zde jsou vysvětleny některé služby, které jsou hojně využívané pro komerční využití [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
@@ -38,19 +37,15 @@ Díky rozšíření internetu do firem, je možné telefonovat přes internet. P
 #### Sociální služby
 _„Sociální síť je internetová služba, která registrovaným uživatelům umožňuje komunikovat mezi sebou. Komunikace může být veřejná nebo soukromá, je zpravidla založena na sdílení textových příspěvků, fotografií a videa“_ [cit]https://www.zive.cz/socialni-site/sc-223/default.aspx[/cit].
 
-
 ### Webový prohlížeč
 Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další [cit]https://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec[/cit].
 
 ### Webová stránka
 Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem [cit]Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova[/cit].
 
-
 Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované.[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
-
 Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language)[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
-
 
 Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
@@ -90,12 +85,10 @@ Tento obchodní vztah nemá přímý vliv na konečného spotřebitele. Nejdůle
 #### B2C (Business to Customer)
 B2B je označení pro model elektronického podnikání, který se zaměřuje na koncové klienty. Protikladem je B2B business. Iniciativa k obchodu vychází směrem od podniku a cílovou skupinou jsou zákazníci (spotřebitelé). Obchodní vztah se odehrává prostřednictvím internetu. Internetové stránky zprostředkovatelů jsou zákazníkům snadno dostupné a mohou nabízet zákazníkům informace a jednoduchý způsob nákupu. Internet umožňuje zákazníkům porovnávat nabídky různých prodejců [cit]https://managementmania.com/cs/business-to-customer[/cit].
 
-
 Samotná kategorie je rozdělena do tří kategorií. Do první kategorie spadá informování potenciálního zákazníka o produktech. Druhou kategorií je získávání zpětné vazby skrz různé formuláře. Třetí a největší kategorií je uzavření celého obchodu s možností objednání a zaplacení zboží
 [cit]https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950[/cit].
 
 B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná se o přímý prodej a podpora zákazníkovi [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
-
 
 #### C2B (Customer to Business)
 C2B je model elektronického podnikání, kdy iniciativa pochází od zákazníků (spotřebitelů) směrem k firmám. Zákazníci kontaktují firmy a vznášejí dotazy, podněty a náměty, například pro inovaci výrobků nebo služeb firmy. Takový model lze podpořit například zřízením diskuzního fóra nebo účet na sociálních sítích [cit]https://managementmania.com/cs/customer-to-business[/cit].
@@ -169,7 +162,6 @@ Hlavní nástroje online marketingu:
 - affiliate marketing - získávání nových zákazníků od partnerů pomocí provozního systému,
 - SEO - optimalizace pro vyhledávače, optimalizace faktorů ovlivňujících zviditelnění webu ve výsledcích vyhledávání [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
-
 ## E-commerce z pohledu zákazníků
 _„Internet je jako obchodní místo unikátní hned v několika směrech: např. koncentrace obchodů na jednom místě. Všechny jsou okamžitě dosažitelné, nekoupím-li v prvním, mohu bez námahy pokračovat v objevování další nabídky, jako kdybych jel na druhý konec města nebo dokonce světa. Existuje možnost rychlého porovnání sortimentu a cen. Rychlý přehled konkurence v oboru, jen na základě zadání třeba jednoho klíčového slova“_ [cit]https://www.interval.cz/clanky/e-shop-z-pohledu-zakaznika/[/cit].
 
@@ -215,7 +207,7 @@ CSS nenabízí možnost jak strukturovat styly uvnitř souboru. Vždy musí být
 Mezi CSS preprocesory patří například LESS nebo Sass [cit]https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/[/cit].
 
 ## Hypertext Preprocesor – PHP
-_„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]http://www.tvorba-webu.cz/php/[/cit].
+_„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]https://www.tvorba-webu.cz/php/[/cit].
 
 Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9 % webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
@@ -246,7 +238,6 @@ Umožňuje manipulovat s prvky webové stránky pro její oživení. Je tedy zá
 AJAX (česky „asynchronní JavaScript a XML“) je populární způsob pro tvorbu vysoce interaktivních aplikací. Základní princip je aktualizovat pouze části stránky bez nutnosti načítání a vykreslování celé stránky [cit]KOSEK, Jiří. PHP a XML. Vyd. 1. Praha: Grada, 2009. ISBN 978-80-247-1116-4.[/cit].
 
 _„AJAX však dovoluje poslat pomocí JavaScriptu separátní HTTP požadavek a data, která nám server vrátí, pak můžeme v JavaScriptu libovolně dále zpracovávat – např. je pomocí DOM zaintegrovat do právě zobrazované stránky. Lze tak interaktivně aktualizovat pouze část stránky”_ [cit]KOSEK, Jiří. PHP a XML. Vyd. 1. Praha: Grada, 2009. ISBN 978-80-247-1116-4.[/cit].
-
 
 ## Objektové programování
 _„Objektově orientované programování (dále jen OOP) nevzniklo náhodou, ale je důsledkem vývoje, který k němu směřoval. Jedná se o moderní metodiku vývoje softwaru, kterou podporuje většina programovacích jazyků. Častou chybou je, že se lidé domnívají, že OOP se využívá pouze při psaní určitého druhu programů a jinak je na škodu. Opak je pravdou – OOP je filosofie, je to nový pohled na funkci programu a komunikaci mezi jeho jednotlivými částmi. Mělo by se používat vždy, ať už děláme malou utilitku nebo složitý databázový systém. OOP není jen technika nebo nějaká doporučená struktura programu, je to hlavně nový způsob myšlení, nový náhled na problémy a nová éra ve vývoji softwaru”_ [cit]https://www.itnetwork.cz/php/oop/php-tutorial-uvod-do-objektove-orientovaneho-programovani[/cit].
@@ -292,12 +283,10 @@ Controller, lze přeložit jako ,,řadič" [cit]https://doc.nette.org/cs/2.4/pre
 
 Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
-
 ## MVP architektura
 MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou ,,komunikaci" mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
 
 ![Znázornění architektury MVP, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit]](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVP-Pattern.png)
-
 
 ## Databáze
 _„Databáze neboli datová základna (Data Base) je místo, kam se ukládají určitým způsobem organizované a strukturované údaje. Přístup k údajům uložených v databázi obstarává databázový systém, kterému se říká SŘBD – Systém Řízení Báze Dat (anglický termín DBMS – Database Management System). Běžně se označením databáze myslí jak uložená data, tak i software“_ [cit]Databáze. Misha [online]. 2011 [cit. 2016-12-12]. Dostupné z: http://www.databaze.chytrak.cz/[/cit].
@@ -391,7 +380,6 @@ Pár vzorových případů pro využití Elasticsearch:
 ## Message broker
 MessageBroker je prostřední počítačový programový modul, který převádí zprávu z formálního protokolu zasílání odesílatele do formálního protokolu zasílání zpráv přijímače. Zprostředkovatelé zpráv jsou prvky v telekomunikačních nebo počítačových sítích, kde softwarové aplikace komunikují výměnou formálně definovaných zpráv [cit]https://www.gartner.com/it-glossary/ib-integration-broker[/cit].
 
-
 ### RabbitMQ
 ![Logo RabbitMQ, zdroj: [cit]https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c[/cit]](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
 RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
@@ -460,7 +448,7 @@ Společnost pod značkou HanaBrand nabízí produkty vlastní výroby, které js
 
 ![Poměr obratu v jednotlivých kategoriích na e-shopu v roce 2018, zdroj: interní živnostníkovy dokumenty](https://hanabrand.cz/temp/dp/pomer-obratu-kategorii.png)
 Mimo produkty také podnik nabízí službu zakázkového šití.
-	
+  
 ## Obchodní vztahy
 Společnost nabízí pod značkou HanaBrand své vlastní produkty a služby formou B2C a B2B. 
 
@@ -524,22 +512,22 @@ V administraci produktů lze konfigurovat vlastnosti, které definují obsah pro
 - příznak nového produktu,
 - počet návštěvníků, kterým se produkt líbil (ikona srdíčka na detailu produktu),
 - konfigurace uživatelských polí:
-	- krátký popis (perex),
-	- výběr hlavního obrázku,
-	- výběr dalších použitých obrázků,
-	- dlouhý popis,
-	- cena,
-	- zakázané způsoby dopravy pro produkt,
-	- fyzická délka produktu [cm],
-	- fyzická šířka produktu (cm),
-	- fyzická délka opasku zástěry (cm),
-	- fyzická šířka opasku zástěry (cm),
-	- barva,
-	- vzor,
-	- počet kapes,
-	- styl kapes,
-	- materiál,
-	- typ produktu,
+  - krátký popis (perex),
+  - výběr hlavního obrázku,
+  - výběr dalších použitých obrázků,
+  - dlouhý popis,
+  - cena,
+  - zakázané způsoby dopravy pro produkt,
+  - fyzická délka produktu [cm],
+  - fyzická šířka produktu (cm),
+  - fyzická délka opasku zástěry (cm),
+  - fyzická šířka opasku zástěry (cm),
+  - barva,
+  - vzor,
+  - počet kapes,
+  - styl kapes,
+  - materiál,
+  - typ produktu,
 - zobrazení ve feedech,
 - metadescription,
 - název ve feedech (pokud se liší od základního názvu).
@@ -724,7 +712,7 @@ RabbitMQ je používán jako fronta pro asynchronní paralelní zpracovávání 
 V této sekci blíže popíši strukturu aplikace. Jednotlivé rozdělení do logických celků (balíčků) a přiblížení adresářové struktury.
 
 ### Části systému
-Celý systém je rozdělen na samostatné logické celky, které jsou reprezentovány jako samostatně instalovatelné balíčky a jsou verzované v samostatných repositářích. Tyto balíčky jsou:	
+Celý systém je rozdělen na samostatné logické celky, které jsou reprezentovány jako samostatně instalovatelné balíčky a jsou verzované v samostatných repositářích. Tyto balíčky jsou:  
 - Jarvis App
 - Jarvis Core,
 - Jarvis CMS,
@@ -933,7 +921,6 @@ Uživatel má v administraci možnost administrovat veškeré entity, které obs
 Celé administrační rozhraní je navrženo tak, aby bylo pohodlně administrovatelné například z mobilního telefonu nebo tabletu - šablona administrace je tedy plně responzivní.
 
 ![Nástěnka administračního rozhraní systému, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/responsivita.png)
-
 
 ### Uživatelské parametry
 V administrační sekci lze definovat uživatelské parametry, které reprezentují konkrétní vlastnosti entit v systému a tyto vlastnosti těmto entitám přiřadit. Každý parametr musí být definovaný konkrétním typem, přičemž na výběr je z možností:
