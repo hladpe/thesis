@@ -40,7 +40,7 @@ _„Sociální síť je internetová služba, která registrovaným uživatelům
 
 
 ### Webový prohlížeč
-Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další [cit]HEROUT, Tomáš. Co je to internetový prohlížeč. Help Mark [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec[/cit].
+Webový prohlížeč je program v počítači, který dokáže zobrazit webovou stránku. Existuje jich několik, např. Internet Explorer, Mozilla Firefox, Chrome, Safari, Opera a další [cit]https://www.helpmark.cz/slovnikpojmu/33-internetovy-prohlizec[/cit].
 
 ### Webová stránka
 Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem [cit]Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova[/cit].
@@ -55,7 +55,7 @@ Statická webová stránka je stránka, kde je veškerý obsah pevně kódován 
 Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 ### Hypertext
-_„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]Hypertext. IT Slovník [online]. 2013 [cit. 2016-04-01]. Dostupné z: http://it-slovnik.cz/pojem/hypertext[/cit].
+_„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]https://it-slovnik.cz/pojem/hypertext[/cit].
 
 ## SEO
 TODO: SEO
@@ -243,7 +243,7 @@ JavaScript je multiplatformní a objektově orientovaný, odlehčený skriptovac
 
 Neobsahuje statické typování proměnných, ani silnou typovou kontrolu jako v některých jiných programovacích jazycích [cit]Introduction – JavaScript. MDN [online]. 2015 [cit. 2016-12-12]. Dostupné z: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction[/cit].
 
-Umožňuje manipulovat s prvky webové stránky pro její oživení. Je tedy základem dynamického webu [cit]JavaScript. Tvorba-webu.cz [online]. 2006 [cit. 2016-12-11]. Dostupné z: http://www.tvorba-webu.cz/javascript/[/cit].
+Umožňuje manipulovat s prvky webové stránky pro její oživení. Je tedy základem dynamického webu [cit]https://www.tvorba-webu.cz/javascript/[/cit].
 
 ### Asynchronous JavaScript and XML – AJAX
 AJAX (česky „asynchronní JavaScript a XML“) je populární způsob pro tvorbu vysoce interaktivních aplikací. Základní princip je aktualizovat pouze části stránky bez nutnosti načítání a vykreslování celé stránky [cit]KOSEK, Jiří. PHP a XML. Vyd. 1. Praha: Grada, 2009. ISBN 978-80-247-1116-4.[/cit].
