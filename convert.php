@@ -143,7 +143,7 @@ $configuration->addCitation('486db7c727d276f1e0f6de840ebae889', '@book{486db7c72
 }
 ');
 
-$configuration->addCitation('aa362e5bbed98297e0d31ac1b2db', '@book{aa362e5bbed98297e0d31ac1b2db,
+$configuration->addCitation('0197aa362e5bbed98297e0d31ac1b2db', '@book{0197aa362e5bbed98297e0d31ac1b2db,
     title = {Elektronické obchodování},
     edition = {1. vyd.},
     language = {cze},
