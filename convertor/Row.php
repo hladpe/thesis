@@ -136,13 +136,6 @@ class Row
         $title = trim($titleParts[0]);
         $style = array_key_exists(1, $titleParts) ? trim($titleParts[1]) : 'width=1\textwidth';
 
-
-        echo '<pre>';
-        	print_r ($title);
-        	print_r ($style);
-        echo '</pre>';
-        die();
-        
         $this->content = '\begin{figure}[H]' . PHP_EOL
                         . '\begin{center}' . PHP_EOL
                         . '\includegraphics[' . $style . ']{' . ($imagesDirName ? $imagesDirName . '/' : '') . $hash . '}' . PHP_EOL
