@@ -172,7 +172,7 @@ Základní výhody e-commerce pro zákazníky:
 - větší pohodlí a úspora času - snadná dostupnost k nákupu, možnost nakupovat kdykoli a odkudkoli,
 - snadné získání detailních informací o produktů a službách,
 - možnost rychlého dodání,
-- slevy a výhody pro zákazníky TODO: zlý zdroj... do píči [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
+- slevy a výhody pro zákazníky [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
 
 Základní nevýhody e-commerce pro zákazníky:
 - zákazníci si nemohou zboží osahat a ozkoušet,
@@ -184,12 +184,14 @@ Základní nevýhody e-commerce pro zákazníky:
 ### Důvěryhodnost e-shopu
 Během pouhých prvních pár vteřin návštěvník internetových stránek zhodnotí, zda je pro něj e-shop důvěryhodný a zajímavý.  Navíc je pro zákazníky velice důležité, komu poskytnou osobní údaje a informace o platební kartě. Z toho důvodu je potřeba, aby webové stránky působily důvěryhodně [cit]https://blog.eshop-rychle.cz/duveryhodnost-bezpecnost-eshopu-https/[/cit].
 
-Doporučované základní úpravy pro obecné zvýšení důvěryhodnosti e-shopu:
+
+**Doporučované základní úpravy pro obecné zvýšení důvěryhodnosti e-shopu:**
 - propracovaný design webu, aktualizovaný jednoduchý přehledný a nepříliš agresivní vzhled,
 - vizuální kontakt s člověkem nebo maskotem,
 - aktuálnost e-shopu,
 - zakomponování bezpečnostního symbolu,
 - přidání možnosti snadného kontaktu [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit]
+
 
 _„Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás“_ [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit].
 
@@ -212,8 +214,6 @@ _„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžet
 Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9 % webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
 Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
-
-Oficiální stránky PHP se nacházení na www.php.net [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://k-prog.wz.cz/progjaz/[/cit].
 
 ### Interpretace jazyka
 PHP je imperativní (procedurální) interpretovaný multiparadigmatický programovací jazyk (19).
@@ -295,6 +295,7 @@ Slovem databáze běžně označujeme každý uspořádaný soubor dat [cit]KOFL
 
 Databáze slouží primárně jako nástroj pro snadnější a efektivnější extrakci informací. Díky uspořádání se z dat stává přehledný systém informací, ze kterého se dají snadno čerpat informace a znalosti [cit]HORÁK, M. Návrh informačního systému. Brno: Vysoké učení technické v Brně, Fakulta podnikatelská, 2015. 75 s. Vedoucí diplomové práce Ing. Petr Dydowicz, Ph.D.[/cit].
 
+
 Typy databází lze rozlišovat dle struktur. Mezi základní typy se řadí:
 - ploché,
 - hierarchické a síťové,
@@ -334,7 +335,8 @@ Je nejdůležitějším nástrojem pro PHP vývojáře [cit]https://phpfashion.c
 
 _„Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit“_ [cit]https://www.itnetwork.cz/php/ostatni/composer[/cit].
 
- Předpoklady pro použití:
+
+** Předpoklady pro použití:**
  - projekt závisí na jiných knihovnách,
  - tyto knihovny závisí na dalších knihovnách [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
@@ -372,7 +374,8 @@ Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha poža
 ![Logo Elasticsearch, zdroj: [cit]https://www.elastic.co/brand[/cit]](https://hanabrand.cz/temp/dp/logo-elastic-search.png)
 Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
-Pár vzorových případů pro využití Elasticsearch:
+
+**Pár vzorových případů pro využití Elasticsearch:**
 - díky uložení celého katalogu do Elasticsearch lze produkty vyhledávat a automaticky doplňovat vyhledávání v e-shopu,
 - shromažďování a následná analýza a vyhodnocování protokolů (hledání trendů, statistik,agregační funkce, vyhledávání anomálií),
 - řešení analytických a Business-inteligence potřeb a je kladen důraz na ryhlou analýzu a vizualizaci dat mezi miliony nebo miliardy záznamů [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
@@ -392,6 +395,7 @@ Vagrant je nástroj pro vytváření a správu prostředí virtuálních počít
 
 ### Laravel Homestead
 Laravel Homestead je oficiální, předem zabalený Vagrant box, který poskytuje skvělé vývojové prostředí bez nutnosti instalace PHP, webového serveru a jakéhokoliv jiného serverového softwaru na lokálním počítači [cit]https://laravel.com/docs/5.8/homestead[/cit].
+
 
 Aktuálně Laravel Homestead ve verzi 5.8 obsahuje například software:
 - Ubuntu 18.04,
@@ -417,6 +421,7 @@ V této části práce se budu věnovat popisu základních informací o podniku
 ## Základní informace o podniku
 _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká“_ [cit]https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res[/cit].
 
+
 **Informace o živnostníkovi:**
 - jméno: Hana Hladíková,
 - právní forma podnikání: fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku,
@@ -427,14 +432,14 @@ _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostensk
 - IČO: 68737424,
 - DIČ: CZ7656024827,
 - datum registrace k dani z přidané hodnoty: 13.3.2019,
-- webové stránky: HanaBrand.cz
+- webové stránky: HanaBrand.cz.
 
 ## Značka HanaBrand
 V rámci podnikatelské činnosti podniku vznikla v roce 2015 značka HanaBrand. Pod touto značkou jsou označovány všechny výrobky podniku.
 
 ![Logo HanaBrand používané převážně na výrobcích, zdroj: živnostníkovy interní materiály || width=0.3\textwidth](https://hanabrand.cz/temp/dp/fb_logo_transp_big_black_transp_halfly.png)
 
-![Zjednodušená varianta loga HanaBrand, zdroj živnostníkovy interní materiály || width=0.3\textwidth](https://hanabrand.cz/temp/dp/logo-miniaturni.png)
+![Zjednodušená varianta loga HanaBrand, zdroj: živnostníkovy interní materiály || width=0.3\textwidth](https://hanabrand.cz/temp/dp/logo-miniaturni.png)
 
 ## Nabízené produkty a služby
 Společnost pod značkou HanaBrand nabízí produkty vlastní výroby, které jsou vyrobeny z certifikovaných materiálů českého původu. Mezi tyto produkty patří například:
@@ -618,10 +623,12 @@ Výhodou vlastního řešení je ta, že všechny funkce systému budou pod kont
 
 Nevýhodou toho řešení je ale vysokým nákladem v podobě velkého počtu stráveného časem při vývoji. Pokud je vývojář daného řešení zároveň majitelem obchodu, doporučuje se spíše investovat strávený čas do samotného rozvoje podnikání, než tvorbou platformy. Pro vývoj vlastní platformy je také vhodné mít již zkušenosti s vývojem e-commerce řešení [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
+
 **Výhody**
 - nulové finanční náklady,
 - řešení přesně podle potřeb,
 - žádná vazba na poskytovatele [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
+
 
 **Nevýhody**
 - velké časové náklady,
@@ -633,10 +640,12 @@ Poměrně často se lze na internetu setkat s open-source e-shopovými řešení
 
 Problémem tohoto řešení je, že systém musí být univerzálním řešením pro tisíce obchodníků, tudíž v zásadě nebude systém v základním nastavení vyhovovat individuálním potřebám podniku a bude nutné ho tedy naprosto vždy upravit a doplnit chybějící funkce. Bohužel zároveň většina open-source řešení tohoto typu má velmi špatnou kvalitu zdrojového kódu a mnohdy je i zázrakem, že dané řešení nějakým způsobem vůbec funguje. Některá řešení jsou navíc neuvěřitelně náročná na výkon serveru. Takováto řešení navíc často nedokážou naplnit očekávání dle českých specifik (například práci s dvojí hladinou DPH nebo vystavení faktury dle našich zvyklostí) [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
+
 **Výhody**
 - zdarma
 - okamžitě k použití
 - někdy velké komunity pro vývoj dalších funkcí [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
+
 
 **Nevýhody**
 - často dost špatná kvalita kódu
@@ -644,6 +653,7 @@ Problémem tohoto řešení je, že systém musí být univerzálním řešením
 - tuctový vzhled obchodu
 - často nevhodné pro české podmínky
 - zbytečné funkce [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
+
 
 Mezi tato řešení patří například:
 - WooCommerce,
@@ -657,9 +667,11 @@ Mezi tato řešení patří například:
 ### Řešení na míru
 Řešení na míru vznikne tak, že externí společnost vytvoří e-shopové řešení od základů přesně podle požadavků a představ zadavatele. Většinou se vyplatí až pro velké obchody, které mají speciální požadavky a do budoucna je potřeba počítat s náklady na servis.
 
+
 **Výhody**
 - odladěné funkce
 - vytvoření přesně podle požadavků [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
+
 
 **Nevýhody**
 - velmi vysoká cena [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
@@ -671,6 +683,9 @@ Mezi výhody tohoto řešení patří cena. Ta se dnes pohybuje v rozmezí stove
 
 Nevýhodami tohoto řešení jsou limity platformy a platí tedy, že mnohdy se obchodník musí přizpůsobovat e-shopu a ne e-shop obchodníkovi. Při dokupování nadstandardních modulů a úpravách na míru navíc roste i cena řešení (jeho hlavní výhoda). Další nevýhodou je menší možnost úprav a jistá šablonovanost e-shopu. Díky tomu tohto řešení není vhodné pro střední a velké e-shopy, které vyžadují spíše robustnější e-shopový systém [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
 
+**Výhody**
+- cena,
+- rychlost spuštění obchodu
 ### Výsledek průzkumu
 Společnost má za sebou již od roku 2015 zkušenosti s různými e-shopovými řešeními a v kombinaci s vyhotoveným průzkumem dostupných řešení lze vyvodit závěr, že bude pro tuto konkrétní společnost bude vhodné realizovat řešení na míru, přesně dle požadavků společnosti.
 
@@ -718,23 +733,24 @@ Celý systém je rozdělen na samostatné logické celky, které jsou reprezento
 - Jarvis CMS,
 - Jarvis Shop,
 
-![Rozdělení systému na balíčky - jednotlivé repositáře, zdroj gitlab.com](https://hanabrand.cz/temp/dp/balicky-systemu.png)
+![Rozdělení systému na balíčky - jednotlivé repositáře, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/balicky-systemu.png)
 
 Systém je tedy tvořen samostatnými balíčky, které se instalují pomocí nástroje Composer. Zdrojové kódy těchto balíčků se po instalaci nacházejí v adresáři ,,vendor/" a z pohledu aplikace by nemělo docházet k úpravám jejich kódu (úpravy se s aktualizací balíčků zahodí).
 
-**Jarvis App**
+#### Jarvis App
 Základním balíčkem aplikace, balíček je typu "projekt", vytváří základní adresářovou strukturu aplikace a je závislý na balíčku "core". Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).
-![Composer.json projektu Jarvis App, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/composer-app.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png)
 
 #### Jarvis Core
 Jádro aplikace, balíček je typu "knihovna". Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png)
 
 #### Jarvis CMS
 Balíček typu "knihovna", poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku "Core". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
-
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png)
 #### Jarvis Shop
 Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku "Core" a "CMS". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
-
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png)
 ### Moduly
 Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:
 - Admin,
@@ -887,6 +903,8 @@ Na základě vyhledávání v Elasticsearch jsou systému nazpět navrácena dat
 Lokalizace systému je realizovaná na úrovni jazyků a měn. Administrátoři mají k dispozici nadefinovat jazyk a měny, které bude systém používat a vždy zvolí jeden jazyk a jednu měnu jako hlavní (výchozí). Výchozím jazykem celého systému je ve výchozím stavu angličtina, měna ve výchozím stavu není definovaná žádná.
 
 Pokud je pak entita přeložitelná (existuje entita překladu konkrétní entity) je formulář pro úpravu entity automaticky rozšířen o překladová pole, které překládají vlastnosti entity do konkrétního jazyku.
+
+TODO: nechat jenom, kdyz bude sedet velikost
 
 ![Formulář úpravy článku s překladem, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/formular-jazyky.png)
 
