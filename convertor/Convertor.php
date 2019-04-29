@@ -144,6 +144,7 @@ class Convertor
                 } else {
                     $this->isNewLining = true;
                 }
+                $this->output[] = '';
             } else {
                 $this->isNewLining = false;
                 $this->output[] = $row->getContent();
