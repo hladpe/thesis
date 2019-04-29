@@ -432,25 +432,24 @@ V této části práce se budu věnovat popisu základních informací o podniku
 ## Základní informace o podniku
 _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká“_ [cit]https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res[/cit].
 
-|||
-|--|--|
-|Jméno|Hana Hladíková|
-|Právní forma podnikání|Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku|
-|Přidělený úřad|Městský úřad Velké Meziříčí|
-|Vznik živnosti|1.7.2001|
-|Sídlo|Lavičky 127, 594 01|
-|Klasifikace ekonomických činností -CZ-|Ostatní profesní, vědecké a technické činnosti, Poradenství v oblasti řízení|
-|IČO|68737424|
-|DIČ|CZ7656024827|
-|Datum registrace k dani z přidané hodnoty|13.3.2019|
-|Webové stránky|HanaBrand.cz|
+**Informace o živnostníkovi:**
+- jméno: Hana Hladíková,
+- právní forma podnikání: fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku,
+- přidělený úřad: městský úřad Velké Meziříčí,
+- vznik živnosti: 1.7.2001,
+- sídlo: Lavičky 127, 594 01,
+- klasifikace ekonomických činností -CZ-: ostatní profesní, vědecké a technické činnosti, poradenství v oblasti řízení,
+- IČO: 68737424,
+- DIČ: CZ7656024827,
+- datum registrace k dani z přidané hodnoty: 13.3.2019,
+- webové stránky: HanaBrand.cz
 
 ## Značka HanaBrand
 V rámci podnikatelské činnosti podniku vznikla v roce 2015 značka HanaBrand. Pod touto značkou jsou označovány všechny výrobky podniku.
 
-![Logo HanaBrand používané převážně na výrobcích, zdroj: živnostníkovy interní materiály](https://hanabrand.cz/temp/dp/fb_logo_transp_big_black_transp_halfly.png)
+![Logo HanaBrand používané převážně na výrobcích, zdroj: živnostníkovy interní materiály || width=0.3\textwidth](https://hanabrand.cz/temp/dp/fb_logo_transp_big_black_transp_halfly.png)
 
-![Zjednodušená varianta loga HanaBrand, zdroj živnostníkovy interní materiály](https://hanabrand.cz/temp/dp/logo-miniaturni.png)
+![Zjednodušená varianta loga HanaBrand, zdroj živnostníkovy interní materiály || width=0.3\textwidth](https://hanabrand.cz/temp/dp/logo-miniaturni.png)
 
 ## Nabízené produkty a služby
 Společnost pod značkou HanaBrand nabízí produkty vlastní výroby, které jsou vyrobeny z certifikovaných materiálů českého původu. Mezi tyto produkty patří například:
@@ -604,40 +603,23 @@ V současnosti společnost propaguje svoje výrobky pomocí placených kampaní 
 ## Požadavky na nové řešení
 Na základě konzultace s Hanou Hladíkovou, byl sestaven následující seznam požadavků, které by mělo nové řešení poskytovat:
 - administrace všech entit v systému (nejen produkty a objednávky),
-- propojení s cenovými srovnávači:
-	- Zboží.cz,
-	- Heuréka,
-	- Google Merchants,
+- propojení s cenovými srovnávači (Zboží.cz, Heuréka, Google Merchants),
 - platba kartou,
 - varianty produktů,
 - uživatelské parametry produktů,
-- propracovaná cenotvorba:
-	- měny (min CZK, EUR),
-	- slevy (na dopravu, na produkty),
-	- B2C, B2B (cenové hladiny),
-- konfigurace dostupných způsobů doprav:
-	- dle zemí,
-	- dle ceny objednávky,
-	- dle rozměrů a váhy košíku,
+- propracovaná cenotvorba (měny, slevy, cenové hladiny),
+- konfigurace dostupných způsobů doprav (dle zemí, dle ceny objednávky, dle rozměrů a váhy košíku),
 - zobrazování cen s DPH i bez DPH,   
-- propojení s externími službami (API):
-	- Zásilkovna.cz,
-	- Česká pošta,
+- propojení s externími službami (Zásilkovna, Česká pošta),
 - správa skladů,
 - dodací i fakturační adresa pro objednání,
-- uživatelské účty pro zákazníky:
-	- rezervace produktů,
-	- historie objednávek,
-	- přiřazení cenové hladiny,
-	- správa adres (dodací, fakturační),
+- uživatelské účty pro zákazníky (rezervace produktů, historie objednávek, přiřazení cenové hladiny, správa adres)
 - recenze produktů,
 - správa obsahu (bannery, články, kategorie),
 - překlady do cizích jazyků,
-- redesign,
+- změna vzhledu e-shopu,
 - správa metatagů pro SEO,
-- vyhledávání:
-	- fulltextové,
-	- na základě parametrů
+- vyhledávání (fulltextové, na základě parametrů).
 
 ## Průzkum dostupných řešení
 Dané požadavky společnosti lze splnit pomocí různých dostupných řešení. Ty lze rozdělit dle několika kritérií na:
