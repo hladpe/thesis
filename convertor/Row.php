@@ -23,7 +23,7 @@ class Row
     /**
      * @return bool
      */
-    public function convertCleanLine(): bool
+    public function convertNewLine(): bool
     {
         if (trim($this->content) === '') {
             $this->content = '\bigbreak';

@@ -101,6 +101,7 @@ class Convertor
             $row->convertStrong();
             $row->convertItalic();
             $row->convertQuotes();
+            $row->convertNewLine();
 
             // <ul>
             if ($row->isUnorderedListItem()) {
