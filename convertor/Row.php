@@ -132,9 +132,13 @@ class Row
             file_put_contents($path, file_get_contents($image));
         }
 
+        $titleParts = explode('||', $title);
+        $title = trim($titleParts[0]);
+        $style = array_key_exists(1, $titleParts) ? trim($titleParts[1]) : 'width=0.75\textwidth';
+
         $this->content = '\begin{figure}[H]' . PHP_EOL
                         . '\begin{center}' . PHP_EOL
-                        . '\includegraphics[width=0.75\textwidth]{' . ($imagesDirName ? $imagesDirName . '/' : '') . $hash . '}' . PHP_EOL
+                        . '\includegraphics[' . $style . ']{' . ($imagesDirName ? $imagesDirName . '/' : '') . $hash . '}' . PHP_EOL
                         . '\caption{' . $title . '}' . PHP_EOL
                         . '\end{center}'
                         . '\end{figure}';
