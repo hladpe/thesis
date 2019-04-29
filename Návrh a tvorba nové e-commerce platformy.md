@@ -278,22 +278,22 @@ _„Z praktických zkušeností vám mohu s klidem říci, že pokud programujet
 ## MVC architektura
 MVC architektura neboli architektura Model-View-Controller, je architektura budování aplikace, která oddělí aplikaci na 3 logické části [cit]https://www.stargen.cz/slovnik/HTML/[/cit].
 
-_„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Řeší tedy problém tzv. "špagetového kódu", kdy máme v jednom souboru (třídě) logické operace a zároveň renderování výstupu. Soubor tedy obsahuje databázové dotazy, logiku (např. PHP operace) a různě poházené HTML tagy. Vše je zamotané do sebe jako špagety. Kód se samozřejmě špatně udržuje, natož rozšiřuje“_ [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
+_„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Řeší tedy problém tzv. "špagetového kódu", kdy máme v jednom souboru (třídě) logické operace a zároveň renderování výstupu. Soubor tedy obsahuje databázové dotazy, logiku (např. PHP operace) a různě poházené HTML tagy. Vše je zamotané do sebe jako špagety. Kód se samozřejmě špatně udržuje, natož rozšiřuje“_ [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
-Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
+Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ![Znázornění architektury MVC, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit]](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
 
 ### Model
-Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
+Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### View
-Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovaly opakování stejného kusu kódu v několika šablonách [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
+Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovaly opakování stejného kusu kódu v několika šablonách [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### Controller
 Controller, lze přeložit jako ,,řadič" [cit]https://doc.nette.org/cs/2.4/presenters[/cit].
 
-Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
+Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 
 ## MVP architektura
