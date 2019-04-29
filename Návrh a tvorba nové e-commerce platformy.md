@@ -7,7 +7,7 @@
 
 ## Internet
 Internet je celosvětová síť (desítky tisíc jednotlivých sítí – možná i mnohem více) propojující všechny kontinenty, státy a města tak, že jakýkoliv počítač může kdykoliv komunikovat s jakýmkoliv jiným počítačem, ať je kdekoliv na planetě.
-Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společný zájem – chtějí být propojeni [cit]Co je Internet a jak funguje? _Datacentrum WEDOS_ [online]. Hluboká nad Vltavou, 2010 [cit. 2016-04-01]. Dostupné z: http://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html[/cit].
+Internet nikdo neřídí, funguje díky tomu, že všichni lidé mají společný zájem – chtějí být propojeni [cit]https://datacentrum.wedos.com/a/17/co-je-internet-jak-funguje.html[/cit].
 
 
 ### Vznik internetu 
