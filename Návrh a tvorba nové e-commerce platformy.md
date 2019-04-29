@@ -1,5 +1,3 @@
-
-
 # Úvod
 
 # Cíl a metodika práce
@@ -150,11 +148,13 @@ Pronájmu e-shopu se také říká krabicové řešení e-shopu. Lze s ním zač
 ### Online marketing
 Online marketing je označení pro propagaci produktů nebo služeb na internetu [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
-Rozdělení online marketingu:
+
+**Rozdělení online marketingu:**
 - inbound marketing – dlouhodobé formování a podpora vztahu s potenciálními zákazníky, například pomocí různého obsahu pomáhá, vzdělává nebo baví (populární obsahový marketing),
 - outbound marketing - zaměřuje se naopak na efektivní propagaci produktu neb služby [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
-Hlavní nástroje online marketingu:
+
+**Hlavní nástroje online marketingu:**
 - internetové stránky - jádro prezentace na internetu,
 - sociální sítě - oslovování potenciálních zákazníků přes udržované a aktualizované stránky s poutavými příspěvky nebo reklamou,
 - e-mail marketing - dlouhodobě úspěšná metoda založená na prohlubování vztahu mezi odesílatelem a příjemcem (potenciálním zákazníkem) například formou newsletterů,
