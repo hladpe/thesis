@@ -275,24 +275,6 @@ class Convertor
 
         return '@misc{' . $hash . ',' . $string . PHP_EOL . '}' . PHP_EOL;
 
-        /*
-
-
-        $cit = '@misc{' . $hash . ',' . PHP_EOL
-            . '    title     = "' . $title . '",' . PHP_EOL
-            . '    url       = "' . $url . '",' . PHP_EOL
-            . '    note      = "[Online]. ' . $year . '[cit. ' . date('d.m.Y') . ']"' . PHP_EOL
-            . '}' . PHP_EOL;
-
-        $cit .= '@misc{' . $hash . ',' . PHP_EOL
-            . '    title     = "' . $title . '",' . PHP_EOL
-            . '    url       = "' . $url . '",' . PHP_EOL
-            . '    note      = "[Online]. ' . $year . '[cit. ' . date('d.m.Y') . ']"' . PHP_EOL
-            . '}' . PHP_EOL;
-
-        return $cit;
-        */
-
     }
 
     /**
