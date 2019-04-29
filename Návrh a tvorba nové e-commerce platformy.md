@@ -63,7 +63,7 @@ TODO: SEO
 ## E-business
 _„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely“_ [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].
 
-![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].  || width=0.3\textwidth](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
+![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
 
 ### E-commerce
 E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání)[cit]http://www.adaptic.cz/znalosti/slovnicek/e-commerce/[/cit].
@@ -202,11 +202,9 @@ Doporučované základní úpravy pro obecné zvýšení důvěryhodnosti e-shop
 _„Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás“_ [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit].
 
 ## Hypertext Markup Language – HTML
-HTML je značkovací jazyk pro hypertext. Je jedním z jazyků, které umožňují vytvářet dokumenty, které je pak možné publikovat na internetu. Je definován množinou značek a jejich atributů. Mezi značky se uzavírají části textu a tím se určuje význam obsaženého textu. Jednotlivé značky se uzavírají mezi úhlové závorky „<“ a „>“. Součástí elementu mohou být v obsahu další vnořené elementy. Pomocí atributů se elementu doplňují informace, které definují vlastnosti elementu [cit]Slovník - HTML. STARGEN [online]. Praha, 2009 [cit. 2016-04-01]. Dostupné z:
-http://www.stargen.cz/slovnik/HTML/[/cit].
+HTML je značkovací jazyk pro hypertext. Je jedním z jazyků, které umožňují vytvářet dokumenty, které je pak možné publikovat na internetu. Je definován množinou značek a jejich atributů. Mezi značky se uzavírají části textu a tím se určuje význam obsaženého textu. Jednotlivé značky se uzavírají mezi úhlové závorky „<“ a „>“. Součástí elementu mohou být v obsahu další vnořené elementy. Pomocí atributů se elementu doplňují informace, které definují vlastnosti elementu [cit]https://www.stargen.cz/slovnik/HTML/[/cit].
 
-Značky neboli „tagy“ mohou být párové a nepárové. Párové značky se uzavírají koncovou značkou, která je shodná s počáteční, akorát se před názvem vpisuje znak lomítka „/“ [cit]Slovník - HTML. STARGEN [online]. Praha, 2009 [cit. 2016-04-01]. Dostupné z:
-http://www.stargen.cz/slovnik/HTML/[/cit].
+Značky neboli „tagy“ mohou být párové a nepárové. Párové značky se uzavírají koncovou značkou, která je shodná s počáteční, akorát se před názvem vpisuje znak lomítka „/“ [cit]https://www.stargen.cz/slovnik/HTML/[/cit].
 
 ## CSS
 CSS (Cascading Style Sheets - kaskádové styly) je zápis, který určuje vzhled (barvy, dekorační obrázky, rozmístění prvků) HTML dokumentu [cit]http://www.pestujemeweb.cz/obsah/css/co-je-css.php[/cit].
@@ -217,8 +215,7 @@ CSS nenabízí možnost jak strukturovat styly uvnitř souboru. Vždy musí být
 Mezi CSS preprocesory patří například LESS nebo Sass [cit]https://www.zdrojak.cz/clanky/css-preprocesory-mene-psani-vyssi-efektivita/[/cit].
 
 ## Hypertext Preprocesor – PHP
-_„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]PHP /základy/. Tvorba-webu.cz [online]. 2005 [cit. 2016-04-01]. Dostupné z:
-http://www.tvorba-webu.cz/php/[/cit].
+_„PHP je programovací jazyk, který pracuje na straně serveru. S PHP můžete ukládat a měnit data webových stránek. Původní význam zkratky PHP byl Personal Home Page. Vzniklo v roce 1996, od té doby prošlo velkými změnami a nyní tato zkratka znamená PHP: Hypertext Preprocessor”_ [cit]http://www.tvorba-webu.cz/php/[/cit].
 
 Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webového vývoje. Pohání téměř 78,9 % webových stránek. Tento jazyk vyvíjí skupina vývojářů s názvem The PHP Group a ta ho zdarma distribuuje jako volně dostupný skriptovací jazyk. Lze jej zprovoznit téměř na všech operačních systémech a na všech platformách [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
