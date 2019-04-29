@@ -23,6 +23,14 @@ class Row
     /**
      * @return bool
      */
+    public function isEmpty(): bool
+    {
+        return trim($this->content) === '';
+    }
+
+    /**
+     * @return bool
+     */
     public function hasTODO(): bool
     {
         return preg_match('/todo/i', $this->content);
