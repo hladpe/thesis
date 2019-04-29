@@ -23,9 +23,11 @@ class Row
     /**
      * @return bool
      */
-    public function isEmpty(): bool
+    public function convertCleanLine(): bool
     {
-        return trim($this->content) === '';
+        if (trim($this->content) === '') {
+            $this->content = '\bigbreak';
+        }
     }
 
     /**
