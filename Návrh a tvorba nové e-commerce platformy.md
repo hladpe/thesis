@@ -273,10 +273,10 @@ Jedním z hlavních společných cílů při programování by měl být šetři
 
 Framework je ucelený soubor tematicky zaměřených knihoven, které ulehčují práci při programování aplikací. To zajišťuje psaní méně kódu, kód je přehlednější a rychlejší vývoj aplikace. Většina frameworků pracuje s architekturou MVC, která rozděluje aplikaci na nezávislé vrstvy [cit]LÁNG, Peter. Co je to framework? Webárna [online]. 2007 [cit. 2016-04-01]. Dostupné z: http://langi.cz/webarna/co-je-to-framework[/cit].
 
-_„Z praktických zkušeností vám mohu s klidem říci, že pokud programujete v čistém PHP, tak je asi 50 % vašeho kódu nepotřebný balast. S použitím kvalitních knihoven napíšete aplikaci za polovinu času a s polovičním počtem řádků. Aplikace bude snadno udržovatelná a její tvorba vás bude bavit. Nebudete stále vynalézat kolo a řešit ty samé rutinní záležitosti (jako např. jak ověřit, zda je uživatel administrátor), budete se naopak věnovat vymýšlení zajímavých funkcí té dané aplikace a o tom programování přeci je“_ [cit]ČÁPKA, David. 1. díl - Úvod do Nette frameworku pro PHP. Itnetwork.cz [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/php/nette/zaklady/uvod-do-php-frameworku-nette/[/cit].
+_„Z praktických zkušeností vám mohu s klidem říci, že pokud programujete v čistém PHP, tak je asi 50 % vašeho kódu nepotřebný balast. S použitím kvalitních knihoven napíšete aplikaci za polovinu času a s polovičním počtem řádků. Aplikace bude snadno udržovatelná a její tvorba vás bude bavit. Nebudete stále vynalézat kolo a řešit ty samé rutinní záležitosti (jako např. jak ověřit, zda je uživatel administrátor), budete se naopak věnovat vymýšlení zajímavých funkcí té dané aplikace a o tom programování přeci je“_ [cit]https://www.itnetwork.cz/php/nette/zaklady/uvod-do-php-frameworku-nette/[/cit].
 
 ## MVC architektura
-MVC architektura neboli architektura Model-View-Controller, je architektura budování aplikace, která oddělí aplikaci na 3 logické části [cit]Slovník - HTML. STARGEN [online]. Praha, 2009 [cit. 2016-04-01]. Dostupné z: http://www.stargen.cz/slovnik/HTML/[/cit].
+MVC architektura neboli architektura Model-View-Controller, je architektura budování aplikace, která oddělí aplikaci na 3 logické části [cit]https://www.stargen.cz/slovnik/HTML/[/cit].
 
 _„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Řeší tedy problém tzv. "špagetového kódu", kdy máme v jednom souboru (třídě) logické operace a zároveň renderování výstupu. Soubor tedy obsahuje databázové dotazy, logiku (např. PHP operace) a různě poházené HTML tagy. Vše je zamotané do sebe jako špagety. Kód se samozřejmě špatně udržuje, natož rozšiřuje“_ [cit]ČÁPKA, David. MVC architektura. Itnetwork.cz [online]. 2016 [cit. 2016-04-01]. Dostupné z: http://www.itnetwork.cz/navrhove-vzory/mvc-architektura-navrhovy-vzor/[/cit].
 
@@ -318,7 +318,7 @@ Typy databází lze rozlišovat dle struktur. Mezi základní typy se řadí:
 ### Relační databáze
 Relační databáze jsou v současnosti nejpoužívanějším typem databází [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit].
 
-_„Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky“_ [cit]https://it-slovnik.cz/pojem/relacni-databaze/[/cit].
+_„Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky“_ [cit]https://it-slovnik.cz/pojem/relacni-databaze[/cit].
 
 Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit]
 
