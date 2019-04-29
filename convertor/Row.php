@@ -20,14 +20,9 @@ class Row
         return $this->content;
     }
 
-    /**
-     * @return bool
-     */
-    public function convertNewLine(): bool
+    public function isEmptyLine(): bool
     {
-        if (trim($this->content) === '') {
-            $this->content = '\bigbreak';
-        }
+        return trim($this->content) === '';
     }
 
     /**

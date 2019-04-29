@@ -58,6 +58,11 @@ class Convertor
     private $isTabling = false;
 
     /**
+     * @var bool
+     */
+    private $isNewLining = false;
+
+    /**
      * @param Configuration $configuration
      * @throws Exception
      */
@@ -101,7 +106,6 @@ class Convertor
             $row->convertStrong();
             $row->convertItalic();
             $row->convertQuotes();
-            $row->convertNewLine();
 
             // <ul>
             if ($row->isUnorderedListItem()) {
@@ -133,7 +137,18 @@ class Convertor
                 $this->output[] = '\end{tabu}';
             }
 
-            $this->output[] = $row->getContent();
+            // new line - after two new lines in a row
+            if ($row->isEmptyLine()) {
+                if ($this->isNewLining) {
+                    $this->output[] = '\bigbreak';
+                } else {
+                    $this->isNewLining = true;
+                }
+            } else {
+                $this->isNewLining = false;
+                $this->output[] = $row->getContent();
+            }
+
             $iterator->next();
 
             $this->progressBar($iterator->key(), $iterator->count());
