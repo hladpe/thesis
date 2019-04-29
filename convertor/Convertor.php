@@ -207,7 +207,7 @@ class Convertor
 
         $url = $matches[0];
         
-        $tags = get_meta_tags($url);
+        $tags = (array) @get_meta_tags($url);
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
