@@ -11,7 +11,7 @@ $configuration = new Configuration(
 );
 
 
-$configuration->addCitation('c0bf19caab884610945703b42983ab27', '@online{c0bf19caab884610945703b42983ab27,
+$configuration->addCitation('c0bf19caab884610945703b42983ab27', '@misc{c0bf19caab884610945703b42983ab27,
     title     = "Open Source Search & Analytics · Elasticsearch | Elastic",
     url       = "https://www.elastic.co/brand",
 }

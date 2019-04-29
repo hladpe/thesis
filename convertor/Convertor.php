@@ -206,6 +206,8 @@ class Convertor
         }
 
         $url = $matches[0];
+        
+        $tags = get_meta_tags($url);
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -251,11 +253,46 @@ class Convertor
             $year = '';
         }
 
-        return '@online{' . $hash . ',' . PHP_EOL
+        $cit = [];
+        $cit['title'] = '"' . $title . '"';
+        $cit['url'] = '"' . $url . '"';
+
+        if (array_key_exists('author', $tags)) {
+            $author = trim($tags['author']);
+            $author = html_entity_decode($author);
+            $author = htmlspecialchars_decode($author);
+
+            if ($author) {
+                $cit['author'] = '"' . $author . '"';
+            }
+        }
+        $cit['note'] = '"[Online]. ' . $year . '[cit. ' . date('d-m-Y') . ']"';
+
+        $string = '';
+        foreach ($cit as $key => $value) {
+            $string .= PHP_EOL . $key . ' = ' . $value . ',';
+        }
+
+        return '@misc{' . $hash . ',' . $string . PHP_EOL . '}' . PHP_EOL;
+
+        /*
+
+
+        $cit = '@misc{' . $hash . ',' . PHP_EOL
             . '    title     = "' . $title . '",' . PHP_EOL
             . '    url       = "' . $url . '",' . PHP_EOL
             . '    note      = "[Online]. ' . $year . '[cit. ' . date('d.m.Y') . ']"' . PHP_EOL
             . '}' . PHP_EOL;
+
+        $cit .= '@misc{' . $hash . ',' . PHP_EOL
+            . '    title     = "' . $title . '",' . PHP_EOL
+            . '    url       = "' . $url . '",' . PHP_EOL
+            . '    note      = "[Online]. ' . $year . '[cit. ' . date('d.m.Y') . ']"' . PHP_EOL
+            . '}' . PHP_EOL;
+
+        return $cit;
+        */
+
     }
 
     /**
