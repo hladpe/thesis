@@ -134,7 +134,7 @@ class Row
 
         $titleParts = explode('||', $title);
         $title = trim($titleParts[0]);
-        $style = array_key_exists(1, $titleParts) ? trim($titleParts[1]) : 'width=1\textwidth';
+        $style = array_key_exists(1, $titleParts) ? trim($titleParts[1]) : 'width=0.75\textwidth';
 
         $this->content = '\begin{figure}[H]' . PHP_EOL
                         . '\begin{center}' . PHP_EOL
