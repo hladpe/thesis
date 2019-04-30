@@ -274,7 +274,7 @@ class Convertor
         }
 
         $cit = [];
-        $cit['title'] = '"' . $title . '"';
+        $cit['title'] = '"' . mb_strtolower($title) . '"';
         // $cit['url'] = '"' . $url . '"';
 
         /*
@@ -291,8 +291,9 @@ class Convertor
 
         $urlParts = parse_url($url);
         $host = str_replace('www.', '', $urlParts['host']);
+        $escaped = str_replace('_', '\\_', $url);
 
-        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']. Dostupné z: ' . $url . '"';
+        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']. Dostupné z: ' . $escaped . '"';
 
         $string = '';
         foreach ($cit as $key => $value) {
