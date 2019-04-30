@@ -224,7 +224,7 @@ class Convertor
 
         $url = $matches[0];
         
-        $tags = (array) @get_meta_tags($url);
+        // $tags = (array) @get_meta_tags($url);
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -275,6 +275,7 @@ class Convertor
         $cit['title'] = '"' . $title . '"';
         // $cit['url'] = '"' . $url . '"';
 
+        /*
         if (array_key_exists('author', $tags)) {
             $author = trim($tags['author']);
             $author = html_entity_decode($author);
@@ -284,11 +285,12 @@ class Convertor
                 $cit['author'] = '"' . $author . '"';
             }
         }
+        */
 
         $urlParts = parse_url($url);
-        echo $urlParts['host'];
+        $host = str_replace('www.', '', $urlParts['host']);
 
-        $cit['note'] = '"\textit{' . ucfirst($urlParts['host']). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']". Dostupné z: ' . $url;
+        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']". Dostupné z: ' . $url;
 
         $string = '';
         foreach ($cit as $key => $value) {
