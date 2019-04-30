@@ -216,8 +216,8 @@ Je nejoblíbenějším skriptovacím jazykem na straně serveru v oblasti webov�
 Jazyk je určen pro zpracování dat tak, aby je bylo možné dynamicky zobrazovat na webových stránkách - provádění matematických výpočtů, převádění formátů a spolupráce s databázemi. Díky tomu umožňuje transformovat statické stránky tak, aby reagovaly na uživatelské podněty [cit]HOPKINS, C. a O. BAŠE. PHP okamžitě. 1. vyd. Brno: Computer Press, 2014. 134 s. ISBN 978-80-251-4196-0.[/cit].
 
 ### Interpretace jazyka
-PHP je imperativní (procedurální) interpretovaný multiparadigmatický programovací jazyk (19).
-Imperativní programovací jazyk je jazyk, který k řešení úlohy tedy využívá algoritmu (postup, jak se má daná úloha vyřešit) (19).
+PHP je imperativní (procedurální) interpretovaný multiparadigmatický programovací jazyk [cit]VORÁČEK, Jan. Skriptovací jazyky pro tvorbu webových aplikací. Pardubice, Dostupné také z: http://blog.voracek.net/wp-content/uploads/2013/09/JanVoracek_SkriptovaciJazykyProTvorbuWebovychAplikaci.pdf. Diplomová práce. Univerzita Pardubice. Vedoucí práce Ing. Michael Bažant, Ph.D.[/cit].
+Imperativní programovací jazyk je jazyk, který k řešení úlohy tedy využívá algoritmu (postup, jak se má daná úloha vyřešit) [cit]VORÁČEK, Jan. Skriptovací jazyky pro tvorbu webových aplikací. Pardubice, Dostupné také z: http://blog.voracek.net/wp-content/uploads/2013/09/JanVoracek_SkriptovaciJazykyProTvorbuWebovychAplikaci.pdf. Diplomová práce. Univerzita Pardubice. Vedoucí práce Ing. Michael Bažant, Ph.D.[/cit].
 
 Interpretovaný programovací jazyk je jazyk, který je do strojového kódu překládán až za běhu programu (tím se liší od kompilovaných, kde se před spuštěním musí zdrojový kód překompilovat pomocí kompilátoru do strojového kódu a až potom spuštěn). Zdrojový kód se za běhu překládá pomocí interpretu a ten příkazy při překladu zároveň provádí (po částech) [cit]Programovací jazyky. Programování [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://k-prog.wz.cz/progjaz/[/cit].
 Multiparadigmatický programovací jazyk je jazyk, který podporuje více jak jedno programovací paradigma [cit]VORÁČEK, Jan. Skriptovací jazyky pro tvorbu webových aplikací. Pardubice, Dostupné také z: http://blog.voracek.net/wp-content/uploads/2013/09/JanVoracek_SkriptovaciJazykyProTvorbuWebovychAplikaci.pdf. Diplomová práce. Univerzita Pardubice. Vedoucí práce Ing. Michael Bažant, Ph.D.[/cit].
@@ -739,18 +739,18 @@ Systém je tedy tvořen samostatnými balíčky, které se instalují pomocí n�
 
 #### Jarvis App
 Základním balíčkem aplikace, balíček je typu "projekt", vytváří základní adresářovou strukturu aplikace a je závislý na balíčku "core". Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png)
 
 #### Jarvis Core
 Jádro aplikace, balíček je typu "knihovna". Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png)
 
 #### Jarvis CMS
 Balíček typu "knihovna", poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku "Core". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png)
 #### Jarvis Shop
 Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku "Core" a "CMS". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.3\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png)
 ### Moduly
 Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:
 - Admin,
