@@ -231,6 +231,7 @@ class Convertor
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, true);
         $output = curl_exec($ch);
+        $output = mb_convert_encoding($output, 'HTML-ENTITIES', "UTF-8");
         $pattern = '/[<]title[>]([^<]*)[<][\/]title[>]/i';
         preg_match($pattern, $output, $matches);
 
@@ -272,18 +273,22 @@ class Convertor
 
         $cit = [];
         $cit['title'] = '"' . $title . '"';
-        $cit['url'] = '"' . $url . '"';
+        // $cit['url'] = '"' . $url . '"';
 
         if (array_key_exists('author', $tags)) {
             $author = trim($tags['author']);
             $author = html_entity_decode($author);
             $author = htmlspecialchars_decode($author);
 
-            if ($author) {
+            if (preg_match('/^[\p{Latin}]+$/u', $author)) {
                 $cit['author'] = '"' . $author . '"';
             }
         }
-        $cit['note'] = '"[Online]. ' . $year . '[cit. ' . date('d-m-Y') . ']"';
+
+        $urlParts = parse_url($url);
+        echo $urlParts['host'];
+
+        $cit['note'] = '"\textit{' . ucfirst($urlParts['host']). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']". Dostupné z: ' . $url;
 
         $string = '';
         foreach ($cit as $key => $value) {
