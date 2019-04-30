@@ -230,8 +230,10 @@ class Convertor
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, true);
+
         $output = curl_exec($ch);
-        $output = mb_convert_encoding($output, 'HTML-ENTITIES', "UTF-8");
+        $output = mb_convert_encoding($output, 'UTF-8', mb_detect_encoding($output, 'UTF-8, ISO-8859-1', true));
+
         $pattern = '/[<]title[>]([^<]*)[<][\/]title[>]/i';
         preg_match($pattern, $output, $matches);
 
@@ -290,7 +292,7 @@ class Convertor
         $urlParts = parse_url($url);
         $host = str_replace('www.', '', $urlParts['host']);
 
-        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']". Dostupné z: ' . $url;
+        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']. Dostupné z: ' . $url . '"';
 
         $string = '';
         foreach ($cit as $key => $value) {

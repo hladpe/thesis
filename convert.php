@@ -119,7 +119,7 @@ $configuration->addCitation('923d16604426d063c7cecd82b9a7bd8a', '@book{923d16604
 }
 ');
 $configuration->addCitation('9fe4bb5f22ddff5b36a265957ee0ad98', '@book{9fe4bb5f22ddff5b36a265957ee0ad98,
-    title = {E-commerce : elektronické podnikání a koncepce elektronického obchodování},
+    title = {E-commerce: elektronické podnikání a koncepce elektronického obchodování},
     edition = {1. vyd.},
     language = {cze},
     address = {Praha},
