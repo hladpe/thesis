@@ -50,13 +50,10 @@ Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTM
 ### Hypertext
 _„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]https://it-slovnik.cz/pojem/hypertext[/cit].
 
-## SEO
-TODO: SEO
-
 ## E-business
 _„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely“_ [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].
 
-![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
+![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit]. || width=0.75\textwidth](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
 
 ### E-commerce
 E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání)[cit]http://www.adaptic.cz/znalosti/slovnicek/e-commerce/[/cit].
@@ -270,7 +267,7 @@ _„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Ře
 
 Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
-![Znázornění architektury MVC, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit]](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
+![Znázornění architektury MVC, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
 
 ### Model
 Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
@@ -286,7 +283,7 @@ Controller zastává funkci prostředníka, se kterým komunikuje uživatel, mod
 ## MVP architektura
 MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou ,,komunikaci" mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
 
-![Znázornění architektury MVP, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit]](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVP-Pattern.png)
+![Znázornění architektury MVP, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVP-Pattern.png)
 
 ## Databáze
 _„Databáze neboli datová základna (Data Base) je místo, kam se ukládají určitým způsobem organizované a strukturované údaje. Přístup k údajům uložených v databázi obstarává databázový systém, kterému se říká SŘBD – Systém Řízení Báze Dat (anglický termín DBMS – Database Management System). Běžně se označením databáze myslí jak uložená data, tak i software“_ [cit]Databáze. Misha [online]. 2011 [cit. 2016-12-12]. Dostupné z: http://www.databaze.chytrak.cz/[/cit].
@@ -348,7 +345,7 @@ Funkce Composeru:
 Satis je open source generátor statického Composer repositáře. Je to ultralehké řešení, které umožňuje hostování metadata privátních balíčků (repositářů) [cit]https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md[/cit].
 
 ## Nette Framework
-![Logo Nette Framework, zdroj: [cit]https://nette.org/cs/logo[/cit]](https://files.nette.org/git/www/nette-logo-blue.png)
+![Logo Nette Framework, zdroj: [cit]https://nette.org/cs/logo[/cit] || width=0.5\textwidth](https://files.nette.org/git/www/nette-logo-blue.png)
 _„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost“_ [cit]https://nette.org/cs/[/cit].
 
 Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá spistředit se na kreativní stránku vývoje [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
@@ -359,7 +356,7 @@ Nette Framework používají významné společnosti jako třeba T-Systems, GE M
 Nittro je JavaScriptový framework na straně klienta, speciálně vytvořený pro Nette aplikace. Vytváří kompletní AJAXem řízené stránky. Stará se o základní funkcionality, jako jsou aktualizace sekcí na stránce, aktualizace historie prohlížeče, zobrazování animací během načítání obsahu, validace formuláře na klientské straně, AJAX upload, zobrazování systémových zpráv a další. Lze do Nette aplikace snadno aplikovat a neobsahuje žádné závislosti na další JavaScriptové knihovny [cit]https://github.com/nittro/nittro[/cit].
 
 ## Doctrine 2
-![Logo Doctrine, zdroj: [cit]https://www.biostatistika.cz/index.php?pg=produkty--clade-is[/cit]](https://www.biostatistika.cz/res/image/technology-mix/doctrine_logo.png)
+![Logo Doctrine, zdroj: [cit]https://www.biostatistika.cz/index.php?pg=produkty--clade-is[/cit] || width=0.5\textwidth](https://www.biostatistika.cz/res/image/technology-mix/doctrine_logo.png)
 Doctrine 2 je objektově-relační mapovač (ORM) pro PHP 7.1+, který zajišťuje transparentní ukládání pro objekty PHP. V jádře využívá model datového mapovače, jehož cílem je úplné oddělení domény (obchodní logiky) od logiky ukládání dat do relační databáze [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 Výhodou Doctrine pro programátora je schopnost soustředit se na objektově orientovanou obchodní logiku a starat se o ukládání dat do relační databáze pouze jako sekundární problém. Ukládání dat do relační databáze je tedy zcela řešeno pomocí Doctrine [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
@@ -371,7 +368,7 @@ _„Entity jsou základní kameny v Doctrine 2 a vůbec celé vaší aplikace. K
 Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha požadavků pomocí jedinečného identifikátoru nebo primárního klíče. Tyto třídy nepotřebují rozšířit žádnou abstraktní základní třídu nebo rozhraní. Třída entity nesmí být konečná nebo nesmí obsahovat konečné metody [cit]https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/tutorials/getting-started.html[/cit].
 
 ## Elasticsearch
-![Logo Elasticsearch, zdroj: [cit]https://www.elastic.co/brand[/cit]](https://hanabrand.cz/temp/dp/logo-elastic-search.png)
+![Logo Elasticsearch, zdroj: [cit]https://www.elastic.co/brand[/cit] || width=0.5\textwidth](https://hanabrand.cz/temp/dp/logo-elastic-search.png)
 Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 
@@ -384,7 +381,7 @@ Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a
 MessageBroker je prostřední počítačový programový modul, který převádí zprávu z formálního protokolu zasílání odesílatele do formálního protokolu zasílání zpráv přijímače. Zprostředkovatelé zpráv jsou prvky v telekomunikačních nebo počítačových sítích, kde softwarové aplikace komunikují výměnou formálně definovaných zpráv [cit]https://www.gartner.com/it-glossary/ib-integration-broker[/cit].
 
 ### RabbitMQ
-![Logo RabbitMQ, zdroj: [cit]https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c[/cit]](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
+![Logo RabbitMQ, zdroj: [cit]https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c[/cit] || width=0.5\textwidth](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
 RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
 
 ## Virtualizace
@@ -426,7 +423,7 @@ _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostensk
 - jméno: Hana Hladíková,
 - právní forma podnikání: fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku,
 - přidělený úřad: městský úřad Velké Meziříčí,
-- vznik živnosti: 1.7.2001,	
+- vznik živnosti: 1.7.2001,
 - sídlo: Lavičky 127, 594 01,
 - klasifikace ekonomických činností -CZ-: ostatní profesní, vědecké a technické činnosti, poradenství v oblasti řízení,
 - IČO: 68737424,
@@ -435,7 +432,7 @@ _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostensk
 - webové stránky: HanaBrand.cz.
 
 ## Značka HanaBrand
-V rámci živnostníkovy podnikatelské činnosti vznikla v roce 2015 značka HanaBrand a pod touto značkou jsou označovány všechny výrobky.
+V rámci živnostníkovy podnikatelské činnosti vznikla v roce 2015 značka HanaBrand a pod touto značkou jsou označovány všechny nabízené produkty.
 
 ![Logo HanaBrand používané převážně na výrobcích, zdroj: živnostníkovy interní materiály || width=0.3\textwidth](https://hanabrand.cz/temp/dp/fb_logo_transp_big_black_transp_halfly.png)
 
@@ -444,7 +441,7 @@ V rámci živnostníkovy podnikatelské činnosti vznikla v roce 2015 značka Ha
 ## Nabízené produkty a služby
 Živnostník pod značkou HanaBrand nabízí produkty vlastní výroby, které jsou vyrobeny z certifikovaných materiálů českého původu. Mezi tyto produkty patří například:
 - dámské kuchyňské zástěry,
-- bezobalové nakupování (ekologické pytlíky),
+- ekologické pytlíky (pro bezobalové nakupování),
 - vaky na záda,
 - tašky,
 - dětské zástěry do kuchyně,
@@ -474,33 +471,32 @@ V této části bude popsána současná technická situace ve kterém se nachá
 Pro provoz současného e-shopového řešení jsou potřeba následující technické požadavky:
 - Apache Server 2.4.29,
 - PHP 5.6.40,
-- mysqli,
-- gd,
-- json,
+- rozšíření webového serveru mysqli, gd a json,
 - MariaDB 10.0.21.
 
 ### Entity v aplikaci
 Seznam existujících entit v aplikaci:
-- article (článek),
-- article category (kategorie článků)
-- basket (košík),
-- category (kategorie produktů),
-- custom field (uživatelské pole produktu),
-- custom field value (hodnota uživatelského pole produktu),
-- discount (sleva)
-- order (objednávka),
-- order item (produkt objednávky)
-- payment (platba),
-- product (produkt)
-- shipping (doprava),
-- user (uživatel).
+- Article (článek),
+- ArticleCategory (kategorie článků)
+- Basket (košík),
+- Category (kategorie produktů),
+- CustomField (uživatelské pole produktu),
+- CustomFieldValue (hodnota uživatelského pole produktu),
+- Discount (sleva)
+- Order (objednávka),
+- OrderItem (produkt objednávky)
+- Payment (platba),
+- Product (produkt)
+- Shipping (doprava),
+- User (uživatel).
 
 ### Administrované entity v aplikaci
 ![Přihlášení do administračního rozhraní e-shopu, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prihlaseni-administrace.png)
+
 Seznam entit, které jsou administrovatelné v administrační části e-shopu:
-- discount (sleva) - pouze vytvoření,
-- order (objednávka),
-- product (produkt).
+- Discount (sleva) - pouze vytvoření,
+- Order (objednávka),
+- Product (produkt).
 
 ![Přehled výpisu produktů v administraci, zdroj: současné e-shopové řešení](https://www.hanabrand.cz/temp/dp/prehled-administrace-produktu.png)
 
@@ -522,17 +518,20 @@ V administraci produktů lze konfigurovat vlastnosti, které definují obsah pro
 - název v exportních feedech (pokud se liší od základního názvu).
 
 ![Přehled objednávek v administraci, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prehled-objednavek.png)
-Zato nastavení objednávky je o poznání prostější. Objednávce lze v administračním rozhraní nastavit pouze stav. Na výběr jsou možnosti:
+
+Správa objednávky je o poznání prostější. Objednávce lze v administračním rozhraní nastavit pouze stav. Na výběr jsou možnosti:
 - nová,
 - zpracovává se,
 - zaplaceno,
 - odesláno,
 - dokončeno,
 - stornováno.
-Přičemž při změně objednávky na stavy "zaplaceno", "odesláno" a "dokončeno" odešle systém zákazníkovi e-mail zákazníkovi s informacemi o současném stavu jeho objednávky.
+Při změně objednávky na stavy "zaplaceno", "odesláno" a "dokončeno" odešle systém zákazníkovi e-mail zákazníkovi s informacemi o současném stavu jeho objednávky.
 ![Detail objednávky, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prehled-objednavky.png)
+
 Formulář pro vytvoření nového slevového kupónu je také velice prostý.  Slevové kupóny nelze z pohledu administračního rozhraní systému nijak pokročile spravovat, lze je pouze vytvořit.
-![Formulář pro přidání nového slevového kupónu, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/slevovy-kupon.png)
+![Formulář pro přidání nového slevového kupónu, zdroj: současné e-shopové řešení || width=0.75\textwidth](https://hanabrand.cz/temp/dp/slevovy-kupon.png)
+
 Po definování slevy (pevné částky nebo nebo procentuální sazby z celkové ceny objednávky), minimální celkové částky objednávky pro umožnění aplikace slevy a maximální platnosti kupónu systém vygeneruje náhodný jedinečný slevový kód kupónu a uloží kupón do databáze. 
 
 ### Implementované funkcionality
@@ -544,7 +543,7 @@ Seznam implementovaných funkcionalit, kterými aktuální řešení disponuje:
 - individuální definice cen způsobů doprav,
 - individuální definice cen způsobů plateb v závislosti na zvoleném způsobu dopravy,
 - odesílání e-mailů administrátorům a zákazníkovi při vytvoření objednávky a při změně stavu objednávky.
-- odesílání zpráv přes Pushover administrátorům při vytvoření nové objednávky,
+- odesílání zprávy přes nástroj Pushover administrátorům při vytvoření nové objednávky,
 - responzivní design šablon,
 - správa košíku produktů,
 - vytvoření a dokončení objednávky,
@@ -556,7 +555,7 @@ Seznam implementovaných funkcionalit, kterými aktuální řešení disponuje:
 
 ## Statická analýza kódu
 Protože mám přístup k zdrojovým souborům současně provozovaného řešení, mohu provést statickou analýzu kódu za pomocí nástroje PhpMetrics.
-![Výsledek statické analýzy kódu současného řešení, zdroj: výsledek testu PhpMetrics](https://hanabrand.cz/temp/dp/staticka-analyza-hanabrand.png)
+![Výsledek statické analýzy kódu současného řešení, zdroj: nástroj PhpMetrics](https://hanabrand.cz/temp/dp/staticka-analyza-hanabrand.png)
 
 Z výsledků analýzy lze vyčíst například základní informace, tedy, že zdrojový kód obsahuje:
 - 68 tříd,
@@ -566,9 +565,9 @@ Z výsledků analýzy lze vyčíst například základní informace, tedy, že z
 - index průměrné cyklometrické složitosti je 25,15.
 
 ## Zhodnocení současného stavu
-Na základě konzultace s paní Hanou Hladíkovou, provozovatelkou současného e-shopového řešení, lze konstatovat, že zhruba 60 % příjmů tvoří objednávky vytvořené přes současné e-shopové řešení. Živnostník je tedy z větší části závislá na internetovém prodeji.
+Na základě konzultace s paní Hanou Hladíkovou, provozovatelkou současného e-shopového řešení, lze konstatovat, že zhruba 60 % příjmů tvoří objednávky vytvořené přes současné e-shopové řešení. Živnostník je tedy z větší části závislý na internetovém prodeji skrz současný e-shop.
 
-Současné řešení vzniklo jako jednoduchá aplikace na zelené louce bez využití jakéhokoliv aplikačního frameworku v roce 2016. Od té doby se řešení prakticky nevyvíjelo, funkcionality nevylepšovaly a kód se neaktualizoval, čemuž také nasvědčuje fakt, že nebyla aktualizována verze PHP, na kterém je systém provozován (aplikace pro svůj chod používá PHP 5.6.40). Zároveň zdrojové kódy e-shopu neobsahují například dnes již běžně používané jmenné prostory, které slouží ke sdružování logických celků tříd aplikace. 
+Toto řešení vzniklo jako jednoduchá aplikace na zelené louce bez využití jakéhokoliv aplikačního frameworku v roce 2016. Od té doby se řešení prakticky nevyvíjelo, funkcionality nevylepšovaly a kód se neaktualizoval, čemuž také nasvědčuje fakt, že nebyla aktualizována verze PHP, na kterém je systém provozován (aplikace pro svůj chod používá PHP 5.6.40). Zároveň zdrojové kódy e-shopu neobsahují například dnes již běžně používané jmenné prostory, které slouží ke sdružování logických celků tříd aplikace. 
 
 Sám živnostník cítí potřebu inovace řešení, protože současné řešení postrádá spoustu důležitých funkcí. Inovací řešení očekává především usnadnění práce s e-shopem, přehlednější a snadnější administrativu. E-shop by měl být pro zákazníky sestaven tak, aby se v něm dobře orientovali a například jim umožnit vkládat recenze k produktům, čímž se také zvýší důvěryhodnost internetového obchodu. Dále plánuje nabízet své výrobky a služby za hranicemi České republiky, z toho důvodu požaduje lokalizaci celého řešení.
 
@@ -600,9 +599,9 @@ Na základě konzultace s Hanou Hladíkovou, byl sestaven následující seznam 
 ## Průzkum dostupných řešení
 Dané požadavky živnostníka lze splnit pomocí různých dostupných řešení. Ty lze rozdělit dle několika kritérií na:
 - vlastní řešení,
--  open-source řešení,
--  řešení na míru,
--  pronájem [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
+- open-source řešení,
+- řešení na míru,
+- pronájem [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 ### Vlastní řešení 
 Výhodou vlastního řešení je ta, že všechny funkce systému budou pod kontrolou. Když bude potřeba něco změnit, nemusí se na nikoho čekat nebo někomu platit, prostě lze danou funkci do systému doplnit. Dané řešení navíc bude vyřešené na míru konkrétním potřebám dané společnosti [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
@@ -709,7 +708,7 @@ Toho je využito hlavně v administrační části systému, kde jsou naprosto v
 
 ### Doctrine 2
 Objektový přístup k entitám modelové vrstvy systému zajišťuje objektově relační mapování. Toho je v systému dosaženo použitím Doctrine 2, který mapuje entity systému na data uložená v MySQL databázi. Také zodpovídá za strukturu databáze. Informace o schématu relace v databázi čte přímo v třídách entit, kde jsou tyto informace zapsány pomocí speciálního anotačního zápisu.
-![Ukázka zdrojového kódu AddressEntity s využitím anotačního zápisu pro Doctrine 2, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/address-entity.png)
+![Ukázka zdrojového kódu AddressEntity (entita adresy) s využitím anotačního zápisu pro Doctrine 2, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/address-entity.png)
 
 ### Elasticsearch
 Pro vyhledávání v systém jsem využil fulltextový vyhledávací engine Elasticsearch. Ten zajišťuje například vyhledávání produktů nebo článků v modulu systému, který zobrazuje data zákazníkům obchodu. Vyhledávání je možné provést nad všemi daty, které jsou ze systému vyexportovány a naimportovány do Elasticsearch. Je tedy například možné vyhledávat pomocí titulku nebo konkrétního parametru entity.
@@ -735,25 +734,25 @@ Systém je tvořen samostatnými balíčky, které se instalují pomocí nástro
 
 #### Jarvis App
 Základním balíčkem aplikace, balíček je typu "projekt", vytváří základní adresářovou strukturu aplikace a je závislý na balíčku "core". Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png?1)
 
 #### Jarvis Core
 Jádro aplikace, balíček je typu "knihovna". Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png?1)
 
 #### Jarvis CMS
 Balíček typu "knihovna", poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku "Core". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png?1)
 #### Jarvis Shop
 Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku "Core" a "CMS". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png)
+![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png?1)
 ### Moduly
 Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:
 - Admin,
 - Front,
 - Robot.
 
-![3 Moduly systému, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/3-moduly.png?1)
+![3 Moduly systému, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/3-moduly.png?2)
 
 #### Admin
 Modul Admin poskytuje administrační rozhraní celého systému. Na základě ACL přihlášenému uživateli správu administrovatelných entit, které se v celém systému nacházejí.
@@ -765,7 +764,7 @@ Modul Front poskytuje rozhraní, které je výsledkem konfigurace systému v adm
 Tento modul poskytuje služby pouze systému samotnému. Například se v tomto modulu nachází logika pro poskytování funkcionality ke asynchronní zpracování obrázků.
 
 ### Adresářová struktura
-![Základní adresářová struktura aplikace, zdroj: náhled repositáře v administraci gitlab.com](https://hanabrand.cz/temp/dp/struktura-aplikace-jarvis-app.png)
+![Základní adresářová struktura aplikace, zdroj: náhled repositáře v administraci gitlab.com || width=0.75\textwidth](https://hanabrand.cz/temp/dp/struktura-aplikace-jarvis-app.png)
 
 Zprovozněná aplikace má následující kořenovou adresářovou a souborovou strukturu:
 - app/ - konfigurační soubory, customizace systému (pomocí přepisování tříd a šablon),
@@ -853,10 +852,10 @@ Ke každé entitě existuje i kontejner stejně jako existuje ke každé entitě
 Jelikož entita je sama o sobě pouze nosičem informací a neměla by obsahovat žádnou složitější logiku (např.: metody pro načtení všech obrázků produktu spolu se všemi obrázky všech variant produktu), byly vytvořeny fasády, ve kterých je možné definovat tyto pokročilé metody. Výhodou tohoto řešení je čisté oddělení informací uložených v entitě od pokročilých metod.
 
 ## Funkcionality systému
-Systém poskytuje spoustu funkcionality, v této části popíšu ty nejvíce důležité a zajímavé.
+Systém obsahuje spoustu funkcionality. V této sekci jsou popsány ty nejdůležitější a nejvíce zajímavé.
 
-### ACL
-Veškerá funkcionalita v administrační části systému a většina v modulu Front je podmíněna příslušným oprávněním. Ty jsou spravovány v administrační části systému. Lze tak uživatelským rolím povolit oprávnění k příslušným akcím. Kontrola oprávnění je potlačena pouze v případě, že je požadavek spuštěn pomocí konzolového příkazu.
+### Systémová oprávnění
+Veškerá funkcionalita v administrační části systému a většina funkcionality v modulu Front je podmíněna příslušným oprávněním. Ty jsou spravovány v administrační části systému. Lze tak uživatelským rolím povolit oprávnění k příslušným akcím. Kontrola oprávnění je potlačena pouze v případě, že je požadavek spuštěn pomocí konzolového příkazu.
 
 #### Uživatelské role
 Uživatelská role slouží k definování systémových rolí uživatelů. Každému uživateli lze přiřadit právě jednu z těchto rolí.
@@ -867,7 +866,7 @@ Zdroje oprávnění slouží k definici konkrétního oprávnění pro uskutečn
 ### Asynchronní zpracování obrázků
 Pro zobrazování obrázků je používáno asynchronní zpracování. To znamená, že žádný obrázek v obsahové části systému není zobrazen v originální podobě, místo toho se zobrazí systémem zpracovaný obrázek.
 
-![Vývojový diagram procesu asynchronního generování obrázků, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/generovani-obrazku-2.png?2)
+![Vývojový diagram procesu asynchronního generování obrázků, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/generovani-obrazku-2.png?2)
 
 Obrázek je nejprve v originální podobě nahrán na server, následně až při jeho zobrazení jej systém upraví do požadované formy. Ke zpracování obrázku pak dochází až při samotnému HTTP požadavku, kdy se prohlížeč pokusí stáhnout obsah (obrázek) na konkrétní URL, kterou pro vygeneroval systém. V této URL se nachází zakódované informace o tom, jak má být obrázek konkrétně zpracován. Pokud se obrázek v této formě na serveru nenachází, dojde ke spuštění úlohy systému, která obrázek upraví. Pro zpracovávání obrázků se používá standardní knihovna pro zpracovávání obrázků v Nette Framework.
 
@@ -875,7 +874,7 @@ Obrázek je nejprve v originální podobě nahrán na server, následně až př
 
 Vytváření formulářů pro úpravy entit je zdlouhavé a díky velkému množství entit v systému i nepříliš zábavné. Proto byl vytvořen automatický generátor formulářů entit, který formuláře pro entity automaticky sestaví.
 
-![Ukázka automaticky vygenerovaného formuláře pro úpravu měny, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/formular-automaticky.png)
+![Ukázka automaticky vygenerovaného formuláře pro úpravu měny, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/formular-automaticky.png?1)
 
 Při zobrazení editace entity tedy stačí pouze nastavit, které vlastnosti entity nemají být zobrazeny, které jsou pouze pro čtení a generátor automaticky sestaví formulář pro úpravu entity. Při úpravě entity (změně její struktury) je pak formulář zcela automaticky sestaven pro aktuální strukturu entity. Logika mapování formulářů navíc dokáže namapovat entity na vygenerovaný formulář i zpět pro následnou validaci a uložení entity.
 Popisky polí se vytváření pomocí překladače, popisek každého pole tedy lze pohodlně lokalizovat.
@@ -887,27 +886,25 @@ Kvůli tomu, že například pro výpis a filtrování produktů v kategoriích 
 Toho se docíleno tím, že na akci uložení entity do databáze pomocí manažera entit (který se stará o ukládání a načítání entit z databáze) je navázána akce, kdy se spouští logika exportéru.
 Jeho úkolem je detekovat, zda je povoleno danou entitu exportovat, která data se v entitě změnila, zda tyto změny jsou z pohledu exportu do Elasticsearch pro další použití podstatná a případně zaregistrovat do fronty (RabbitMQ) pro zpracování exportu.
 
-![Export entity do Elasticsearch, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/Export-entit-do-Elasticsearch.png?2)
+![Export entity do Elasticsearch, zdroj: vlastní zpracování || width=0.5\textwidth](https://hanabrand.cz/temp/dp/Export-entit-do-Elasticsearch.png?2)
 
 Samotný export je následně zpracován v paralelním vlákně, kde se exportér pokusí načíst entitu z databáze a pokud se nepodaří entitu načíst, došlo k jejímu odstranění a exportér odešle požadavek na Elasticsearch na smazání indexu. Pokud dojde k načtení entity z databáze, je entita dehydratována do podoby asociativního pole a odeslána do Elasticsearch k zaindexování.
 
 ### Import entit z Elasticsearch
 Na základě vyhledávání v Elasticsearch jsou systému nazpět navrácena data, které indexy splňují kritéria dotazu vyhledávání. Aby nemuselo docházet k opětovnému načtení entit z databáze, bylo vytvořena logika pro hydrataci výsledků navrácených z Elasticsearch do plnohodnotných entit. S těmito entitami pak lze pracovat stejně, jako kdyby tyto entity byly načteny pomocí manažera entit z databáze.
 
-![Import entity z Elasticsearch, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/Import-entit-do-Elasticsearch.png)
+![Import entity z Elasticsearch, zdroj: vlastní zpracování || width=0.5\textwidth](https://hanabrand.cz/temp/dp/Import-entit-do-Elasticsearch.png)
 
 ### Lokalizace
 Lokalizace systému je realizovaná na úrovni jazyků a měn. Administrátoři mají k dispozici nadefinovat jazyk a měny, které bude systém používat a vždy zvolí jeden jazyk a jednu měnu jako hlavní (výchozí). Výchozím jazykem celého systému je ve výchozím stavu angličtina, měna ve výchozím stavu není definovaná žádná.
 
 Pokud je pak entita přeložitelná (existuje entita překladu konkrétní entity) je formulář pro úpravu entity automaticky rozšířen o překladová pole, které překládají vlastnosti entity do konkrétního jazyku.
 
-TODO: nechat jenom, kdyz bude sedet velikost
-
-![Formulář úpravy článku s překladem, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/formular-jazyky.png)
+![Formulář úpravy článku s překladem, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/formular-jazyky.png?1)
 
 U cen produktů při přidání nové měny do systému dojde k automatickému rozšíření formuláře pro definici cen produktu i o definici do této měny. Administrátor má tedy možnost definovat cenu produktu v dané měně pro konkrétní cenovou hladinu. Pokud nejsou ceny v této měně definovány, dochází k automatickému přepočtu podle kurzu České Národní Banky. Pokud není definována cena pro konkrétní cenovou hladinu, dojde k automatickému přepočtu podle konfigurace cenové hladiny (ta udává o kolik procent bude cena snížena oproti základní cenové hladině - v základní cenové hladině pro základní měnu musí být cena definována).
 
-![Konfigurace cen produktu, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/ceny-produktu.png)
+![Konfigurace cen produktu, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/ceny-produktu.png?2)
 
 Návštěvník má poté možnost přepnout si dostupné rozhraní do některého z nabízených jazyků a měn.
 
@@ -916,9 +913,16 @@ Vytváření URL adres pro moduly Admin a Robot je realizováno pomocí jednoduc
 
 Pro modul Front jsou URL adresy sestavovány za pomocí Route entit. Ty se jako zbylé entity ukládají do databáze a systém díky nim dokáže obousměrně překládat mezi URL a akcí konkrétního presenteru. To má za následek, že entitám lze definovat uživatelsky přívětivé URL adresy.
 
-Route entity jsou generovány automaticky na pozadí při manipulacích s ostatními entitami v systému, které podporují routování (implementují rozhraní IRoutable). Například, pokud je vytvořena entita Article (entita článku - podporuje routování), dojde i k automatickému vytvoření entity Route, která pomocí reference odkazuje na entitu článku. Jako URL adresa slouží název článku, který je převeden do podoby pro použití v URL adrese.
+Route entity jsou generovány automaticky na pozadí při manipulacích s ostatními entitami v systému, které podporují routování (implementují rozhraní "IRoutable").
 
-Pokud je daný článek upraven (a změní se například jeho název, který má podstatný vliv na tvorbu URL adresy), nedojde k aktualizaci entity Route, ale je vytvořena zcela nová a stará upravena tak, že již neodkazuje na entitu článku, ale na novou Route entitu. Výsledkem této funkcionality je automatické přesměrování starších URL adres (které mohou být již zaindexovány vyhledávači nebo na ně mohou odkazovat statické odkazy) na novou. Díky tomu je také zabráněno duplikaci stejného obsahu na více různých URL adresách, což má neblahý vliv na SEO.
+Například, pokud je vytvořena entita Article (entita článku - podporuje routování), dojde i k automatickému vytvoření entity Route, která pomocí reference odkazuje na entitu článku. Jako URL adresa slouží název článku, který je převeden do podoby pro použití v URL adrese. Pokud je daný článek upraven (a změní se například jeho název, který má podstatný vliv na tvorbu URL adresy), nedojde k aktualizaci entity Route, ale je vytvořena zcela nová a stará upravena tak, že již neodkazuje na entitu článku, ale na novou Route entitu. Výsledkem této funkcionality je automatické přesměrování starších URL adres na novou (které mohou být již zaindexovány vyhledávači nebo na ně mohou odkazovat statické odkazy). Díky tomu je také zabráněno duplikaci stejného obsahu na více různých URL adresách, což má neblahý vliv na SEO.
+
+#### Entity systému, které vytvářejí URL adresy:
+- Article (článek),
+- Page (stránka),
+- Product (produkt).
+
+Entita Page (stránka) umožňuje vytvořit buď prázdnou stránku, jejíž zobrazení se složí z výpisu konkrétních modulů nebo výpis kategorie článků či produktů. 
 
 ### Administrační rozhraní
 Administrační rozhraní systému se nachází na adrese "<doména>/administration". Pro vstup do administrace je nutné mít vytvořený uživatelský účet, kterému se přiřazena role s dostatečným oprávněním pro vstup do administrace. Pokud uživatel není přihlášen, je mu zobrazen formulář pro přihlášení.
@@ -962,29 +966,39 @@ To má svoji výhodu v tom, že takováto varianta může obsahovat svoje vlastn
 
 Jednotlivé varianty produktů se pro zákaznický výběr detekují na základě odlišností v hodnotách uživatelských parametrů.
 
-// TODO obrázek výběru varianty produktu
+![Ukázka výběru varianty produktu ve výchozí šabloně detailu produktu, zdroj: systém Jarvis](https://hanabrand.cz/temp/dp/vyber-varianty-produktu.png)
 
 ### Customizace systému
 Customizaci, neboli specifická úprava systému dle přání zákazníka, lze provádět v systému dvojím způsobem:
 - na úrovni přepisování služeb,
 - na úrovni přepisování šablon.
 
+Ani jeden z uvedených způsobů nezasahuje do systému tak, že by přímo přepisovat zdrojový kód samotného systému, ale jsou v obou případech vytvořeny jako externí soubory oddělené od adresářů zdrojových kódů systému, ale ten je automaticky načítá a pracuje s nimi.
+
 ### Přepisování služeb
 Nette Framework umožňuje pomocí konfiguračních souborů NEON přepisovat již dříve definované konfigurace. V systému konfigurační soubory vyhledává knihovna Nette Config Finder, která je nastavena tak, aby nejprve vyhledávala konfigurační soubory v adresáři "vendor/", tedy aby načetla konfigurační soubory nainstalovaných balíčků a teprve poté vyhledá konfigurační soubory v adresáři "app/".
+
+Autorem tohoto rozšíření jsem já sám, je open-source a lze jej nainstalovat pomocí nástroje Composer.
 
 ![Open-source rozšíření Nette Config Finder, zdroj: github.com](https://hanabrand.cz/temp/dp/nette-config-finder.png)
 
 Automatické vyhledávání konfiguračních souborů a jejich import do systému má za následek, že při inicializaci systému ve spouštěcím souboru je nejprve načtena výchozí konfigurace systému z balíčku Jarvis Core (a dalších balíčků s konfigurací) a teprve následně je načtena konfigurace z adresáře "app/config", tedy konkrétní konfigurace pro aktuální instanci systému.
+
 Konfigurace z adresáře "app/config", přepisuje základní konfiguraci nainstalovaných balíčků a díky tomu lze donutit systém využít mimo konfiguračních parametrů i jiné služby, než které standardně systém používá. Je tedy možné měnit základní logiky systému. 
 
 ### Přepisování šablon
-Komponentový model systému je rozšířen o logiku vyhledání šablony pro konkrétní komponentu. Tato logika se nejprve pokusí vyhledat šablonu na základě cesty k řídícímu souboru komponenty v adresáři "app/" a pokud ji nenajde, požije svoji výchozí klasickou šablonu. 
+Komponentový model systému je rozšířen o logiku vyhledání šablony pro konkrétní komponentu. Tato logika se nejprve pokusí vyhledat šablonu konkrétní komponenty v adresáři "app/" na základě předem jasně definovaného tvaru cesty k náhradní šabloně a pokus není nalezena náhradní šablona, využije se výchozí systémová.
+
+![Ukázka výchozí šablony výpisu produktů, zdroj: systém Jarvis](https://hanabrand.cz/temp/dp/sablona-kategorie.png)
+
+Tato funkcionalita byla vytvořena hlavně z toho důvodu, aby samotný systém obsahovat veškeré potřebné šablony a byl díky tomu samostatně provozuschopný bez dodání jakýchkoliv dalších součástí a aby vizuální customizace systému neprobíhala formou přepisu systémových šablon.
+
 
 ### Moduly
 Moduly slouží pro zobrazení libovolných funkčních bloků v modulu Front, tedy v sekci pro zákazníky obchodu. Jejich správa probíhá v administraci systému a lze pomocí nich například zajistit výpis menu, obsahu košíku, libovolného článku a to na jakékoliv předem definované pozici pro vykreslení modulu.
 Moduly je možné ošetřit dalšími podmínkami, například, zda je povolen výpis modulu na detailu konkrétního produktu, článku nebo stránky.
 Hlavní myšlenkou funkcionality modulů je usnadnění práce s modifikací stránek. Například, pokud se obchod rozhodne, že potřebuje dovolenou, nemusí se upravovat nic ve zdrojovém kódu systému, ale pouze se pro tuto informaci vytvoří modul s příslušnou informací a publikuje na dané pozici.
-![Modul s informací o plánované inventuře, zdroj: snímek systému Jarvis](https://hanabrand.cz/temp/dp/modul-inventura.png)
+![Modul s informací o plánované inventuře, zdroj: systém Jarvis](https://hanabrand.cz/temp/dp/modul-inventura.png)
 
 ## Redesign webu
 Jeden z živnostníkových požadavků na nové řešení byla inovace vizuálního vzhledu e-shopu. Po upřesnění grafických požadavků byly vytvořeny grafické návrhy pro připravované řešení.
@@ -1028,17 +1042,20 @@ Grafický návrh detailu konkrétního produktu obsahuje opět stejnou hlavičku
 - popis,
 - parametry,
 - hodnocení.
-![Výpis produktové kategorie s filtry a podkategoriemi, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/detail-main.png?2)
+![Hlavní informace o produktu, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/detail-main.png?2)
 
 Pod výpisem hlavních informací o produktu je výpis souvisejících produktů. Tím je myšlen například výpis produktů ze stejné kategorie nebo výpis produktů, které zákazníci zakoupili spolu s tímto produktem.
-![Výpis produktové kategorie s filtry a podkategoriemi, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/detail-related.png?3)
+![Výpis souvisejících produktů, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/detail-related.png?3)
 
 ## Zhodnocení realizace
-Dle historie repositářů systému byl první commit vytvořen dne 29.6.2018 a od té doby bylo vytvořeno celkem 373 commitů. Odhadem se projekt nachází zhruba v polovině a konstatovat, že jeho současná podoba tvoří kvalitní základ pro vytvoření plnohodnotné e-commerce platformy. V současném stavu se tedy jedná zatím o prototyp této platformy.
+Dle historie repositářů systému byly první změny nahrány dne 29.6.2018 a od té doby bylo vytvořeno celkem 373 změn.
+![Historie změn v repositářích systému, zdroj: nástroj  Contribution Summarizer](https://hanabrand.cz/temp/dp/commity.png)
+
+Odhadem se projekt nachází zhruba v polovině a konstatovat, že jeho současná podoba tvoří základ pro vytvoření plnohodnotné e-commerce platformy. V současném stavu se tedy jedná zatím o prototyp této platformy.
 
 ### Statická analýza kódu
 Nad zdrojovými kódy vytvořené platformy systému byla provedena statická analýza kódu jako nad současně používaným řešením.
-![Statická analýza zdrojových kódů systému Jarvis, zdroj: výsledek testu PhpMetrics](https://hanabrand.cz/temp/dp/stat-analyza-jarvis.png)
+![Statická analýza zdrojových kódů systému Jarvis, zdroj: nástroj PhpMetrics](https://hanabrand.cz/temp/dp/stat-analyza-jarvis.png)
 
 Po porovnání výsledků testu s výsledky testu aktuálně používaného řešení, je patrné, že se přibližně dvojnásobně navýšil počet řádků ve zdrojovém kódu systému a to na počet 30 884. Také se zhruba 5,5× navýšil celkový počet všech tříd, konkrétně z počtu 68 na 382.
 
@@ -1057,14 +1074,18 @@ Namátkou těmito kroky jsou:
 - dokončit business logiku nákupního procesu,
 - vytvořit business logiku rozšíření (pluginů) systému,
 - dokončit realizaci všech požadovaných funkčností od živnostníka,
+- vytvořit exportní a importní funkcionality,
 - vytvořit 4. modul pro správu systému pomocí API,
 - provézt bezpečnostní audit systému a eliminovat případné nedostatky,
 - a další.
 
-![4 Moduly systému, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/4-moduly.png)
+![4 Moduly systému, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/4-moduly.png?1)
 
-Po dokončení realizace celého e-commerce řešení bude také nutné realizovat potřební kroky k samotnému zprovoznění řešení pro živnostníka. Bude tedy například nutná instalace systému na vhodných server (tedy najít vhodného poskytovatele hostingových služeb), nakonfigurovat systém a provést migrace dat ze současného řešení. Před samotným spuštěním bude samozřejmě nutné, aby bylo řešení dostatečně otestováno i samotným živnostníkem.
+Po dokončení realizace celého e-commerce řešení bude také nutné realizovat potřební kroky k samotnému zprovoznění řešení pro živnostníka. Bude tedy například nutná instalace systému na vhodných server (tedy najít vhodného poskytovatele hostingových služeb), nakonfigurovat systém, customizovat ho (připravit a nastavit šablony zákaznické sekce e-shopu), a provést migrace dat ze současného řešení. Před samotným spuštěním bude samozřejmě nutné, aby bylo řešení dostatečně otestováno i samotným živnostníkem.
 
 ### Finanční zhodnocení
 Jak bylo již zmíněno, k prvnímu nahrání změn do repositářů systému došlo 29.6.2018. Od té doby bylo vytvořeno celkem 373 změn a realizací jsem strávil přibližně 231 hodin. 
-Jelikož celé řešení je postaveno na technologiích, které jsou nabízeny zdarma, nebo jako open-source, jedinou nákladovou položkou v realizaci je strávený čas nad projektem. Pokud tedy budeme uvažovat o sazbě 500 Kč/h, současné náklady na vytvoření této prototypu této e-commerce platformy jsou 115 500 Kč.
+
+Jelikož celé řešení je postaveno na technologiích, které jsou nabízeny zdarma, nebo jako open-source, jedinou nákladovou položkou v realizaci je strávený čas nad projektem. Pokud tedy budeme uvažovat o sazbě 500 Kč/h, současné náklady na vytvoření tohoto prototypu e-commerce platformy jsou 115 500 Kč.
+
+Připravované řešení je v porovnání s aktuálním výrazně komplexnější a díky tomu má i vyšší nároky na prostředí, ve kterém bude provozován. Kvůli tomu bude nutné při zprovoznění řešení uvažovat i o dodatečných nákladech za využívané hostingové služby (pronájem výkonnějšího serveru).
