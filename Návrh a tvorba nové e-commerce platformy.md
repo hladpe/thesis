@@ -384,6 +384,7 @@ MessageBroker je prostřední počítačový programový modul, který převád�
 
 ### RabbitMQ
 ![Logo RabbitMQ, zdroj: [cit]https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c[/cit] || width=0.5\textwidth](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
+
 RabbitMQ je nejrozšířenější open-source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
 
 ## Virtualizace
@@ -642,7 +643,7 @@ Problémem tohoto řešení je, že systém musí být univerzálním řešením
 - zbytečné funkce [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-Mezi tato řešení patří například:
+**Mezi tato řešení patří například:**
 - WooCommerce,
 - X-Cart,
 - Zen Cart,
