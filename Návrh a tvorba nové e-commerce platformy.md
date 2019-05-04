@@ -732,7 +732,7 @@ Celý systém je rozdělen na samostatné logické celky, které jsou reprezento
 - Jarvis App
 - Jarvis Core,
 - Jarvis CMS,
-- Jarvis Shop,
+- Jarvis Shop.
 
 ![Rozdělení systému na balíčky - jednotlivé repositáře, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/balicky-systemu.png)
 
