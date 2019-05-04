@@ -265,9 +265,10 @@ MVC architektura neboli architektura Model-View-Controller, je architektura budo
 
 _„Základní myšlenkou MVC architektury je oddělení logiky od výstupu. Řeší tedy problém tzv. "špagetového kódu", kdy máme v jednom souboru (třídě) logické operace a zároveň renderování výstupu. Soubor tedy obsahuje databázové dotazy, logiku (např. PHP operace) a různě poházené HTML tagy. Vše je zamotané do sebe jako špagety. Kód se samozřejmě špatně udržuje, natož rozšiřuje“_ [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
+![Znázornění architektury MVC, zdroj: vlastní zpracování dle [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://hanabrand.cz/temp/dp/mvc.png)
+
 Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, View (Pohled) a Controller (nepřekládá se, ale dalo by se přeložit jako „prostředník“) [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
-![Znázornění architektury MVC, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVC-model.png)
 
 ### Model
 Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
@@ -283,7 +284,7 @@ Controller zastává funkci prostředníka, se kterým komunikuje uživatel, mod
 ## MVP architektura
 MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou ,,komunikaci" mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
 
-![Znázornění architektury MVP, zdroj: [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://www.konstantinfo.com/blog/wp-content/uploads/2018/12/MVP-Pattern.png)
+![Znázornění architektury MVP, zdroj: vlastní zpracování dle [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://hanabrand.cz/temp/dp/mvp.png)
 
 ## Databáze
 _„Databáze neboli datová základna (Data Base) je místo, kam se ukládají určitým způsobem organizované a strukturované údaje. Přístup k údajům uložených v databázi obstarává databázový systém, kterému se říká SŘBD – Systém Řízení Báze Dat (anglický termín DBMS – Database Management System). Běžně se označením databáze myslí jak uložená data, tak i software“_ [cit]Databáze. Misha [online]. 2011 [cit. 2016-12-12]. Dostupné z: http://www.databaze.chytrak.cz/[/cit].
