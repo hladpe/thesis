@@ -685,6 +685,9 @@ Pokusím se blíže přiblížit vybrané technologie, které tvoří základ p�
 ### Technologická platforma
 Na základě osobních zkušeností jsem se rozhodl realizovat celý projekt za použití programovacích jazyků PHP a JavaScript. PHP pro využití ve skriptování na straně serveru, JavaScript pro skriptování na straně klienta - pro zvýšení uživatelského požitku z využívání aplikace, například za použití technologie AJAX.
 Typ databáze jsem zvolil MySQL a to proto, že ho přímo obsahuje připravené vývojové prostředí Laravel Homestead, podporuje ho ORM Doctrine 2 a díky kladným osobním zkušenostem.
+
+![Logo systému Jarvis, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/jarvis-logo.png)
+
 Celý projekt jsem se rozhodl pojmenovat jako "Jarvis".
 
 ### Laravel Homestead
@@ -840,7 +843,7 @@ Entity v systému tedy definují strukturu relací i datové typy a entita (obje
 Každá entita má v systému vytvořený svůj vlastní repositář, který rozšiřuje funkcionalitu základního ,,EntityRepository". Díky tomu je možné jednoduše definovat vlastní speciální metody pro načítání entit z databáze přímo do konkrétních repositářů.
 
 ### Kontejnery
-Ke každé entitě existuje i kontejner stejně jako existuje ke každé entitě repositář. Tento kontejner je definován jako služba (jeho instanci tedy poskytuje DI kontejner). Kontejner jako takový usnadňuje práci tím způsobem, že sám obsahuje instance důležitých tříd pro práci s entitami a místo importu několika různých tříd se provede pouze import instance tohoto kontejneru (přes DI kontejner).
+Ke každé entitě existuje i kontejner stejně jako existuje ke každé entitě repositář. Tento kontejner je definován jako služba (jeho instanci tedy poskytuje framework prostřednictvím DI kontejneru aplikace). Kontejner jako takový usnadňuje práci tím způsobem, že sám obsahuje instance důležitých tříd pro práci s entitami a místo importu několika různých tříd se provede pouze import instance tohoto kontejneru (přes DI kontejner).
 
 **Samotný kontejner je schopen poskytnout:**
 - název entity ke které se vztahuje,
