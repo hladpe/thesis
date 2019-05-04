@@ -89,7 +89,7 @@ B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná s
 C2B je model elektronického podnikání, kdy iniciativa pochází od zákazníků (spotřebitelů) směrem k firmám. Zákazníci kontaktují firmy a vznášejí dotazy, podněty a náměty, například pro inovaci výrobků nebo služeb firmy. Takový model lze podpořit například zřízením diskuzního fóra nebo účet na sociálních sítích [cit]https://managementmania.com/cs/customer-to-business[/cit].
 
 #### C2C (Customer to Customer)
-C2C je druh elektronického obchodování, ve kterím probíhá obchodní vztah mezi dvěma spotřebiteli a to většinou prostřednictvím třetí strany. Iniciativa přitom vychází od jednoho spotřebitele směrem k jinému spotřebiteli. Příkladem takovýchto obchodních vztahů jsou například online burzy, aukce a výměny zboží [cit]https://managementmania.com/cs/customer-to-customer[/cit].
+C2C je druh elektronického obchodování, ve kterém probíhá obchodní vztah mezi dvěma spotřebiteli a to většinou prostřednictvím třetí strany. Iniciativa přitom vychází od jednoho spotřebitele směrem k jinému spotřebiteli. Příkladem takovýchto obchodních vztahů jsou například online burzy, aukce a výměny zboží [cit]https://managementmania.com/cs/customer-to-customer[/cit].
 
 ### Vývoj e-commerce
 _„Nakupování online je globální a rapidně rostoucí fenomén. Na světě žije téměř 7,5 mld. lidí, z toho 3,5 mld. lidí používá internet a přes 1,5 miliardy lidí nakupuje online“_ [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
