@@ -346,6 +346,7 @@ Satis je open source generátor statického Composer repositáře. Je to ultrale
 
 ## Nette Framework
 ![Logo Nette Framework, zdroj: [cit]https://nette.org/cs/logo[/cit] || width=0.5\textwidth](https://files.nette.org/git/www/nette-logo-blue.png)
+
 _„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost“_ [cit]https://nette.org/cs/[/cit].
 
 Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá soustředit se na kreativní stránku vývoje [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
