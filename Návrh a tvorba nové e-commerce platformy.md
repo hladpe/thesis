@@ -334,16 +334,16 @@ Je nejdůležitějším nástrojem pro PHP vývojáře [cit]https://phpfashion.c
 _„Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit“_ [cit]https://www.itnetwork.cz/php/ostatni/composer[/cit].
 
 
-** Předpoklady pro použití:**
+**Předpoklady pro použití:**
  - projekt závisí na jiných knihovnách,
  - tyto knihovny závisí na dalších knihovnách [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
-Funkce Composeru:
+**Funkce Composeru:**
 - umožňuje deklarovat knihovny, na které je projekt vázán,
 - zjistí, které verze balíčků mohou a musí být nainstalovány a nainstaluje je (což znamená, že je stáhne do projektu) [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
 ### Satis
-Satis je open source generátor statického Composer repositáře. Je to ultralehké řešení, které umožňuje hostování metadata privátních balíčků (repositářů) [cit]https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md[/cit].
+Satis je open-source generátor statického Composer repositáře. Je to ultralehké řešení, které umožňuje hostování metadata privátních balíčků (repositářů) [cit]https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md[/cit].
 
 ## Nette Framework
 ![Logo Nette Framework, zdroj: [cit]https://nette.org/cs/logo[/cit] || width=0.5\textwidth](https://files.nette.org/git/www/nette-logo-blue.png)
@@ -384,7 +384,7 @@ MessageBroker je prostřední počítačový programový modul, který převád�
 
 ### RabbitMQ
 ![Logo RabbitMQ, zdroj: [cit]https://medium.com/@kousiknath/dabbling-around-rabbit-mq-persistence-durability-message-routing-f4efc696098c[/cit] || width=0.5\textwidth](https://cdn-images-1.medium.com/max/800/1*UnYL-2r54_7AnEwQv0cVxA.png)
-RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
+RabbitMQ je nejrozšířenější open-source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
 
 ## Virtualizace
 _„Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače“_ [cit]https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/[/cit].
