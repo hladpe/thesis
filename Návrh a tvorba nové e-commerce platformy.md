@@ -348,7 +348,7 @@ Satis je open source generátor statického Composer repositáře. Je to ultrale
 ![Logo Nette Framework, zdroj: [cit]https://nette.org/cs/logo[/cit] || width=0.5\textwidth](https://files.nette.org/git/www/nette-logo-blue.png)
 _„Nette je rodina vyspělých a samostatně použitelných komponent pro PHP. Nechte se jimi nadchnout. Dohromady tvoří framework, vyhodnocený jako 3. nejpopulárnější na světě. Filosofie Nette klade mimořádný důraz na produktivitu, nejlepší postupy a bezpečnost“_ [cit]https://nette.org/cs/[/cit].
 
-Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá spistředit se na kreativní stránku vývoje [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
+Nette Framework je vytvořený tak, aby byl co nejpoužitelnější. Jde o framework, se kterým je snadné a zábavné pracovat. Dává srozumitelnou syntaxi, napomáhá při programování a debugování a pomáhá soustředit se na kreativní stránku vývoje [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
 
 Nette Framework používají významné společnosti jako třeba T-Systems, GE Money, Mladá fronta, DHL, Logio, ESET, Actum, Slevomat, Socialbakers, SUPRAPHON a další [cit]https://doc.nette.org/cs/2.4/getting-started[/cit].
 
@@ -410,7 +410,7 @@ Aktuálně Laravel Homestead ve verzi 5.8 obsahuje například software:
 Analýza statického kódu (známá také jako analýza zdrojového kódu) se obvykle provádí jako součást kontroly kódu (také označovaného jako testování bílého boxu). Analýza statického kódu se běžně vztahuje k nástrojům pro analýzy, které se pokoušejí rozpoznat možné chyby v rámci testování „statického“ (nespuštěného) zdrojového kódu pomocí technik, jako je například analýza barev a analýza toku dat [cit]https://www.owasp.org/index.php/Static_Code_Analysis[/cit].
 
 ### Cyklomatická složitost
-Cyklomatická složitost je metrika kvality softwaru. Nejjednodušší definice popisuje cyklomatickou složitost jako počet rozhodnutí ve zdrojovém kódu. Čím vyšší je počet, tím složitější je kód. Cyklomatická složitost je důležitá, protože určuje limitní komplexnost kódu a určuje počet požadovaných testovacích případů [cit]https://www.perforce.com/blog/qac/what-cyclomatic-complexity[/cit].
+Cyklomatická složitost je metrika kvality softwaru. Nejjednodušší definice popisuje cyklomatickou složitost jako počet rozhodnutí ve zdrojovém kódu. Čím vyšší je počet, tím složitější je kód. Je důležitou metrikou, protože určuje limitní komplexnost kódu a určuje počet požadovaných testovacích případů [cit]https://www.perforce.com/blog/qac/what-cyclomatic-complexity[/cit].
 
 # Analýza současné situace
 V této části práce se budu věnovat popisu základních informací o živnostníkovi a popisu aktuálního stavu, ve kterém se jeho e-shopové nachází.
@@ -562,7 +562,7 @@ Z výsledků analýzy lze vyčíst například základní informace, tedy, že z
 - 15 691 řádků kódu,
 - v tomto kódu se vyskytuje celkem 67 chyb,
 - průměrný počet 0,87 chyb na jednu třídu,
-- index průměrné cyklometrické složitosti je 25,15.
+- index průměrné cyklomatické složitosti je 25,15.
 
 ## Zhodnocení současného stavu
 Na základě konzultace s paní Hanou Hladíkovou, provozovatelkou současného e-shopového řešení, lze konstatovat, že zhruba 60 % příjmů tvoří objednávky vytvořené přes současné e-shopové řešení. Živnostník je tedy z větší části závislý na internetovém prodeji skrz současný e-shop.
