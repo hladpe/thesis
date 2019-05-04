@@ -10,6 +10,8 @@ E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, C
 ### Key words
 E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, Composer, RabbitMQ
 
+--------------------
+
 # Úvod
 
 # Cíl a metodika práce
