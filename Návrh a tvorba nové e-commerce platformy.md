@@ -1,3 +1,15 @@
+### Abstrakt
+Hlavní úlohou této diplomové práce je vytvoření prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotnému řešení pro konkrétního živnostníka. Práce se zabývá analýzou současného stavu, analýzou dostupných řešení, popisem vybraných technologií, včetně popisu, jak tyto technologie byly v projektu konkrétně implementovány. Výsledkem práce je funkční prototyp e-commerce platformy.
+
+### Abstract
+The thesis focuses on developing prototype of e-commerce platform. This platform will be used as a base for a full-fledged e-commerce solution of specific trader in the future. The thesis deals with the analysis of the current state, analysis of available solutions, description of selected technologies, including a description of how these technologies were specifically implemented in the project. The result of this thesis is a functional prototype of e-commerce platform.
+
+### Klíčová slova
+E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, Composer, RabbitMQ
+
+### Key words
+E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, Composer, RabbitMQ
+
 # Úvod
 
 # Cíl a metodika práce
