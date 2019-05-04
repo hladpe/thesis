@@ -20,6 +20,8 @@ Cílem práce je navrhnout a vytvořit novou e-commerce platformu na úrovni pro
 // TODO
 
 # Teoretická východiska práce
+V této části jsou shrnuty základní pojmy a informace, které jsou klíčové pro pochopení dalších částí práce a k pochopení problematiky v oblasti e-commerce.
+Jsou zde vysvětleny i témata, na která se v dalších částech práce přímo neodkazuje, ale jsou podstatná pro pochopení ostatních teoretických základů nebo pro vytvoření uceleného pohledu na danou problematiku.
 
 ## Internet
 Internet je celosvětová síť (desítky tisíc jednotlivých sítí – možná i mnohem více) propojující všechny kontinenty, státy a města tak, že jakýkoliv počítač může kdykoliv komunikovat s jakýmkoliv jiným počítačem, ať je kdekoliv na planetě.
