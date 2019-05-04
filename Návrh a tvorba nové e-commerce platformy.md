@@ -737,18 +737,24 @@ Systém je tvořen samostatnými balíčky, které se instalují pomocí nástro
 
 #### Jarvis App
 Základním balíčkem aplikace, balíček je typu "projekt", vytváří základní adresářovou strukturu aplikace a je závislý na balíčku "core". Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).
+
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png?1)
 
 #### Jarvis Core
 Jádro aplikace, balíček je typu "knihovna". Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
+
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png?1)
 
 #### Jarvis CMS
 Balíček typu "knihovna", poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku "Core". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
+
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png?1)
+
 #### Jarvis Shop
 Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku "Core" a "CMS". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
+
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png?1)
+
 ### Moduly
 Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:
 - Admin,
