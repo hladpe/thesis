@@ -277,12 +277,12 @@ Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na d
 Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovaly opakování stejného kusu kódu v několika šablonách [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### Controller
-Controller, lze přeložit jako ,,řadič" [cit]https://doc.nette.org/cs/2.4/presenters[/cit].
+Controller, lze přeložit jako „řadič“ [cit]https://doc.nette.org/cs/2.4/presenters[/cit].
 
 Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ## MVP architektura
-MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou ,,komunikaci" mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
+MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou „komunikaci“ mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
 
 ![Znázornění architektury MVP, zdroj: vlastní zpracování dle [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://hanabrand.cz/temp/dp/mvp.png)
 
@@ -314,7 +314,7 @@ MySQL je populární relační databázový systém, který je dostupný na vět
 Správa verzí je systém, který zaznamenává změny souborů v průběhu času a uživatel má možnost obnovit jejich konkrétní verzi. Lze provádět na téměř jakémkoli typu souboru. Umožňuje vrátit jednotlivé soubory do předchozího stavu, porovnávat změny, kdo je autorem jaké verze a mnoho dalšího. Lze tedy snadno získat ztracené soubory nebo vrátit nežádané úpravy [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
 ### Lokální systémy správy verzí
-Lokální systém správy verzí disponují jednoduchou lokální databází, ve které se uchovávají všechny změny souborů s nastavenou správou verzí. Jedním z oblíbených nástrojů tohoto typu byl systém "rcs". Tento nástroj pracuje tak, že uchovává ve speciálním formátu seznam změn mezi jednotlivými verzemi. Systém později může na základě porovnávání těchto změn vrátit jakýkoliv soubor do podoby, ve kterém byl v jakékoliv verzi. Toto řešení obsahuje to riziko, že pokud dojde k trvalé ztrátě databáze lokální správy verzí, dojde ke ztrátě celé historie projektu [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
+Lokální systém správy verzí disponují jednoduchou lokální databází, ve které se uchovávají všechny změny souborů s nastavenou správou verzí. Jedním z oblíbených nástrojů tohoto typu byl systém „rcs“. Tento nástroj pracuje tak, že uchovává ve speciálním formátu seznam změn mezi jednotlivými verzemi. Systém později může na základě porovnávání těchto změn vrátit jakýkoliv soubor do podoby, ve kterém byl v jakékoliv verzi. Toto řešení obsahuje to riziko, že pokud dojde k trvalé ztrátě databáze lokální správy verzí, dojde ke ztrátě celé historie projektu [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
 
 ### Centralizované systémy správy verzí
 Centralizované systémy správy verzí mají oproti lokálním systémům tu výhodu, že řeší problematiku spolupráce s dalšími pracovníky v týmu. Mezi tyto systémy patří například CVS, Subversion nebo Perforce. Tyto systémy obsahují mimo lokální část i serverovou, která uchovává všechny verzované soubory. Z tohoto centrálního úložiště si potom soubory stahují jednotliví klienti [cit]https://git-scm.com/book/cs/v1/%C3%9Avod-Spr%C3%A1va-verz%C3%AD[/cit].
@@ -387,7 +387,7 @@ MessageBroker je prostřední počítačový programový modul, který převád�
 RabbitMQ je nejrozšířenější open source message broker. Běží na mnoha operačních systémech a cloudových prostředích a poskytuje širokou škálu vývojářských nástrojů pro většinu populárních jazyků. Je lehký a snadno se rozšiřuje i v cloudových řešeních. Lze nasadit na distribuované i sdružených konfiguracích tak, aby splňovaly vysoké požadavky na vysokou dostupnost [cit]https://www.rabbitmq.com/[/cit].
 
 ## Virtualizace
-_"Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače“_ [cit]https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/[/cit].
+_„Virtualizace vytváří simulované neboli virtuální výpočetní prostředí namísto fyzického prostředí. Virtualizace často zahrnuje počítačem vytvořené verze hardwaru, operačních systémů, úložných zařízení atd. To umožňuje organizacím rozdělit jeden fyzický počítač nebo server na několik virtuálních počítačů. Každý virtuální počítač pak může pracovat nezávisle a spouštět různé operační systémy nebo aplikace, zatímco sdílí prostředky jediného hostitelského počítače“_ [cit]https://azure.microsoft.com/cs-cz/overview/what-is-virtualization/[/cit].
 
 ### Vagrant
 Vagrant je nástroj pro vytváření a správu prostředí virtuálních počítačů. Poskytuje snadno konfigurovatelné, reprodukovatelné a přenosné pracovní prostředí postavené na špičkové technologii a řízené jediným konzistentním pracovním postupem, který pomáhá maximalizovat produktivitu jednotlivce i celého vývojového týmu [cit]https://www.vagrantup.com/intro/[/cit].
@@ -528,7 +528,7 @@ Správa objednávky je o poznání prostější. Objednávce lze v administračn
 - odesláno,
 - dokončeno,
 - stornováno.
-Při změně objednávky na stavy "zaplaceno", "odesláno" a "dokončeno" odešle systém zákazníkovi e-mail zákazníkovi s informacemi o současném stavu jeho objednávky.
+Při změně objednávky na stavy „zaplaceno“, „odesláno“, „dokončeno“ odešle systém zákazníkovi e-mail zákazníkovi s informacemi o současném stavu jeho objednávky.
 ![Detail objednávky, zdroj: současné e-shopové řešení](https://hanabrand.cz/temp/dp/prehled-objednavky.png)
 
 Formulář pro vytvoření nového slevového kupónu je také velice prostý.  Slevové kupóny nelze z pohledu administračního rozhraní systému nijak pokročile spravovat, lze je pouze vytvořit.
@@ -690,7 +690,7 @@ Typ databáze jsem zvolil MySQL a to proto, že ho přímo obsahuje připravené
 
 ![Logo systému Jarvis, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/jarvis-logo.png)
 
-Celý projekt jsem se rozhodl pojmenovat jako "Jarvis".
+Celý projekt jsem se rozhodl pojmenovat jako „Jarvis“.
 
 ### Laravel Homestead
 Pro vývojové prostředí byl použit Laravel Homestead, které poskytuje předinstalovaný systém se všemi základními balíčky potřebnými pro vývoj PHP aplikace. To umožňuje poměrně rychlý způsob, jak začít vyvíjet aplikaci bez nutnosti zdlouhavé konfigurace prostředí. Navíc toto řešení disponuje tou výhodou, že v případě vícečlenného týmu vývojářů budou všichni vývojáři disponovat stejným vývojovým prostředím.
@@ -735,25 +735,25 @@ Celý systém je rozdělen na samostatné logické celky, které jsou reprezento
 
 ![Rozdělení systému na balíčky - jednotlivé repositáře, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/balicky-systemu.png)
 
-Systém je tvořen samostatnými balíčky, které se instalují pomocí nástroje Composer. Zdrojové kódy těchto balíčků se po instalaci nacházejí v adresáři ,,vendor/" a z pohledu aplikace by nemělo docházet k úpravám jejich kódu (úpravy se s aktualizací balíčků zahodí).
+Systém je tvořen samostatnými balíčky, které se instalují pomocí nástroje Composer. Zdrojové kódy těchto balíčků se po instalaci nacházejí v adresáři „vendor/“ a z pohledu aplikace by nemělo docházet k úpravám jejich kódu (úpravy se s aktualizací balíčků zahodí).
 
 #### Jarvis App
-Základním balíčkem aplikace, balíček je typu "projekt", vytváří základní adresářovou strukturu aplikace a je závislý na balíčku "core". Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb CMS nebo Shop).
+Základním balíčkem aplikace, balíček je typu „projekt“, vytváří základní adresářovou strukturu aplikace a je závislý na balíčku „core“. Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb Jarvis CMS nebo Jarvis Shop).
 
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png?1)
 
 #### Jarvis Core
-Jádro aplikace, balíček je typu "knihovna". Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
+Jádro aplikace, balíček je typu „knihovna“. Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
 
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png?1)
 
 #### Jarvis CMS
-Balíček typu "knihovna", poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku "Core". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
+Balíček typu „knihovna“, poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku Jarvis Core. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
 
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png?1)
 
 #### Jarvis Shop
-Balíček typu "knihovna", poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku "Core" a "CMS". Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
+Balíček typu „knihovna“, poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku Jarvis Core a Jarvis CMS. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
 
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png?1)
 
@@ -848,7 +848,7 @@ Entity v systému tedy definují strukturu relací i datové typy a entita (obje
 - WarehouseProduct - produkt na skladě.
 
 ### Repositáře
-Každá entita má v systému vytvořený svůj vlastní repositář, který rozšiřuje funkcionalitu základního ,,EntityRepository". Díky tomu je možné jednoduše definovat vlastní speciální metody pro načítání entit z databáze přímo do konkrétních repositářů.
+Každá entita má v systému vytvořený svůj vlastní repositář, který rozšiřuje funkcionalitu základního „EntityRepository“. Díky tomu je možné jednoduše definovat vlastní speciální metody pro načítání entit z databáze přímo do konkrétních repositářů.
 
 ### Kontejnery
 Ke každé entitě existuje i kontejner stejně jako existuje ke každé entitě repositář. Tento kontejner je definován jako služba (jeho instanci tedy poskytuje framework prostřednictvím DI kontejneru aplikace). Kontejner jako takový usnadňuje práci tím způsobem, že sám obsahuje instance důležitých tříd pro práci s entitami a místo importu několika různých tříd se provede pouze import instance tohoto kontejneru (přes DI kontejner).
@@ -924,7 +924,7 @@ Vytváření URL adres pro moduly Admin a Robot je realizováno pomocí jednoduc
 
 Pro modul Front jsou URL adresy sestavovány za pomocí Route entit. Ty se jako zbylé entity ukládají do databáze a systém díky nim dokáže obousměrně překládat mezi URL a akcí konkrétního presenteru. To má za následek, že entitám lze definovat uživatelsky přívětivé URL adresy.
 
-Route entity jsou generovány automaticky na pozadí při manipulacích s ostatními entitami v systému, které podporují routování (implementují rozhraní "IRoutable").
+Route entity jsou generovány automaticky na pozadí při manipulacích s ostatními entitami v systému, které podporují routování (implementují rozhraní „IRoutable“).
 
 Například, pokud je vytvořena entita Article (entita článku - podporuje routování), dojde i k automatickému vytvoření entity Route, která pomocí reference odkazuje na entitu článku. Jako URL adresa slouží název článku, který je převeden do podoby pro použití v URL adrese. Pokud je daný článek upraven (a změní se například jeho název, který má podstatný vliv na tvorbu URL adresy), nedojde k aktualizaci entity Route, ale je vytvořena zcela nová a stará upravena tak, že již neodkazuje na entitu článku, ale na novou Route entitu. Výsledkem této funkcionality je automatické přesměrování starších URL adres na novou (které mohou být již zaindexovány vyhledávači nebo na ně mohou odkazovat statické odkazy). Díky tomu je také zabráněno duplikaci stejného obsahu na více různých URL adresách, což má neblahý vliv na SEO.
 
@@ -936,7 +936,7 @@ Například, pokud je vytvořena entita Article (entita článku - podporuje rou
 Entita Page (stránka) umožňuje vytvořit buď prázdnou stránku, jejíž zobrazení se složí z výpisu konkrétních modulů nebo výpis kategorie článků či produktů. 
 
 ### Administrační rozhraní
-Administrační rozhraní systému se nachází na adrese "<doména>/administration". Pro vstup do administrace je nutné mít vytvořený uživatelský účet, kterému se přiřazena role s dostatečným oprávněním pro vstup do administrace. Pokud uživatel není přihlášen, je mu zobrazen formulář pro přihlášení.
+Administrační rozhraní systému se nachází na adrese „<doména>/administration“. Pro vstup do administrace je nutné mít vytvořený uživatelský účet, kterému se přiřazena role s dostatečným oprávněním pro vstup do administrace. Pokud uživatel není přihlášen, je mu zobrazen formulář pro přihlášení.
 
 ![Přihlášení do administračního rozhraní systému, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/administrace-prihlaseni-0.jpg)
 
@@ -962,7 +962,7 @@ V administrační sekci lze definovat uživatelské parametry, které reprezentu
 - výběr jedné z hodnot (select),
 - výběr více hodnot (multiselect).
 
-Takto lze například entitě produktu definovat vlastnost "velikost" s typem výběru jedné z hodnot "S", "M", "L".
+Takto lze například entitě produktu definovat vlastnost „velikost“ s typem výběru jedné z hodnot „S“, „M“, „L“.
 
 ![Ukázka výpisu definovaných uživatelských parametrů, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/parametry.png)
 
@@ -987,18 +987,18 @@ Customizaci, neboli specifická úprava systému dle přání zákazníka, lze p
 Ani jeden z uvedených způsobů nezasahuje do systému tak, že by přímo přepisovat zdrojový kód samotného systému, ale jsou v obou případech vytvořeny jako externí soubory oddělené od adresářů zdrojových kódů systému, ale ten je automaticky načítá a pracuje s nimi.
 
 ### Přepisování služeb
-Nette Framework umožňuje pomocí konfiguračních souborů NEON přepisovat již dříve definované konfigurace. V systému konfigurační soubory vyhledává knihovna Nette Config Finder, která je nastavena tak, aby nejprve vyhledávala konfigurační soubory v adresáři "vendor/", tedy aby načetla konfigurační soubory nainstalovaných balíčků a teprve poté vyhledá konfigurační soubory v adresáři "app/".
+Nette Framework umožňuje pomocí konfiguračních souborů NEON přepisovat již dříve definované konfigurace. V systému konfigurační soubory vyhledává knihovna Nette Config Finder, která je nastavena tak, aby nejprve vyhledávala konfigurační soubory v adresáři „vendor/“, tedy aby načetla konfigurační soubory nainstalovaných balíčků a teprve poté vyhledá konfigurační soubory v adresáři „app/“.
 
 Autorem tohoto rozšíření jsem já sám, je open-source a lze jej nainstalovat pomocí nástroje Composer.
 
 ![Open-source rozšíření Nette Config Finder, zdroj: github.com](https://hanabrand.cz/temp/dp/nette-config-finder.png)
 
-Automatické vyhledávání konfiguračních souborů a jejich import do systému má za následek, že při inicializaci systému ve spouštěcím souboru je nejprve načtena výchozí konfigurace systému z balíčku Jarvis Core (a dalších balíčků s konfigurací) a teprve následně je načtena konfigurace z adresáře "app/config", tedy konkrétní konfigurace pro aktuální instanci systému.
+Automatické vyhledávání konfiguračních souborů a jejich import do systému má za následek, že při inicializaci systému ve spouštěcím souboru je nejprve načtena výchozí konfigurace systému z balíčku Jarvis Core (a dalších balíčků s konfigurací) a teprve následně je načtena konfigurace z adresáře „app/config/“, tedy konkrétní konfigurace pro aktuální instanci systému.
 
-Konfigurace z adresáře "app/config", přepisuje základní konfiguraci nainstalovaných balíčků a díky tomu lze donutit systém využít mimo konfiguračních parametrů i jiné služby, než které standardně systém používá. Je tedy možné měnit základní logiky systému. 
+Konfigurace z adresáře „app/config/“, přepisuje základní konfiguraci nainstalovaných balíčků a díky tomu lze donutit systém využít mimo konfiguračních parametrů i jiné služby, než které standardně systém používá. Je tedy možné měnit základní logiky systému. 
 
 ### Přepisování šablon
-Komponentový model systému je rozšířen o logiku vyhledání šablony pro konkrétní komponentu. Tato logika se nejprve pokusí vyhledat šablonu konkrétní komponenty v adresáři "app/" na základě předem jasně definovaného tvaru cesty k náhradní šabloně a pokus není nalezena náhradní šablona, využije se výchozí systémová.
+Komponentový model systému je rozšířen o logiku vyhledání šablony pro konkrétní komponentu. Tato logika se nejprve pokusí vyhledat šablonu konkrétní komponenty v adresáři „app/“ na základě předem jasně definovaného tvaru cesty k náhradní šabloně a pokus není nalezena náhradní šablona, využije se výchozí systémová.
 
 ![Ukázka výchozí šablony výpisu produktů, zdroj: systém Jarvis](https://hanabrand.cz/temp/dp/sablona-kategorie.png)
 
