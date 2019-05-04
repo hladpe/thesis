@@ -13,8 +13,11 @@ E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, C
 --------------------
 
 # Úvod
+// TODO
 
 # Cíl a metodika práce
+Cílem práce je navrhnout a vytvořit novou e-commerce platformu na úrovni prototypu využitelného jako elektronický obchod konkrétního živnostníka.
+// TODO
 
 # Teoretická východiska práce
 
@@ -1115,3 +1118,6 @@ Jak bylo již zmíněno, k prvnímu nahrání změn do repositářů systému do
 Jelikož celé řešení je postaveno na technologiích, které jsou nabízeny zdarma, nebo jako open-source, jedinou nákladovou položkou v realizaci je strávený čas nad projektem. Pokud tedy budeme uvažovat o sazbě 500 Kč/h, současné náklady na vytvoření tohoto prototypu e-commerce platformy jsou 115 500 Kč.
 
 Připravované řešení je v porovnání s aktuálním výrazně komplexnější a díky tomu má i vyšší nároky na prostředí, ve kterém bude provozován. Kvůli tomu bude nutné při zprovoznění řešení uvažovat i o dodatečných nákladech za využívané hostingové služby (pronájem výkonnějšího serveru).
+
+# Závěr
+// TODO
