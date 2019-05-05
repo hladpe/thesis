@@ -155,11 +155,21 @@ $configuration->addCitation('0197aa362e5bbed98297e0d31ac1b2db', '@book{0197aa362
 ');
 
 // -- undefined sources
-
-
 $configuration->addCitation('de49abaf390f6d938dde5a3a2da17181', '@misc{de49abaf390f6d938dde5a3a2da17181,
     title = {Definice statické webové stránky},
     note = "\textit{Myartse.com} [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/",
+}
+');
+
+$configuration->addCitation('1d830a0736fd0c9a49aab45046853189', '@misc{1d830a0736fd0c9a49aab45046853189,
+    title = {Programovací jazyky},
+    note = "\textit{Programování} [online]. 2015 [cit. 2016-04-01]. Dostupné z: http://k-prog.wz.cz/progjaz/",
+}
+');
+
+$configuration->addCitation('d7a107d421a2e9b36689786d503e7c96', '@misc{d7a107d421a2e9b36689786d503e7c96,
+    title = {Programovací paradigma},
+    note = "\textit{Naprogramujmi.cz} [online]. Brno-sever: MEDIACENTRUM GROUP, 2013 [cit. 2016-04-01]. Dostupné z: http://naprogramujmi.cz/programovaci-paradigma/",
 }
 ');
 
