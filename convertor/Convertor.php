@@ -293,7 +293,7 @@ class Convertor
         $host = str_replace('www.', '', $urlParts['host']);
         $escaped = str_replace('_', '\\_', $url);
 
-        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('d-m-Y') . ']. Dostupné z: ' . $escaped . '"';
+        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('Y-m-d') . ']. Dostupné z: ' . $escaped . '"';
 
         $string = '';
         foreach ($cit as $key => $value) {

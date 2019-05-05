@@ -154,4 +154,13 @@ $configuration->addCitation('0197aa362e5bbed98297e0d31ac1b2db', '@book{0197aa362
 }
 ');
 
+// -- undefined sources
+
+
+$configuration->addCitation('de49abaf390f6d938dde5a3a2da17181', '@misc{de49abaf390f6d938dde5a3a2da17181,
+    title = {Definice statické webové stránky},
+    note = "\textit{Myartse.com} [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/",
+}
+');
+
 (new Convertor($configuration))->convert();
