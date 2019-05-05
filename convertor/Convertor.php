@@ -273,6 +273,8 @@ class Convertor
             $year = '';
         }
 
+        $title = str_replace('&', '\\&', $title);
+
         $cit = [];
         $cit['title'] = '"' . $this->mbUcfirst(mb_strtolower($title), 'utf-8') . '"';
         // $cit['url'] = '"' . $url . '"';
@@ -291,7 +293,9 @@ class Convertor
 
         $urlParts = parse_url($url);
         $host = str_replace('www.', '', $urlParts['host']);
+
         $escaped = str_replace('_', '\\_', $url);
+        $escaped = str_replace('#', '\\#', $escaped);
 
         // random 1 month in the past
         $randomDate = date('Y-m-d', strtotime( '-' . mt_rand(0,31).' days'));
