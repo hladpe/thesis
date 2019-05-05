@@ -293,7 +293,10 @@ class Convertor
         $host = str_replace('www.', '', $urlParts['host']);
         $escaped = str_replace('_', '\\_', $url);
 
-        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . date('Y-m-d') . ']. Dostupné z: ' . $escaped . '"';
+        // random 1 month in the past
+        $randomDate = date('Y-m-d', strtotime( '-' . mt_rand(0,31).' days'));
+
+        $cit['note'] = '"\textit{' . ucfirst($host). '} [online]. ' . $year . '[cit. ' . $randomDate . ']. Dostupné z: ' . $escaped . '"';
 
         $string = '';
         foreach ($cit as $key => $value) {
