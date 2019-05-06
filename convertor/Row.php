@@ -299,6 +299,14 @@ class Row
             }
         }
 
+        $x = preg_match_all('/[0-9] mld/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+
         $x = preg_match_all('/[0-9] tis/', $this->content, $matches);
         if ($x) {
             foreach ($matches[0] as $match) {
