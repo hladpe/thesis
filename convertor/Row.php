@@ -145,10 +145,10 @@ class Row
         $justTitle = trim($titleParts[0]);
 
         $this->content = '\begin{figure}[H]' . PHP_EOL
-                        . '\begin{center}' . PHP_EOL
+                        // . '\begin{center}' . PHP_EOL
                         . '\includegraphics[' . $style . ']{' . ($imagesDirName ? $imagesDirName . '/' : '') . $hash . '}' . PHP_EOL
                         . '\caption[' . $justTitle . ']{' . $title . '}' . PHP_EOL
-                        . '\end{center}'
+                        // . '\end{center}' . PHP_EOL
                         . '\end{figure}';
 
         return $hash;
