@@ -253,7 +253,7 @@ class Row
 
     private function convertSuperClutches(): void
     {
-        $list = ['tj.', 'tzv.', 'tzn.'];
+        $list = ['tj.', 'tzv.', 'tzn.', 'např.'];
         foreach ($list as $item) {
             $this->content = str_replace(' ' . $item . ' ', ' ' . $item . '~', $this->content);
         }
