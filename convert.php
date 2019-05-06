@@ -27,7 +27,7 @@ $configuration->addCitation('6347ebcf49f74f4b627bb615c2dbd0e6', '@book{6347ebcf4
     year = {2012},
 }
 ');
-$configuration->addCitation('3ecb1b67a38b2feb5847c8682a22de14', '@misc{6347ebcf49f74f4b627bb615c2dbd0e6,
+$configuration->addCitation('3ecb1b67a38b2feb5847c8682a22de14', '@misc{3ecb1b67a38b2feb5847c8682a22de14,
     title = {Návrh informačního systému},
     language = {cze},
     author = {Horák, Martin},
