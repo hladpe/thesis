@@ -1,3 +1,4 @@
+
 # Úvod
 Internet je jednoznačně nejvýznamnější fenomén současnosti. Ovlivnil většinu lidí, zasáhl do všech sociálních skupin bez ohledu na věk nebo na vzdělání a zcela změnil celá průmyslová odvětví. V rámci internetu lze realizovat celá řada činností, mimo jiné i nakupování. To je čím dál oblíbenější a obrat české e-commerce každý rok strmě stoupá. Po technické stránce je pro společnost působící v oblasti elektronického obchodování velice důležité mít správně sestavenou platformu, skrz kterou realizuje svoji obchodní činnost.
 
@@ -58,9 +59,7 @@ Webová stránka je označení dokumentu s informacemi, který je dostupný pomo
 
 Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
-Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language) [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
-
-Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
+Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language). Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 ### Hypertext
 _„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]https://it-slovnik.cz/pojem/hypertext[/cit].
@@ -68,7 +67,7 @@ _„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím t
 ## E-business
 _„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi rychlý vývoj. Zpočátku byl e-business chápán pouze jako internetové obchody, rezervační systémy apod., tedy aktivity, které jsou dnes označovány jako elektronické obchodování (e-commerce). E-business má širší význam a patří sem i mnoho dalších aktivit, jejichž cílem je zejména podpora a zvýšení efektivity podnikových interních a externích procesů. Na stejnou úroveň jako firmy se v rámci e-business řadí i běžní uživatelé, kteří jsou na jedné straně klíčovou cílovou skupinou z hlediska elektronicky realizovaných obchodů, na druhé straně využívají Internet a jeho služby pro účely vzdělávání, zábavy nebo například pro pracovní účely“_ [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit].
 
-![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit]. || width=0.75\textwidth](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
+![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit] || width=0.75\textwidth](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
 
 ### E-commerce
 E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání) [cit]http://www.adaptic.cz/znalosti/slovnicek/e-commerce/[/cit].
@@ -148,7 +147,7 @@ Základní kroky, které jsou potřeba podniknout k založení a úspěšnému p
 #### Open-source
 Největším lákadlem řešení open-cource je jeho cena, protože toto řešení je zdarma. Zdarma jsou základní moduly, které vystačí na běžné potřeby e-shopu. Zdarma mohou být i další rozšíření a pluginy. Další výhodou je otevřený kód, který lze libovolně modifikovat a rozvíjet dle vlastních požadavků. Open-source e-commerce řešení tedy využijí ti, kteří chtějí levný, jednoduchý e-shop a nebudou požadovat víc, než jsou jeho základní funkce. Dále toto řešení využijí ti, kteří chtějí použít otestované řešení jako solidní základ pro vlastní platformu, kterou budou dále chtít sami rozvíjet [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
-Open-source ale neznamená e-shop zdarma nebo nulové náklady. I správa svobodného softwaru bude potřebovat zkušeného vývojáře, který se dokáže orientovat v cizím kódu, zná architekturu aplikace a aby požadovanou úpravu provedl dobře a nezanesl do aplikace další chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit]
+Open-source ale neznamená e-shop zdarma nebo nulové náklady. I správa svobodného softwaru bude potřebovat zkušeného vývojáře, který se dokáže orientovat v cizím kódu, zná architekturu aplikace a aby požadovanou úpravu provedl dobře a nezanesl do aplikace další chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
 Bohužel svobodný software v sobě ukrývá i své nevýhody - kolísající kvalita kódu a dostupnost podpory. Díky tomu, že lze do kódu libovolně zasahovat, žádné open-source řešení nezaručí, že bude fungovat bez chyb a nečekaných pádů. Veřejně přístupný kód také přitahuje pozornost útočníků, kteří vyhledávají bezpečnostní chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
@@ -158,7 +157,7 @@ E-shop na míru má tu výhodu, že přesně odpovídá požadavkům zadavatele.
 
 E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shopu. Většinou se tak spíše vyplatí u velkých společností, které mají dostatek peněz na takovouto investici [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
 
-_„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má“_ [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit]
+_„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má“_ [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit].
 
 
 #### Pronájem e-shopu
@@ -185,7 +184,9 @@ Online marketing je označení pro propagaci produktů nebo služeb na internetu
 _„Internet je jako obchodní místo unikátní hned v několika směrech: např. koncentrace obchodů na jednom místě. Všechny jsou okamžitě dosažitelné, nekoupím-li v prvním, mohu bez námahy pokračovat v objevování další nabídky, jako kdybych jel na druhý konec města nebo dokonce světa. Existuje možnost rychlého porovnání sortimentu a cen. Rychlý přehled konkurence v oboru, jen na základě zadání třeba jednoho klíčového slova“_ [cit]https://www.interval.cz/clanky/e-shop-z-pohledu-zakaznika/[/cit].
 
 ### Výhody a omezení
-Základní výhody e-commerce pro zákazníky:
+
+
+#### Základní výhody e-commerce pro zákazníky:
 - nižší ceny produktů a služeb, možnost okamžitého srovnání cen s konkurencí,
 - možnost většího výběru produktů a obchodníků, 
 - větší pohodlí a úspora času - snadná dostupnost k nákupu, možnost nakupovat kdykoli a odkudkoli,
@@ -193,7 +194,8 @@ Základní výhody e-commerce pro zákazníky:
 - možnost rychlého dodání,
 - slevy a výhody pro zákazníky [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
 
-Základní nevýhody e-commerce pro zákazníky:
+
+#### Základní nevýhody e-commerce pro zákazníky:
 - zákazníci si nemohou zboží osahat a ozkoušet,
 - nabízené zboží není skladem,
 - někteří zákazníci se bojí problémů s reklamací nebo vrácením zboží,
@@ -209,7 +211,7 @@ Během pouhých prvních pár vteřin návštěvník internetových stránek zho
 - vizuální kontakt s člověkem nebo maskotem,
 - aktuálnost e-shopu,
 - zakomponování bezpečnostního symbolu,
-- přidání možnosti snadného kontaktu [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit]
+- přidání možnosti snadného kontaktu [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit].
 
 
 _„Důvěryhodný je takový e-shop, který působí moderně, aktivně, stará se o své zákazníky a umožňuje jim kontakt, kdykoli je potřeba. Zároveň za ním stojí konkrétní sympatičtí lidé s příběhem. Zapracujte tyto úpravy na svůj e-shop a uvidíte pozitivní vliv na obrat i pokles míry okamžitého opuštění stránek. A pokud chcete získat ještě více objednávek, nezapomeňte vytvořit perfektní stránku O nás“_ [cit]https://www.radeksikyr.cz/blog/6-uprav-kterymi-zvysite-duveryhodnost-e-shopu/[/cit].
@@ -304,7 +306,7 @@ Controller, lze přeložit jako „řadič“ [cit]https://doc.nette.org/cs/2.4/
 Controller zastává funkci prostředníka, se kterým komunikuje uživatel, model i pohled. Drží systém pohromadě a propojuje jednotlivé komponenty [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ## MVP architektura
-MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou „komunikaci“ mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit]
+MVP (Model-View-Presenter)  je návrhový vzor, který vychází ze vzoru MVC. Z něj dědí většinu vlastností, ale hlavním rozdílem je v zodpovědnosti vrstvy Presenter. Controller definovuje chování a spravuje typicky několik pohledů (views). Presenter většinou spravuje pouze jediný pohled. V MVC může také pohled komunikovat přímo s modelem, zatímco v MPV má za veškerou „komunikaci“ mezi pohledem a modelem pouze Presenter [cit]https://www.ackee.cz/blog/uvod-do-mvp-na-androidu/[/cit].
 
 ![Znázornění architektury MVP, zdroj: vlastní zpracování dle [cit]https://www.konstantinfo.com/blog/mvp-vs-mvc-vs-mvvm/[/cit] || width=0.75\textwidth](https://hanabrand.cz/temp/dp/mvp.png)
 
@@ -327,7 +329,7 @@ Relační databáze jsou v současnosti nejpoužívanějším typem databází [
 
 _„Součástí relačních databází jsou tabulky, které označujeme jako relace. Jedná se v podstatě o tabulky se sloupci nazývanými atributy, dále pak řádky, které se označují jako záznamy. U každého z atributů je stanoven datový typ a doména. K ukládání samotných informací zde slouží řádky“_ [cit]https://it-slovnik.cz/pojem/relacni-databaze[/cit].
 
-Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit]
+Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit].
 
 
 #### MySQL
