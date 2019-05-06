@@ -66,7 +66,7 @@ _„Elektronické podnikání (e-business) je oborem, který zaznamenal velmi ry
 ![Části elektronického podnikání, zdroj: vlastní zpracování dle [cit]SUCHÁNEK, P. E-commerce: elektronické podnikání a koncepce elektronického obchodování. 1. vyd. Praha: Ekopress, 2012. 144 s. ISBN 978-80-86929-84-2.[/cit]. || width=0.75\textwidth](https://hanabrand.cz/temp/dp/e-commerce-skupiny.png)
 
 ### E-commerce
-E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání)[cit]http://www.adaptic.cz/znalosti/slovnicek/e-commerce/[/cit].
+E-commerce je široký pojem, který se používá k označení veškerých obchodních transakcí realizovaných pomocí internetu a elektronických prostředků. E-commerce patří do rodiny e-business (elektronického podnikání) [cit]http://www.adaptic.cz/znalosti/slovnicek/e-commerce/[/cit].
 
 Pro e-commerce jsou důležité digitální obchodní transakce mezi organizacemi a mezi jednotlivci. Digitální transakce zahrnují všechny transakce zprostředkované prostřednictvím digitálních technologií. Z velké části to jsou transakce, ke kterým dochází přes internet. Obchodní transakce zahrnují výměnu hodnoty (např. peněz) přes organizační nebo individuální hranice za produkty a služby. Výměna hodnoty je důležitá pro pochopení hranic elektronického obchodu - bez výměny hodnoty nedochází k žádnému obchodu [cit]LAUDON, K. C. and C. G. TRAVER. E-Commerce 2016: Business, Technology, Society. 12th ed. New Jersey: Pearson, 2016. 912 p. ISBN 978-0-133-93895-1.[/cit].
 
