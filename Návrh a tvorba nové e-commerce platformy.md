@@ -1,9 +1,14 @@
 # Úvod
 Internet je jednoznačně nejvýznamnější fenomén současnosti. Ovlivnil většinu lidí, zasáhl do všech sociálních skupin bez ohledu na věk nebo na vzdělání a zcela změnil celá průmyslová odvětví. V rámci internetu lze realizovat celá řada činností, mimo jiné i nakupování. To je čím dál oblíbenější a obrat české e-commerce každý rok strmě stoupá. Po technické stránce je pro společnost působící v oblasti elektronického obchodování velice důležité mít správně sestavenou platformu, skrz kterou realizuje svoji obchodní činnost.
+
 Tato práce se zabývá návrhem a vytvořením prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka, paní Hanu Hladíkovou, provozovatelkou internetového obchodu www.hanabrand.cz.
+
 Druhá kapitola obsahuje shrnutí základních pojmů a informací potřebné k pochopení dalších částí práce a k pochopení problematiky týkající se elektronického obchodování. Jsou přiblížena i témata, na která se v dalších částech práce nepřímo odkazuje, ale jsou podstatná pro pochopení ostatních teoretických základů nebo pro vytvoření uceleného pohledu na danou problematiku.
+
 Ve třetí kapitole jsou uvedeny podstatné informace o živnostníkovi, pro kterého bude vytvořena e-commerce platforma. Jsou uvedeny informace, jak o podnikatelské činnosti živnostníka, tak analýza současného řešení. V závěru této kapitoly se nachází analýza dostupných řešení na základě konkrétních požadavků živnostníka, včetně výsledku této analýzy, která se stala rozhodujícím faktorem při realizaci této práce.
+
 Čtvrtá kapitola popisuje návrhovou a implementační část vytvoření e-commerce platformy na úrovni prototypu. Uvádí, jaké technologie byly při návrhu zvoleny, včetně popisu, jak konkrétně byly využity, aby tento prototyp tvořil kvalitní technologický základ pro budoucí vývoj v plnohodnotnou e-commerce platformu. V závěru této kapitoly se nachází i zhodnocení celé realizace včetně finančního ohodnocení.
+
 Záměrem celého projektu vývoje této e-commerce platformy je vytvoření řešení, které bude splňovat veškeré živnostníkovy požadavky, nahradí jeho současně používané řešení a platforma se bude dále rozvíjet.
 
 # Teoretická východiska práce
@@ -1121,6 +1126,9 @@ Připravované řešení je v porovnání s aktuálním výrazně komplexnějš�
 
 # Závěr
 Cílem práce bylo navrhnout a vytvořit prototyp nové e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka. Toto připravované řešení bude mít za úkol zcela nahradit jeho současně používané e-shopové řešení a to tak, že bude splňovat veškeré živnostníkovy technické požadavky.
+
 V rámci práci byly nejprve definovány nutné obecné předpoklady pro pochopení problematiky, včetně seznámení s aktuálně používaným e-shopovým řešení a analýzou jeho současného technického stavu. Následně byly definovány živnostníkovy klíčové požadavky na připravované řešení a na základě nich byla provedena analýza dostupných řešení.
+
 V kapitole zabývající se samotným řešením jsou obsaženy informace o zvolených technologiích včetně popisu, jak přesně byly tyto technologie v projektu využity. Konkrétně se kapitola zabývá informacemi o způsobu implementace zvolených technologií, strukturou celého systému (způsobu rozdělení na samostatné balíčky a aplikační moduly), modelovou vrstvou systému, popisem konkrétních funkcionalit, grafickým návrhem připravovaného e-shopu a zhodnocením celé realizace včetně finančního zhodnocení.
+
 Výsledkem této práce je funkční prototyp e-commerce platformy s plánovaným vývojem v plnohodnotné řešení.
