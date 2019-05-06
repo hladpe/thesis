@@ -1,5 +1,7 @@
 
 # Úvod
+\pagenumbering{arabic}
+\setcounter{page}{12}
 Internet je jednoznačně nejvýznamnější fenomén současnosti. Ovlivnil většinu lidí, zasáhl do všech sociálních skupin bez ohledu na věk nebo na vzdělání a zcela změnil celá průmyslová odvětví. V rámci internetu lze realizovat celá řada činností, mimo jiné i nakupování. To je čím dál oblíbenější a obrat české e-commerce každý rok strmě stoupá. Po technické stránce je pro společnost působící v oblasti elektronického obchodování velice důležité mít správně sestavenou platformu, skrz kterou realizuje svoji obchodní činnost.
 
 Tato práce se zabývá návrhem a vytvořením prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka, paní Hanu Hladíkovou, provozovatelkou internetového obchodu www.hanabrand.cz.
