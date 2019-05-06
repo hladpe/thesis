@@ -56,11 +56,11 @@ Webový prohlížeč je program v počítači, který dokáže zobrazit webovou 
 ### Webová stránka
 Webová stránka je označení dokumentu s informacemi, který je dostupný pomocí internetu a webového prohlížeče a pro návštěvníka webové stránky je prezentován estetickým a čitelným způsobem [cit]Webová stránka (Internetová stránka). Management Mania [online]. 2012 [cit. 2016-04-01]. Dostupné z: https://managementmania.com/cs/webova-stranka-internetova[/cit].
 
-Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované.[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
+Webové stránky se používají pro různé účely, jak pro individuální použití, tak firemní a mohou být buď statické, nebo dynamicky generované [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
-Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language)[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
+Statická webová stránka je stránka, kde je veškerý obsah pevně kódován do samotné stránky. Tyto stránky jsou obvykle kódované pouze za použití HTML (HyperText Markup Language) [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
-Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP[cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
+Dynamické webové stránky jsou generovány skriptem, který sám sestavuje HTML dokument. Tento dokument může vygenerovat například za použití dat z databáze. Dynamické webové stránky lze vytvářet za použití několika programovacích jazyků, včetně PHP [cit]Definice statické webové stránky. Myartse.com [online]. 2014 [cit. 2016-04-01]. Dostupné z: http://www.myartse.com/definice-staticke-webove-stranky/[/cit].
 
 ### Hypertext
 _„Text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument“_ [cit]https://it-slovnik.cz/pojem/hypertext[/cit].
