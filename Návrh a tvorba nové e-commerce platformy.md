@@ -1,17 +1,3 @@
-### Abstrakt
-Hlavní úlohou této diplomové práce je vytvoření prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka. Práce se zabývá analýzou současného stavu, analýzou dostupných řešení, popisem vybraných technologií, včetně popisu, jak tyto technologie byly v projektu konkrétně implementovány. Výsledkem práce je funkční prototyp e-commerce platformy.
-
-### Abstract
-The thesis focuses on developing prototype of e-commerce platform. This platform will be used as a base for a full-fledged e-commerce solution of specific trader in the future. The thesis deals with the analysis of the current state, analysis of available solutions, description of selected technologies, including a description of how these technologies were specifically implemented in the project. The result of this thesis is a functional prototype of e-commerce platform.
-
-### Klíčová slova
-E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, Composer, RabbitMQ
-
-### Key words
-E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, Composer, RabbitMQ
-
---------------------
-
 # Úvod
 Internet je jednoznačně nejvýznamnější fenomén současnosti. Ovlivnil většinu lidí, zasáhl do všech sociálních skupin bez ohledu na věk nebo na vzdělání a zcela změnil celá průmyslová odvětví. V rámci internetu lze realizovat celá řada činností, mimo jiné i nakupování. To je čím dál oblíbenější a obrat české e-commerce každý rok strmě stoupá. Po technické stránce je pro společnost působící v oblasti elektronického obchodování velice důležité mít správně sestavenou platformu, skrz kterou realizuje svoji obchodní činnost.
 Tato práce se zabývá návrhem a vytvořením prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka, paní Hanu Hladíkovou, provozovatelkou internetového obchodu www.hanabrand.cz.
