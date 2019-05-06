@@ -12,6 +12,9 @@ Ve třetí kapitole jsou uvedeny podstatné informace o živnostníkovi, pro kte
 
 Záměrem celého projektu vývoje této e-commerce platformy je vytvoření řešení, které bude splňovat veškeré živnostníkovy požadavky, nahradí jeho současně používané řešení a platforma se bude dále rozvíjet.
 
+\pagenumbering{arabic}
+\setcounter{page}{10}
+
 # Teoretická východiska práce
 V této části jsou shrnuty základní pojmy a informace, které jsou klíčové pro pochopení dalších částí práce a k pochopení problematiky v oblasti e-commerce. Jsou zde vysvětleny i témata, na která se v dalších částech práce přímo neodkazuje, ale jsou podstatná pro pochopení ostatních teoretických základů nebo pro vytvoření uceleného pohledu na danou problematiku.
 
@@ -727,9 +730,9 @@ Pokusím se blíže přiblížit vybrané technologie, které tvoří základ p�
 Na základě osobních zkušeností jsem se rozhodl realizovat celý projekt za použití programovacích jazyků PHP a JavaScript. PHP pro využití ve skriptování na straně serveru, JavaScript pro skriptování na straně klienta - pro zvýšení uživatelského požitku z využívání aplikace, například za použití technologie AJAX.
 Typ databáze jsem zvolil MySQL a to proto, že ho přímo obsahuje připravené vývojové prostředí Laravel Homestead, podporuje ho ORM Doctrine 2 a díky kladným osobním zkušenostem.
 
-![Logo systému Jarvis, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/jarvis-logo.png)
-
 Celý projekt jsem se rozhodl pojmenovat jako „Jarvis“.
+
+![Logo systému Jarvis, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/jarvis-logo.png)
 
 ### Laravel Homestead
 Pro vývojové prostředí byl použit Laravel Homestead, které poskytuje předinstalovaný systém se všemi základními balíčky potřebnými pro vývoj PHP aplikace. To umožňuje poměrně rychlý způsob, jak začít vyvíjet aplikaci bez nutnosti zdlouhavé konfigurace prostředí. Navíc toto řešení disponuje tou výhodou, že v případě vícečlenného týmu vývojářů budou všichni vývojáři disponovat stejným vývojovým prostředím.
