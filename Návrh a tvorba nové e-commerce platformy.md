@@ -26,21 +26,26 @@ Internet se v České republice začal rozšiřovat až na přelomu let 1995 a 1
 ### Služby na internetu
 V rámci internetu lze využít celá řada služeb. Zde jsou vysvětleny ty, které jsou hojně využívané pro komerční využití [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
+
 #### World Wide Web (WWW)
 Označení pro vzájemně provázený multimediální obsah poskytovaný pomocí protokolu HTTP. Uživatelé obsah konzumují pomocí webových prohlížečů [cit]https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
+
 
 #### E-mail
 Zasílání textových zpráv mezi jednotlivými uživateli internetu je k dispozici již od raných dob internetu. Dnes je zajišťován pomocí protokolu SMTP, který byl vyvinut v 70. letech [cit]https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
 
 Díky své rychlosti, nízkým nákladům, pohodlí a snadnému archivování je dnes pro firmy základním komunikačním nástrojem. Lze mimo jiné možné například využít k potvrzení přijaté objednávky z internetového obchodu [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
+
 #### Instant masseging (IM)
 Instant messaging je technologie, která formou aplikace umožňuje uživatelům sledovat, kteří uživatelé jsou připojeni k síti a dle potřeby s těmito uživateli komunikovat, například zasláním zprávy (chatovat) nebo posílat soubory. Umožňuje tedy komunikovat přes síť mezi uživateli v reálném čase [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
 
 Některé aplikace dovolují uživatelům i použití webových kamer a mikrofonů a díky tomu je služba ještě více populární. Pro některé uživatele je tato technologie přijatelnější, než okamžitá komunikace, protože ji vnímají méně dotěrnější, než například komunikace přes telefon [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
 
+
 #### Telefonování přes internet
 Díky rozšíření internetu do firem, je možné telefonovat přes internet. Postupně tak vznikly 3 základní možnosti telefonování s využitím internetu - telefonování z počítače na počítač, z počítače na telefon a telefonování přes internet prostřednictvím mobilního telefonu. Hlavní výhodou telefonování přes internet je snížení nákladů na volání [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
+
 
 #### Sociální služby
 _„Sociální síť je internetová služba, která registrovaným uživatelům umožňuje komunikovat mezi sebou. Komunikace může být veřejná nebo soukromá, je zpravidla založena na sdílení textových příspěvků, fotografií a videa“_ [cit]https://www.zive.cz/socialni-site/sc-223/default.aspx[/cit].
@@ -139,12 +144,14 @@ Základní kroky, které jsou potřeba podniknout k založení a úspěšnému p
 - promyslet koncept e-shopu (struktura, funkce, bezpečnost, dostupnost),
 - vytvoření vzhledu a účelného obsahu (copyright, SEO, obchodní podmínky) [cit]Sedlák, M., Mikulášková, P. (2012). Jak vytvořit úspěšný a výdělečný internetový obchod. 1. vyd. Brno: Computer Press.[/cit].
 
+
 #### Open-source
 Největším lákadlem řešení open-cource je jeho cena, protože toto řešení je zdarma. Zdarma jsou základní moduly, které vystačí na běžné potřeby e-shopu. Zdarma mohou být i další rozšíření a pluginy. Další výhodou je otevřený kód, který lze libovolně modifikovat a rozvíjet dle vlastních požadavků. Open-source e-commerce řešení tedy využijí ti, kteří chtějí levný, jednoduchý e-shop a nebudou požadovat víc, než jsou jeho základní funkce. Dále toto řešení využijí ti, kteří chtějí použít otestované řešení jako solidní základ pro vlastní platformu, kterou budou dále chtít sami rozvíjet [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
 Open-source ale neznamená e-shop zdarma nebo nulové náklady. I správa svobodného softwaru bude potřebovat zkušeného vývojáře, který se dokáže orientovat v cizím kódu, zná architekturu aplikace a aby požadovanou úpravu provedl dobře a nezanesl do aplikace další chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit]
 
 Bohužel svobodný software v sobě ukrývá i své nevýhody - kolísající kvalita kódu a dostupnost podpory. Díky tomu, že lze do kódu libovolně zasahovat, žádné open-source řešení nezaručí, že bude fungovat bez chyb a nečekaných pádů. Veřejně přístupný kód také přitahuje pozornost útočníků, kteří vyhledávají bezpečnostní chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
+
 
 #### E-shop na míru
 E-shop na míru má tu výhodu, že přesně odpovídá požadavkům zadavatele. Na počátku může zadavatel přesně specifikovat, jakou funkcionalitu požaduje. Tím se například liší od krabicového řešení, protože vznikne systém, který přesně splňuje potřeby zadavatele [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
@@ -153,6 +160,7 @@ E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shop
 
 _„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má“_ [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit]
 
+
 #### Pronájem e-shopu
 Pronájmu e-shopu se také říká krabicové řešení e-shopu. Lze s ním začít podnikat téměř okamžitě, pronajímají se za danou měsíční částku. Krabicově řešené e-shopy jsou již hotové a funkční. Stačí je jen nastavit a naplnit produkty. Mezi hlavní výhody patří minimální starosti s e-shopem, bezpečnost, spolehlivost a dopředu stanovená cena pronájmu. Nevýhodami tohoto řešení je menší možnost úprav a fakt, že e-shop nepatří nájemníkovi. Je tedy vhodnou formou k vytvoření e-shopu spíše začínajícím podnikatelům [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit].
 
@@ -160,12 +168,12 @@ Pronájmu e-shopu se také říká krabicové řešení e-shopu. Lze s ním zač
 Online marketing je označení pro propagaci produktů nebo služeb na internetu [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
 
-**Rozdělení online marketingu:**
+#### Rozdělení online marketingu:
 - inbound marketing – dlouhodobé formování a podpora vztahu s potenciálními zákazníky, například pomocí různého obsahu pomáhá, vzdělává nebo baví (populární obsahový marketing),
 - outbound marketing - zaměřuje se naopak na efektivní propagaci produktu neb služby [cit]https://www.mioweb.cz/slovnicek/online-marketing/[/cit].
 
 
-**Hlavní nástroje online marketingu:**
+#### Hlavní nástroje online marketingu:
 - internetové stránky - jádro prezentace na internetu,
 - sociální sítě - oslovování potenciálních zákazníků přes udržované a aktualizované stránky s poutavými příspěvky nebo reklamou,
 - e-mail marketing - dlouhodobě úspěšná metoda založená na prohlubování vztahu mezi odesílatelem a příjemcem (potenciálním zákazníkem) například formou newsletterů,
@@ -196,7 +204,7 @@ Základní nevýhody e-commerce pro zákazníky:
 Během pouhých prvních pár vteřin návštěvník internetových stránek zhodnotí, zda je pro něj e-shop důvěryhodný a zajímavý.  Navíc je pro zákazníky velice důležité, komu poskytnou osobní údaje a informace o platební kartě. Z toho důvodu je potřeba, aby webové stránky působily důvěryhodně [cit]https://blog.eshop-rychle.cz/duveryhodnost-bezpecnost-eshopu-https/[/cit].
 
 
-**Doporučované základní úpravy pro obecné zvýšení důvěryhodnosti e-shopu:**
+#### Doporučované základní úpravy pro obecné zvýšení důvěryhodnosti e-shopu:
 - propracovaný design webu, aktualizovaný jednoduchý přehledný a nepříliš agresivní vzhled,
 - vizuální kontakt s člověkem nebo maskotem,
 - aktuálnost e-shopu,
@@ -321,6 +329,7 @@ _„Součástí relačních databází jsou tabulky, které označujeme jako rel
 
 Je doporučené vytvářet unikátní identifikátory řádků, které jednotlivé záznamy identifikují. Tyto identifikátory se nazývají primární klíče. Dále mohou tabulky obsahovat i cizí klíče. Tyto klíče mají zásadní funkci při návrhu databáze a to, že definují odkaz na primární klíč z jiné tabulky [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit]
 
+
 #### MySQL
 MySQL je populární relační databázový systém, který je dostupný na většině dnešních webhostingů. Ačkoli funguje s mnoha různými programovacími jazyky, je často používán s PHP [cit]TARR, A. PHP and MySQL: 24-Hour Trainer. 1st ed. Indianapolis: John Wiley & Sons, 2012. 504 p. ISBN 978-1-118-06688-1.[/cit].
 
@@ -348,11 +357,12 @@ Je nejdůležitějším nástrojem pro PHP vývojáře [cit]https://phpfashion.c
 _„Composer je PHP skript zabalený do souboru composer.phar a pro svůj běh vyžaduje nainstalované PHP minimálně ve verzi 5.3.2. Dalším požadavkem může být přítomnost softwaru git, svn, fossil nebo hg v závislosti na tom, v čem jsou požadované balíčky verzované, ale na to by měl Composer v případě potřeby upozornit“_ [cit]https://www.itnetwork.cz/php/ostatni/composer[/cit].
 
 
-**Předpoklady pro použití:**
+#### Předpoklady pro použití:
  - projekt závisí na jiných knihovnách,
  - tyto knihovny závisí na dalších knihovnách [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
-**Funkce Composeru:**
+
+#### Funkce Composeru:
 - umožňuje deklarovat knihovny, na které je projekt vázán,
 - zjistí, které verze balíčků mohou a musí být nainstalovány a nainstaluje je (což znamená, že je stáhne do projektu) [cit]https://getcomposer.org/doc/00-intro.md[/cit].
 
@@ -388,7 +398,7 @@ Entity jsou tedy v PHP objekty které lze identifikovat na základě mnoha poža
 Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a analytický engine. Umožňuje rychle a v reálném čase ukládat, vyhledávat a analyzovat velké objemy dat. Používá se obecně jako základní motor / technologie, která napomáhá aplikacím, které mají složité vyhledávací funkce a požadavky [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 
-**Pár vzorových případů pro využití Elasticsearch:**
+#### Pár vzorových případů pro využití Elasticsearch:
 - díky uložení celého katalogu do Elasticsearch lze produkty vyhledávat a automaticky doplňovat vyhledávání v e-shopu,
 - shromažďování a následná analýza a vyhodnocování protokolů (hledání trendů, statistik,agregační funkce, vyhledávání anomálií),
 - řešení analytických a Business-inteligence potřeb a je kladen důraz na rychlou analýzu a vizualizaci dat mezi miliony nebo miliardy záznamů [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
@@ -436,7 +446,7 @@ V této části práce se budu věnovat popisu základních informací o živnos
 _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká“_ [cit]https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res[/cit].
 
 
-**Souhrnné informace:**
+#### Souhrnné informace:
 - jméno: Hana Hladíková,
 - právní forma podnikání: fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku,
 - přidělený úřad: městský úřad Velké Meziříčí,
@@ -626,13 +636,13 @@ Výhodou vlastního řešení je ta, že všechny funkce systému budou pod kont
 Nevýhodou toho řešení je ale vysoký náklad v podobě velkého počtu stráveného časem při vývoji. Pokud je vývojář daného řešení zároveň majitelem obchodu, doporučuje se spíše investovat strávený čas do samotného rozvoje podnikání, než tvorbou platformy. Pro vývoj vlastní platformy je také vhodné mít již zkušenosti s vývojem e-commerce řešení [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Výhody:**
+#### Výhody:
 - nulové finanční náklady,
 - řešení přesně podle potřeb,
 - žádná vazba na poskytovatele [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Nevýhody:**
+#### Nevýhody:
 - velké časové náklady,
 - nutnost know-how,
 - uvázání se k vývoji [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
@@ -643,13 +653,13 @@ Poměrně často se lze na internetu setkat s open-source e-shopovými řešení
 Problémem tohoto řešení je, že systém musí být univerzálním řešením pro tisíce obchodníků, tudíž v zásadě nebude systém v základním nastavení vyhovovat individuálním potřebám podniku a bude nutné ho tedy naprosto vždy upravit a doplnit chybějící funkce. Bohužel zároveň většina open-source řešení tohoto typu má velmi špatnou kvalitu zdrojového kódu a mnohdy je i zázrakem, že dané řešení nějakým způsobem vůbec funguje. Některá řešení jsou navíc neuvěřitelně náročná na výkon serveru. Takováto řešení navíc často nedokážou naplnit očekávání dle českých specifik (například práci s dvojí hladinou DPH nebo vystavení faktury dle našich zvyklostí) [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Výhody:**
+#### Výhody:
 - zdarma,
 - okamžitě k použití,
 - někdy velké komunity pro vývoj dalších funkcí [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Nevýhody:**
+#### Nevýhody:
 - často dost špatná kvalita kódu,
 - náročnost na hosting,
 - tuctový vzhled obchodu,
@@ -657,7 +667,7 @@ Problémem tohoto řešení je, že systém musí být univerzálním řešením
 - zbytečné funkce [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Mezi tato řešení patří například:**
+#### Mezi tato řešení patří například:
 - WooCommerce,
 - X-Cart,
 - Zen Cart,
@@ -670,12 +680,12 @@ Problémem tohoto řešení je, že systém musí být univerzálním řešením
 Řešení na míru vznikne tak, že externí společnost vytvoří e-shopové řešení od základů přesně podle požadavků a představ zadavatele. Většinou se vyplatí až pro velké obchody, které mají speciální požadavky a do budoucna je potřeba počítat s náklady na servis [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Výhody:**
+#### Výhody:
 - odladěné funkce,
 - vytvoření přesně podle požadavků [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
-**Nevýhody:**
+#### Nevýhody:
 - velmi vysoká cena [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 ### Pronájem
@@ -686,12 +696,12 @@ Mezi výhody tohoto řešení patří cena. Ta se dnes pohybuje v rozmezí stove
 Nevýhodami tohoto řešení jsou limity platformy a platí tedy, že mnohdy se obchodník musí přizpůsobovat e-shopu a ne e-shop obchodníkovi. Při dokupování nadstandardních modulů a úpravách na míru navíc roste i cena řešení (jeho hlavní výhoda). Další nevýhodou je menší možnost úprav a jistá šablonovanost e-shopu. Díky tomu není toto řešení vhodné pro střední a velké e-shopy, které vyžadují spíše robustnější e-shopový systém [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
 
 
-**Výhody:**
+#### Výhody:
 - cena,
 - rychlost spuštění obchodu [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
 
 
-**Nevýhody:**
+#### Nevýhody:
 - limity platformy,
 - přizpůsobení se e-shopu,
 - dokupování nadstandardních modulů,
@@ -764,20 +774,24 @@ Celý systém je rozdělen na samostatné logické celky, které jsou reprezento
 
 Systém je tvořen samostatnými balíčky, které se instalují pomocí nástroje Composer. Zdrojové kódy těchto balíčků se po instalaci nacházejí v adresáři „vendor/“ a z pohledu aplikace by nemělo docházet k úpravám jejich kódu (úpravy se s aktualizací balíčků zahodí).
 
+
 #### Jarvis App
 Jarvis App je základním balíčkem aplikace. Balíček je typu „projekt“. Vytváří základní adresářovou strukturu aplikace a je závislý na balíčku Jarvis Core. Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb Jarvis CMS nebo Jarvis Shop).
 
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png?1)
+
 
 #### Jarvis Core
 Jádro aplikace, balíček je typu „knihovna“. Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
 
 ![Logo Jarvis Core, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png?1)
 
+
 #### Jarvis CMS
 Balíček typu „knihovna“, poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku Jarvis Core. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
 
 ![Logo Jarvis CMS, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png?1)
+
 
 #### Jarvis Shop
 Balíček typu „knihovna“, poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku Jarvis Core a Jarvis CMS. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
@@ -792,11 +806,14 @@ Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzá
 
 ![3 Moduly systému, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/3-moduly.png?2)
 
+
 #### Admin
 Modul Admin poskytuje administrační rozhraní celého systému. Na základě ACL přihlášenému uživateli správu administrovatelných entit, které se v celém systému nacházejí.
 
+
 #### Front
 Modul Front poskytuje rozhraní, které je výsledkem konfigurace systému v administračním rozhraní. Právě tento modul je zodpovědný za prezentování dat zákazníkům obchodu, tedy mimo jiné například za prezentování zobrazení produktové kategorie návštěvníkům e-shopu, vložení produktu do košíku, vytvoření a dokončení objednávky, zobrazení detailu článku, atd.
+
 
 #### Robot
 Tento modul poskytuje služby pouze systému samotnému. Například se v tomto modulu nachází logika pro poskytování funkcionality ke asynchronní zpracování obrázků.
@@ -824,6 +841,7 @@ Modelová vrstva aplikace obsahuje samotné entity, repositáře a kontejnery. T
 V aplikaci se využívá objektově relační mapování za pomocí Doctrine 2  a tudíž je nutné každou relaci v databázi definovat jako entitu v podobě třídy.  Každá entita definuje modelové schéma pomocí anotačního zápisu. Tento anotační zápis je za pomocí Doctrine 2 následně transformován na strukturu relace databáze.
 Entity v systému tedy definují strukturu relací i datové typy a entita (objekt) je pak nosičem stejných informací, jako je záznam v databázi. Při ukládání stavu entit jsou změny v entitách (objektech) uloženy do databáze.
 
+
 #### Seznam entit, které obsahuje balíček Core:
 - Address - adresa,
 - Country - země,
@@ -839,10 +857,12 @@ Entity v systému tedy definují strukturu relací i datové typy a entita (obje
 - UserRole - uživatelská role,
 - UserRoleResource - oprávnění uživatelské role.
 
+
 #### Seznam entit, které obsahuje balíček CMS:
 - Article - článek,
 - ArticleCategory - kategorie článků,
 - ArticleImage - obrázek článku.
+
 
 #### Seznam entit, které obsahuje balíček Shop:
 - Currency - měna,
@@ -880,7 +900,8 @@ Každá entita má v systému vytvořený svůj vlastní repositář, který roz
 ### Kontejnery
 Ke každé entitě existuje i kontejner stejně jako existuje ke každé entitě repositář. Tento kontejner je definován jako služba (jeho instanci tedy poskytuje framework prostřednictvím DI kontejneru aplikace). Kontejner jako takový usnadňuje práci tím způsobem, že sám obsahuje instance důležitých tříd pro práci s entitami a místo importu několika různých tříd se provede pouze import instance tohoto kontejneru (přes DI kontejner).
 
-**Samotný kontejner je schopen poskytnout:**
+
+#### Samotný kontejner je schopen poskytnout:
 - název entity ke které se vztahuje,
 - instanci manažera entit (řídí načítáním ukládání a mazání dat v úložišti - databázi),
 - instanci repositáře entity,
@@ -895,8 +916,10 @@ Systém obsahuje spoustu funkcionality. V této sekci jsou popsány ty nejdůle�
 ### Systémová oprávnění
 Veškerá funkcionalita v administrační části systému a většina funkcionality v modulu Front je podmíněna příslušným oprávněním. Ty jsou spravovány v administrační části systému. Lze tak uživatelským rolím povolit oprávnění k příslušným akcím. Kontrola oprávnění je potlačena pouze v případě, že je požadavek spuštěn pomocí konzolového příkazu.
 
+
 #### Uživatelské role
 Uživatelská role slouží k definování systémových rolí uživatelů. Každému uživateli lze přiřadit právě jednu z těchto rolí.
+
 
 #### Zdroje oprávnění
 Zdroje oprávnění slouží k definici konkrétního oprávnění pro uskutečnění konkrétní akce v systému. Například oprávnění do administrační sekce, oprávnění k editaci produktů, oprávnění pro přístup do uživatelské sekce, atd.
@@ -954,6 +977,7 @@ Pro modul Front jsou URL adresy sestavovány za pomocí Route entit. Ty se jako 
 Route entity jsou generovány automaticky na pozadí při manipulacích s ostatními entitami v systému, které podporují routování (implementují rozhraní „IRoutable“).
 
 Například, pokud je vytvořena entita Article (entita článku - podporuje routování), dojde i k automatickému vytvoření entity Route, která pomocí reference odkazuje na entitu článku. Jako URL adresa slouží název článku, který je převeden do podoby pro použití v URL adrese. Pokud je daný článek upraven (a změní se například jeho název, který má podstatný vliv na tvorbu URL adresy), nedojde k aktualizaci entity Route, ale je vytvořena zcela nová a stará upravena tak, že již neodkazuje na entitu článku, ale na novou Route entitu. Výsledkem této funkcionality je automatické přesměrování starších URL adres na novou (které mohou být již zaindexovány vyhledávači nebo na ně mohou odkazovat statické odkazy). Díky tomu je také zabráněno duplikaci stejného obsahu na více různých URL adresách, což má neblahý vliv na SEO.
+
 
 #### Entity systému, které vytvářejí URL adresy:
 - Article (článek),
