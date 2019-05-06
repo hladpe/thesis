@@ -80,12 +80,14 @@ _„Existují čtyři základní modely elektronického obchodování, které vy
 
 _„Patří sem i většina činností spadajících pod elektronický marketing, např. online reklama, email marketing, nejrůznější affiliate programy a všechny aktivity na podporu internetového obchodování. V širším pojetí mohou do pojmu e-commerce patřit i jakékoliv webové stránky, které nabízí konkrétní produkty či služby a umožňují i jejich objednávku například emailem“_ [cit]https://managementmania.com/cs/e-commerce[/cit].
 
+
 #### B2B (Business to Business)
 B2B označuje obchodní vztah mezi dvěma podniky. Tento obchodní vztah se odehrává zpravidla prostřednictvím internetu. Typické pro řešení tohoto obchodního vztahu je elektronická výměna dat, například fakturace, řízení skladů, online bankovnictví, online katalogy, online aukce a propojování podnikových informačních systémů [cit]https://managementmania.com/cs/business-to-business[/cit].
 
 Týká se firem, které chtějí nakupovat (například materiál nebo zboží) z důvodu zisku. Poptávka je ovlivněna množstvím zakázek, které má jeden z partnerů [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
 
 Tento obchodní vztah nemá přímý vliv na konečného spotřebitele. Nejdůležitějším úkonem v B2B marketingu patří budování důvěry [cit]https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950[/cit].
+
 
 #### B2C (Business to Customer)
 B2B je označení pro model elektronického podnikání, který se zaměřuje na koncové klienty. Protikladem je B2C business. Iniciativa k obchodu vychází směrem od podniku a cílovou skupinou jsou zákazníci (spotřebitelé). Obchodní vztah se odehrává prostřednictvím internetu. Internetové stránky zprostředkovatelů jsou zákazníkům snadno dostupné a mohou nabízet zákazníkům informace a jednoduchý způsob nákupu. Internet umožňuje zákazníkům porovnávat nabídky různých prodejců [cit]https://managementmania.com/cs/business-to-customer[/cit].
@@ -95,8 +97,10 @@ Samotná kategorie je rozdělena do tří kategorií. Do první kategorie spadá
 
 B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná se o přímý prodej a podporu zákazníkovi [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
 
+
 #### C2B (Customer to Business)
 C2B je model elektronického podnikání, kdy iniciativa pochází od zákazníků (spotřebitelů) směrem k firmám. Zákazníci kontaktují firmy a vznášejí dotazy, podněty a náměty, například pro inovaci výrobků nebo služeb firmy. Takový model lze podpořit například zřízením diskuzního fóra nebo účet na sociálních sítích [cit]https://managementmania.com/cs/customer-to-business[/cit].
+
 
 #### C2C (Customer to Customer)
 C2C je druh elektronického obchodování, ve kterém probíhá obchodní vztah mezi dvěma spotřebiteli a to většinou prostřednictvím třetí strany. Iniciativa přitom vychází od jednoho spotřebitele směrem k jinému spotřebiteli. Příkladem takovýchto obchodních vztahů jsou například online burzy, aukce a výměny zboží [cit]https://managementmania.com/cs/customer-to-customer[/cit].
