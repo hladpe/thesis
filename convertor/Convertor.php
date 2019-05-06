@@ -421,7 +421,7 @@ class Convertor
      */
     private function printStats()
     {
-        print PHP_EOL . PHP_EOL . 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
+        print PHP_EOL . PHP_EOL . PHP_EOL . 'CONVERTED TO `' . $this->outputFilePath . '`' . PHP_EOL;
         print PHP_EOL;
 
         print 'TODOs count = ' . count($this->todos) . PHP_EOL;
@@ -431,6 +431,7 @@ class Convertor
             }
         }
 
+        print PHP_EOL;
         print PHP_EOL;
 
         print 'UNRESOLVED CITATIONS count = ' . count($this->unresolvedCitations) . PHP_EOL;
