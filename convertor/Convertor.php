@@ -97,6 +97,10 @@ class Convertor
                 $this->images[] = $row->convertImage($this->outputImagesPath, $this->outputImagesDirName);
             }
 
+            $row->convertDoubleSpace();
+            $row->convertBadSpace();
+            $row->trimWhitespaces();
+            $row->convertIndivisible();
             $row->escapePercent();
             $row->convertDashes();
             $row->convertH4();

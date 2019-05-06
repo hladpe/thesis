@@ -213,4 +213,114 @@ class Row
         $this->content = str_replace('  ', ' ', $this->content);
         $this->content .= ' \\\\';
     }
+
+    public function trimWhitespaces(): void
+    {
+        $this->content = trim($this->content);
+    }
+
+    public function convertDoubleSpace(): void
+    {
+        $this->content = str_replace('  ', ' ', $this->content);
+    }
+
+    public function convertBadSpace(): void
+    {
+        $this->content = str_replace('( ', '(', $this->content);
+        $this->content = str_replace(' )', ')', $this->content);
+        $this->content = str_replace(' .', '.', $this->content);
+        $this->content = str_replace(' ,', ',', $this->content);
+    }
+
+    public function convertIndivisible(): void
+    {
+        $this->convertClutches();
+        $this->convertSuperClutches();
+        $this->convertPercents();
+        $this->convertNumbers();
+        $this->convertCurrencies();
+    }
+
+    private function convertClutches(): void
+    {
+        $list = ['k', 's', 'v', 'z', 'o', 'u', 'a', 'i'];
+        foreach ($list as $item) {
+            $this->content = str_replace(' ' . $item . ' ', ' ' . $item . '~', $this->content);
+            $item = strtoupper($item);
+            $this->content = str_replace(' ' . $item . ' ', ' ' . $item . '~', $this->content);
+        }
+    }
+
+    private function convertSuperClutches(): void
+    {
+        $list = ['tj.', 'tzv.', 'tzn.'];
+        foreach ($list as $item) {
+            $this->content = str_replace(' ' . $item . ' ', ' ' . $item . '~', $this->content);
+        }
+    }
+
+    private function convertPercents(): void
+    {
+        $x = preg_match_all('/[0-9] %/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+    }
+
+    private function convertNumbers(): void
+    {
+        $x = preg_match_all('/[0-9] [0-9]/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+    }
+
+    private function convertCurrencies(): void
+    {
+        $x = preg_match_all('/[0-9] bil/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+
+        $x = preg_match_all('/[0-9] mil/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+
+        $x = preg_match_all('/[0-9] tis/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+
+        $x = preg_match_all('/[0-9] Kč/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+
+        $x = preg_match_all('/[0-9] dol/', $this->content, $matches);
+        if ($x) {
+            foreach ($matches[0] as $match) {
+                $replace = str_replace(' ', '~', $match);
+                $this->content = str_replace($match, $replace, $this->content);
+            }
+        }
+    }
 }
