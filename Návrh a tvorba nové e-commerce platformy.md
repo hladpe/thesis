@@ -1,5 +1,5 @@
 ### Abstrakt
-Hlavní úlohou této diplomové práce je vytvoření prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotnému řešení pro konkrétního živnostníka. Práce se zabývá analýzou současného stavu, analýzou dostupných řešení, popisem vybraných technologií, včetně popisu, jak tyto technologie byly v projektu konkrétně implementovány. Výsledkem práce je funkční prototyp e-commerce platformy.
+Hlavní úlohou této diplomové práce je vytvoření prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka. Práce se zabývá analýzou současného stavu, analýzou dostupných řešení, popisem vybraných technologií, včetně popisu, jak tyto technologie byly v projektu konkrétně implementovány. Výsledkem práce je funkční prototyp e-commerce platformy.
 
 ### Abstract
 The thesis focuses on developing prototype of e-commerce platform. This platform will be used as a base for a full-fledged e-commerce solution of specific trader in the future. The thesis deals with the analysis of the current state, analysis of available solutions, description of selected technologies, including a description of how these technologies were specifically implemented in the project. The result of this thesis is a functional prototype of e-commerce platform.
@@ -13,11 +13,20 @@ E-commerce, E-shop, PHP, OOP, Nette Framework, MySQL, Doctrine, Elasticsearch, C
 --------------------
 
 # Úvod
-// TODO
 
-# Cíl a metodika práce
-Cílem práce je navrhnout a vytvořit novou e-commerce platformu na úrovni prototypu využitelného jako elektronický obchod konkrétního živnostníka.
 // TODO
+V současnosti hraje internet velmi významnou roli, jak v životě lidí, tak i společností. Nákupy po internetu jsou čím dál oblíbenější a obrat české e-commerce každý rok strmě stoupá. Po technické stránce je pro společnost v oblasti elektronického obchodování velice důležité mít správně sestavenou platformu, skrz kterou společnost realizuje svoji obchodní činnost. 
+
+Tato práce se zabývá návrhem a vytvořením prototypu e-commerce platformy, která bude v budoucnu tvořit základ plnohodnotného řešení pro konkrétního živnostníka, paní Hanu Hladíkovou, provozovatelkou internetového obchodu www.hanabrand.cz.
+
+Druhá kapitola se zabývá shrnutím základních pojmů a informací potřebné k pochopení dalších částí práce a k pochopení problematiky týkající se elektronického obchodování. Jsou přiblížena i témata, na která se dalších částech práce nepřímo odkazuje, ale jsou podstatná pro pochopení ostatních teoretických základů nebo pro vytvoření uceleného pohledu na danou problematiku.
+
+Ve třetí kapitole jsou uvedeny podstatné informace o živnostníkovi, pro kterého bude vytvořena e-commerce platforma. Jsou uvedeny informace jak o podnikatelské činnosti živnostníka, tak analýza současného řešení. V závěru této kapitoly se nachází analýza dostupných řešení na základě konkrétních požadavků živnostníka, včetně výsledku této analýzy, která se stala rozhodujícím faktorem při realizaci této práce.
+
+Čtvrtá kapitola popisuje návrhovou a implementační část vytvoření e-commerce platformy na úrovni prototypu. Uvádí, jaké technologii byly při návrhu zvoleny, včetně popisu, jak konkrétně byly tyto technologie využity tak, aby tento prototyp tvořil kvalitní technologický základ pro budoucí vývoj v plnohodnotnou e-commerce platformu.
+
+Záměrem celého projektu vývoje této e-commerce platformy je vytvoření řešení, které bude splňovat veškeré živnostníkovy požadavky, nahradí jeho současně používaní řešení a platforma se bude dále rozvíjet.
+V závěru čtvrté kapitoly se také nachází i zhodnocení celé realizace včetně finančního ohodnocení.
 
 # Teoretická východiska práce
 V této části jsou shrnuty základní pojmy a informace, které jsou klíčové pro pochopení dalších částí práce a k pochopení problematiky v oblasti e-commerce.
@@ -33,7 +42,7 @@ První předchůdce internetu (Arpanet), vznikl v roce 1969. Vytvořila ho insti
 Internet se v České republice začal rozšiřovat až na přelomu let 1995 a 1996, kdy na trh vstoupili komerční poskytovatelé internetového připojení. I přes to, že v těchto letech byla Česká republika připojena k internetu již 3 roky, ke komerčnímu používání internetu došlo až po pádu společnosti Eurotel, jejíž monopol se vztahoval mimo jiné i na veřejné služby přenosu dat [cit]https://home.zcu.cz/~tisarova/[/cit].
 
 ### Služby na internetu
-Služeb na internetu lze využit celá řada. Zde jsou vysvětleny některé služby, které jsou hojně využívané pro komerční využití [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
+V rámci internetu lze využít celá řada služeb. Zde jsou vysvětleny ty, které jsou hojně využívané pro komerční využití [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
 
 #### World Wide Web (WWW)
 Označení pro vzájemně provázený multimediální obsah poskytovaný pomocí protokolu HTTP. Uživatelé obsah konzumují pomocí webových prohlížečů [cit]https://is.muni.cz/do/ics/el/sitmu/law/html/sluzby-internetu.html[/cit].
@@ -46,7 +55,7 @@ Díky své rychlosti, nízkým nákladům, pohodlí a snadnému archivování je
 #### Instant masseging (IM)
 Instant messaging je technologie, která formou aplikace umožňuje uživatelům sledovat, kteří uživatelé jsou připojeni k síti a dle potřeby s těmito uživateli komunikovat, například zasláním zprávy (chatovat) nebo posílat soubory. Umožňuje tedy komunikovat přes síť mezi uživateli v reálném čase [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
 
-Některé aplikace dovolují uživatelům i použití webových kamer a mikrofonů a díky tomu je služba ještě více populární. Pro některé uživatele je tato technologie přijatelnější, než okamžitá komunikace, protože ji vnímají méně dotěrnější, než například komunikace před telefon [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
+Některé aplikace dovolují uživatelům i použití webových kamer a mikrofonů a díky tomu je služba ještě více populární. Pro některé uživatele je tato technologie přijatelnější, než okamžitá komunikace, protože ji vnímají méně dotěrnější, než například komunikace přes telefon [cit]http://wiki.knihovna.cz/index.php/Instant_messaging[/cit].
 
 #### Telefonování přes internet
 Díky rozšíření internetu do firem, je možné telefonovat přes internet. Postupně tak vznikly 3 základní možnosti telefonování s využitím internetu - telefonování z počítače na počítač, z počítače na telefon a telefonování přes internet prostřednictvím mobilního telefonu. Hlavní výhodou telefonování přes internet je snížení nákladů na volání [cit]Sedláček, J. (2006).E-komerce, internetový a mobil marketing od A do Z. 1. vyd. Praha: BEN -technická literatura.[/cit].
@@ -97,12 +106,12 @@ Týká se firem, které chtějí nakupovat (například materiál nebo zboží) 
 Tento obchodní vztah nemá přímý vliv na konečného spotřebitele. Nejdůležitějším úkonem v B2B marketingu patří budování důvěry [cit]https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950[/cit].
 
 #### B2C (Business to Customer)
-B2B je označení pro model elektronického podnikání, který se zaměřuje na koncové klienty. Protikladem je B2B business. Iniciativa k obchodu vychází směrem od podniku a cílovou skupinou jsou zákazníci (spotřebitelé). Obchodní vztah se odehrává prostřednictvím internetu. Internetové stránky zprostředkovatelů jsou zákazníkům snadno dostupné a mohou nabízet zákazníkům informace a jednoduchý způsob nákupu. Internet umožňuje zákazníkům porovnávat nabídky různých prodejců [cit]https://managementmania.com/cs/business-to-customer[/cit].
+B2B je označení pro model elektronického podnikání, který se zaměřuje na koncové klienty. Protikladem je B2C business. Iniciativa k obchodu vychází směrem od podniku a cílovou skupinou jsou zákazníci (spotřebitelé). Obchodní vztah se odehrává prostřednictvím internetu. Internetové stránky zprostředkovatelů jsou zákazníkům snadno dostupné a mohou nabízet zákazníkům informace a jednoduchý způsob nákupu. Internet umožňuje zákazníkům porovnávat nabídky různých prodejců [cit]https://managementmania.com/cs/business-to-customer[/cit].
 
 Samotná kategorie je rozdělena do tří kategorií. Do první kategorie spadá informování potenciálního zákazníka o produktech. Druhou kategorií je získávání zpětné vazby skrz různé formuláře. Třetí a největší kategorií je uzavření celého obchodu s možností objednání a zaplacení zboží
 [cit]https://mladypodnikatel.cz/b2b-b2c-b2g-c2b-b2a-b2e-b2r-c2c-c2g-g2b-g2c-g2g-t950[/cit].
 
-B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná se o přímý prodej a podpora zákazníkovi [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
+B2C je zřejmě nejrozšířenější forma internetového podnikání. Jedná se o přímý prodej a podporu zákazníkovi [cit]https://www.altaxo.cz/provoz-firmy/marketing/co-jsou-zkratky-b2c-b2b-b2g-b2e[/cit].
 
 #### C2B (Customer to Business)
 C2B je model elektronického podnikání, kdy iniciativa pochází od zákazníků (spotřebitelů) směrem k firmám. Zákazníci kontaktují firmy a vznášejí dotazy, podněty a náměty, například pro inovaci výrobků nebo služeb firmy. Takový model lze podpořit například zřízením diskuzního fóra nebo účet na sociálních sítích [cit]https://managementmania.com/cs/customer-to-business[/cit].
@@ -115,7 +124,7 @@ _„Nakupování online je globální a rapidně rostoucí fenomén. Na světě 
 
 Nakupování zboží a služeb přes internet se stává samozřejmostí. Svědčí o tom neustále rostoucí počet nákupů online a díky tomu i stále se zvyšující tržby online obchodů. Vedle klasických e-shopů se rozvíjí i další internetové služby související s internetovým prodejem, jako jsou například zásilkovny (uloženky), kde je možné si objednané zboží vyzvednout. Dále se rozvíjí i rozvážkové služby, například rozvoz jídel nebo potravin. Spolu s internetovým prodejem se rozvíjí i srovnávače cen, agregátory nabídek zboží nebo služeb a další [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
-Pro e-commerce hraje velkou roli sezónnost prodeje s velkým významem vánoc - obvykle e-shopy utrží za poslední 4 měsíce přibližně stejně, jako za předchozích 8 měsíců. V poslední jsou ale sezónní rozdíly vyrovnávány nákupy zboží denní potřeby. Nejslabšími měsíci v tržbách e-shopů jsou většinou letní měsíce [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
+Pro e-commerce hraje velkou roli sezónnost prodeje s velkým významem vánoc - obvykle e-shopy utrží za poslední 4 měsíce přibližně stejně, jako za předchozích 8 měsíců. V poslední době jsou ale sezónní rozdíly vyrovnávány nákupy zboží denní potřeby. Nejslabšími měsíci v tržbách e-shopů jsou většinou letní měsíce [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 _„Podle serveru eMarketer se maloobchodní globální online tržby přiblížily v roce 2016 úrovni 1,9 bilionu dolarů a do roku 2020 by se měly zdvojnásobit na 4 bil. dolarů. I tak se e-commerce tržby budou podílet na celkových maloobchodních tržbách jen 14,6 %. Největším světovým online trhem je Čína, jejíž podíl poroste i do budoucna. Následuje online trh v USA“_ [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
@@ -127,7 +136,7 @@ _„Mezi ekonomicky aktivními, vysokoškolsky vzdělanými a mladými do 30 let
 V roce 2016 mělo 76,1 % domácností v České republice přístup k internetu. Také roste obliba v nakupování přes internet. V roce 2007 podle průzkumu ČSÚ za poslední rok nakoupilo přes internet 15 % obyvatel starších 16 let. V roce 2010 jich nakoupilo již 25 % a v roce 2017 již 43 % [cit]http://www.edotace.cz/clanky/e-commerce-svetovy-obchod-online[/cit].
 
 ## E-commerce z pohledu obchodníků
-Hlavní výhodou pro provozovatele e-shopů je široká působnost a v podstatě neomezená otevírací doma. E-shop může s přehledem prodávat po celé zemi (a v mnoha případech i za hranicemi). Internetový obchod tedy nemusí být limitován žádným konkrétním místem. Široká působnost se pak pozitivně odráží v marketingu, kdy umožňuje širší širší zásah při nižších nákladech na propagaci. Na internetu lze snadno měřit efektivitu reklamy a konfigurovat ji v závislosti na těchto výsledcích a potřebách zákazníka [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
+Hlavní výhodou pro provozovatele e-shopů je široká působnost a v podstatě neomezená otevírací doba. E-shop může s přehledem prodávat po celé zemi (a v mnoha případech i za hranicemi). Internetový obchod tedy nemusí být limitován žádným konkrétním místem. Široká působnost se pak pozitivně odráží v marketingu, kdy umožňuje širší zásah při nižších nákladech na propagaci. Na internetu lze snadno měřit efektivitu reklamy a konfigurovat ji v závislosti na těchto výsledcích a potřebách zákazníka [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
 
 Na e-shop lze uvést o produktu mnoho informací a nabídnout i komponenty a substituty konkrétního produktu. Zároveň mají v porovnání s kamennými prodejnami i nižší náklady na provoz. Ale i zde platí, že čím více se bude byznys rozšiřovat, tím se budou i náklady na provoz přibližovat k nákladům za provoz kamenné prodejny [cit]https://www.podnikatel.cz/clanky/prectete-si-hlavni-vyhody-a-nevyhody-e-shopu-jak-je-vidi-jejich-provozovatele/[/cit].
 
@@ -137,7 +146,7 @@ Jako určitou nevýhodu lze na internetu označit ceny produktů. Díky cenovým
 Základní kroky, které jsou potřeba podniknout k založení a úspěšnému provozování e-shopu, kterými by se měli podnikatelé zakládající e-shop zabývat:
 - vypracovat podnikatelský plán (včetně cílů, strategií a financování),
 - právní ošetření podnikání, registrace na příslušných úřadech,
-- výběr technického řešení e-shopu (open-source, programování na zakázku, pronájem)
+- výběr technického řešení e-shopu (open-source, programování na zakázku, pronájem),
 - výběr a nákup vhodné domény a poskytovatele hostingových služeb,
 - výběr vhodných dodavatelů (výrobků i spotřebního materiálu),
 - zajištění vhodné formy distribuce,
@@ -149,12 +158,12 @@ Největším lákadlem řešení open-cource je jeho cena, protože toto řešen
 
 Open-source ale neznamená e-shop zdarma nebo nulové náklady. I správa svobodného softwaru bude potřebovat zkušeného vývojáře, který se dokáže orientovat v cizím kódu, zná architekturu aplikace a aby požadovanou úpravu provedl dobře a nezanesl do aplikace další chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit]
 
-Bohužel se svobodný software v sobě ukrývá i své nevýhody - kolísající kvalita kódu a dostupnost podpory. Díky tomu, že lze do kódu libovolně zasahovat, žádné open-source řešení nezaručí, že bude fungovat bez chyb a nečekaných pádů. Veřejně přístupný kód také přitahuje pozornost útočníků, kteří vyhledávají bezpečnostní chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
+Bohužel svobodný software v sobě ukrývá i své nevýhody - kolísající kvalita kódu a dostupnost podpory. Díky tomu, že lze do kódu libovolně zasahovat, žádné open-source řešení nezaručí, že bude fungovat bez chyb a nečekaných pádů. Veřejně přístupný kód také přitahuje pozornost útočníků, kteří vyhledávají bezpečnostní chyby [cit]https://mladypodnikatel.cz/open-source-reseni-pro-e-shop-kdy-ho-zvolit-a-jak-se-pri-vyberu-nespalit-t33530[/cit].
 
 #### E-shop na míru
 E-shop na míru má tu výhodu, že přesně odpovídá požadavkům zadavatele. Na počátku může zadavatel přesně specifikovat, jakou funkcionalitu požaduje. Tím se například liší od krabicového řešení, protože vznikne systém, který přesně splňuje potřeby zadavatele [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
 
-E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shopu. Většinou se tak spíše vyplatí u velkých společností, kteří mají dostatek peněz na takovouto investici [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
+E-shop na míru je ale poměrně drahá varianta k vytvoření vlastního e-shopu. Většinou se tak spíše vyplatí u velkých společností, které mají dostatek peněz na takovouto investici [cit]https://www.shoptet.cz/tvorba-e-shopu-na-miru/[/cit].
 
 _„E-shop na míru je pro podnikatele ta nejlepší varianta pod podmínkou, že na ni má“_ [cit]https://www.desitka.cz/text-proc-si-ne-poridit-e-shop-na-miru/[/cit]
 
@@ -186,7 +195,7 @@ Základní výhody e-commerce pro zákazníky:
 - nižší ceny produktů a služeb, možnost okamžitého srovnání cen s konkurencí,
 - možnost většího výběru produktů a obchodníků, 
 - větší pohodlí a úspora času - snadná dostupnost k nákupu, možnost nakupovat kdykoli a odkudkoli,
-- snadné získání detailních informací o produktů a službách,
+- snadné získání detailních informací o produktech a službách,
 - možnost rychlého dodání,
 - slevy a výhody pro zákazníky [cit]Švadlenka, L., Madleňák, R. (2007). Elektronické obchodování. Pardubice: Institut Jana Pernera[/cit].
 
@@ -273,7 +282,7 @@ Metody jsou schopnosti, které je objekt schopen vykonávat. Mohou mít parametr
 Aby bylo možné vytvořit objekt, je nutné nejdříve vytvořit třídu. Třída je vzor, podle kterého se objekty vytvářejí, definuje vlastnosti a schopnosti. Objekt, který se vytvoří podle třídy, se nazývá instance. Instance mají stejné rozhraní jako třída, podle kterého se vytvoří, ale navzájem se liší svými atributy [cit]https://www.itnetwork.cz/php/oop/php-tutorial-prvni-objektova-aplikace[/cit].
 
 ## Framework
-Jedním z hlavních společných cílů při programování by měl být šetřit si práci. Toho dosahujeme použitím správných návrhů funkcí, metod a tříd, které lze uplatnit na více místech. Tohoto cíle lze také dosáhnout použitím existujících osvědčených a optimalizovaných knihoven a nástrojů [cit]VRÁNA, Jakub. 1001 tipů a triků pro PHP. Vyd. 1. Brno: Computer Press, 2010. ISBN 978-80-251-2940-1.[/cit].
+Jedním z hlavních společných cílů při programování by mělo být šetřit si práci. Toho dosahujeme použitím správných návrhů funkcí, metod a tříd, které lze uplatnit na více místech. Tohoto cíle lze také dosáhnout použitím existujících osvědčených a optimalizovaných knihoven a nástrojů [cit]VRÁNA, Jakub. 1001 tipů a triků pro PHP. Vyd. 1. Brno: Computer Press, 2010. ISBN 978-80-251-2940-1.[/cit].
 
 Framework je ucelený soubor tematicky zaměřených knihoven, které ulehčují práci při programování aplikací. To zajišťuje psaní méně kódu, kód je přehlednější a rychlejší vývoj aplikace. Většina frameworků pracuje s architekturou MVC, která rozděluje aplikaci na nezávislé vrstvy [cit]LÁNG, Peter. Co je to framework? Webárna [online]. 2007 [cit. 2016-04-01]. Dostupné z: http://langi.cz/webarna/co-je-to-framework[/cit].
 
@@ -293,7 +302,7 @@ Aplikace se rozdělená na komponenty 3 typů (3 logické části) – Model, Vi
 Model obsahuje logiku aplikace. Mohou to být například výpočty, dotazy na databázi, validace apod. Model neví nic o výstupu. Jeho funkce je přijetí parametrů, zpracování a vydání dat ven. Model neví, jak se k němu data dostala a jak budou dále zpracovaná data interpretována [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### View
-Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovaly opakování stejného kusu kódu v několika šablonách [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
+Pohled (View) se stará o interpretaci výstupu aplikace. Šablony lze samozřejmě vkládat do sebe, abychom eliminovali opakování stejného kusu kódu v několika šablonách [cit]https://www.itnetwork.cz/navrh/mvc-architektura-navrhovy-vzor/[/cit].
 
 ### Controller
 Controller, lze přeložit jako „řadič“ [cit]https://doc.nette.org/cs/2.4/presenters[/cit].
@@ -316,7 +325,7 @@ Databáze slouží primárně jako nástroj pro snadnější a efektivnější e
 Typy databází lze rozlišovat dle struktur. Mezi základní typy se řadí:
 - ploché,
 - hierarchické a síťové,
-- relační
+- relační,
 - objektové [cit]https://www.dotnetportal.cz/clanek/60/Lehky-uvod-teorie-databazi[/cit].
 
 ### Relační databáze
@@ -396,7 +405,7 @@ Elasticsearch je vysoce škálovatelný open-source fulltextový vyhledávací a
 **Pár vzorových případů pro využití Elasticsearch:**
 - díky uložení celého katalogu do Elasticsearch lze produkty vyhledávat a automaticky doplňovat vyhledávání v e-shopu,
 - shromažďování a následná analýza a vyhodnocování protokolů (hledání trendů, statistik,agregační funkce, vyhledávání anomálií),
-- řešení analytických a Business-inteligence potřeb a je kladen důraz na ryhlou analýzu a vizualizaci dat mezi miliony nebo miliardy záznamů [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
+- řešení analytických a Business-inteligence potřeb a je kladen důraz na rychlou analýzu a vizualizaci dat mezi miliony nebo miliardy záznamů [cit]https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html[/cit].
 
 ## Message broker
 MessageBroker je prostřední počítačový programový modul, který převádí zprávu z formálního protokolu zasílání odesílatele do formálního protokolu zasílání zpráv přijímače. Zprostředkovatelé zpráv jsou prvky v telekomunikačních nebo počítačových sítích, kde softwarové aplikace komunikují výměnou formálně definovaných zpráv [cit]https://www.gartner.com/it-glossary/ib-integration-broker[/cit].
@@ -435,7 +444,7 @@ Analýza statického kódu (známá také jako analýza zdrojového kódu) se ob
 Cyklomatická složitost je metrika kvality softwaru. Nejjednodušší definice popisuje cyklomatickou složitost jako počet rozhodnutí ve zdrojovém kódu. Čím vyšší je počet, tím složitější je kód. Je důležitou metrikou, protože určuje limitní komplexnost kódu a určuje počet požadovaných testovacích případů [cit]https://www.perforce.com/blog/qac/what-cyclomatic-complexity[/cit].
 
 # Analýza současné situace
-V této části práce se budu věnovat popisu základních informací o živnostníkovi a popisu aktuálního stavu, ve kterém se jeho e-shopové nachází.
+V této části práce se budu věnovat popisu základních informací o živnostníkovi a popisu aktuálního stavu, ve kterém se jeho e-shopové řešení nachází.
 
 ## Základní informace o živnostníkovi
 _„Hana Hladíková (68737424) je Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku. Má celkem jednu živnost. Živnost provozuje od roku 2001. V současnosti stále podniká“_ [cit]https://firmy.euro.cz/subjekt-hana-hladikova-68737424#res[/cit].
@@ -477,11 +486,11 @@ Mimo produkty také živnostník nabízí službu zakázkového šití.
 Živnostník nabízí pod značkou HanaBrand své vlastní produkty a služby formou B2C a B2B. 
 
 ### B2C
-Výrobky a služby živnostník poskytuje poskytuje koncovým zákazníkům prostřednictvím následujících kanálů:
+Výrobky a služby živnostník poskytuje koncovým zákazníkům prostřednictvím následujících kanálů:
 - vlastní E-shop,
 - handmade internetové tržiště Fler.cz,
 - handmade internetové tržiště Sashe.sk,
-- přímý prodej (trhy, jarmarky, zakázková výroba),
+- přímý prodej (trhy, jarmarky, zakázková výroba).
 
 ### B2B
 Výrobky a služby živnostník poskytuje obchodním partnerům pouze prostřednictvím e-mailové a telefonické komunikace. Vytvoření objednávky s velkoobchodní slevou prostřednictvím e-shopu není možné, protože aktuální e-shopové řešení touto funkcionalitou nedisponuje. Zároveň poskytuje společnostem na Vysočině komisní prodej.
@@ -499,16 +508,16 @@ Pro provoz současného e-shopového řešení jsou potřeba následující tech
 ### Entity v aplikaci
 Seznam existujících entit v aplikaci:
 - Article (článek),
-- ArticleCategory (kategorie článků)
+- ArticleCategory (kategorie článků),
 - Basket (košík),
 - Category (kategorie produktů),
 - CustomField (uživatelské pole produktu),
 - CustomFieldValue (hodnota uživatelského pole produktu),
-- Discount (sleva)
+- Discount (sleva),
 - Order (objednávka),
-- OrderItem (produkt objednávky)
+- OrderItem (produkt objednávky),
 - Payment (platba),
-- Product (produkt)
+- Product (produkt),
 - Shipping (doprava),
 - User (uživatel).
 
@@ -564,7 +573,7 @@ Seznam implementovaných funkcionalit, kterými aktuální řešení disponuje:
 - export produktů do externích systémů (Zboží.cz, Google Merchants),
 - individuální definice cen způsobů doprav,
 - individuální definice cen způsobů plateb v závislosti na zvoleném způsobu dopravy,
-- odesílání e-mailů administrátorům a zákazníkovi při vytvoření objednávky a při změně stavu objednávky.
+- odesílání e-mailů administrátorům a zákazníkovi při vytvoření objednávky a při změně stavu objednávky,
 - odesílání zprávy přes nástroj Pushover administrátorům při vytvoření nové objednávky,
 - responzivní design šablon,
 - správa košíku produktů,
@@ -593,7 +602,7 @@ Toto řešení vzniklo jako jednoduchá aplikace na zelené louce bez využití 
 
 Sám živnostník cítí potřebu inovace řešení, protože současné řešení postrádá spoustu důležitých funkcí. Inovací řešení očekává především usnadnění práce s e-shopem, přehlednější a snadnější administrativu. E-shop by měl být pro zákazníky sestaven tak, aby se v něm dobře orientovali a například jim umožnit vkládat recenze k produktům, čímž se také zvýší důvěryhodnost internetového obchodu. Dále plánuje nabízet své výrobky a služby za hranicemi České republiky, z toho důvodu požaduje lokalizaci celého řešení.
 
-V současnosti živnostník propaguje svoje výrobky pomocí placených kampaní Sklik, Zboží.cz, Facebook i Instagram, Po inovaci řešení má v plánu investovat do marketingu mnohem více finančních prostředků, než kolik investuje nyní, což se má projevit na návštěvnosti e-shopu a zvýšení konverzního poměru.
+V současnosti živnostník propaguje svoje výrobky pomocí placených kampaní Sklik, Zboží.cz, Facebook i Instagram. Po inovaci řešení má v plánu investovat do marketingu mnohem více finančních prostředků, než kolik investuje nyní, což se má projevit na návštěvnosti e-shopu a zvýšení konverzního poměru.
 
 Celé řešení by tak mělo usnadňovat živnostníkovi práci, umožnit konfigurovat systém dle potřeb, poskytovat potřebné funkcionality, které v současném řešení chybí a napomoct s některými činnostmi jejich automatizací.
 
@@ -610,7 +619,7 @@ Na základě konzultace s Hanou Hladíkovou, byl sestaven následující seznam 
 - propojení s externími službami (Zásilkovna, Česká pošta),
 - správa skladů,
 - dodací i fakturační adresa pro objednání,
-- uživatelské účty pro zákazníky (rezervace produktů, historie objednávek, přiřazení cenové hladiny, správa adres)
+- uživatelské účty pro zákazníky (rezervace produktů, historie objednávek, přiřazení cenové hladiny, správa adres),
 - recenze produktů,
 - správa obsahu (bannery, články, kategorie),
 - překlady do cizích jazyků,
@@ -628,7 +637,7 @@ Dané požadavky živnostníka lze splnit pomocí různých dostupných řešen�
 ### Vlastní řešení 
 Výhodou vlastního řešení je ta, že všechny funkce systému budou pod kontrolou. Když bude potřeba něco změnit, nemusí se na nikoho čekat nebo někomu platit, prostě lze danou funkci do systému doplnit. Dané řešení navíc bude vyřešené na míru konkrétním potřebám dané společnosti [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
-Nevýhodou toho řešení je ale vysokým nákladem v podobě velkého počtu stráveného časem při vývoji. Pokud je vývojář daného řešení zároveň majitelem obchodu, doporučuje se spíše investovat strávený čas do samotného rozvoje podnikání, než tvorbou platformy. Pro vývoj vlastní platformy je také vhodné mít již zkušenosti s vývojem e-commerce řešení [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
+Nevýhodou toho řešení je ale vysoký náklad v podobě velkého počtu stráveného časem při vývoji. Pokud je vývojář daného řešení zároveň majitelem obchodu, doporučuje se spíše investovat strávený čas do samotného rozvoje podnikání, než tvorbou platformy. Pro vývoj vlastní platformy je také vhodné mít již zkušenosti s vývojem e-commerce řešení [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
 **Výhody:**
@@ -649,16 +658,16 @@ Problémem tohoto řešení je, že systém musí být univerzálním řešením
 
 
 **Výhody:**
-- zdarma
-- okamžitě k použití
+- zdarma,
+- okamžitě k použití,
 - někdy velké komunity pro vývoj dalších funkcí [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
 **Nevýhody:**
-- často dost špatná kvalita kódu
-- náročnost na hosting
-- tuctový vzhled obchodu
-- často nevhodné pro české podmínky
+- často dost špatná kvalita kódu,
+- náročnost na hosting,
+- tuctový vzhled obchodu,
+- často nevhodné pro české podmínky,
 - zbytečné funkce [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
@@ -676,7 +685,7 @@ Problémem tohoto řešení je, že systém musí být univerzálním řešením
 
 
 **Výhody:**
-- odladěné funkce
+- odladěné funkce,
 - vytvoření přesně podle požadavků [cit]https://www.souki.cz/jak-reseni-eshopu-si-vybrat[/cit].
 
 
@@ -688,17 +697,29 @@ Princip pronajímaného řešení je ten, že dodavatel poskytuje řešení e-sh
 
 Mezi výhody tohoto řešení patří cena. Ta se dnes pohybuje v rozmezí stovek korun za měsíční pronájem řešení se základní funkcionalitou. I u tohoto řešení platí, že čím náročnější potřeby a požadavky na řešení, tím vyšší cena za pronájem. Mezi výhody dále patří rychlost spuštění obchodu a pokud poskytovatel tyto služby nabízí, tak i zákaznická podpora a průběžný vývoj [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
 
-Nevýhodami tohoto řešení jsou limity platformy a platí tedy, že mnohdy se obchodník musí přizpůsobovat e-shopu a ne e-shop obchodníkovi. Při dokupování nadstandardních modulů a úpravách na míru navíc roste i cena řešení (jeho hlavní výhoda). Další nevýhodou je menší možnost úprav a jistá šablonovanost e-shopu. Díky tomu tohto řešení není vhodné pro střední a velké e-shopy, které vyžadují spíše robustnější e-shopový systém [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
+Nevýhodami tohoto řešení jsou limity platformy a platí tedy, že mnohdy se obchodník musí přizpůsobovat e-shopu a ne e-shop obchodníkovi. Při dokupování nadstandardních modulů a úpravách na míru navíc roste i cena řešení (jeho hlavní výhoda). Další nevýhodou je menší možnost úprav a jistá šablonovanost e-shopu. Díky tomu není toto řešení vhodné pro střední a velké e-shopy, které vyžadují spíše robustnější e-shopový systém [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
+
 
 **Výhody:**
 - cena,
 - rychlost spuštění obchodu [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
+
+
+**Nevýhody:**
+- limity platformy,
+- přizpůsobení se e-shopu,
+- dokupování nadstandardních modulů,
+- nákladné úpravy na míru,
+- malá možnost úprav,
+- šablonovanost systému [cit]https://www.podnikatel.cz/clanky/pokud-neplanujete-dalsi-alzu-muze-se-pro-zacatek-hodit-pronajem-e-shopu/[/cit].
+
 
 ### Výsledek průzkumu
 Živnostník má za sebou již od roku 2015 zkušenosti s různými e-shopovými řešeními, se kterými postupem času nebyl příliš spokojený. Tato řešení se neinovovaly a postupně přestávaly dostačovat potřebám živnostníka. Kombinace těchto faktů s vyhotoveným průzkumem dostupných řešení lze vyvodit závěr, že v aktuální situaci by bylo vhodné, aby bylo pro živnostníka vyhotoveno řešení na míru přesně dle jeho požadavků.
 
 # Návrh řešení
 V této kapitole se zaměřím na návrhovou a implementační část (na úrovni prototypu) vytvoření e-commerce platformy. Tato platforma bude vytvořena tak, aby poskytovala kvalitní technologický základ pro budoucí vývoj v plnohodnotný produkt, který živnostníkovi poskytne náhradu za aktuální e-shopové řešení a bude disponovat funkcionalitami, které od nového řešení požaduje.
+
 Z pohledu technologického zpracování lze vytvořit technicky univerzální řešení, které bude možné customizovat dle přesných konkrétních požadavků. Toto řešení následně živnostníkovi poskytnout formou pronájmu nebo prodejem licence. Pokud bude celé řešení takto koncipováno, bude možné výsledné necustomizované řešení poskytnou i dalším subjektům.
 
 ## Výběr technologií
@@ -733,7 +754,7 @@ Toho je využito hlavně v administrační části systému, kde jsou naprosto v
 
 ### Doctrine 2
 Objektový přístup k entitám modelové vrstvy systému zajišťuje objektově relační mapování. Toho je v systému dosaženo použitím Doctrine 2, který mapuje entity systému na data uložená v MySQL databázi. Také zodpovídá za strukturu databáze. Informace o schématu relace v databázi čte přímo v třídách entit, kde jsou tyto informace zapsány pomocí speciálního anotačního zápisu.
-![Ukázka zdrojového kódu AddressEntity (entita adresy) s využitím anotačního zápisu pro Doctrine 2, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/address-entity.png)
+![Ukázka zdrojového kódu s anotačním zápisem pro Doctrine 2, zdroj: gitlab.com](https://hanabrand.cz/temp/dp/address-entity.png)
 
 ### Elasticsearch
 Pro vyhledávání v systém jsem využil fulltextový vyhledávací engine Elasticsearch. Ten zajišťuje například vyhledávání produktů nebo článků v modulu systému, který zobrazuje data zákazníkům obchodu. Vyhledávání je možné provést nad všemi daty, které jsou ze systému vyexportovány a naimportovány do Elasticsearch. Je tedy například možné vyhledávat pomocí titulku nebo konkrétního parametru entity.
@@ -748,7 +769,7 @@ V této sekci blíže popíši strukturu aplikace. Jednotlivé rozdělení do lo
 
 ### Části systému
 Celý systém je rozdělen na samostatné logické celky, které jsou reprezentovány jako samostatně instalovatelné balíčky a jsou verzované v samostatných repositářích. Tyto balíčky jsou:  
-- Jarvis App
+- Jarvis App,
 - Jarvis Core,
 - Jarvis CMS,
 - Jarvis Shop.
@@ -758,24 +779,24 @@ Celý systém je rozdělen na samostatné logické celky, které jsou reprezento
 Systém je tvořen samostatnými balíčky, které se instalují pomocí nástroje Composer. Zdrojové kódy těchto balíčků se po instalaci nacházejí v adresáři „vendor/“ a z pohledu aplikace by nemělo docházet k úpravám jejich kódu (úpravy se s aktualizací balíčků zahodí).
 
 #### Jarvis App
-Základním balíčkem aplikace, balíček je typu „projekt“, vytváří základní adresářovou strukturu aplikace a je závislý na balíčku „core“. Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb Jarvis CMS nebo Jarvis Shop).
+Jarvis App je základním balíčkem aplikace. Balíček je typu „projekt“. Vytváří základní adresářovou strukturu aplikace a je závislý na balíčku Jarvis Core. Pomocí tohoto balíčku lze tedy vytvořit samotnou aplikaci (instalací nadstaveb Jarvis CMS nebo Jarvis Shop).
 
 ![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-app.png?1)
 
 #### Jarvis Core
 Jádro aplikace, balíček je typu „knihovna“. Vytváří všechny základní prostředky, kterými systém disponuje a zbytek aplikace je na těchto prostředcích závislý. Lze v něm tedy například nalézt základní modelovou strukturu aplikace, a základní komponenty systému.
 
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png?1)
+![Logo Jarvis Core, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-core.png?1)
 
 #### Jarvis CMS
 Balíček typu „knihovna“, poskytuje funkcionality systému pro správu obsahu. Balíček je závislý na balíčku Jarvis Core. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o správu obsahu - možnost správy kategorií a článků.
 
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png?1)
+![Logo Jarvis CMS, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-cms.png?1)
 
 #### Jarvis Shop
 Balíček typu „knihovna“, poskytuje funkcionality e-commerce systému. Balíček je závislý na balíčku Jarvis Core a Jarvis CMS. Obsahuje modelovou strukturu aplikace a funkcionality, které rozšiřují základní systém o funkce elektronického obchodu.
 
-![Logo Jarvis App, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png?1)
+![Logo Jarvis Shop, zdroj: vlastní zpracování || width=0.2\textwidth](https://hanabrand.cz/temp/dp/jarvis-shop.png?1)
 
 ### Moduly
 Základní systém je ve své vnitřní logice rozdělen na 3 moduly. Ty se vzájemně liší svými účely použití. Tyto moduly jsou:
@@ -860,7 +881,7 @@ Entity v systému tedy definují strukturu relací i datové typy a entita (obje
 - ProductRateImage - obrázek hodnocení produktu,
 - ProductState - stav produktu,
 - Shipping - doprava,
-- ShippingMethod - způsob dopravy
+- ShippingMethod - způsob dopravy,
 - ShippingMethodType - typ způsobu dopravy,
 - ShippingState - stav dopravy,
 - Tax - daň,
@@ -899,7 +920,7 @@ Pro zobrazování obrázků je používáno asynchronní zpracování. To znamen
 
 ![Vývojový diagram procesu asynchronního generování obrázků, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/generovani-obrazku-2.png?2)
 
-Obrázek je nejprve v originální podobě nahrán na server, následně až při jeho zobrazení jej systém upraví do požadované formy. Ke zpracování obrázku pak dochází až při samotnému HTTP požadavku, kdy se prohlížeč pokusí stáhnout obsah (obrázek) na konkrétní URL, kterou pro vygeneroval systém. V této URL se nachází zakódované informace o tom, jak má být obrázek konkrétně zpracován. Pokud se obrázek v této formě na serveru nenachází, dojde ke spuštění úlohy systému, která obrázek upraví. Pro zpracovávání obrázků se používá standardní knihovna pro zpracovávání obrázků v Nette Framework.
+Obrázek je nejprve v originální podobě nahrán na server, následně až při jeho zobrazení jej systém upraví do požadované formy. Ke zpracování obrázku pak dochází až při samotnému HTTP požadavku, kdy se prohlížeč pokusí stáhnout obsah (obrázek) na konkrétní URL, kterou vygeneroval systém. V této URL se nachází zakódované informace o tom, jak má být obrázek konkrétně zpracován. Pokud se obrázek v této formě na serveru nenachází, dojde ke spuštění úlohy systému, která obrázek upraví. Pro zpracovávání obrázků se používá standardní knihovna pro zpracovávání obrázků v Nette Framework.
 
 ### Automatické sestavování formulářů
 
@@ -908,13 +929,13 @@ Vytváření formulářů pro úpravy entit je zdlouhavé a díky velkému množ
 ![Ukázka automaticky vygenerovaného formuláře pro úpravu měny, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/formular-automaticky.png?1)
 
 Při zobrazení editace entity tedy stačí pouze nastavit, které vlastnosti entity nemají být zobrazeny, které jsou pouze pro čtení a generátor automaticky sestaví formulář pro úpravu entity. Při úpravě entity (změně její struktury) je pak formulář zcela automaticky sestaven pro aktuální strukturu entity. Logika mapování formulářů navíc dokáže namapovat entity na vygenerovaný formulář i zpět pro následnou validaci a uložení entity.
-Popisky polí se vytváření pomocí překladače, popisek každého pole tedy lze pohodlně lokalizovat.
+Popisky polí se vytvářejí pomocí překladače, popisek každého pole tedy lze pohodlně lokalizovat.
 
 ### Export entit do Elasticsearch
 
 Kvůli tomu, že například pro výpis a filtrování produktů v kategoriích pro účely modulu Front je využíváno fulltextového vyhledávání pomocí Elasticsearch, je nutné entity (např. produkty) do Elasticsearch exportovat.
 
-Toho se docíleno tím, že na akci uložení entity do databáze pomocí manažera entit (který se stará o ukládání a načítání entit z databáze) je navázána akce, kdy se spouští logika exportéru.
+Toho je docíleno tím, že na akci uložení entity do databáze pomocí manažera entit (který se stará o ukládání a načítání entit z databáze) je navázána akce, kdy se spouští logika exportéru.
 Jeho úkolem je detekovat, zda je povoleno danou entitu exportovat, která data se v entitě změnila, zda tyto změny jsou z pohledu exportu do Elasticsearch pro další použití podstatná a případně zaregistrovat do fronty (RabbitMQ) pro zpracování exportu.
 
 ![Export entity do Elasticsearch, zdroj: vlastní zpracování || width=0.5\textwidth](https://hanabrand.cz/temp/dp/Export-entit-do-Elasticsearch.png?2)
@@ -922,7 +943,7 @@ Jeho úkolem je detekovat, zda je povoleno danou entitu exportovat, která data 
 Samotný export je následně zpracován v paralelním vlákně, kde se exportér pokusí načíst entitu z databáze a pokud se nepodaří entitu načíst, došlo k jejímu odstranění a exportér odešle požadavek na Elasticsearch na smazání indexu. Pokud dojde k načtení entity z databáze, je entita dehydratována do podoby asociativního pole a odeslána do Elasticsearch k zaindexování.
 
 ### Import entit z Elasticsearch
-Na základě vyhledávání v Elasticsearch jsou systému nazpět navrácena data, které indexy splňují kritéria dotazu vyhledávání. Aby nemuselo docházet k opětovnému načtení entit z databáze, bylo vytvořena logika pro hydrataci výsledků navrácených z Elasticsearch do plnohodnotných entit. S těmito entitami pak lze pracovat stejně, jako kdyby tyto entity byly načteny pomocí manažera entit z databáze.
+Na základě vyhledávání v Elasticsearch jsou systému nazpět navrácena data, které indexy splňují kritéria dotazu vyhledávání. Aby nemuselo docházet k opětovnému načtení entit z databáze, byla vytvořena logika pro hydrataci výsledků navrácených z Elasticsearch do plnohodnotných entit. S těmito entitami pak lze pracovat stejně, jako kdyby tyto entity byly načteny pomocí manažera entit z databáze.
 
 ![Import entity z Elasticsearch, zdroj: vlastní zpracování || width=0.5\textwidth](https://hanabrand.cz/temp/dp/Import-entit-do-Elasticsearch.png)
 
@@ -956,7 +977,7 @@ Například, pokud je vytvořena entita Article (entita článku - podporuje rou
 Entita Page (stránka) umožňuje vytvořit buď prázdnou stránku, jejíž zobrazení se složí z výpisu konkrétních modulů nebo výpis kategorie článků či produktů. 
 
 ### Administrační rozhraní
-Administrační rozhraní systému se nachází na adrese „<doména>/administration“. Pro vstup do administrace je nutné mít vytvořený uživatelský účet, kterému se přiřazena role s dostatečným oprávněním pro vstup do administrace. Pokud uživatel není přihlášen, je mu zobrazen formulář pro přihlášení.
+Administrační rozhraní systému se nachází na adrese „<doména>/administration“. Pro vstup do administrace je nutné mít vytvořený uživatelský účet, kterému je přiřazena role s dostatečným oprávněním pro vstup do administrace. Pokud uživatel není přihlášen, je mu zobrazen formulář pro přihlášení.
 
 ![Přihlášení do administračního rozhraní systému, zdroj: administrační rozhraní Jarvis](https://hanabrand.cz/temp/dp/administrace-prihlaseni-0.jpg)
 
@@ -1004,12 +1025,12 @@ Customizaci, neboli specifická úprava systému dle přání zákazníka, lze p
 - na úrovni přepisování služeb,
 - na úrovni přepisování šablon.
 
-Ani jeden z uvedených způsobů nezasahuje do systému tak, že by přímo přepisovat zdrojový kód samotného systému, ale jsou v obou případech vytvořeny jako externí soubory oddělené od adresářů zdrojových kódů systému, ale ten je automaticky načítá a pracuje s nimi.
+Ani jeden z uvedených způsobů nezasahuje do systému tak, že by přímo přepisoval zdrojový kód samotného systému, ale jsou v obou případech vytvořeny jako externí soubory oddělené od adresářů zdrojových kódů systému, ale ten je automaticky načítá a pracuje s nimi.
 
 ### Přepisování služeb
 Nette Framework umožňuje pomocí konfiguračních souborů NEON přepisovat již dříve definované konfigurace. V systému konfigurační soubory vyhledává knihovna Nette Config Finder, která je nastavena tak, aby nejprve vyhledávala konfigurační soubory v adresáři „vendor/“, tedy aby načetla konfigurační soubory nainstalovaných balíčků a teprve poté vyhledá konfigurační soubory v adresáři „app/“.
 
-Autorem tohoto rozšíření jsem já sám, je open-source a lze jej nainstalovat pomocí nástroje Composer.
+Autorem tohoto rozšíření jsem já sám, je publikováno jako open-source a lze jej nainstalovat pomocí nástroje Composer.
 
 ![Open-source rozšíření Nette Config Finder, zdroj: github.com](https://hanabrand.cz/temp/dp/nette-config-finder.png)
 
@@ -1018,11 +1039,11 @@ Automatické vyhledávání konfiguračních souborů a jejich import do systém
 Konfigurace z adresáře „app/config/“, přepisuje základní konfiguraci nainstalovaných balíčků a díky tomu lze donutit systém využít mimo konfiguračních parametrů i jiné služby, než které standardně systém používá. Je tedy možné měnit základní logiky systému. 
 
 ### Přepisování šablon
-Komponentový model systému je rozšířen o logiku vyhledání šablony pro konkrétní komponentu. Tato logika se nejprve pokusí vyhledat šablonu konkrétní komponenty v adresáři „app/“ na základě předem jasně definovaného tvaru cesty k náhradní šabloně a pokus není nalezena náhradní šablona, využije se výchozí systémová.
+Komponentový model systému je rozšířen o logiku vyhledání šablony pro konkrétní komponentu. Tato logika se nejprve pokusí vyhledat šablonu konkrétní komponenty v adresáři „app/“ na základě předem jasně definovaného tvaru cesty k náhradní šabloně a pokud není nalezena náhradní šablona, využije se výchozí systémová.
 
 ![Ukázka výchozí šablony výpisu produktů, zdroj: systém Jarvis](https://hanabrand.cz/temp/dp/sablona-kategorie.png)
 
-Tato funkcionalita byla vytvořena hlavně z toho důvodu, aby samotný systém obsahovat veškeré potřebné šablony a byl díky tomu samostatně provozuschopný bez dodání jakýchkoliv dalších součástí a aby vizuální customizace systému neprobíhala formou přepisu systémových šablon.
+Tato funkcionalita byla vytvořena hlavně z toho důvodu, aby samotný systém obsahoval veškeré potřebné šablony a byl díky tomu samostatně provozuschopný bez dodání jakýchkoliv dalších součástí a aby vizuální customizace systému neprobíhala formou přepisu systémových šablon.
 
 
 ### Moduly
@@ -1042,7 +1063,7 @@ Jeden z živnostníkových požadavků na nové řešení byla inovace vizuáln�
 Hned pod menu se na nachází prezentace skupiny vybraných produktů. Měly by to být ty absolutně nejprodávanější, protože je zákazník vidí jako úplně první a proto by se zde měly nacházet právě ty nejoblíbenější produkty. Tuto část je vhodné animovat, například přechodem mezi prezentacemi jednotlivých produktů a vložením efektní fotky na pozadí prezentace, abychom v návštěvníkovi evokovali pocit živosti celého webu.
 ![Produktová prezentace na úvodní stránce, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/home-slideshow.png)
 
-Protože se do prezentace vejde pouze omezené množství produktů, byla vytvořena samostatná sekce nejoblíbenějších produktů ještě pod prezentací. Zde se může zobrazit zbytek oblíbených produktů, dle grafického návrhu například právě doporučených 9. Jejich zobrazení bude probíhat také formou prezentace po 3 produktech v řádku, ale tato prezentace již nebude tak bohatá na efekty, jak tomu je u hlavní prezentace, Zároveň bude mít návštěvník v tomto zobrazení produktů listovat.
+Protože se do prezentace vejde pouze omezené množství produktů, byla vytvořena samostatná sekce nejoblíbenějších produktů ještě pod prezentací. Zde se může zobrazit zbytek oblíbených produktů, dle grafického návrhu například právě doporučených 9. Jejich zobrazení bude probíhat také formou prezentace po 3 produktech v řádku, ale tato prezentace již nebude tak bohatá na efekty, jak tomu je u hlavní prezentace. Zároveň bude mít návštěvník v tomto zobrazení produktů možnost listovat.
 ![Produktová prezentace nejoblíbenějších produktů, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/home-oblibene.png)
 
 Následuje výpis vybraných referencí produktů od zákazníků. Je vhodné, aby každá reference obsahovala i vlastní fotografii, ta se může použít například přímo od zákazníka nebo využít fotografie produktu, pokud reference neobsahuje vlastní.
@@ -1062,7 +1083,7 @@ Detail výpisu produktové kategorie obsahuje stejnou hlavičku a patičku jako 
 ![Hlavička kategorie produktů, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/category-header.png)
 
 Následně je celá stránka rozdělena na dva sloupce. V tom levém menším a na první pohled méně patrném se nachází výpis podkategorií a filtrů produktů.
-Naopak v tom pravém větším se nachází výpis nalezených produktů v dané kategorii, případně ty, které splňují filtrační podmínky. V grafickém návrhu jsou naznačeny jak dostupné, tak nedostupné produkty. Nad samotným výpisem produktů se nacházení parametry ovlivňující způsob výpisu produktů, tedy řazení produktů a limit počet zobrazených produktů.
+Naopak v tom pravém větším se nachází výpis nalezených produktů v dané kategorii, případně ty, které splňují filtrační podmínky. V grafickém návrhu jsou naznačeny jak dostupné, tak nedostupné produkty. Nad samotným výpisem produktů se nacházejí parametry ovlivňující způsob výpisu produktů, tedy řazení produktů a limit počet zobrazených produktů.
 ![Výpis produktové kategorie s filtry a podkategoriemi, zdroj: vlastní zpracování](https://hanabrand.cz/temp/dp/gn/category-listing.png)
 
 ### Detail produktu
@@ -1112,7 +1133,7 @@ Namátkou těmito kroky jsou:
 
 ![4 Moduly systému, zdroj: vlastní zpracování || width=0.75\textwidth](https://hanabrand.cz/temp/dp/4-moduly.png?1)
 
-Po dokončení realizace celého e-commerce řešení bude také nutné realizovat potřební kroky k samotnému zprovoznění řešení pro živnostníka. Bude tedy například nutná instalace systému na vhodných server (tedy najít vhodného poskytovatele hostingových služeb), nakonfigurovat systém, customizovat ho (připravit a nastavit šablony zákaznické sekce e-shopu), a provést migrace dat ze současného řešení. Před samotným spuštěním bude samozřejmě nutné, aby bylo řešení dostatečně otestováno i samotným živnostníkem.
+Po dokončení realizace celého e-commerce řešení bude také nutné realizovat potřebné kroky k samotnému zprovoznění řešení pro živnostníka. Bude tedy například nutná instalace systému na vhodných server (tedy najít vhodného poskytovatele hostingových služeb), nakonfigurovat systém, customizovat ho (připravit a nastavit šablony zákaznické sekce e-shopu), a provést migrace dat ze současného řešení. Před samotným spuštěním bude samozřejmě nutné, aby bylo řešení dostatečně otestováno i samotným živnostníkem.
 
 ### Finanční zhodnocení
 Jak bylo již zmíněno, k prvnímu nahrání změn do repositářů systému došlo 29.6.2018. Od té doby bylo vytvořeno celkem 373 změn a realizací jsem strávil přibližně 231 hodin. 
