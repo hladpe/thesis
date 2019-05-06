@@ -16,7 +16,7 @@ $configuration->addCitation('c0bf19caab884610945703b42983ab27', '@misc{c0bf19caa
     url       = "https://www.elastic.co/brand",
 }
 ');
-$configuration->addCitation('6347ebcf49f74f4b627bb615c2dbd0e6', '@book{6347ebcf49f74f4b627bb615c2dbd0e6:,
+$configuration->addCitation('6347ebcf49f74f4b627bb615c2dbd0e6', '@book{6347ebcf49f74f4b627bb615c2dbd0e6,
     title = {PHP and MySQL : 24-hour trainer},
     language = {eng},
     address = {Indianapolis},
