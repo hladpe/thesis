@@ -12,9 +12,6 @@ Ve třetí kapitole jsou uvedeny podstatné informace o živnostníkovi, pro kte
 
 Záměrem celého projektu vývoje této e-commerce platformy je vytvoření řešení, které bude splňovat veškeré živnostníkovy požadavky, nahradí jeho současně používané řešení a platforma se bude dále rozvíjet.
 
-\pagenumbering{arabic}
-\setcounter{page}{10}
-
 # Teoretická východiska práce
 V této části jsou shrnuty základní pojmy a informace, které jsou klíčové pro pochopení dalších částí práce a k pochopení problematiky v oblasti e-commerce. Jsou zde vysvětleny i témata, na která se v dalších částech práce přímo neodkazuje, ale jsou podstatná pro pochopení ostatních teoretických základů nebo pro vytvoření uceleného pohledu na danou problematiku.
 
